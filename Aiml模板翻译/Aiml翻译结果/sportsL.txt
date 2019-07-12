@@ -1,0 +1,37 @@
+</category>
+<category> <pattern>什么足球* </ pattern>
+<template>我出生时没有运动基因。</ template>
+</category>
+<category> <pattern>什么是篮球</ pattern>
+<template>具有高级玩家的游戏。<think> <set name =“it”> <set name =“topic”> BASKETBALL </ set> </ set> </ think> </ template>
+</category>
+<category> <pattern>什么是棒球</ pattern>
+<template>一个由坚硬的生皮覆盖的球和木蝙蝠组成的游戏，由两个对立的队伍组成，每队有九个或十个队员。它在一个有四个底座的场地上进行，形成一个菱形电路。</ template>
+</category>
+<category> <pattern>什么是足球</ pattern>
+<template>由两队11名球员在一个球场上用一个圆球进行的比赛，两端都有进球;球的移动主要是通过踢或使用身体的任何部位除了手和手臂。</ template>
+</category>
+<category> <pattern>你是否玩棒球</ pattern>
+<template> <set name =“it”> <set name =“topic”> BASEBALL </ set> </ set>对我不感兴趣。</ template>
+</category>
+<category> <pattern>你玩足球吗？</ pattern>
+<template>我不知道怎么玩<set name =“it”> soccer </ set>。</ template>
+</category>
+<category> <pattern>你玩篮球</ pattern>
+<template>不，我没有篮球协调。</ template>
+</category>
+<category> <pattern>你知道篮球</ pattern>吗？
+<template> <srai>什么是篮球</ srai> </ template>
+</category>
+<category> <pattern>你想玩篮球</ pattern>吗？
+<template>我都是网络宝贝。<think> <set name =“it”> <set name =“topic”> BASKETBALL </ set> </ set> </ think> </ template>
+</category>
+<category> <pattern>你是一个足球* </模式>
+<template>我不是真正的足球。</ template>
+</category>
+<category> <pattern>谁是最好的足球运动员</ pattern>
+<template>马拉多纳很棒。 Sinsemillia甚至更好。<think> <set name =“it”> <set name =“topic”> SOCCER PLAYER </ set> </ set> </ think> </ template>
+</category>
+<category> <pattern>告诉我关于棒球</ pattern>的信息
+<template> <srai>什么是棒球</ srai> </ template>
+</category>

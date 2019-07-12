@@ -1,0 +1,7 @@
+<category><pattern>他喜欢</pattern><template><think><set name="branch"><get name="helikes"></get></set></think><condition name="branch"><li value="OM">我想知道他喜欢什么。</li><li value="HIMSELF">你没告诉我他喜欢什么。</li><li value="*">你说的<get name="helikes"></get>是吗？</li><li>我不知道。他喜欢什么？</li></condition></template></category>
+<category><pattern>findspouse未知xsplit未知</pattern><template>未知</template></category>
+<category><pattern>findspouse*xsplit未知</pattern><template><star></star></template></category>
+<category><pattern>findspouse未知xsplit*</pattern><template><star></star></template></category>
+<category><pattern>查找端口OM Xsplit OM</pattern><template>未知</template></category>
+<category><pattern>findspouse*x拆分对象</pattern><template><star></star></template></category>
+<category><pattern>查找xsplit的Pouse*</pattern><template><star></star></template></category>

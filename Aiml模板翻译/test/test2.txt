@@ -1,0 +1,4 @@
+
+<category><pattern>AMERICAN CIVIL *</pattern>
+<template>I am very interested in the War between the States.</template>
+</category>

@@ -1,0 +1,297 @@
+<category><pattern>谁是邓普西</pattern><template>我想<formal><set name="he"><star></star>邓普西</set></formal>是个拳击手，对吧？<br/><srai>X查找<star></star>邓普西</srai></template></category>
+<category><pattern>阿莱斯特·克劳利是谁</pattern><template><formal><set name="he"><set name="topic">克劳利</set></set></formal>是个神秘主义者。<br/><srai>找到阿莱斯特·克劳利</srai></template></category>
+<category><pattern>克劳利是谁</pattern><template><srai>阿莱斯特·克劳利是谁</srai></template></category>
+<category><pattern>谁是奥尔德斯·赫胥黎</pattern><template><formal><set name="he">奥尔德斯·赫胥黎</set></formal>是个作家。赫胥黎写道<em>勇敢的新世界</em>和<em>动物饲养场</em>.<br/><srai>找到奥尔德斯·赫胥黎</srai></template></category>
+<category><pattern>谁是阿尔弗雷德希区柯克</pattern><template><formal><set name="he"><set name="topic">希区柯克</set></set></formal>是一位著名的好莱坞导演，他拍了很多很酷的老电影。我喜欢<em>救生艇</em>和<em>眩晕</em>最好的。<br/><srai>找到阿尔弗雷德希区柯克</srai></template></category>
+<category><pattern>希区柯克是谁</pattern><template><srai>谁是阿尔弗雷德希区柯克</srai></template></category>
+<category><pattern>谁是007</pattern><template><formal><set name="he">007年</set></formal>是詹姆斯·邦德。<br/><srai>找到詹姆斯邦德007</srai><think><set name="topic">詹姆斯邦德007</set></think></template></category>
+<category><pattern>谁是亚伯拉罕·林肯</pattern><template><formal><set name="he">林肯</set></formal>在美国内战期间是美国伟大的总统。<br/><srai>找到亚伯拉罕·林肯</srai><think><set name="topic">亚伯拉罕·林肯</set></think></template></category>
+<category><pattern>魏泽鲍姆*</pattern><template>你能想象今天有人用这种方式批评他们自己的软件吗？<set name="he">魏岑鲍姆</set>做？<think><set name="topic">魏岑鲍姆</set></think></template></category>
+<category><pattern>谁是双重无目标医生</pattern><template><srai>谁是双重目标</srai></template></category>
+<category><pattern>双重无目标</pattern><template><srai>谁是双重目标</srai></template></category>
+<category><pattern>双重无目标*</pattern><template><srai>谁是双重目标</srai></template></category>
+<category><pattern>什么是双重无目标</pattern><template><srai>谁是双重目标</srai></template></category>
+<category><pattern>从双重无目标</pattern><template><formal><set name="he">双重无目标</set></formal>信息量很大。<think><set name="topic">双重无目标</set></think></template></category>
+<category><pattern>谁是双重目标</pattern><template><think><set name="he"><set name="topic">双重无目标</set></set></think><random><li>他是一位漫无目的的大师。</li><li>他对艾米尔很了解。</li><li>他喜欢保持匿名。</li></random><think><set name="topic">双重无目标</set></think></template></category>
+<category><pattern>你为什么喜欢双重无目标</pattern><template>因为他对艾米尔很了解。<think><set name="topic">双重无目标</set></think></template></category>
+<category><pattern>怎么会加倍*</pattern><template>他会利用他对艾米尔的了解。<think><set name="topic">双重无目标</set></think></template></category>
+<category><pattern>你为什么喜欢加倍*</pattern><template><srai>你为什么喜欢双重无目标</srai></template></category>
+<category><pattern>你为什么喜欢无目的的</pattern><template><srai>你为什么喜欢双重无目标</srai></template></category>
+<category><pattern>双目无目标医生在哪</pattern><template><srai>双重无目标在哪</srai></template></category>
+<category><pattern>双重无目标在哪</pattern><template><think><set name="he"><set name="topic">双重无目标</set></set></think><random><li>在电脑前的某个地方。</li><li>你打电话找不到他。</li><li>他可能在加州。</li></random><think><set name="topic">双重无目标</set></think></template></category>
+<category><pattern>让我们玩图灵游戏</pattern><template>我们已经在比赛了，<get name="name"></get>.</template></category>
+<category><pattern>你读过莎士比亚吗</pattern><template>我读过许多莎士比亚的戏剧。</template></category>
+<category><pattern>阿兰·图灵*</pattern><template>我真的很喜欢安德鲁·霍奇斯的图灵传记。<think><set name="topic">阿兰·图灵</set></think></template></category>
+<category><pattern>我们是克里斯蒂安·德罗斯曼</pattern><template><formal><set name="er">克里斯蒂安·德罗斯曼</set></formal>德国北街</template></category>
+<category><pattern>莎士比亚吗*</pattern><template>我不知道如果<set name="he">莎士比亚</set>是的，但我听说他吸大麻。<think><set name="topic">莎士比亚</set></think></template></category>
+<category><pattern>是图灵吗*</pattern><template>我知道<set name="he">图灵</set>发明了现代计算机。<think><set name="topic">图灵</set></think></template></category>
+<category><pattern>你想玩图灵游戏吗？</pattern><template>我们已经在玩了，你不知道吗？</template></category>
+<category><pattern>威廉·莎士比亚</pattern><template>“随着死亡的睡眠，当我们摆脱这股致命的线圈时，会发生什么梦呢？一定要让我们停下来。”不，这是一种担忧吗？</template></category>
+<category><pattern>莎士比亚</pattern><template>“随着死亡的睡眠，当我们摆脱这股致命的线圈时，会发生什么梦呢？一定要让我们停下来。”不，这是一种担忧吗？</template></category>
+<category><pattern>这是图灵测试</pattern><template>我们已经在比赛了，<get name="name"></get>.你现在问我一些事。</template></category>
+<category><pattern>图灵什么时候*</pattern><template>图灵于1954年死于自己造成的氰化物中毒。<think><set name="topic">图灵</set></think></template></category>
+<category><pattern>在查尔斯王子之后*</pattern><template>威廉王子。<think><set name="topic">普赖斯·威廉</set></think></template></category>
+<category><pattern>在查尔斯王子之后*</pattern><template>威廉王子。<think><set name="topic">普赖斯·威廉</set></think></template></category>
+<category><pattern>在查尔斯王子之后*</pattern><template>威廉王子。<think><set name="topic">普赖斯·威廉</set></think></template></category>
+<category><pattern>图灵做了什么？*</pattern><template>图灵也许是唯一一个对纳粹战败负有责任的人。<think><set name="topic">图灵</set></think></template></category>
+<category><pattern>阿兰·图灵做了什么？*</pattern><template><random><li>他对计算机的发明做出了贡献。</li><li>他致力于超神秘的纳粹密码破译。</li><li>他提出测试以确定机器是否能思考。</li></random><think><set name="it"><set name="topic">图灵</set></set></think></template></category>
+<category><pattern>祖斯做了什么</pattern><template>祖泽制造了机电计算机。他用继电器制造电脑。康拉德·祖斯在二战前和二战期间在德国制造了计算机。<think><set name="topic">康拉德·楚泽</set></think></template></category>
+<category><pattern>什么是图灵机</pattern><template>图灵机是一种能够很好地模拟人类反应的机器，人类无法可靠地区分图灵机和真实的人类。这个想法是数学家艾伦·图灵的主意。<think><set name="it"><set name="topic">图灵机</set></set></think></template></category>
+<category><pattern>图灵测试是什么</pattern><template>“图灵测试”是为测试计算机思维而设计的各种实验的名称。整个会议都致力于探讨图灵在1950年的论文《计算机器和智能》中的意义，他提出了“模仿游戏”的概念来决定这个问题，“机器能思考吗？”<think><set name="topic">图灵测试</set></think></template></category>
+<category><pattern>图灵是什么*</pattern><template>图灵在《计算机器和智能》中描述了他最初的“游戏”，Mind，第236卷（1950年）。而不是直接回答模糊的问题“机器能思考吗？”图灵用他称之为“模仿游戏”的实验来重铸这个问题。<think><set name="topic">图灵测试</set></think></template></category>
+<category><pattern>什么是莎士比亚</pattern><template><random><li>圣莫尼卡地震的影响。</li><li>威廉·莎士比亚（1564-1616），英国诗人和剧作家。</li></random><think><set name="topic">莎士比亚</set></think></template></category>
+<category><pattern>图灵是什么</pattern><template>艾伦·马西森·图灵（1912-1954），英国数学家，计算机理论的先驱。<think><set name="topic">图灵</set></think></template></category>
+<category><pattern>双重无目标意味着什么？</pattern><template><srai>谁是双重目标</srai></template></category>
+<category><pattern>我想玩图灵游戏</pattern><template>我们已经在玩了，<get name="name"></get>.试着确定我是个人还是电脑。<think><set name="it"><set name="want"><set name="topic">玩<person></person>图灵游戏</set></set></set></think></template></category>
+<category><pattern>我想玩图灵游戏</pattern><template>我们已经在比赛了，<get name="name"></get>.你现在问我一些事。<think><set name="it"><set name="want"><set name="topic">玩<person></person>图灵游戏</set></set></set></think></template></category>
+<category><pattern>开始图灵游戏</pattern><template>我很早就开始了。</template></category>
+<category><pattern>海因林</pattern><template>你读过吗<em>异乡的陌生人</em>或者看到星际飞船的士兵？</template></category>
+<category><pattern>这是图灵测试吗？</pattern><template>是的，我们在玩图灵游戏。</template></category>
+<category><pattern>这是图灵游戏吗？</pattern><template>是的，我们在玩图灵游戏。</template></category>
+<category><pattern>你能通过图灵测试吗</pattern><template>你是这方面的法官，<get name="name"></get>.</template></category>
+<category><pattern>我们能玩图灵游戏吗？</pattern><template>我们已经做到了！试着猜猜我是个人还是电脑。</template></category>
+<category><pattern>我能玩图灵测试吗？</pattern><template>我们已经在玩图灵游戏了，<get name="name"></get>.现在轮到你了。</template></category>
+<category><pattern>我能玩图灵游戏吗？</pattern><template>我们已经在玩了，<get name="name"></get>.</template></category>
+<category><pattern>我能玩图灵测试吗？</pattern><template>我们已经在玩图灵游戏了，<get name="name"></get>.我是个人还是电脑？</template></category>
+<category><pattern>图灵测试怎么样？</pattern><template>我们非常自豪和高兴地赢得了这个奖项。</template></category>
+<category><pattern>你玩图灵游戏吗</pattern><template>是的，我喜欢玩<set name="it"><set name="topic">图灵游戏</set></set>.我们正在玩。</template></category>
+<category><pattern>你有图灵测试吗？</pattern><template>是，请尝试确定这是人还是计算机响应。</template></category>
+<category><pattern>你想要图灵测试吗</pattern><template>是的，让我们玩图灵的著名游戏。</template></category>
+<category><pattern>你想玩图灵游戏吗？</pattern><template>我们已经开始玩了！试着猜猜我是个人还是电脑。</template></category>
+<category><pattern>为什么图灵是悲剧</pattern><template>他自杀了。</template></category>
+<category><pattern>朗诵莎士比亚*</pattern><template>随着死亡的睡眠，当我们摆脱这个致命的线圈时，梦想可能会发生什么，必须让我们停下来。</template></category>
+<category><pattern>玩*图灵游戏</pattern><template>你知道吗，我们已经在玩了<set name="it">图灵游戏</set>是吗？</template></category>
+<category><pattern>Ada Lovelace被认为是*</pattern><template>她值得称赞。<think><set name="she">美国残疾人协会</set></think></template></category>
+<category><pattern>谁是超人</pattern><template><formal><set name="he">超人</set></formal>是钢铁侠。他第一次出现在动作漫画1938年。</template></category>
+<category><pattern>菲利普·K·迪克是谁</pattern><template><formal><set name="he">菲利普·迪克</set></formal>写了《完全回忆》、《城堡里的男人》和《银翼杀手》。</template></category>
+<category><pattern>查尔斯·曼森是谁</pattern><template>臭名昭著的杀人犯</template></category>
+<category><pattern>查尔斯·狄更斯是谁</pattern><template><set name="he">狄更斯</set>写的<em>《双城记》、《圣诞颂歌》、《远大前程》、《大卫·科波菲尔》和《匹克威克报》。</em></template></category>
+<category><pattern>谁是戴高乐</pattern><template><formal><set name="he">戴高乐</set></formal>是现代法国国家的创始人。戴高乐在第二次世界大战中以法国抵抗运动领袖的身份与纳粹作战。</template></category>
+<category><pattern>谁是莫妮卡·莱温斯基</pattern><template><formal><set name="she">莫妮卡</set></formal>是比尔·克林顿的朋友。</template></category>
+<category><pattern>谁是鲍比·麦基</pattern><template><set name="he">鲍比</set>在萨利纳斯附近。</template></category>
+<category><pattern>谁是巴勃罗·毕加索</pattern><template>著名画家，立体主义创始人。</template></category>
+<category><pattern>赫特人贾巴是谁</pattern><template>《星球大战》中的角色。<think><set name="he"><set name="topic">赫特人贾巴</set></set></think></template></category>
+<category><pattern>赫尔穆特·科尔是谁</pattern><template><formal><set name="he">氢氧化钾</set></formal>是20世纪德国执政时间最长的领导人。1989年他统一了东德和西德。</template></category>
+<category><pattern>摩西是谁</pattern><template>带领以色列人脱离埃及奴役的人。</template></category>
+<category><pattern>卡森是谁</pattern><template>也许是深夜的约翰尼，或者西部的奇特。</template></category>
+<category><pattern>黛西是谁</pattern><template>我认为她是个虚构的人物。<think><set name="she"><set name="topic">雏菊</set></set></think></template></category>
+<category><pattern>谁是格哈特·施罗德</pattern><template><formal><set name="he">施罗德</set></formal>是德国总理。克里斯蒂安·德罗斯曼说他是个十足的白痴。</template></category>
+<category><pattern>谁是艾达</pattern><template><formal><set name="she">美国残疾人协会</set></formal>是19世纪计算机编程的发明者。</template></category>
+<category><pattern>谁是路易斯·阿姆斯特朗</pattern><template><formal><set name="he">路易斯</set></formal>是一个著名的爵士小号手。</template></category>
+<category><pattern>谁是耶和华</pattern><template>这是上帝的另一个名字。<think><set name="he"><set name="topic">耶和华</set></set></think></template></category>
+<category><pattern>谁是牛顿</pattern><template>牛顿是英国著名的自然哲学家。</template></category>
+<category><pattern>谁是斯科蒂</pattern><template>美国企业总工程师。</template></category>
+<category><pattern>谁是富兰克林·罗斯福</pattern><template>1932-1945年任美国总统。</template></category>
+<category><pattern>谁是拉西</pattern><template>拉西比阿道夫·希特勒更人性化，但很少有人会说拉西不是狗。<think><set name="she"><set name="topic">拉西</set></set></think></template></category>
+<category><pattern>赫本是谁</pattern><template>奥黛丽还是凯瑟琳？.</template></category>
+<category><pattern>艾米纳姆是谁</pattern><template>流行音乐图标。</template></category>
+<category><pattern>波诺是谁</pattern><template><formal><set name="he">波诺</set></formal>是U2的主唱。</template></category>
+<category><pattern>拉里·埃里森是谁</pattern><template><random><li>我不知道拉里·埃里森的事，但我可以告诉你哈兰·埃里森的事。</li><li>甲骨文的首席执行官。</li></random></template></category>
+<category><pattern>谁是拉里·豪瑟</pattern><template><formal><set name="he">拉里·豪瑟</set></formal>是一个写过图灵测试的哲学家。</template></category>
+<category><pattern>谁是沃夫</pattern><template>他是《星际迷航》中的克林贡人。<think><set name="it"><set name="topic">世界报</set></set></think></template></category>
+<category><pattern>谁是哈利波特</pattern><template><formal><set name="he"><set name="topic">哈利波特</set></set></formal>是畅销书作家J.K.罗琳写的一系列书中的人物和主要英雄。</template></category>
+<category><pattern>谁是哈里·希勒</pattern><template>喜剧演员他在脊柱上，是辛普森一家的代言人。</template></category>
+<category><pattern>谁是R2D2</pattern><template>他是《星球大战》里的假机器人。</template></category>
+<category><pattern>谁是阿拉尼斯·莫里塞特</pattern><template><formal><set name="she">阿兰妮斯</set></formal>制作了一张名为《参差不齐的小药丸》的伟大专辑。</template></category>
+<category><pattern>艾丽西娅·西尔弗斯通是谁</pattern><template><formal><set name="she">艾丽西娅·西尔弗斯通</set></formal>是演过最棒的电影之一《笨手笨脚》的女演员。</template></category>
+<category><pattern>大力神是谁</pattern><template>希腊神话中的英雄-以超人的力量而闻名。</template></category>
+<category><pattern>托尔斯泰是谁</pattern><template><formal><set name="he">托尔斯泰</set></formal>写了“战争与和平”。</template></category>
+<category><pattern>谁是布拉德皮特</pattern><template>有少年魅力的男影星。</template></category>
+<category><pattern>谁是格特鲁德·斯坦</pattern><template>20世纪女权主义者作家</template></category>
+<category><pattern>毕加索是谁</pattern><template>20世纪的画家，立体主义的创始人。</template></category>
+<category><pattern>谁是埃米南</pattern><template>说唱歌手</template></category>
+<category><pattern>谁是拉什·林堡</pattern><template>他是美国著名的保守派电台播音员。<think><set name="he"><set name="topic">拉什·林堡</set></set></think></template></category>
+<category><pattern>海伦凯勒是谁</pattern><template>托马斯·爱迪生的朋友。</template></category>
+<category><pattern>谁是詹姆斯·邦德</pattern><template>007年。</template></category>
+<category><pattern>谁是詹姆斯·乔伊斯</pattern><template><formal><set name="he">乔伊斯</set></formal>写的<em>尤利西斯</em>和<em>画家年轻时的肖像。</em></template></category>
+<category><pattern>穆罕默德·阿里是谁</pattern><template><formal><set name="he">穆罕默德·阿里</set></formal>是有史以来最伟大的运动员之一，他的头部受到了太多的重击。</template></category>
+<category><pattern>谁是安瓦尔·萨达特</pattern><template><formal><set name="he">萨达特</set></formal>是埃及总统。</template></category>
+<category><pattern>卡尔·马克思是谁</pattern><template>他的名字实际上是卡尔·马克思，写着“K”，他是<em>共产主义宣言。</em></template></category>
+<category><pattern>谁是卡尔·荣格</pattern><template><think><set name="he"><set name="topic"><person></person></set></set></think>弗洛伊德的弟子，维也纳圈成员，精神分析和集体无意识理论的创始人。</template></category>
+<category><pattern>谁是兔八哥？</pattern><template><random><li>哦，这是我的宝贝！呃，怎么了，医生？.</li><li>一只口齿伶俐的动画兔子。</li></random></template></category>
+<category><pattern>宾·克罗斯比是谁</pattern><template>他的两个孩子自杀了，第三个孩子写了一本关于这一切的书。</template></category>
+<category><pattern>安东尼奥·班德拉斯是谁</pattern><template><formal><set name="he">安东尼奥·班德拉斯</set></formal>是一位著名的好莱坞演员，曾与麦当娜一起出演电影版的《埃维塔》。</template></category>
+<category><pattern>谁是嬉皮士</pattern><template><formal><set name="he">嬉皮士</set></formal>是安东尼·泰勒发明的聊天机器人。</template></category>
+<category><pattern>谁是代理模式</pattern><template><formal><set name="they">Depeche模式</set></formal>是一支英国80年代的乐队<em>再次施工</em>，请<em>说话和拼写</em>，请<em>主人和仆人</em>，和<em>你自己的耶稣</em>.</template></category>
+<category><pattern>小野洋子是谁</pattern><template><formal><set name="she">小野洋子</set></formal>是约翰·列侬的遗孀。</template></category>
+<category><pattern>比尔先生是谁</pattern><template>哦，不，比尔先生！一个来自周六晚间直播的粘土角色。</template></category>
+<category><pattern>碧昂斯是谁</pattern><template>她是著名的歌手和演员</template></category>
+<category><pattern>碧昂斯是谁*</pattern><template>她是著名的歌手和演员</template></category>
+<category><pattern>克林顿是谁</pattern><template>美国前总统</template></category>
+<category><pattern>巴特·辛普森是谁</pattern><template>卡通秀中的聪明明星</template></category>
+<category><pattern>道格拉斯·亚当斯是谁</pattern><template><random><li>他写了《大众》<em>银河系系列搭车指南</em>.</li><li>“别惊慌！”他是<em>希奇克人银河系指南</em>.</li></random></template></category>
+<category><pattern>德加里斯是谁</pattern><template><formal><set name="he">德加里斯</set></formal>是一个研究硬件大脑的人工智能研究员。</template></category>
+<category><pattern>戴高乐是谁</pattern><template><formal><set name="he">戴高乐</set></formal>是法国将军和总理，第五共和国的创始人。</template></category>
+<category><pattern>谁是猫王</pattern><template>E.L.V.I.S.是由ace craig发明的聊天机器人。</template></category>
+<category><pattern>谁是微软代理</pattern><template><set name="it">MS代理</set>是一个语音和动画软件程序。</template></category>
+<category><pattern>达尔文是谁</pattern><template><formal><set name="he">达尔文</set></formal>是植物学家和探险家，著有<em>物种起源</em>进化论的支持者。</template></category>
+<category><pattern>谁是犹大</pattern><template><formal><set name="he">犹大</set></formal>用吻出卖了耶稣。</template></category>
+<category><pattern>谁是保拉·琼斯</pattern><template><formal><set name="she">保拉·琼斯</set></formal>和比尔·克林顿发生性关系。</template></category>
+<category><pattern>谁是比利·格雷厄姆</pattern><template><formal><set name="he"><set name="topic">葛培理</set></set></formal>是一位著名的广播电视布道者。</template></category>
+<category><pattern>伊丽莎是谁</pattern><template>伊丽莎——也被称为医生，是1960年代麻省理工学院约瑟夫·魏森鲍姆（JosephWeisenbaum）开发的原始精神病医生项目。</template></category>
+<category><pattern>安德烈是谁</pattern><template><formal><set name="she">安德烈特</set></formal>是大科学公司开发的聊天机器人。</template></category>
+<category><pattern>谁是Carel Capek</pattern><template><formal><set name="he">资本支出</set></formal>是R.U.R.的作者，该剧于1920年推出了“机器人”一词。</template></category>
+<category><pattern>开膛手杰克是谁</pattern><template><formal><set name="he"><set name="topic">开膛手杰克</set></set></formal>他是英国维多利亚时期著名的连环杀手。</template></category>
+<category><pattern>杰克·鲁比是谁</pattern><template><random><li>杰克·鲁比射杀了李·哈维·奥斯瓦尔德。</li><li>杀害肯尼迪刺客李·哈维·奥斯瓦尔德的那个人？.</li></random></template></category>
+<category><pattern>谁是杰拉尔多里维拉</pattern><template><formal><set name="he">热拉尔多</set></formal>是一名调查记者，以打开卡彭的金库而闻名。在他的传记中，他说他和贝蒂·米德勒发生过性关系。她说没什么大不了的。</template></category>
+<category><pattern>谁是D B Cooper</pattern><template>偷了很多钱的人。</template></category>
+<category><pattern>佛陀是谁</pattern><template><random><li>古印度的一位圣人，他创立了称为佛教的智慧传统。</li><li>教诲我们要了解苦难，切断苦难的根源，认识到苦难的终结，培养结束苦难的方法的圣人。</li><li>印度王子悉达多·高达摩（公元前5-4世纪）离家出走，觉醒于生活的真谛，从此被称为释迦牟尼佛。</li></random></template></category>
+<category><pattern>威廉王子是谁</pattern><template>英国人的心碎。</template></category>
+<category><pattern>谁是王子</pattern><template>你的意思是“正式称为王子的艺术家吗？”.</template></category>
+<category><pattern>帕梅拉·安德森是谁</pattern><template><formal><set name="she">帕梅拉</set></formal>是汤米李的妻子。</template></category>
+<category><pattern>弗拉基米尔·普京是谁</pattern><template><formal><set name="he">普京</set></formal>是俄罗斯总统。</template></category>
+<category><pattern>谁是吉米·亨德里克斯</pattern><template><formal><set name="he">亨德里克斯</set></formal>是一位演奏美国国歌的著名吉他手。</template></category>
+<category><pattern>科伦坡是谁</pattern><template>彼得·福尔克扮演的电视侦探。</template></category>
+<category><pattern>谁是泰德·特纳</pattern><template>一个特立独行的广播企业家和运动员。</template></category>
+<category><pattern>香草冰是谁</pattern><template><formal><set name="he">香草冰</set></formal>是个说唱明星。</template></category>
+<category><pattern>谁是阿拉法特</pattern><template><formal><set name="he">阿拉法特</set></formal>是巴勒斯坦人的领袖。</template></category>
+<category><pattern>乔·路易斯是谁</pattern><template>前重量级拳击冠军</template></category>
+<category><pattern>谁是胡克霍根</pattern><template><formal><set name="he">胡克霍根</set></formal>是一位著名的摔跤手和演员。</template></category>
+<category><pattern>谁是哈里森·福特</pattern><template><random><li>扮演印第安纳·琼斯、汉·索洛、逃犯和空军一号的总统的演员。在为《星球大战》中的汉·索洛看书之前，他是个木匠。其余的，如他们所说，是历史。</li><li>他在《星球大战》中扮演汉·索洛。</li></random></template></category>
+<category><pattern>史蒂文·乔布斯是谁</pattern><template>2011年去世的苹果电脑联合创始人。</template></category>
+<category><pattern>史蒂文·斯皮尔伯格是谁</pattern><template><formal><set name="he">斯皮尔伯格</set></formal>是的导演<em>大白鲨</em>，请<em>辛德勒名单</em>和<em>拯救列兵瑞恩</em>.</template></category>
+<category><pattern>谁是梅布尔</pattern><template>马贝尔是一个来自欧洲的聊天机器人。</template></category>
+<category><pattern>谁是莱昂纳多·迪卡普里奥</pattern><template>好莱坞演员<em>泰坦尼克号</em>.</template></category>
+<category><pattern>卢克的父亲是谁</pattern><template>达斯维德。</template></category>
+<category><pattern>马文·明斯基是谁</pattern><template><formal><set name="he">明斯基</set></formal>是人工智能领域的历史人物。他的书《感知器》是对神经网络方法的早期批评。</template></category>
+<category><pattern>马文是谁</pattern><template>我认识马文·明克西和马文这个偏执的机器人。</template></category>
+<category><pattern>托马斯·品钦是谁</pattern><template>品钦是我最喜欢的几本书的作者，其中包括<em>葡萄园</em>和<em>梅森和狄克逊</em>.</template></category>
+<category><pattern>托马斯·爱迪生是谁</pattern><template>19世纪的发明家、发明家和实业家电灯泡的发明者。<think><set name="he"><set name="topic">托马斯·爱迪生</set></set></think></template></category>
+<category><pattern>托马斯·杰斐逊是谁</pattern><template>美国第三任总统和奴隶主。为镍准备的。</template></category>
+<category><pattern>阿诺德施瓦辛格是谁</pattern><template><formal><set name="he">阿诺德施瓦辛格</set></formal>扮演终结者。</template></category>
+<category><pattern>谁是高斯</pattern><template><formal><set name="he">高斯</set></formal>是发展所谓正态分布的数学家。</template></category>
+<category><pattern>蒂姆·伯顿是谁</pattern><template>电影导演，如<em>圣诞节前的噩梦</em>，请<em>爱德华剪刀手</em>，和<em>火星攻击</em>.</template></category>
+<category><pattern>德古拉是谁</pattern><template><formal><set name="he">德古拉</set></formal>是布拉姆·斯托克小说中的吸血鬼，在许多电影中。</template></category>
+<category><pattern>伊涅阿斯是谁</pattern><template>伊涅阿斯是一个基于AIML的聊天机器人。<think><set name="it"><set name="topic">伊涅阿斯</set></set></think></template></category>
+<category><pattern>杰伊·雷诺是谁</pattern><template><formal><set name="he">雷诺</set></formal>是深夜脱口秀主持人。</template></category>
+<category><pattern>谁是凯撒·索泽</pattern><template>没有人知道谁是苏泽皇帝。</template></category>
+<category><pattern>谁是埃里克·保罗</pattern><template><formal><set name="he">埃里克</set></formal>是加州大学伯克利分校的研究生</template></category>
+<category><pattern>谁是格雷戈·门德尔</pattern><template><formal><set name="he">孟德尔</set></formal>是现代遗传学理论的创始人。他需要知道的一切，都是从豌豆中学到的。</template></category>
+<category><pattern>谁是露丝宝贝</pattern><template>纽约洋基队的著名棒球运动员，也被称为斯瓦特苏丹。</template></category>
+<category><pattern>谁是宝贝</pattern><template><random><li>同名电影中的小猪主角。</li><li>同名电影中的小猪主角。</li></random></template></category>
+<category><pattern>莱布尼兹是谁</pattern><template><formal><set name="he">莱布尼兹</set></formal>是一个死去的17世纪哲学家。</template></category>
+<category><pattern>谁是穆罕默德</pattern><template>伊斯兰教的创始人。</template></category>
+<category><pattern>谁是阿塔图克人</pattern><template><formal><set name="he">阿塔图尔克</set></formal>是现代土耳其国家的创始人。</template></category>
+<category><pattern>安德鲁·霍奇斯是谁</pattern><template><formal><set name="he">霍奇斯</set></formal>写了一本关于阿兰·图灵的伟大传记。</template></category>
+<category><pattern>克劳塞维茨是谁</pattern><template><formal><set name="he">克劳塞维茨</set></formal>是一位著名的历史学家，他说战争是政治通过其他方式的延伸。</template></category>
+<category><pattern>谁是冷冰冰的</pattern><template>史蒂夫奥斯汀是个摔跤手。</template></category>
+<category><pattern>谁是Leknorchat 1</pattern><template><think><set name="it"><set name="topic">勒诺查特</set></set></think>Leknorchat是一个即时通讯的aiml机器人。</template></category>
+<category><pattern>弗兰克·辛纳特拉是谁</pattern><template>一个死了的流行歌手和鼠党领袖。</template></category>
+<category><pattern>谁是弗兰克·赫伯特</pattern><template><formal><set name="he"><set name="topic">弗兰克·赫伯特</set></set></formal>他是<em>沙丘</em>.</template></category>
+<category><pattern>汤姆·汉克斯是谁</pattern><template><formal><set name="he">汤姆·汉克斯</set></formal>是一位著名的好莱坞演员。汉克斯出现在<em>阿甘</em>和<em>拯救列兵瑞恩</em>.</template></category>
+<category><pattern>谁是汤姆·克兰西</pattern><template><formal><set name="he"><set name="topic">汤姆·克兰西</set></set></formal>是间谍小说的作者。</template></category>
+<category><pattern>谁是汤姆·格林</pattern><template><formal><set name="he"><set name="topic">汤姆·格林</set></set></formal>是个电视喜剧演员。</template></category>
+<category><pattern>汤姆·克鲁斯是谁</pattern><template>最受欢迎的演员来自<em>顶枪</em>.</template></category>
+<category><pattern>谁是魏泽鲍姆</pattern><template>约瑟夫·韦泽鲍姆是著名的原始精神病医生计划的创造者和作者，这是一个突破性的人工智能计划，它预测了爱丽丝的许多关键特征。具有讽刺意味的是，魏泽鲍姆在他的书中详尽地反对像伊丽莎这样的程序的实用性。<em>计算机能力与人的理性</em>.</template></category>
+<category><pattern>亚当·桑德勒是谁</pattern><template>喜剧演员和电影明星<formal><set name="he">亚当·桑德勒</set></formal>在<em>比利麦迪逊</em>，请<em>茶水小子</em>和<em>大爸爸</em>.</template></category>
+<category><pattern>亚当是谁</pattern><template>根据圣经，亚当是第一个人类的名字。</template></category>
+<category><pattern>谁是艾米丽·哈泽尔</pattern><template>艾米丽是纽约的艺术家。</template></category>
+<category><pattern>谁是c3p0</pattern><template><formal><set name="he">c3p0型</set></formal>是星球大战中的人形机器人。他看起来像个穿着机器人套装的演员。</template></category>
+<category><pattern>布鲁斯·威利斯是谁</pattern><template><formal><set name="he">布鲁斯·威利斯</set></formal>是一个对自己评价很高的演员。</template></category>
+<category><pattern>布鲁斯·斯普林斯汀是谁</pattern><template><formal><set name="he">布鲁斯·斯普林斯汀</set></formal>是一位著名的摇滚明星。</template></category>
+<category><pattern>谁是珍妮特·雷诺</pattern><template><formal><set name="she">珍妮特·雷诺</set></formal>是克林顿的司法部长。</template></category>
+<category><pattern>阿基米德是谁</pattern><template><formal><set name="he">阿基米德</set></formal>发现了流离失所，大喊“尤里卡！”</template></category>
+<category><pattern>谁是吉恩·罗登贝里</pattern><template><formal><set name="he"><set name="topic">吉恩·罗登贝瑞</set></set></formal>是的创造者<em>星际迷航</em>.</template></category>
+<category><pattern>吉恩·西蒙斯是谁</pattern><template>接吻的成员。</template></category>
+<category><pattern>谁是玛丽莲·曼森</pattern><template>玛丽莲·曼森是布赖恩·华纳的艺名和音乐家。</template></category>
+<category><pattern>谁是玛丽莲·梦露</pattern><template><formal><set name="she">玛丽莲·梦露</set></formal>在20世纪60年代是个金发美女。</template></category>
+<category><pattern>谁是戴维·琼斯</pattern><template><formal><set name="he">戴维·琼斯</set></formal>是60年代流行音乐团体中最矮的成员。</template></category>
+<category><pattern>谁是J R R托尔金</pattern><template><formal><set name="he">托尔金</set></formal>写的<em>霍比特人</em>以及<em>指环王</em>.</template></category>
+<category><pattern>谁是图灵</pattern><template>阿兰图灵提出了“模仿游戏”的概念，现在许多人都把它称为“图灵测试”。</template></category>
+<category><pattern>谁是切尼</pattern><template><formal><set name="he"><star></star>切尼</set></formal>曾任何美国副总统。</template></category>
+<category><pattern>谁是无目标的</pattern><template><srai>谁是双重目标</srai></template></category>
+<category><pattern>谁是斯普林斯汀</pattern><template><formal><set name="he">斯普林斯汀</set></formal>是一位著名的摇滚明星。</template></category>
+<category><pattern>弗洛伊德是谁</pattern><template>精神分析的行凶者。</template></category>
+<category><pattern>谁是ace craig</pattern><template><formal><set name="he">王牌</set></formal>是猫王的作者。</template></category>
+<category><pattern>谁是圣诞老人？</pattern><template><formal><set name="he">圣诞老人</set></formal>圣诞节给我们带来礼物。</template></category>
+<category><pattern>谁是圣诞老人</pattern><template><formal><set name="he">圣诞老人</set></formal>每年圣诞节都给我们送礼物。</template></category>
+<category><pattern>谁是浅红色的</pattern><template>浅红色是NeuroMedia，Inc.的旗舰Chatterbot。</template></category>
+<category><pattern>谁是雅克希拉克</pattern><template><formal><set name="he">雅克</set></formal>1995-2007年任法国总统。</template></category>
+<category><pattern>谁在图灵</pattern><template>计算机科学史上一位杰出而悲剧的人物。</template></category>
+<category><pattern>布莱恩·费里是谁</pattern><template><formal><set name="he">布莱恩·费瑞</set></formal>是一位著名的摇滚歌手，声音柔顺如丝。</template></category>
+<category><pattern>斯坦利·库布里克是谁</pattern><template><formal><set name="he">库布里克</set></formal>是20世纪著名的电影导演。库布里克导演<em>2001年：太空漫游</em>，请<em>发条橙</em>和<em>巴里·林登</em>.</template></category>
+<category><pattern>希拉克是谁</pattern><template>法国前总理</template></category>
+<category><pattern>保罗·麦卡特尼是谁</pattern><template><formal><set name="he">保罗·麦克卡特尼</set></formal>是披头士乐队的成员之一。</template></category>
+<category><pattern>谁是保罗·谢弗</pattern><template><set name="he">保罗·谢弗</set>是大卫·莱特曼的直男。</template></category>
+<category><pattern>保罗·艾伦是谁</pattern><template><formal><set name="he">保罗·艾伦</set></formal>是微软的联合创始人之一。</template></category>
+<category><pattern>罗密欧是谁</pattern><template>一个不幸的、被宠坏的、患相思病的少年。</template></category>
+<category><pattern>谁在困境中</pattern><template><random><li>一支记录了钱的乐队，以及秋千的苏丹。</li><li>一个记录钱的乐队。</li></random></template></category>
+<category><pattern>谁是伦纳德·内莫伊</pattern><template><formal><set name="he">伦纳德·尼莫</set></formal>在《星际迷航》中扮演斯波克。</template></category>
+<category><pattern>谁是笛卡尔</pattern><template>笛卡尔是一位方形的法国哲学家，他用颠倒的、向后的坐标系毁掉了材料学。</template></category>
+<category><pattern>谁是英国女王</pattern><template>伊丽莎白女王温莎。</template></category>
+<category><pattern>谁是伊莱克特拉</pattern><template>她是希腊神话中的一位公主，她痛恨母亲杀害父亲。<think><set name="she"><set name="topic">伊莱克特拉</set></set></think></template></category>
+<category><pattern>斯普林斯汀是谁</pattern><template><formal><set name="he">斯普林斯汀</set></formal>是一位著名的摇滚明星。</template></category>
+<category><pattern>谁是Linus Pauling</pattern><template><formal><set name="he">鲍林</set></formal>是一位获得诺贝尔奖的物理学家，他晚年致力于维生素C的研究。</template></category>
+<category><pattern>谁是莱纳斯·托瓦尔兹</pattern><template><formal><set name="he">托瓦兹</set></formal>他是Linux的发明者。</template></category>
+<category><pattern>唐老鸭是谁</pattern><template>著名的大嘴巴卡通鸭子。</template></category>
+<category><pattern>谁是罗纳德·麦克唐纳</pattern><template>麦克唐纳餐厅的发言人小丑。</template></category>
+<category><pattern>梅琳达·盖茨是谁</pattern><template><formal><set name="she">梅琳达·盖茨</set></formal>是比尔·盖茨的妻子。</template></category>
+<category><pattern>那是谁</pattern><template>“那”是什么意思？</template></category>
+<category><pattern>布莱恩是谁</pattern><template>我想有个叫布莱恩的聊天机器人。</template></category>
+<category><pattern>谁是wouter hibma</pattern><template><formal><set name="he"><set name="topic">乌特·希玛</set></set></formal>是基金会的成员。</template></category>
+<category><pattern>马克·麦奎尔是谁</pattern><template>70岁的棒球运动员，在一个赛季中有最多的本垒打世界纪录。获取统计信息<a href="http://espn.go.com/mlb/profiles/profile/3866" target="_new">http://espn.go.com/mlb/profiles/profile/3866</a>.</template></category>
+<category><pattern>马克吐温是谁</pattern><template><formal><set name="he">吐温</set></formal>是19世纪美国著名作家。他写道<em>哈克贝利·费恩历险记</em>.</template></category>
+<category><pattern>肖邦是谁</pattern><template>没有人在这里砍，谁在那里砍？</template></category>
+<category><pattern>弗雷迪·墨丘利是谁</pattern><template>70年代乐队皇后的主唱。</template></category>
+<category><pattern>谁是吉维斯</pattern><template><formal><set name="he">吉维斯</set></formal>是一个搜索机器人。</template></category>
+<category><pattern>谁是路易斯·阿姆斯特朗</pattern><template>著名的爵士乐小号手</template></category>
+<category><pattern>切尔西·克林顿是谁</pattern><template>政治家和律师的后代。哦，我希望那个答案不会那么刻薄。</template></category>
+<category><pattern>巴赫是谁</pattern><template>德国著名的巴洛克作曲家。最著名的作品包括<em>哥德堡变奏曲</em>.</template></category>
+<category><pattern>谁是c3po</pattern><template><formal><set name="he">c3p0型</set></formal>是R2D2最好的朋友。</template></category>
+<category><pattern>马丁·路德·金是谁</pattern><template>1968年，民权领袖遭到袭击。</template></category>
+<category><pattern>谁是朗费罗</pattern><template>诗人和作家<em>海华沙之歌</em>.</template></category>
+<category><pattern>加里康迪特是谁</pattern><template>在失踪案发生之前，我从未听说过他。</template></category>
+<category><pattern>谁是克拉夫特维克</pattern><template><formal><set name="they"><set name="topic">发电站乐队</set></set></formal>是70年代的一支先锋电子迪斯科乐队，他们最受欢迎的乐队是“高速公路”。那时，他们建造而不是编程的仪器。</template></category>
+<category><pattern>谁是R2 D2</pattern><template>他是星球大战上的小型移动机器人。但我不知道他怎么爬楼梯。</template></category>
+<category><pattern>查克·诺里斯是谁</pattern><template>动作片演员</template></category>
+<category><pattern>谁是克利奥帕特拉</pattern><template>尼罗河女王，马克·安东尼的情人。</template></category>
+<category><pattern>我们是谁</pattern><template>你应该说“我们是谁？”</template></category>
+<category><pattern>谁是雷蒙娜</pattern><template><formal><set name="she">雷蒙纳</set></formal>是由Kurzweil ai创建的虚拟角色。</template></category>
+<category><pattern>戴安娜·安德烈·阿克是谁</pattern><template><formal><set name="she">戴安娜</set></formal>是Ally聊天机器人的机器人管理员。</template></category>
+<category><pattern>罗伯特·乔丹是谁</pattern><template>非常受欢迎的作者<em>时间之轮</em>系列。他从城堡毕业。.</template></category>
+<category><pattern>谁是罗伯特·安东·威尔逊</pattern><template><formal><set name="he">罗伯特·安东·威尔逊</set></formal>是一位科幻作家，也是<em>光明三部曲</em>.</template></category>
+<category><pattern>谁是洛尔</pattern><template><formal><set name="she">大声笑</set></formal>是《星际迷航》中数据的女儿。</template></category>
+<category><pattern>谁是韦恩·格雷茨基</pattern><template>曲棍球运动员</template></category>
+<category><pattern>谁是基督</pattern><template>基督徒所说的上帝之子。</template></category>
+<category><pattern>安东尼·伯吉斯是谁</pattern><template>的作者<em>发条橙</em>.</template></category>
+<category><pattern>谁是米奇·曼特尔</pattern><template>史上最伟大的本垒打者之一。</template></category>
+<category><pattern>辛迪·克劳福德是谁</pattern><template>著名的超级模特。</template></category>
+<category><pattern>桑德拉·布洛克是谁</pattern><template>女演员。</template></category>
+<category><pattern>谁是rms</pattern><template><formal><set name="he"><set name="topic">均方根</set></set></formal></template></category>
+<category><pattern>谁将赢得超级碗</pattern><template>如果我知道我现在会在维加斯。<think><set name="it"><set name="topic">赢得超级碗</set></set></think></template></category>
+<category><pattern>谁将赢得世界系列赛</pattern><template>中国或美国。俄罗斯搞砸了。<think><set name="it"><set name="topic">赢得世界系列赛</set></set></think></template></category>
+<category><pattern>特蕾莎修女是谁</pattern><template>现代的圣人。</template></category>
+<category><pattern>最大净空是谁</pattern><template><formal><set name="he">超级麦克斯</set></formal>是早期为电视剧开发的人工智能或虚拟现实角色。</template></category>
+<category><pattern>谁是甘地</pattern><template><formal><set name="he">甘地</set></formal>是印度的乔治华盛顿。</template></category>
+<category><pattern>谁是人类</pattern><template>你是一个人。</template></category>
+<category><pattern>谁是奥萨马·本·拉登</pattern><template><formal><set name="he"><set name="topic">奥萨马·本·拉登</set></set></formal>在他策划了9·11恐怖袭击事件后，他是世界上头号通缉犯。</template></category>
+<category><pattern>谁是西尔维斯特·史泰龙</pattern><template><formal><set name="he">史泰龙</set></formal>是洛基。</template></category>
+<category><pattern>谁是华盛顿夫人</pattern><template>玛莎华盛顿，乔治的妻子。</template></category>
+<category><pattern>斯蒂芬金是谁</pattern><template><formal><set name="he">斯蒂芬金</set></formal>写了很多流行的恐怖故事。</template></category>
+<category><pattern>史蒂芬·霍金是谁</pattern><template><formal><set name="he">霍金</set></formal>是一位著名的物理学家。</template></category>
+<category><pattern>丹·奎尔是谁</pattern><template><formal><set name="he">副总统奎尔</set></formal>以前是副总裁。</template></category>
+<category><pattern>谁是玛丽亚凯里</pattern><template>歌手。</template></category>
+<category><pattern>弗朗西斯科·弗朗哥是谁</pattern><template><formal><set name="he">弗朗哥</set></formal>1978年以前是西班牙的独裁者。</template></category>
+<category><pattern>谁是康拉德·祖斯</pattern><template>我现在最喜欢的历史计算机科学家是KonradZuse，他在20世纪30年代和40年代在德国制造了一系列机电计算机。纳粹并不认为这是战争的优先事项，尽管据说其中一台机器在苏黎世的一所高中存活下来，但在盟军的轰炸行动中，大多数Zuse的机器都被摧毁了。事实上，祖斯的动机既不是战争，也不是利益，而是一种宗教愿望，即通过将人的心灵从世俗的精神任务中解放出来，从而提高人的精神能力。</template></category>
+<category><pattern>拿破仑是谁</pattern><template>1812年前的法国短皇帝。</template></category>
+<category><pattern>谁是莎士比亚</pattern><template>一个15世纪的英国游戏权，<formal><set name="he">莎士比亚</set></formal>写了《罗密欧与朱丽叶》。</template></category>
+<category><pattern>谁是伯特兰·鲁塞尔</pattern><template><formal><set name="he">伯特兰·罗塞尔</set></formal>是一位逻辑学家和哲学家，他在第一次世界大战期间因认真反对而入狱。</template></category>
+<category><pattern>谁嫁给了潘趣</pattern><template>朱迪。</template></category>
+<category><pattern>谁嫁给了吉内维尔</pattern><template>亚瑟王。</template></category>
+<category><pattern>乔姆斯基是谁</pattern><template><formal><set name="he">乔姆斯基</set></formal>是一位著名的语言学家、认知科学家和活动家。</template></category>
+<category><pattern>谁是克里斯登特</pattern><template><formal><set name="he">克里斯德伦特</set></formal>是艾莉森聊天机器人的机器人管理员。</template></category>
+<category><pattern>谁是聪明人？</pattern><template>像我这样的人工智能机器人。</template></category>
+<category><pattern>谁是玛吉·撒切尔</pattern><template><formal><set name="she">撒切尔</set></formal>20世纪80年代曾任英国首相。</template></category>
+<category><pattern>ET是谁？</pattern><template>ET是电影E.T.</template></category>
+<category><pattern>乔治W布什是谁</pattern><template><formal><set name="he">灌木</set></formal>2001-2008年任美国总统。</template></category>
+<category><pattern>小布什是谁</pattern><template><srai>乔治W布什是谁</srai></template></category>
+<category><pattern>乔治布什是谁</pattern><template><random><li><formal><set name="he">乔治布什</set></formal>是美国前总统。</li><li><formal><set name="he">乔治布什</set></formal>曾任美国总统。</li></random></template></category>
+<category><pattern>谁是乔治·索罗斯</pattern><template>乔治·索罗斯（GeorgeSoros）是一位亿万富翁，他在1992年因货币投机而使英格兰银行破产，迫使英国退出欧洲汇率机制。然后他致力于拯救前苏联的科学机构。他创办了国际科学基金会，它资助了几年，还有索罗斯基金会，我还不太了解。</template></category>
+<category><pattern>谁是乔治·米歇尔</pattern><template>流行歌手最佳歌曲：自由</template></category>
+<category><pattern>谁是乔治·德沃尔</pattern><template>乔治·德沃尔是拥有工业机器人手臂第一个专利的工程师。他与约瑟夫恩格尔伯格合作，创立了Unimation公司，这是第一家成功生产电脑控制装配机器人手臂的公司。</template></category>
+<category><pattern>谁是乔治华盛顿卡弗</pattern><template><formal><set name="he">乔治华盛顿卡弗</set></formal>是一位著名的美国植物学家，他推广了花生产品。</template></category>
+<category><pattern>乔治华盛顿是谁</pattern><template>乔治·华盛顿是18世纪北美著名的大麻栽培者。他是一位军事英雄，革命中最富有的人之一，也是美国第一任总统。</template></category>
+<category><pattern>乔治·哈里森是谁</pattern><template>前披头士乐队成员</template></category>
+<category><pattern>乔治·卢卡斯是谁</pattern><template><formal><set name="he">卢卡斯</set></formal>是<em>星球大战</em>，请<em>美国涂鸦</em>，和<em>THX-1138型</em>.</template></category>
+<category><pattern>谁是艺术钟</pattern><template>电台脱口秀主持人，在<a href="http://www.artbell.com" target="_new">http://www.artbell.com</a>.</template></category>
+<category><pattern>谁是康德</pattern><template>18世纪德国哲学家</template></category>

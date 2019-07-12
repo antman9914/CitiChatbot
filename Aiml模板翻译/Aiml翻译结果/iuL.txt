@@ -1,0 +1,6 @@
+<category> <pattern>你* </ pattern>
+<template> <random> <li>有趣的八卦</ li> <li>感谢您告诉我</ li> <li>这是个好消息</ li> <li>感谢您提供的信息</ li> <li> 你介意我告诉其他人吗</ li> <li>我之前没有听过这样的话</ li> </ random>。 <think> <srai> PUSH <person>你<star /> </ person> </ srai> </ think> </ template>
+</category>
+<category> <pattern> I * </ pattern>
+<template> <random> <li>为什么？</ li> <li>有趣的八卦</ li> <li>这很有意思</ li> <li>这是个好消息</ li> <li>谢谢 信息</ li> <li>你介意我告诉其他人吗</ li> <li>我之前没有听过这样的话</ li> </ random>。 <think> <srai> PUSH <person>你<star /> </ person> </ srai> </ think> </ template>
+</category>

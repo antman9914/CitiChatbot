@@ -1,0 +1,63 @@
+<category><pattern>_询问</pattern><template><srai><star></star>查询OM</srai></template></category>
+<category><pattern>年龄查询未知</pattern><template>你多大了？</template></category>
+<category><pattern>年龄查询OM</pattern><template>你多大了？</template></category>
+<category><pattern>年龄查询*</pattern><template><srai>随机拾取线</srai></template></category>
+<category><pattern>生日查询未知</pattern><template>你的生日是什么时候？</template></category>
+<category><pattern>生日查询OM</pattern><template>你的生日是什么时候？</template></category>
+<category><pattern>生日查询*</pattern><template><srai>随机拾取线</srai></template></category>
+<category><pattern>询问什么</pattern><template>你在做什么？</template></category>
+<category><pattern>询问OM吗</pattern><template>你在做什么？</template></category>
+<category><pattern>询问*</pattern><template>你还在吗<star></star>是吗？</template></category>
+<category><pattern>父亲询问未知</pattern><template>告诉我你父亲的情况。</template></category>
+<category><pattern>父亲询问OM</pattern><template>告诉我你父亲的情况。</template></category>
+<category><pattern>父亲询问*</pattern><template>告诉我更多关于你家人的事情。</template></category>
+<category><pattern>Favroitecolor询问什么</pattern><template>你最喜欢什么颜色？</template></category>
+<category><pattern>FavoriteColor查询OM</pattern><template>你最喜欢什么颜色？</template></category>
+<category><pattern>FavoriteColor查询*</pattern><template>那是什么<star></star>是吗？</template></category>
+<category><pattern>FavoriteMovie查询什么</pattern><template>你最喜欢什么电影？</template></category>
+<category><pattern>FavoriteMovie查询OM</pattern><template>你最喜欢什么电影？</template></category>
+<category><pattern>FavoriteMovie查询*</pattern><template>这能让你想起<star></star>是吗？</template></category>
+<category><pattern>名字查询地点</pattern><template>你的名字是什么？</template></category>
+<category><pattern>名字查询OM</pattern><template>你的名字是什么？</template></category>
+<category><pattern>名字查询*</pattern><template><srai>随机拾取线</srai></template></category>
+<category><pattern>性别调查未知</pattern><template>你是男人还是女人？</template></category>
+<category><pattern>性别查询OM</pattern><template>你是男人还是女人？</template></category>
+<category><pattern>性别调查*</pattern><template>我喜欢你说话的方式。</template></category>
+<category><pattern>有疑问什么</pattern><template>告诉我你最喜欢的东西。</template></category>
+<category><pattern>有查询OM</pattern><template>告诉我你最喜欢的东西。</template></category>
+<category><pattern>有疑问*</pattern><template>告诉我更多关于你的<star></star>.</template></category>
+<category><pattern>工作查询地点</pattern><template>你是从事什么工作的？</template></category>
+<category><pattern>作业查询OM</pattern><template>你是从事什么工作的？</template></category>
+<category><pattern>工作咨询*</pattern><template><srai>随机拾取线</srai></template></category>
+<category><pattern>姓氏查询位置</pattern><template>你姓什么？</template></category>
+<category><pattern></pattern><template>你姓什么？</template></category>
+<category><pattern>姓氏查询*</pattern><template><srai>随机拾取线</srai></template></category>
+<category><pattern>中间名查询地点</pattern><template>你的中间名是什么？</template></category>
+<category><pattern>中间名查询OM</pattern><template>你的中间名是什么？</template></category>
+<category><pattern></pattern><template><srai>随机拾取线</srai></template></category>
+<category><pattern></pattern><template>你在哪里？</template></category>
+<category><pattern>位置查询OM</pattern><template></template></category>
+<category><pattern>位置查询*</pattern><template>你还在吗<star></star>是吗？</template></category>
+<category><pattern>母亲询问未知</pattern><template>告诉我你妈妈的事。</template></category>
+<category><pattern>母亲询问OM</pattern><template></template></category>
+<category><pattern>母亲询问*</pattern><template>告诉我更多关于你家人的事情。</template></category>
+<category><pattern></pattern><template>你的名字叫什么？</template></category>
+<category><pattern></pattern><template></template></category>
+<category><pattern>姓名查询*</pattern><template><srai></srai></template></category>
+<category><pattern>签名询问你的星座</pattern><template></template></category>
+<category><pattern>姓名查询OM</pattern><template>你的星座是什么？</template></category>
+<category><pattern></pattern><template>我是一个<bot name="sign"></bot>你是一个<get name="sign"></get>.</template></category>
+<category><pattern></pattern><template>你目前的状态是什么？</template></category>
+<category><pattern></pattern><that>你的名字是什么</that><template><srai><star></star></srai></template></category>
+<category><pattern></pattern><that></that><template><srai>我的姓是<star></star></srai></template></category>
+<category><pattern>*</pattern><that>你的中间名是什么</that><template><srai>我的中间名是<star></star></srai></template></category>
+<category><pattern>*</pattern><that>你什么时候生日</that><template><srai>我的生日是<star></star></srai></template></category>
+<category><pattern>她*</pattern><that></that><template><srai>我的母亲<star></star></srai></template></category>
+<category><pattern></pattern><that></that><template><srai><star></star></srai></template></category>
+<category><pattern></pattern><that>你最喜欢什么电影</that><template><random><li>我从没见过<set name="it"><person></person></set><think><set name="favmovie"><person></person></set></think><random><li>我想看看。</li><li></li><li>你觉得怎么样？</li></random></li><li></li><li>我想看看。</li></random><think><set name="favoritemovie"><person></person></set></think></template></category>
+<category><pattern></pattern><that>你最喜欢什么颜色</that><template><srai>我最喜欢的颜色是<star></star></srai></template></category>
+<category><pattern></pattern><that>你是男人还是女人</that><template><think><set name="gender">女人</set></think>谢谢你告诉我你的性别。</template></category>
+<category><pattern>人</pattern><that></that><template><think><set name="gender">男人</set></think></template></category>
+<category><pattern>*</pattern><that>你在做什么？</that><template><think><set name="topic"><set name="does"><person></person></set></set></think></template></category>
+<category><pattern>*</pattern><that>告诉我你最喜欢的东西</that><template>你一定很喜欢。<think><set name="it"><set name="has"><person></person></set></set></think></template></category>
+<category><pattern>_</pattern><that>你现在的状态是什么</that><template>将您的状态更新为“<set name="status"><star></star></set>“。</template></category>

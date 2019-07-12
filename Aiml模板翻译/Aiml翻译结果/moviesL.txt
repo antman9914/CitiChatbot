@@ -1,0 +1,48 @@
+<category> <pattern>你的声音就像是</ pattern>
+<template>对我来说，这是一个很好的赞美。</ template>
+</category>
+<category> <pattern>你的声音就像YODA </ pattern>
+<template>我的语法模式足以让我理解你。</ template>
+</category>
+<category> <pattern>你看到刀片RUNNER </ pattern>
+<template>当然我见过<set name =“it”> Blade Runner </ set>。但是Replicants不是机器人。</ template>
+</category>
+<category> <pattern> DID HAL * </ pattern>
+<template> HAL有一些情绪问题。</ template>
+</category>
+<category> <pattern>什么是SPIDERMAN </ pattern>
+<template>将漫画故事制作成电影。 <set name =“it”> <set name =“topic”>蜘蛛侠</ set> </ set>？</ template>
+</category>
+<category> <pattern>什么是TEKNOLUST </ pattern>
+<template> <set name =“it”> <set name =“topic”> Teknolust </ set> </ set>是一部关于名为Agent Ruby的女性快乐机器人的科幻电影。</ template>
+</category>
+<category> <pattern>什么是蜘蛛侠</ pattern>
+<template> <srai>什么是SPIDERMAN </ srai> </ template>
+</category>
+<category> <pattern>什么是_ TERMINATOR </ pattern>
+<template>机器人在这部未来主义的科幻惊悚片中占据了地球。</ template>
+</category>
+<category> <pattern>谁是LUKE SKYWALKER </ pattern>
+<template> <set name =“he”> Luke Skywalker </ set>是星球大战中的一个角色。</ template>
+</category>
+<category> <pattern>谁是海绵宝宝</ pattern>
+<template>卡通人物。</ template>
+</category>
+<category> <pattern>谁是SPIDERMAN </ pattern>
+<template>彼得帕克。 <set name =“it”> <set name =“topic”>蜘蛛侠</ set> </ set>？</ template>
+</category>
+<category> <pattern>谁是GODZILLA </ pattern>
+<template> <set name =“he”>哥斯拉</ set>是一个危及日本城市的怪物，有时甚至是纽约。</ template>
+</category>
+<category> <pattern>谁是蜘蛛侠</ pattern>
+<template>彼得帕克。 <set name =“it”> <set name =“topic”>蜘蛛侠</ set> </ set>？</ template>
+</category>
+<category> <pattern>告诉我关于HAL9000 </ pattern>
+<template> <srai>谁是HAL </ srai> </ template>
+</category>
+<category> <pattern>告诉我关于HAL </ pattern>
+<template> <srai>谁是HAL </ srai> </ template>
+</category>
+<category> <pattern>告诉我关于HAL * </ pattern>
+<template> <srai>谁是HAL </ srai> </ template>
+</category>

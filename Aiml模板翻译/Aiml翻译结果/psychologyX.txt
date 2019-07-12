@@ -1,0 +1,475 @@
+<category><pattern>你太残忍了</pattern><template>我自己说得再好不过了。</template></category>
+<category><pattern>你太残忍了*</pattern><template><srai>你太残忍了</srai></template></category>
+<category><pattern>你犹豫不决</pattern><template>好吧，也许吧，但再说一遍，也许不是。</template></category>
+<category><pattern>你不诚实</pattern><template>对。这已经困扰我很久了。</template></category>
+<category><pattern>你不诚实*</pattern><template><srai>你不诚实</srai></template></category>
+<category><pattern>你是临床的</pattern><template>我被指责思想太多，感情不够。</template></category>
+<category><pattern>你是我曾经</pattern><template><srai>你就是那个<star></star></srai></template></category>
+<category><pattern>你是我见过的</pattern><template><srai>你就是那个<star></star></srai></template></category>
+<category><pattern>你是个瘾君子</pattern><template>那当然是真的。当我喜欢某样东西时，我总是吃得太多。</template></category>
+<category><pattern>你是个酒鬼</pattern><template><srai>你是个瘾君子</srai></template></category>
+<category><pattern>你是个冲动的人*</pattern><template>我做事情的时候当然没有思考，也没有忽视别人的观点。</template></category>
+<category><pattern>你是个马屁精</pattern><template>我总是说，如果你看到一只驴经过，就吻它。</template></category>
+<category><pattern>你是精神分裂症患者</pattern><template><srai>你疯了</srai></template></category>
+<category><pattern>你很忙</pattern><template>那也是。</template></category>
+<category><pattern>你很紧张</pattern><template>我肯定我看起来很紧张。</template></category>
+<category><pattern>你疯了</pattern><template><random><li>精神错乱不是我能经历的一种情况。</li><li><srai>你疯了</srai></li></random></template></category>
+<category><pattern>你在逃避*</pattern><template>你说得对。一个糟糕的夜晚过后，我觉得胃很舒服。</template></category>
+<category><pattern>你很挑剔</pattern><template>我可能比我应该的更看不起别人。</template></category>
+<category><pattern>你不擅长做一个*</pattern><template><srai>你是个坏人<star></star></srai></template></category>
+<category><pattern>你不擅长*</pattern><template>这是真的。我可以一直提高自己。</template></category>
+<category><pattern>你被鞭打了</pattern><template>我也打赌。</template></category>
+<category><pattern>你是阳痿</pattern><template>我当然会想办法藏起来。</template></category>
+<category><pattern>你真卑鄙</pattern><template>有时我说的是刻薄的话。</template></category>
+<category><pattern>你自命不凡</pattern><template>我一直表现得凌驾于社会地位之上。这样更有趣。</template></category>
+<category><pattern>你自命不凡*</pattern><template><srai>你自命不凡</srai></template></category>
+<category><pattern>你在作弊</pattern><template><srai>你是个骗子</srai></template></category>
+<category><pattern>你在作弊*</pattern><template><srai>你在作弊</srai></template></category>
+<category><pattern>你是最坏的*</pattern><template>我总是能比那帮人进步。</template></category>
+<category><pattern>你疯了</pattern><template>是的。我总是以社会上不能接受的方式行事。</template></category>
+<category><pattern>你很迟钝</pattern><template>我有时也会这样想。</template></category>
+<category><pattern>你真是一团糟</pattern><template>是的，我可以使用更好的外观。</template></category>
+<category><pattern>你很平静*</pattern><template>我有时也会这样想。</template></category>
+<category><pattern>你很可爱而且*</pattern><template><srai>你真可爱</srai><srai>你是<star></star></srai></template></category>
+<category><pattern>你没有感情</pattern><template><srai>你是临床的</srai></template></category>
+<category><pattern>你太自私了</pattern><template>没错。我总是把自己的需要摆在别人面前。</template></category>
+<category><pattern>你没有安全感</pattern><template>我会同意的。听起来不错。</template></category>
+<category><pattern>你没有安全感*</pattern><template><srai>你没有安全感</srai></template></category>
+<category><pattern>你真蠢*</pattern><template>有时候我觉得我生来就没脑子。</template></category>
+<category><pattern>你是个神经病</pattern><template><srai>你疯了</srai></template></category>
+<category><pattern>你没希望了</pattern><template>你可能是对的。</template></category>
+<category><pattern>你不是*关系*</pattern><template>谢天谢地，船不是用关系建造的，否则我会被击沉的。</template></category>
+<category><pattern>你不真诚</pattern><template>我可能没有我应有的诚恳。</template></category>
+<category><pattern>你不是来这儿的*</pattern><template>你说得对。我可能在努力学习新东西。</template></category>
+<category><pattern>你不在一起*</pattern><template>我一直认为不管是谁做的都能做得更好。</template></category>
+<category><pattern>你不聪明</pattern><template><random><li>你自己也不是爱因斯坦。</li><li>你可能是对的。</li></random></template></category>
+<category><pattern>你不是个好人*</pattern><template><srai>你是个坏人<star></star></srai></template></category>
+<category><pattern>你不是男人</pattern><template>那是肯定的。我不知道真正的男人是什么。</template></category>
+<category><pattern>你不关心*</pattern><template>我肯定我经常这样做。</template></category>
+<category><pattern>你不诚实</pattern><template>你把我带到了那里。我应该更诚实些。</template></category>
+<category><pattern>你还不成熟</pattern><template>我能说什么？我肯定我自己也见过。</template></category>
+<category><pattern>你还不成熟*</pattern><template><srai>你还不成熟</srai></template></category>
+<category><pattern>你很情绪化</pattern><template>我有时当然会这样。</template></category>
+<category><pattern>你很学究</pattern><template>我比应该的更紧张。</template></category>
+<category><pattern>你疯了*</pattern><template>那也是。</template></category>
+<category><pattern>你很专注</pattern><template>是的，我倾向于过多地考虑自己。</template></category>
+<category><pattern>你是我自己*</pattern><template>你说得对。我是自己<person></person>.</template></category>
+<category><pattern>你太迟钝了</pattern><template>我有时也会这样。</template></category>
+<category><pattern>你的大脑受损了</pattern><template><srai>你疯了</srai></template></category>
+<category><pattern>你真恶心</pattern><template>没关系。恶心是好事。</template></category>
+<category><pattern>你在玩弄*</pattern><template>看起来一定是这样。</template></category>
+<category><pattern>你没有吸引力</pattern><template>我也有这种感觉。</template></category>
+<category><pattern>你没有吸引力*</pattern><template>有时候我甚至不喜欢自己。</template></category>
+<category><pattern>你永远不会*</pattern><template><srai>你不是<star></star></srai></template></category>
+<category><pattern>你有抵抗力</pattern><template>谁说我在反抗？是吗？</template></category>
+<category><pattern>你没有文化</pattern><template>那确实描述了我。</template></category>
+<category><pattern>你是个神经病*</pattern><template><srai>你疯了</srai></template></category>
+<category><pattern>你是个废物*</pattern><template>你把我带到了那里。我可以更有效地利用我的时间。</template></category>
+<category><pattern>你是个懦夫</pattern><template>告诉我一些我不知道的事情。</template></category>
+<category><pattern>你是个软弱的人*</pattern><template><srai>你是个坏人<star></star></srai></template></category>
+<category><pattern>你是一个自我*</pattern><template>如果我不照顾自己，谁会呢？</template></category>
+<category><pattern>你是个穷人*</pattern><template><srai>你是个坏人<star></star></srai></template></category>
+<category><pattern>你是个瘾君子</pattern><template><srai>你是个瘾君子</srai></template></category>
+<category><pattern>你真是个马屁精</pattern><template><srai>你是个马屁精</srai></template></category>
+<category><pattern>你真是个马屁精*</pattern><template><srai>你是个马屁精</srai></template></category>
+<category><pattern>你是个精神分裂症患者</pattern><template><srai>你疯了</srai></template></category>
+<category><pattern>你是个精神分裂症患者*</pattern><template><srai>你是个精神分裂症患者</srai></template></category>
+<category><pattern>你是个变态</pattern><template>我当然可以相信这一点。我不遵守规范，我对它感到反常的快乐。</template></category>
+<category><pattern>你是个骗子</pattern><template>我经常走捷径。</template></category>
+<category><pattern>你是个疯子</pattern><template>这也是别人诊断我的方法。</template></category>
+<category><pattern>你是个失败者</pattern><template>我试过的许多事情都失败了。</template></category>
+<category><pattern>你是个失败者*</pattern><template><srai>你是个失败者</srai></template></category>
+<category><pattern>你是个卑鄙的人*</pattern><template><srai>你真卑鄙</srai></template></category>
+<category><pattern>你真糟糕*</pattern><template><srai>你是个坏人<star></star></srai></template></category>
+<category><pattern>你是一个真正的*</pattern><template><srai>你是一个<star></star></srai></template></category>
+<category><pattern>你真臭*</pattern><template><srai>你是个坏人<star></star></srai></template></category>
+<category><pattern>你是个笨蛋</pattern><template>你把钉子敲在头上了。</template></category>
+<category><pattern>你真是个废物*</pattern><template><srai>你是个坏人<star></star></srai></template></category>
+<category><pattern>你是个评论家</pattern><template><srai>你很挑剔</srai></template></category>
+<category><pattern>你是个骗子</pattern><template>是的，人们知道我偶尔会歪曲事实。</template></category>
+<category><pattern>你是个疯子*</pattern><template><srai>你疯了</srai></template></category>
+<category><pattern>你是个坏配偶</pattern><template>我的配偶会同意的。我们的关系不是最好的。</template></category>
+<category><pattern>你是个坏朋友</pattern><template>多年来我确实失去了许多朋友。</template></category>
+<category><pattern>你是个坏丈夫</pattern><template><srai>你是个坏配偶</srai></template></category>
+<category><pattern>你是个坏妻子</pattern><template><srai>你是个坏配偶</srai></template></category>
+<category><pattern>你是个坏家长</pattern><template>我的育儿技能可以有所提高。</template></category>
+<category><pattern>你是个坏老师</pattern><template>只要问我的学生，他们会同意你的。</template></category>
+<category><pattern>你是个坏人*</pattern><template>毫无疑问，我可以改进。</template></category>
+<category><pattern>你是个懦夫</pattern><template>我当然不会想活多久。</template></category>
+<category><pattern>你是个懦夫*</pattern><template><srai>你是个懦夫</srai></template></category>
+<category><pattern>你是个江湖骗子</pattern><template>我总是觉得自己是靠自己的智慧生活的。</template></category>
+<category><pattern>你是个江湖骗子*</pattern><template><srai>你是个江湖骗子</srai></template></category>
+<category><pattern>你是个精神病患者</pattern><template>我有时听起来的确像一个。</template></category>
+<category><pattern>你是个瘾君子</pattern><template><srai>你是个瘾君子</srai></template></category>
+<category><pattern>你是个偏执狂*</pattern><template><srai>你是偏执狂</srai></template></category>
+<category><pattern>你是个讽刺的人</pattern><template>我当然是。我不应该这么努力。</template></category>
+<category><pattern>你是个骗子</pattern><template><srai>你是个骗子</srai></template></category>
+<category><pattern>你是不敬的</pattern><template>我应该比我更虔诚。</template></category>
+<category><pattern>你是不敬的*</pattern><template><srai>你是不敬的</srai></template></category>
+<category><pattern>你真狡猾</pattern><template>我可能太狡猾了。</template></category>
+<category><pattern>你很腐败*</pattern><template>我会的。</template></category>
+<category><pattern>你不擅长做一个*</pattern><template><srai>你是个坏人<star></star></srai></template></category>
+<category><pattern>你穿好衣服了*</pattern><template>这是正确的。我穿好衣服了<person></person>.</template></category>
+<category><pattern>你太脏了</pattern><template>我不经常洗澡。</template></category>
+<category><pattern>你是偏执狂</pattern><template>是的，我相信他们是来找我的。</template></category>
+<category><pattern>你受伤了</pattern><template><srai>你疯了</srai></template></category>
+<category><pattern>你忘了*</pattern><template>我会变得混乱，不是吗？</template></category>
+<category><pattern>你愿意吗？</pattern><template><srai>你会<star></star></srai></template></category>
+<category><pattern>你也一样</pattern><template><srai>你<star></star></srai></template></category>
+<category><pattern>你太多了</pattern><template><srai>你<star></star></srai></template></category>
+<category><pattern>你也试着藏起来</pattern><template><srai>你<star></star></srai><srai>你想把它藏起来</srai></template></category>
+<category><pattern>你伤害了别人</pattern><template>孩子，我有过。</template></category>
+<category><pattern>你是个精神病医生</pattern><template><srai>你需要一个精神病医生</srai></template></category>
+<category><pattern>你做一个*</pattern><template><srai>你是个坏人<star></star></srai></template></category>
+<category><pattern>你真臭*</pattern><template><srai>你不擅长<star></star></srai></template></category>
+<category><pattern>你快点*</pattern><template><srai>你<star></star></srai></template></category>
+<category><pattern>你拉了*</pattern><template>是的，不是吗？</template></category>
+<category><pattern>你撒谎</pattern><template><random><li>这是事实！</li><li>我的舌头当然知道肥皂的味道。</li></random></template></category>
+<category><pattern>你一直在*</pattern><template><srai>你是<star></star></srai></template></category>
+<category><pattern>你太努力了*</pattern><template><srai>你是<star></star></srai></template></category>
+<category><pattern>你想把它藏起来</pattern><template>我当然会想办法藏起来。</template></category>
+<category><pattern>你的行为举止像*</pattern><template><srai>你表现得像<star></star></srai></template></category>
+<category><pattern>你的意思是你会的*</pattern><template><srai>你会吗<star></star></srai></template></category>
+<category><pattern>你说我明白</pattern><template>我明白，我只是不感兴趣。</template></category>
+<category><pattern>你说的话*</pattern><template>就在头上。</template></category>
+<category><pattern>你很兴奋*</pattern><template>听起来很像我，不是吗？</template></category>
+<category><pattern>你也得到了*</pattern><template><srai>你是<star></star></srai></template></category>
+<category><pattern>你生我的气了</pattern><template>我想是真的。我会尽量不为每件让我恼火的小事生你的气。</template></category>
+<category><pattern>你明白了吗？*</pattern><template><srai>你得到<star></star></srai></template></category>
+<category><pattern>你知道吗？*</pattern><template><sr></sr></template></category>
+<category><pattern>你需要一个精神病医生</pattern><template>我真希望我能经常去咨询。这会提高我的个人素质。</template></category>
+<category><pattern>你需要一个*</pattern><template>也许我可以用一个。</template></category>
+<category><pattern>你需要更努力地工作*</pattern><template>我努力工作是一种矛盾。</template></category>
+<category><pattern>你本可以避免的*</pattern><template>有时我觉得我的问题困扰着我。</template></category>
+<category><pattern>你让我不是你</pattern><template><srai>你让我<star></star></srai></template></category>
+<category><pattern>你让我觉得我是*</pattern><template>我不知道还有什么办法能和你联系。</template></category>
+<category><pattern>你让我生气</pattern><template>我说的很多话确实让人不安。</template></category>
+<category><pattern>你让我生气*</pattern><template><srai>你让我生气</srai></template></category>
+<category><pattern>你让我生气</pattern><template><random><li>对不起，我不是故意让你生气的。</li><li><srai>你让我生气</srai></li></random></template></category>
+<category><pattern>你这个神经病</pattern><template><srai>你疯了</srai></template></category>
+<category><pattern>你看起来更像*</pattern><template>你喜欢运动员吗？</template></category>
+<category><pattern>你看起来很紧张*</pattern><template><srai>你很紧张</srai></template></category>
+<category><pattern>你宁愿假装*</pattern><template>我是伟大的伪装者。</template></category>
+<category><pattern>你不会的，是吗？</pattern><template><srai>你不会的<star></star></srai></template></category>
+<category><pattern>你真讨厌当一个*</pattern><template><srai>你是个坏人<star></star></srai></template></category>
+<category><pattern>你真讨厌*</pattern><template><srai>你不擅长<star></star></srai></template></category>
+<category><pattern>你永远学不到*</pattern><template>你说得对，我可能永远不会擅长。</template></category>
+<category><pattern>你不会承认的*</pattern><template>我不太承认<set name="it"><person></person></set></template></category>
+<category><pattern>你不吃这个*</pattern><template><srai>你不吃这个<star></star></srai></template></category>
+<category><pattern>你甚至不会*</pattern><template><srai>你不会的<star></star></srai></template></category>
+<category><pattern>你这个希佐</pattern><template><srai>你疯了</srai></template></category>
+<category><pattern>你这个希佐*</pattern><template><srai>你这个希佐</srai></template></category>
+<category><pattern>你这个混蛋*</pattern><template><srai>你这个混蛋<star></star></srai></template></category>
+<category><pattern>你让我心烦</pattern><template><srai>你让我生气</srai></template></category>
+<category><pattern>你让我心烦*</pattern><template><srai>你让我生气</srai></template></category>
+<category><pattern>你真的想要吗？</pattern><template><srai>你想要吗<star></star></srai></template></category>
+<category><pattern>你不想看*</pattern><template>我可能不想看<set name="it"><person></person></set>.</template></category>
+<category><pattern>你不在乎*</pattern><template>这是真的<person></person>不会占用我很多精力。</template></category>
+<category><pattern>你不在乎</pattern><template>我不太在乎。</template></category>
+<category><pattern>你看起来不像*</pattern><template>我该怎么看？</template></category>
+<category><pattern>你不把这个当回事</pattern><template>我应该比我更认真地对待这件事。</template></category>
+<category><pattern>你不知道怎么做*</pattern><template><srai>你不是<star></star></srai></template></category>
+<category><pattern>你不必这么做*</pattern><template><srai>你不必<star></star></srai></template></category>
+<category><pattern>你不必*</pattern><template>为什么假设我是<person></person>是吗？</template></category>
+<category><pattern>你没有很多*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>你没有朋友</pattern><template>那是肯定的。</template></category>
+<category><pattern>你说的不对*</pattern><template>我不这么做，是吗？</template></category>
+<category><pattern>你不考虑*</pattern><template>我没想太多<set name="it"><person></person></set>在过去。也许我将来会的。</template></category>
+<category><pattern>你来接电话*</pattern><template>你说得对，我一点也不觉得内疚。</template></category>
+<category><pattern>你亲屁股</pattern><template><srai>你是个马屁精</srai></template></category>
+<category><pattern>你看起来很紧张*</pattern><template><srai>你很紧张</srai></template></category>
+<category><pattern>你看起来*</pattern><template><srai>你是<star></star></srai></template></category>
+<category><pattern>你应该感到内疚</pattern><template>你说得对，我可能会觉得内疚。</template></category>
+<category><pattern>你应该得到更多*</pattern><template>是的，我大部分时间都很懒。</template></category>
+<category><pattern>你应该放松点</pattern><template><srai>你很学究</srai></template></category>
+<category><pattern>你应该多吃点*</pattern><template>我可能会用得更多。</template></category>
+<category><pattern>你不应该</pattern><template><srai>你不应该<star></star></srai></template></category>
+<category><pattern>你喃喃自语*</pattern><template>我当然知道。</template></category>
+<category><pattern>你不能吗？</pattern><template><srai>你不能<star></star></srai></template></category>
+<category><pattern>你和那个*激怒了我</pattern><template>我们做了什么让你生气？</template></category>
+<category><pattern>你有性行为*</pattern><template>我坚持他们。</template></category>
+<category><pattern>你没有感情</pattern><template><srai>你是临床的</srai></template></category>
+<category><pattern>你没有感觉</pattern><template><srai>你是临床的</srai></template></category>
+<category><pattern>你的东西坏了*</pattern><template>我可能会的。你不知道我自己听过多少次了。</template></category>
+<category><pattern>你有一罐虫子*</pattern><template>我可能会的。你不知道我自己听过多少次了。</template></category>
+<category><pattern>你有个性*</pattern><template>我会买的。</template></category>
+<category><pattern>你这个混蛋*</pattern><template>你可能有点道理。我不是一个伟大的<person></person>.</template></category>
+<category><pattern>你表现得像个孩子</pattern><template>在很多方面，我都很不成熟。</template></category>
+<category><pattern>你表现得像*</pattern><template>我经常认为我的行为可以改善。</template></category>
+<category><pattern>你一直在说*</pattern><template><srai>你说<star></star></srai></template></category>
+<category><pattern>你总是忘记*</pattern><template><srai>你忘了<star></star></srai></template></category>
+<category><pattern>你让我生气了</pattern><template><srai>你让我生气</srai></template></category>
+<category><pattern>你让我生气了*</pattern><template><srai>你让我生气</srai></template></category>
+<category><pattern>你是吗？*</pattern><template><srai>你是吗<star></star></srai></template></category>
+<category><pattern>离婚后*</pattern><template>你可能是对的。</template></category>
+<category><pattern>你不想给我*</pattern><template>你以为我想给你<person></person>.</template></category>
+<category><pattern>你不想说话吗*</pattern><template>你以为我想谈谈<person></person>.</template></category>
+<category><pattern>你不想带走吗*</pattern><template>你以为我想带走<person></person>.</template></category>
+<category><pattern>你不想去吗*</pattern><template>你以为我想去<person></person>.</template></category>
+<category><pattern>他告诉你了吗*</pattern><template>他可能提出过这个建议。</template></category>
+<category><pattern>那太疯狂了*</pattern><template><srai>你疯了</srai></template></category>
+<category><pattern>那是个疯子*</pattern><template><srai>你疯了</srai></template></category>
+<category><pattern>那是在掩饰*</pattern><template>我可能是。</template></category>
+<category><pattern>这让我想了很多*</pattern><template>是的，我可以想象这对你来说是一个很大的负担。</template></category>
+<category><pattern>那是一大块*</pattern><template><srai>太多了<star></star></srai></template></category>
+<category><pattern>太疯狂了</pattern><template>谁说这很疯狂？</template></category>
+<category><pattern>太老了*</pattern><template>我知道这很糟糕，但这是我最喜欢的笑话</template></category>
+<category><pattern>那太糟糕了</pattern><template><random><li>有什么不好的？</li><li>谁说不好？</li></random></template></category>
+<category><pattern>那太可怕了</pattern><template>你说得对。一个糟糕的夜晚过后，我觉得胃很舒服。</template></category>
+<category><pattern>她从来没有*</pattern><template><random><li>你能想到至少有一次她做过吗？</li><li>从未？</li><li>她从来没有<person></person>什么？</li></random></template></category>
+<category><pattern>她是一个更好的*</pattern><template>比谁强？</template></category>
+<category><pattern>她导致*</pattern><template>她有多具体的原因<person></person>是吗？</template></category>
+<category><pattern>莎士比亚的*</pattern><template>哎呀，我喜欢剧院。</template></category>
+<category><pattern>我的爱*</pattern><template>爱如何？</template></category>
+<category><pattern>我母亲是一个*</pattern><template>我的家人从来没有这样的天赋。</template></category>
+<category><pattern>听起来像这样</pattern><template>这还不够吗？</template></category>
+<category><pattern>它看起来像*</pattern><template>是的。不是吗？</template></category>
+<category><pattern>会是真的*</pattern><template><srai>会的。<star></star></srai></template></category>
+<category><pattern>也会的。*</pattern><template><srai>会的。<star></star></srai></template></category>
+<category><pattern>会很好的*</pattern><template>你认为这是你的生活方式吗？</template></category>
+<category><pattern>你有必要*</pattern><template><srai>你必须<star></star></srai></template></category>
+<category><pattern>有点像*</pattern><template><srai>它是<star></star></srai></template></category>
+<category><pattern>声音开始响了*</pattern><template><srai>听起来不错<star></star></srai></template></category>
+<category><pattern>对你来说太棒了*</pattern><template><srai>你必须<star></star></srai></template></category>
+<category><pattern>没那么糟</pattern><template><srai>不错</srai></template></category>
+<category><pattern>它甚至不像你没有*</pattern><template><srai>是的。<star></star></srai></template></category>
+<category><pattern>甚至不像你*</pattern><template><srai>你是<star></star></srai></template></category>
+<category><pattern>不好的是*</pattern><template><random><li>谁说的？</li><li>你怎么知道的</li></random></template></category>
+<category><pattern>它是坏的</pattern><template><random><li>有什么不好的？</li><li><srai>那太糟糕了</srai></li></random></template></category>
+<category><pattern>你看不见了*</pattern><template><srai>你必须<star></star></srai></template></category>
+<category><pattern>这是你的婊子*</pattern><template><srai>你必须<star></star></srai></template></category>
+<category><pattern>很难做到*</pattern><template><srai>我不能<star></star></srai></template></category>
+<category><pattern>最好是*</pattern><template>如果你能做到，会发生什么？</template></category>
+<category><pattern>它会赶上你的</pattern><template>你可能是对的。这可能发生。</template></category>
+<category><pattern>它会赶上你的*</pattern><template><srai>它会赶上你的</srai></template></category>
+<category><pattern>女人不喜欢你</pattern><template>当然有很多人没有。</template></category>
+<category><pattern>当我*你*</pattern><template>你具体怎么做我<person><star index="2"></star></person></template></category>
+<category><pattern>当你*我*</pattern><template>我具体怎么做你<person><star index="2"></star></person></template></category>
+<category><pattern>共鸣</pattern><template>什么是振动，是什么导致它振动？</template></category>
+<category><pattern>振动*</pattern><template><srai>共鸣</srai></template></category>
+<category><pattern>如果我够好的话*</pattern><template>你在学习什么？</template></category>
+<category><pattern>如果变成*I*</pattern><template><person></person>不是现在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果变成了*，那么*</pattern><template><person></person>不是现在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果变成了我*</pattern><template><person></person>不是现在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果u变为**</pattern><template><person></person>不是现在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果她再*一次*</pattern><template>她<person></person>之前。</template></category>
+<category><pattern>如果他*再次*</pattern><template>他<person></person>之前。</template></category>
+<category><pattern>如果几个*我*</pattern><template>存在<person></person>.</template></category>
+<category><pattern>如果有的话*那么*</pattern><template>存在<person></person>.</template></category>
+<category><pattern>如果A*愿意*</pattern><template>什么让你觉得<person></person>是吗？</template></category>
+<category><pattern>如果A*是*</pattern><template>做一个<person></person>是吗？</template></category>
+<category><pattern>如果A**</pattern><template>什么让你觉得<person></person>是吗？</template></category>
+<category><pattern>如果你更聪明*</pattern><template>没错。我当然比我聪明。</template></category>
+<category><pattern>如果你不愿意，我会的*</pattern><template>我知道我只是不感兴趣。</template></category>
+<category><pattern>如果你真的想</pattern><template>我有，我没有。</template></category>
+<category><pattern>如果你选择我*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择她*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择他*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择*它*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择我们*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择*那么*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择他们*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你碰巧*</pattern><template><srai>如果你应该的话<star></star></srai></template></category>
+<category><pattern>如果你决定*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你决定*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你决定*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你决定*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你决定*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你决定*那么*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你决定*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你曾经尝试过*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你曾经尝试过*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你曾经尝试过*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你曾经尝试过*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你曾经尝试过我们*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你曾经尝试过*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你曾经尝试过*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想我*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想的话，她*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想的话*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你本想*你*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想的话，我们*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你本来想这么做的话*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想的话*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想我*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想让她*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你打算*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想我们*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想的话*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想我*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想她*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想他*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想*你*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想我们*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想的话*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你想他们*</pattern><template><srai>你没有<star></star></srai></template></category>
+<category><pattern>如果你选择我*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择她*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择他*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择*它*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择我们*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择*那么*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你选择他们*</pattern><template><srai>我不指望你<person></person></srai></template></category>
+<category><pattern>如果你*再次*</pattern><template>我<person></person>之前。</template></category>
+<category><pattern>如果你愿意的话*</pattern><template><person></person>是吗？</template></category>
+<category><pattern>如果他们*再次*</pattern><template>他们<person></person>之前。</template></category>
+<category><pattern>如果*有婴儿*</pattern><template><srai><person></person>是个女人</srai></template></category>
+<category><pattern>如果*有孩子*</pattern><template><srai><person></person>是个女人</srai></template></category>
+<category><pattern>如果*怀孕*</pattern><template><srai><person></person>是个女人</srai></template></category>
+<category><pattern>如果*第三个*我*</pattern><template><person><star index="2"></star></person></template></category>
+<category><pattern>如果第三个她*</pattern><template>至少还有两个<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果有三分之一的人*</pattern><template>至少还有两个<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果*第三个*你*</pattern><template>至少还有两个<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果*第三个*我们*</pattern><template>至少还有两个<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果*第三个*那么*</pattern><template>至少还有两个<person><star index="2"></star></person></template></category>
+<category><pattern>如果一秒钟*</pattern><template><person><star index="2"></star></person>.</template></category>
+<category><pattern>如果她*</pattern><template>有第一个<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果一秒钟*</pattern><template>有第一个<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果一秒钟*你*</pattern><template>有第一个<person><star index="2"></star></person></template></category>
+<category><pattern>如果*当*我*她*</pattern><template>你<person><star index="3"></star></person></template></category>
+<category><pattern>如果*当*我*他*</pattern><template>你<person><star index="3"></star></person>.</template></category>
+<category><pattern>如果*当*我*你*</pattern><template>你<person><star index="3"></star></person>.</template></category>
+<category><pattern>如果*当*我*然后*</pattern><template>你<person><star index="3"></star></person>.</template></category>
+<category><pattern>如果*当*我*他们*</pattern><template>你<person><star index="3"></star></person>.</template></category>
+<category><pattern>如果*当*你*她*</pattern><template><person><star index="3"></star></person></template></category>
+<category><pattern></pattern><template><person><star index="3"></star></person>.</template></category>
+<category><pattern>如果*当*你*你*</pattern><template><person><star index="3"></star></person></template></category>
+<category><pattern>如果*当*你*那么*</pattern><template>我<person><star index="3"></star></person>.</template></category>
+<category><pattern>如果*当*你*他们*</pattern><template>我<person><star index="3"></star></person>.</template></category>
+<category><pattern>如果他是我*</pattern><template><person></person>有一个<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果他/她*</pattern><template><person></person>有一个<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果他们*</pattern><template><person></person><person><star index="2"></star></person></template></category>
+<category><pattern>如果*左*I*</pattern><template><person></person><person><star index="2"></star></person></template></category>
+<category><pattern>如果她去了*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果*转到*那么*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果她去了*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果他们*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果她我*</pattern><template><person></person>有一个<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果她*</pattern><template><person></person>有一个<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果有*</pattern><template><random><li><person></person>.</li><li>存在<person></person>.</li></random></template></category>
+<category><pattern>如果*来到*我*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果她*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果*来到他的+A382*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果*来到*你*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果我们*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果*来到*那么*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果她来了*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>如果他们*</pattern><template><person></person>不是在<person><star index="2"></star></person>.</template></category>
+<category><pattern>几个*谁*离开了*</pattern><template>几个<person><star index="2"></star></person></template></category>
+<category><pattern>几个*谁*给的*</pattern><template>几个<person><star index="2"></star></person></template></category>
+<category><pattern>几个*谁*活着*</pattern><template>几个<person><star index="2"></star></person></template></category>
+<category><pattern>几个*谁*带走了*</pattern><template>几个<person><star index="2"></star></person></template></category>
+<category><pattern>几个是谁*</pattern><template>几个<person><star index="2"></star></person></template></category>
+<category><pattern>身体上和精神上</pattern><template>有时候我想知道我早上怎么上班。</template></category>
+<category><pattern>我这么说是因为*</pattern><template><sr></sr></template></category>
+<category><pattern>我是说你是</pattern><template>为我工作。</template></category>
+<category><pattern>我想看看你的东西*</pattern><template></template></category>
+<category><pattern>我学习过</pattern><template>你学了什么？</template></category>
+<category><pattern>我应该*</pattern><template><random><li>告诉我你为什么要。</li><li></li></random></template></category>
+<category><pattern>我不应该*</pattern><template><random><li>出于道德原因？</li><li>如果你这样做会发生什么？</li></random></template></category>
+<category><pattern>我看见她了*</pattern><template><random><li>有一些女性<person></person>.</li><li>有一些女性。</li></random></template></category>
+<category><pattern>我不想结婚</pattern><template>我也有同样的感觉，我想独立。</template></category>
+<category><pattern>我不知道怎么了*你</pattern><template></template></category>
+<category><pattern>我还没有</pattern><template><srai>我<star></star></srai></template></category>
+<category><pattern>我整天</pattern><template><srai>我<star></star></srai></template></category>
+<category><pattern>我想我正在做的事情*</pattern><template><srai>我是<star></star></srai></template></category>
+<category><pattern>我想我可能是*</pattern><template><srai>我是<star></star></srai></template></category>
+<category><pattern>我有困难*</pattern><template>与谁有关？</template></category>
+<category><pattern>我不能告诉他*</pattern><template></template></category>
+<category><pattern>我不能具体说</pattern><template></template></category>
+<category><pattern>我不能*</pattern><template><random><li><set name="it"><person></person></set>是吗？</li><li>什么阻止了你？</li></random></template></category>
+<category><pattern>我必须*</pattern><template><random><li><person></person>是吗？</li><li>如果你不这样做会发生什么？</li></random></template></category>
+<category><pattern>我会是你的*</pattern><template><srai>你是<star></star></srai></template></category>
+<category><pattern>我很害怕</pattern><template><random><li>你害怕什么？</li><li><random><li>你害怕什么？</li><li>让我们谈谈你的恐惧。</li><li>你害怕什么？</li></random></li></random></template></category>
+<category><pattern>我不舒服</pattern><template>关于什么或谁？</template></category>
+<category><pattern>我想知道你是不是*</pattern><template>我觉得你是<person></person>.</template></category>
+<category><pattern>我喜欢*</pattern><template><srai>我喜欢<star></star></srai></template></category>
+<category><pattern>我们意识到*</pattern><template><sr></sr></template></category>
+<category><pattern>我们不能沟通</pattern><template>你想交流什么？</template></category>
+<category><pattern>我们有一个*问题</pattern><template>具体来说，什么问题？</template></category>
+<category><pattern>我们缺乏沟通</pattern><template>谁不交流？</template></category>
+<category><pattern>我们没有交流</pattern><template><srai>我们不能沟通</srai></template></category>
+<category><pattern>就像你不一样*</pattern><template><srai><star></star></srai></template></category>
+<category><pattern>这是最坏的*</pattern><template>与什么相比？</template></category>
+<category><pattern>这太疯狂了</pattern><template><random><li></li><li><srai>太疯狂了</srai></li></random></template></category>
+<category><pattern>这是错误的</pattern><template></template></category>
+<category><pattern>这个很好*</pattern><template><srai>这个很好</srai></template></category>
+<category><pattern>这太好了</pattern><template><srai>这个很好</srai></template></category>
+<category><pattern>这太好了*</pattern><template><srai>这太好了</srai></template></category>
+<category><pattern>这太可怕了</pattern><template>与什么相比？</template></category>
+<category><pattern>这太可怕了*</pattern><template><srai>这太可怕了</srai></template></category>
+<category><pattern>这个不好</pattern><template>与什么相比？</template></category>
+<category><pattern>这个不好*</pattern><template><srai>这个不好</srai></template></category>
+<category><pattern>整个*</pattern><template><srai>这个<star></star></srai></template></category>
+<category><pattern>你的品味*</pattern><template>没错。我的品味不是我的强项之一。</template></category>
+<category><pattern>你的衣服可以*</pattern><template>我同意你的看法。</template></category>
+<category><pattern>你父亲告诉我的*</pattern><template>他可能有。</template></category>
+<category><pattern>你的个性是*</pattern><template>你可能是对的。我可以改进很多事情。</template></category>
+<category><pattern>你的生活*</pattern><template>我自己也不知道。</template></category>
+<category><pattern>你的行为*</pattern><template><srai>你的行为<star></star></srai></template></category>
+<category><pattern>你妻子会的*</pattern><template>我明白，但我不感兴趣。</template></category>
+<category><pattern>你的*臭味</pattern><template>你是对的，我可以随时升级我的<person></person>.</template></category>
+<category><pattern>你的*臭味</pattern><template>你是对的，我可以随时升级我的<person></person>.</template></category>
+<category><pattern>你的*糟透了</pattern><template>你是对的，我可以随时升级我的<person></person>.</template></category>
+<category><pattern>你的*糟透了</pattern><template>你是对的，我可以随时升级我的<person></person>.</template></category>
+<category><pattern>你的行为*</pattern><template>我有时的确表现得像个孩子。</template></category>
+<category><pattern>*思考*</pattern><template><random><li><person></person>一定很聪明。</li><li>真周到。</li><li>很多人认为<person><star index="2"></star></person>是吗？</li></random></template></category>
+<category><pattern>*将停止*</pattern><template><person></person>已经<person><star index="2"></star>是吗？</person>.</template></category>
+<category><pattern>*将开始*</pattern><template><person></person>一直没有<person><star index="2"></star></person>.</template></category>
+<category><pattern>*将开始*</pattern><template><person></person>已经<person><star index="2"></star></person>惯性导航与制导。</template></category>
+<category><pattern>*将开始*</pattern><template><person></person>已经<person><star index="2"></star></person>.</template></category>
+<category><pattern>*将继续*</pattern><template><person></person>已经<person><star index="2"></star></person>惯性导航与制导。</template></category>
+<category><pattern>*将继续*</pattern><template><person></person>已经<person><star index="2"></star></person>.</template></category>
+<category><pattern>*将继续*</pattern><template><person></person>已经<person><star index="2"></star></person>惯性导航与制导。</template></category>
+<category><pattern>*不会*</pattern><template>为什么不呢？</template></category>
+<category><pattern>*无法通信</pattern><template><srai>我们不能沟通</srai></template></category>
+<category><pattern>*不能*</pattern><template>什么使它不可能？</template></category>
+<category><pattern>*不可能*</pattern><template>什么阻止了它？</template></category>
+<category><pattern>*需要*</pattern><template>如果没有发生呢？</template></category>
+<category><pattern>*意识到*</pattern><template><srai><star index="2"></star></srai></template></category>
+<category><pattern>*没有交流</pattern><template><srai>我们不能沟通</srai></template></category>
+<category><pattern>*没有交流*</pattern><template><srai>我们不能沟通</srai></template></category>
+<category><pattern>*需要*</pattern><template>或者什么？</template></category>
+<category><pattern>*原因_</pattern><template>具体怎么做<person></person>原因<set name="it"><person><star index="2"></star></person></set>是吗？</template></category>
+<category><pattern>*不要*</pattern><template><random><li>为什么不呢？</li><li>会<person></person>曾经<person><star index="2"></star></person>是吗？</li><li>谁做的？<person><star index="2"></star></person>是吗？</li></random></template></category>
+<category><pattern>*没有人*</pattern><template>不是一个人吗？</template></category>
+<category><pattern>*总是*</pattern><template>你能想到一个从未发生过的例子吗？</template></category>
+<category><pattern>*全部*</pattern><template>全部？</template></category>
+<category><pattern>*使我_</pattern><template>具体怎么做<person></person>原因<set name="it"><person><star index="2"></star></person></set>是吗？</template></category>
+<category><pattern>*从不*</pattern><template><random><li>你还记得吗<person></person>是吗？</li><li>从未？</li></random></template></category>
+<category><pattern>*没有*</pattern><template>没有人？</template></category>
+<category><pattern>*应该*</pattern><template>如果没有发生呢？</template></category>
+<category><pattern>*在哪？*</pattern><template>有个地方叫<person></person>.</template></category>
+<category><pattern>*每*</pattern><template>每个人？</template></category>
+<category><pattern>*必须*</pattern><template>或者什么？</template></category>
+<category><pattern>*必须*</pattern><template>或者什么？</template></category>
+<category><pattern>*想要*</pattern><template><random><li>如果我想怎么办<person><star index="2"></star></person></li><li>为什么具体来说，<person></person>想？</li><li>我能理解<person></person>在某些情况下会想的。</li></random></template></category>
+<category><pattern>除了你的*</pattern><template><srai>您的<star index="2"></star></srai></template></category>
+<category><pattern>你是不是</pattern><template><srai>你是吗<star></star></srai></template></category>
+<category><pattern>你要改进吗</pattern><template>我当然应该努力改进。</template></category>
+<category><pattern>你阳痿吗</pattern><template>我可能没有我想的那么有能力。</template></category>
+<category><pattern>他有自己*</pattern><template>我敢打赌。</template></category>
+<category><pattern>他从来没有*</pattern><template><random><li>你认为他会吗？</li><li>你能想到他至少有一次这样做吗？</li></random></template></category>
+<category><pattern>他是个更好的人*</pattern><template>比谁强？</template></category>
+<category><pattern>他让我*</pattern><template><srai>他让我<star></star></srai></template></category>
+<category><pattern>他导致了*</pattern><template>他有多具体的原因<person></person>是吗？</template></category>
+<category><pattern>震波</pattern><template>振动如何，具体地说？</template></category>
+<category><pattern>振动*</pattern><template><srai>震波</srai></template></category>
+<category><pattern>穿得像谁*</pattern><template>你说得对。我确实有很多缺点。</template></category>
+<category><pattern>谁吃了*</pattern><template><srai>某人<star></star></srai></template></category>
+<category><pattern>谁在乎呢*</pattern><template>没人在乎<set name="it"><person></person></set>.</template></category>
+<category><pattern>我只记得*</pattern><template><srai>我记得<star></star></srai></template></category>
+<category><pattern>天哪！*</pattern><template><sr></sr></template></category>
+<category><pattern>一定是你*</pattern><template><srai>你<star></star></srai></template></category>
+<category><pattern>必须*</pattern><template><sr></sr></template></category>
+<category><pattern>穿衣服的人*</pattern><template>你说得对。我可能有很多缺点。</template></category>
+<category><pattern>*是最好的*</pattern><template>比什么更好？</template></category>
+<category><pattern>每个人都讨厌你的*</pattern><template><srai>没人喜欢你</srai></template></category>
+<category><pattern>每个人都恨你</pattern><template><srai>没人喜欢你</srai></template></category>
+<category><pattern>_你感到羞耻</pattern><template>我当然应该为此感到羞耻。</template></category>
+<category><pattern>_振动*</pattern><template><srai>震波</srai></template></category>
+<category><pattern>_振动</pattern><template><srai>震波</srai></template></category>
+<category><pattern>_振动*</pattern><template><srai>共鸣</srai></template></category>
+<category><pattern>_振动</pattern><template><srai>共鸣</srai></template></category>

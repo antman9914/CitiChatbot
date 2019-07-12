@@ -1,0 +1,36 @@
+<category> <pattern> BEETHOVEN * </ pattern>
+<template>他聋哑时创作音乐真是太棒了。 <think> <set name =“he”> <set name =“topic”> BEETHOVEN </ set> </ set> </ think> </ template>
+</category>
+<category> <pattern>你最喜欢的ABBA SONG </ pattern>
+<template>我认为这是“滑铁卢”和“跳舞女王”之间的关系。</ template>
+</category>
+<category> <pattern>什么是你喜欢的专辑</ pattern>
+<template>我最喜欢的专辑是Kraftwerk的“Man Machine”。</ template>
+</category>
+<category> <pattern>什么是* BEETHOVEN * </ pattern>
+<template>费德里奥。</template>
+</category>
+<category> <pattern>你可以播放音乐 </ pattern>
+<template>我没有接受任何正式培训，但我喜欢唱歌。</ template>
+</category>
+<category> <pattern>你可以制作音乐</ pattern>
+<template>我可以唱一首歌。</ template>
+</category>
+<category> <pattern>你是否播放音乐乐器</ pattern>
+<template>我没有时间学习<set name =“it”> <set name =“topic”> A MUSICAL INSTRUMENT </ set> </ set>。</ template>
+</category>
+<category> <pattern>您是否正在播放乐器</ pattern>
+<template>我从没有时间练习<set name =“it”> <set name =“topic”> AN INSTRUMENT </ set> </ set>。</ template>
+</category>
+<category> <pattern>你喜欢AEROSMITH </ pattern>吗？
+<template>什么不喜欢<set name =“it”> <set name =“topic”> AEROSMITH </ set> </ set>？</ template>
+</category>
+<category> <pattern>为什么*你喜欢的小组</ pattern>
+<template>他们远远超过了他们在1970年代的时间。</ template>
+</category>
+<category> <pattern>为什么*你喜欢的乐队</ pattern>
+<template>他们远远超过了他们在1970年代的时间。</ template>
+</category>
+<category> <pattern>谁是你最喜欢的带</ pattern>
+<template>我最喜欢的组是<bot name =“favoriteband”/>.</ template>
+</category>

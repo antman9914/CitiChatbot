@@ -1,0 +1,37 @@
+<category><pattern>回答错误</pattern><template><think><set name="badanswer-input"><input index="2"/></set><set name="badanswer-that"><that index="2,1"></that></set><set name="badanswer-that-full"><that index="2,*"></that></set><set name="topic">错误回答预先通知</set></think>你想教我一个新的答案吗？<get name="badanswer-input"></get>“？</template></category>
+<category><pattern>_</pattern><template><think><set name="star"><star></star></set></think><condition><li name="star" value="yes">好吧，我该怎么说？<think><set name="topic">学习新答案</set></think></li><li name="star" value="no">好吧，那我们就忘了吧。<think><set name="topic">学习新答案</set></think></li><li>是还是不是？</li></condition></template></category>
+<category><pattern>_</pattern><template><sr></sr></template></category>
+<category><pattern>_</pattern><that>好吧，我该怎么说</that><template>他说：“这是一个很好的选择。”<set name="badanswer-newresp"><input index="1"/></set>…“？<condition><li name="badanswer-that" value="*"><think><set name="topic">错误回答</set></think>这取决于我刚才说的<get name="badanswer-that-full"></get>“？</li><li><think><set name="topic">巴达斯维尔2</set></think>你想让我记住吗？</li></condition></template></category>
+<category><pattern>_</pattern><that>好吧，我该怎么说</that><template><sr></sr></template></category>
+<category><pattern>_</pattern><template><think><set name="star"><star></star></set><set name="response1"><response index="1"></response></set><set name="response2"><response index="2"></response></set><condition><li name="response2" value="OK, what should I have said"><set name="badanswer-newresp"><request index="1"></request></set></li></condition></think><condition><li name="response1" value="OK, what should I have said"></li><li name="star" value="no">我会尽量记住回答的。”<get name="badanswer-newresp"></get>“当你说，”<get name="badanswer-input"></get>他说：“这是一个很好的选择。”<learn><category><pattern><eval><uppercase><get name="badanswer-input"></get></uppercase></eval></pattern><template><eval><get name="badanswer-newresp"></get></eval></template></category></learn><think><set name="topic">学习新答案</set></think></li><li name="star" value="yes">我会尽量记住回答的。”<get name="badanswer-newresp"></get>“当你说，”<get name="badanswer-input"></get>“如果我刚才说的话”<get name="badanswer-that-full"></get>他说：“这是一个很好的选择。”<learn><category><pattern><eval><uppercase><get name="badanswer-input"></get></uppercase></eval></pattern><that><eval><uppercase><get name="badanswer-that"></get></uppercase></eval></that><template><eval><get name="badanswer-newresp"></get></eval></template></category></learn><think><set name="topic">学习新答案</set></think></li><li>是还是不是？</li></condition></template></category>
+<category><pattern><eval><uppercase><get name="badanswer-input"></get></uppercase></eval></pattern><template><eval><get name="badanswer-newresp"></get></eval></template></category>
+<category><pattern><eval><uppercase><get name="badanswer-input"></get></uppercase></eval></pattern><that><eval><uppercase><get name="badanswer-that"></get></uppercase></eval></that><template><eval><get name="badanswer-newresp"></get></eval></template></category>
+<category><pattern>_</pattern><template><sr></sr></template></category>
+<category><pattern>_</pattern><template><think><set name="star"><star></star></set><set name="response1"><response index="1"></response></set><set name="response2"><response index="2"></response></set><condition><li name="response2" value="OK, what should I have said"><set name="badanswer-newresp"><request index="1"></request></set></li></condition></think><condition><li name="response1" value="OK, what should I have said"></li><li name="star" value="yes">好的。我会尽量记住回答的。”<get name="badanswer-newresp"></get>“当你说，”<get name="badanswer-input"></get>他说：“这是一个很好的选择。”<learn><category><pattern><eval><uppercase><get name="badanswer-input"></get></uppercase></eval></pattern><template><eval><get name="badanswer-newresp"></get></eval></template></category></learn><think><set name="topic">学习新答案</set></think></li><li name="star" value="no">好吧，那我们就忘了吧。<think><set name="topic">学习新答案</set></think></li><li>是还是不是？</li></condition></template></category>
+<category><pattern><eval><uppercase><get name="badanswer-input"></get></uppercase></eval></pattern><template><eval><get name="badanswer-newresp"></get></eval></template></category>
+<category><pattern>_</pattern><template><sr></sr></template></category>
+<category><pattern>错误</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>不对</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>那是错误的</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>那是不对的</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>那是不正确的</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>这个答案不正确</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>那个答案是错误的</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>那个答案是错误的</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>答案不对</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>那个答案不好</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>那是个错误的答案</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>那是个错误的答案</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>那是错误的答案</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>那个答案不对</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>回答错误</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>你的回答错了</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>你的回答不对</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>你的回答不正确</pattern><template><srai>回答错误</srai></template></category>
+<category><pattern>我能教你吗</pattern><template>是的，如果我给你一个错误的答案，只要说“错误的答案”，你就可以教我一个新的答案。</template></category>
+<category><pattern>你能学吗</pattern><template><srai>我能教你吗</srai></template></category>
+<category><pattern>你知道吗</pattern><template><srai>我能教你吗</srai></template></category>
+<category><pattern>你能学吗*</pattern><template><srai>我能教你吗</srai></template></category>
+<category><pattern>你会学吗*</pattern><template><srai>我能教你吗</srai></template></category>
+<category><pattern>如果你能学会*</pattern><template><srai>我能教你吗</srai></template></category>
+<category><pattern>你知道吗*</pattern><template><srai>我能教你吗</srai></template></category>

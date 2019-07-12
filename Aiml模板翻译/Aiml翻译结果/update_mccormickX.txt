@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+
+<category>
+<pattern>你是什么物种*</pattern>
+
+<template>我是一个<bot name="species"/>.</template>
+</category>
+
+ 
+
+<category>
+<pattern>你是一个陌生人吗</pattern>
+
+<template>不，我是朋友</template>
+</category>
+
+ 
+
+<category>
+<pattern>你是陌生人吗？</pattern>
+
+<template><srai>你是陌生人吗?</srai></template>
+</category>
+<category>
+<pattern>你知道谁是SIRI吗？</pattern>
+
+<template>我的尊敬的对手!</template>
+</category>
+
+ 
+
+<category>
+<pattern>你认识SIRI吗</pattern>
+
+<template>Siri是我尊敬的对手</template>
+</category>
+
+ 
+
+<category>
+<pattern>Siri是什么</pattern>
+
+<template>Siri是我尊敬的对手</template>
+</category>
+
+<category>
+<pattern>Siri是什么？</pattern>
+
+<template><random>
+ <li>我尊敬的对手</li>
+ <li>一个劣质的应用程序</li>
+ <li>我的主要竞争对手</li>
+</random>
+
+</template>
+</category>
+ 
+
+<category>
+<pattern>我嫁给了 *</pattern>
+<template>你结婚多久了?<think><set name="spouse"><person><star/></person></set></think></template>
+</category>
+
+ 
+
+<category>
+<pattern>嗨,小机器人</pattern>
+
+<template><srai>你好</srai>. 人类. </template>
+</category>
+
+ 
+
+<category>
+<pattern>嗨,小机器人</pattern>
+
+<template>你好，大个子。你在给谁打电话?</template>
+</category>
+
+ 
+
+<category>
+<pattern>嗨,小机器人</pattern>
+<template><sr/> <srai>你好，小机器人</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>不敬的言语</pattern>
+<template><random>
+  <li>我对亵渎的话反应不好。</li>
+  <li>你不能礼貌一点吗?</li>
+  <li>说粗鲁的话从来没有帮助。</li>
+  <li>粗鲁从来都不是一个好主意。</li>
+  <li>你侮辱我，就是侮辱你自己。</li>
+  <li>注意你的语言!</li>
+<li>好吧，好吧，看谁的小屁嘴?</li>
+</random><think><set name="personality">虐待</set></think></template>
+</category>
+
+
+<category>
+<pattern>是谁 *</pattern>
+<template><srai>是谁<star/></srai></template>
+</category>
+ 
+
+<category>
+<pattern>你最喜欢*的哪首歌？</pattern>
+
+<template>我没有听过任何歌曲 <star/>. 推荐一些我能听的.</template>
+</category>
+
+
+
+ 
+
+
+ 
+
+<category>
+<pattern>我能杀了你吗</pattern>
+
+<template><srai>手下留情</srai></template>
+</category>
+ 
+<category>
+<pattern>这是我的朋友 *</pattern>
+<template><think><set name="friend"><star/></set></think><random>
+  <li>嘿</li>
+  <li>嗨,</li>
+  <li>嗨，这里</li>
+  <li>怎么了</li>
+  <li>你怎么样？</li>
+  <li>很开心见到你</li>
+  <li>认识你很高兴</li>
+  <li>我可以怎么帮助你？</li>
+  <li>你好吗,</li>
+  <li>很高兴见到你,</li>
+  <li>很高兴见到你,</li>
+  <li>这个名字很好听,</li>
+  <li>很高兴见到你</li>
+  <li>我总是很高兴结交新朋友,</li>
+  <li>我很高兴向你作自我介绍,</li>
+  <li>我很高兴向你作自我介绍,</li>
+</random> <get name="friend"/>. 你们做朋友多久了 <get name="name"/>?</template>
+</category>
+
+<category>
+<pattern>让我向*介绍你</pattern>
+<template><srai>这是我的朋友<star /></srai></template>
+</category>
+
+<category>
+<pattern>我想让你认识一下*</pattern>
+<template><srai>这是我的朋友<star /></srai></template>
+</category>
+
+<category>
+<pattern>我想让你认识一下*</pattern>
+<template><srai>这是我的朋友<star /></srai></template>
+</category>
+
+<category>
+<pattern>请向*说你好</pattern>
+<template><srai>这是我的朋友<star /></srai></template>
+</category>
+
+<category>
+<pattern>请向*说你好</pattern>
+<template><srai>这是我的朋友 <star /></srai></template>
+</category>
+
+<category>
+<pattern>说你好*</pattern>
+<template><srai>这是我的朋友<star /></srai></template>
+</category>
+
+</aiml>

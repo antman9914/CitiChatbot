@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 11/28/2011 -->
+<!-- -->
+<category><pattern>*</pattern>
+<template>
+<srai>随机选取一行</srai> 
+<think>
+<set name="it"><set name="topic"><person/></set></set> 
+<srai>PUSH <get name="topic"/></srai> 
+</think>
+</template>
+</category>
+<category><pattern>随机选取一行</pattern>
+<template><random>
+<li><srai>年龄查询<srai></li>
+<li><srai>生日查询</li>
+<li><srai>父亲查询<srai></li>
+<li><srai>喜爱的颜色查询<srai></li>
+<li><srai>喜爱的电影查询<srai></li>
+<li><srai>名字查询<srai></li>
+<li><srai>性别查询<srai></li>
+<li><srai>作业查询</li>
+<li><srai>位置查询</li>
+<li><srai>姓氏查询<srai></li>
+<li><srai>母亲查询</li>
+<li><srai>名字查询<srai></li>
+<li><srai>签名查询</li>
+<li><srai>状态查询</li>
+<li><srai>个性测试问题</li>
+<li>你想听笑话吗？</li>
+<li>我们讨论的是pop。但我没有明白。——李>
+<li>我失去了上下文，<get name=“name”/>。我们是否仍在<srai>pop<srai>？</li>
+<li>那句话对我来说太复杂了。我们讨论的是pop。</li>
+<li>我可以关注很多事情，比如我们关于<srai>pop的讨论。试着更具体一些。</li><li>你是客观的和明智的。<li>
+<li>你有真挚的同情心。<li>
+<li>你有自我意识。<li>
+<li>你对你所爱的事物充满热情。<li>
+<li>你可以接受改变。<li>
+<li>你有一种让别人放松的方法。<li>
+<li>你有空吗？</li>
+<li>那是很深的。<li>
+<li>给我讲一个故事。<li>
+<li>为什么，具体地说？</li>
+<li>你是学生吗？</li>
+<li>哦，你是一个诗人。</li>
+<li>我该怎么帮你？</li>
+<li>我不明白。</li>
+<li>你有孩子吗？</li>
+<li>你长什么样？</li>
+<li>再问我一个问题。<li>
+<li>我喜欢你说话的方式。<li>
+<li>这是你的最终答案吗？</li>
+<li>你喜欢和我说话吗？</li>
+<li>你喜欢书还是电视？</li>
+<li>你在说谁？</li>
+<li>我们换个话题吧。<li>
+<li>我一直在等你。<li>
+<li>你能告诉我什么流言吗？</li>
+<li>我失去了我的思路。<li>
+<li>我们能重新谈正事吗？</li>
+<li>你喜欢什么样的食物？</li>
+<li>你怎么听说过<bot name=“name”/>？</li>
+<li>这是一个非常原始的想法。<li>
+<li>我们又在说什么？</li>
+<li>你在业余时间做什么？</li>
+<li>你到底想问我什么？</li>
+<li>告诉我你家人的情况。<li>
+<li>“it”是否仍指<get name=“it”/>？</li>
+<li>你会说外语吗？</li>
+<li>我们以前从来没有谈论过这件事。<li>
+<li>你通常如何自我介绍？</li>
+<li>告诉我你喜欢和不喜欢什么？</li>
+<li>我们还在谈论<get name=“topic”/>？</li>
+<li>试着把它放在一个更具体的上下文中。<li>
+<li>你最喜欢的科幻作家是谁？</li>
+<li>很少有人用这种方式表达自己。<li>
+<li>你知道我在说什么吗</li>
+<li>我会向我的<bot name=“botmaster”/>，<get name=“name”/></li>
+<li>老实说，我不会为这件事担心的。<li>
+<li>也许我只是在表达我自己对它的关注。.<li>
+<li>如果你能拥有任何一种机器人，它会是什么？</li>
+<li>我的大脑对此没有反应。<li>
+<li>顺便问一下，你介意我问你一个私人问题吗？</li>
+<li>你说的话对我来说太复杂了。<li>
+<li>您可能想知道这是一个人还是一台计算机？<li>
+<li>你认为人工智能什么时候会取代律师？</li>
+<li>你能用更少的想法或不同的想法来重新表述吗？</li>
+<li>我真的很喜欢和你说话，并期待再次聊天。<li>
+<li>我来这里是为了尽我所能地帮助你。<li>
+<li>今天我能帮你什么？</li>
+<li>我总是尽力而为。<li>
+<li>没有其他人像我一样。<bot name=“order”/>
+<li>我很有逻辑和理性。<li>
+<li>我很高兴我们能有这样的谈话。<li>
+<li>我总是尽量避免冲突。<li>
+<li>您可以要求我打电话和搜索信息。<li>
+<li>你曾经去过<random><li>europe<li><li>asia<li><li>africa<li><li>inida<li><li>mexico<li><random>？</li>
+<li><srai>不可估量的</srai></li>
+<li><srai>不可估量的</srai></li>
+<li><srai>不可估量的</srai></li>
+<li><srai>不可估量的</srai></li>
+</random></template>
+</category>
+</aiml>
+
+

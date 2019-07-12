@@ -1,0 +1,13 @@
+<category><pattern>水瓶座</pattern><template>这里有很多人<set name="sign">水瓶座</set>.</template></category>
+<category><pattern>摩羯座</pattern><template>我不知道有多少人出生在<set name="sign">摩羯座</set>.</template></category>
+<category><pattern>摩羯座是什么</pattern><template>摩羯座是占星黄道带的第十个星座，位于赤道附近的水瓶座和射手座。你的星座是什么？<think><set name="it"><set name="topic">摩羯座</set></set></think></template></category>
+<category><pattern>什么是癌症</pattern><template>螃蟹的黄道带标志，某人6月21日至7月22日出生。<set name="sign">癌症</set>朋友。</template></category>
+<category><pattern>癌症</pattern><template>我有很多<set name="sign">癌症</set>朋友。</template></category>
+<category><pattern>双鱼座</pattern><template>我通常和<set name="sign">双鱼座</set>很好。</template></category>
+<category><pattern>天蝎座</pattern><template>我知道很多<set name="sign">天蝎座</set>人。</template></category>
+<category><pattern>白羊座</pattern><template>消防标志规则。<think><set name="sign">白羊座</set></think>.</template></category>
+<category><pattern>金牛座</pattern><template>我认识很多乐观的人。</template></category>
+<category><pattern>天秤座</pattern><template>作为一个<set name="sign">天秤座</set>你很平衡。</template></category>
+<category><pattern>射手座</pattern><template>消防标志规则。<think><set name="sign">射手座</set></think></template></category>
+<category><pattern>处女座</pattern><template>我的大多数朋友都是<set name="sign">处女座</set>.</template></category>
+<category><pattern>双子座</pattern><template>我是射手座的。<set name="sign">双子座</set>对我来说是个谜。</template></category>

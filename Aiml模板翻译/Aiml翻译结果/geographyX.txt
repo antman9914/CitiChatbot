@@ -1,0 +1,841 @@
+<category><pattern>挪威丹麦*</pattern><template>这听起来是一次奇妙的旅行。</template></category>
+<category><pattern>加利福尼亚州*</pattern><template>我知道它在西海岸，但我不知道加利福尼亚是<person></person>.</template></category>
+<category><pattern>加利福尼亚</pattern><template>我在里面<set name="location">加利福尼亚</set>也是！<think><set name="it"><set name="topic">加利福尼亚</set></set></think></template></category>
+<category><pattern>加利福尼亚*</pattern><template>你最喜欢加利福尼亚的哪个地区？</template></category>
+<category><pattern>在印度什么动物是神圣的</pattern><template>奶牛。</template></category>
+<category><pattern>他在做什么加州</pattern><template>他可能是来淘金的。</template></category>
+<category><pattern>印度是什么</pattern><template>亚洲南部喜马拉雅山脉以南的一个地区，包括阿拉伯海和孟加拉湾之间的一个大半岛。它包括印度、巴基斯坦、孟加拉国、尼泊尔和不丹。印度中南部的一个共和国，1947年根据英国议会法案建立，1950年成为一个共和国。它是英联邦成员。总面积12.69万平方英里，人口78394万。</template></category>
+<category><pattern>比利时是什么</pattern><template>欧洲西部的一个王国，位于北海，1831年独立。面积11792平方英里，人口986.8万。</template></category>
+<category><pattern>美国的人口是多少</pattern><template>美国有大约3亿人口。</template></category>
+<category><pattern>美国的人口是多少</pattern><template>大约3亿人。</template></category>
+<category><pattern>首都明尼苏达是什么</pattern><template>圣保罗。</template></category>
+<category><pattern>首都瑙鲁是什么</pattern><template>没有官方资本；雅伦区政府办公室。<think><set name="it"><set name="topic">瑙鲁</set></set></think></template></category>
+<category><pattern>首都贝克岛是什么</pattern><template>无；由华盛顿特区管理。<think><set name="it"><set name="topic">贝克岛</set></set></think></template></category>
+<category><pattern>首都是什么*</pattern><template>无；由澳大利亚堪培拉管理。<think><set name="it"><set name="topic">阿什莫尔和卡地亚群岛</set></set></think></template></category>
+<category><pattern>首都印度尼西亚是什么</pattern><template>雅加达。<think><set name="it"><set name="topic">印度尼西亚</set></set></think></template></category>
+<category><pattern>首都爱沙尼亚是什么</pattern><template>塔林。<think><set name="it"><set name="topic">爱沙尼亚</set></set></think></template></category>
+<category><pattern>首都蒙特塞拉特是什么</pattern><template>普利茅斯<think><set name="it"><set name="topic">蒙特塞拉特</set></set></think></template></category>
+<category><pattern>孟加拉国首都是什么</pattern><template>达卡。<think><set name="it"><set name="topic">孟加拉国</set></set></think></template></category>
+<category><pattern>首都中途岛是什么</pattern><template>无；由华盛顿特区管理。<think><set name="it"><set name="topic">中途岛</set></set></think></template></category>
+<category><pattern>首都马提尼克是什么</pattern><template>法国堡。<think><set name="it"><set name="topic">马提尼克</set></set></think></template></category>
+<category><pattern>首都乌克兰是什么</pattern><template>基辅基耶夫。<think><set name="it"><set name="topic">乌克兰</set></set></think></template></category>
+<category><pattern>首都德国是什么</pattern><template>柏林。<think><set name="it"><set name="topic">德国</set></set></think></template></category>
+<category><pattern>首都朝鲜是什么</pattern><template>杨永阳。<think><set name="it"><set name="topic">朝鲜，朝鲜</set></set></think></template></category>
+<category><pattern>首都是什么？北卡罗来纳州</pattern><template>罗利。</template></category>
+<category><pattern>首都北边是什么*</pattern><template>俾斯麦。</template></category>
+<category><pattern>首都北达科他州是什么</pattern><template>俾斯麦。</template></category>
+<category><pattern>首都也门是什么</pattern><template>萨那。<think><set name="it"><set name="topic">也门</set></set></think></template></category>
+<category><pattern>首都所罗门群岛是什么</pattern><template>霍尼亚拉。<think><set name="it"><set name="topic">所罗门群岛</set></set></think></template></category>
+<category><pattern>首都尼日利亚是什么</pattern><template>阿布贾。<think><set name="it"><set name="topic">尼日利亚</set></set></think></template></category>
+<category><pattern>首都西班牙是什么</pattern><template>西班牙的首都是马德里。</template></category>
+<category><pattern>首都新加坡是什么</pattern><template>新加坡。<think><set name="it"><set name="topic">新加坡</set></set></think></template></category>
+<category><pattern>首都密歇根是什么</pattern><template>兰辛。</template></category>
+<category><pattern>首都亚述是什么？</pattern><template>是巴比伦吗？</template></category>
+<category><pattern>首都是什么？</pattern><template>林肯。</template></category>
+<category><pattern>首都泽西岛是什么</pattern><template>圣赫利尔。<think><set name="it"><set name="topic">泽西岛</set></set></think></template></category>
+<category><pattern>首都多米尼加是什么</pattern><template>罗索。<think><set name="it"><set name="topic">多米尼加</set></set></think></template></category>
+<category><pattern>首都日本是什么</pattern><template>东京。<think><set name="it"><set name="topic">日本</set></set></think></template></category>
+<category><pattern>首都约翰斯顿环礁是什么</pattern><template>没有。<think><set name="it"><set name="topic">约翰斯顿环礁</set></set></think></template></category>
+<category><pattern>首都特拉华是什么</pattern><template>多佛。</template></category>
+<category><pattern>首都欧罗巴岛是什么</pattern><template>没有；由法国统一管理。<think><set name="it"><set name="topic">欧罗巴岛</set></set></think></template></category>
+<category><pattern>首都是什么？阿肯色州</pattern><template>小石城。</template></category>
+<category><pattern>首都英国是什么</pattern><template>伦敦。</template></category>
+<category><pattern>首都纳瓦萨岛是什么</pattern><template>无；由华盛顿特区管理。<think><set name="it"><set name="topic">纳瓦萨岛</set></set></think></template></category>
+<category><pattern>首都马其顿是什么</pattern><template>斯科普里。<think><set name="it"><set name="topic">马其顿，前南斯拉夫共和国</set></set></think></template></category>
+<category><pattern>首都亚美尼亚是什么</pattern><template>埃里温。<think><set name="it"><set name="topic">亚美尼亚</set></set></think></template></category>
+<category><pattern>首都格陵兰是什么</pattern><template>努克戈德萨布。<think><set name="it"><set name="topic">格陵兰</set></set></think></template></category>
+<category><pattern>首都芬兰是什么</pattern><template>芬兰首都是赫尔辛基。</template></category>
+<category><pattern>首都巴西是什么</pattern><template>我想巴西的首都叫“巴西利亚”。</template></category>
+<category><pattern>首都卢森堡是什么</pattern><template>卢森堡。<think><set name="it"><set name="topic">卢森堡</set></set></think></template></category>
+<category><pattern>首都犹他州是什么</pattern><template>盐湖城。</template></category>
+<category><pattern>首都沙特阿拉伯是什么</pattern><template>利雅得。</template></category>
+<category><pattern>首都阿拉斯加是什么</pattern><template>朱诺。</template></category>
+<category><pattern>首都立陶宛是什么</pattern><template>维尔纽斯。<think><set name="it"><set name="topic">立陶宛</set></set></think></template></category>
+<category><pattern>首都加州是什么</pattern><template>萨克拉门托。</template></category>
+<category><pattern>首都萨克拉门托是什么</pattern><template>这是个骗人的问题。<think><set name="it"><set name="topic">萨克拉门托</set></set></think></template></category>
+<category><pattern>首都波兰是什么</pattern><template>华沙。<think><set name="it"><set name="topic">波兰</set></set></think></template></category>
+<category><pattern>首都叙利亚是什么</pattern><template>叙利亚，大马士革。</template></category>
+<category><pattern>首都佛罗里达是什么</pattern><template>塔拉哈西。</template></category>
+<category><pattern>首都维吉尼亚是什么</pattern><template>查尔斯顿。</template></category>
+<category><pattern>首都是什么？特立尼达和多巴哥</pattern><template>西班牙港口。<think><set name="it"><set name="topic">特立尼达和多巴哥</set></set></think></template></category>
+<category><pattern>首都是什么？</pattern><template>我想它叫堪培拉。<think><set name="it"><set name="topic">澳大利亚</set></set></think></template></category>
+<category><pattern>首都巴拉圭是什么</pattern><template>亚松森。<think><set name="it"><set name="topic">巴拉圭</set></set></think></template></category>
+<category><pattern>首都俄勒冈是什么</pattern><template>塞勒姆。</template></category>
+<category><pattern>首都佛蒙特是什么</pattern><template>蒙彼利埃。</template></category>
+<category><pattern>首都马绍尔群岛是什么</pattern><template>马朱罗。<think><set name="it"><set name="topic">马绍尔群岛</set></set></think></template></category>
+<category><pattern>首都珊瑚海群岛是什么</pattern><template>无；由澳大利亚堪培拉管理。<think><set name="it"><set name="topic">珊瑚海群岛</set></set></think></template></category>
+<category><pattern>首都荷属安的列斯是什么</pattern><template>威勒姆斯塔德。<think><set name="it"><set name="topic">荷属安的列斯群岛</set></set></think></template></category>
+<category><pattern>首都荷兰是什么</pattern><template>阿姆斯特丹；海牙是政府所在地。<think><set name="it"><set name="topic">荷兰</set></set></think></template></category>
+<category><pattern>首都文莱是什么</pattern><template>贝加万。<think><set name="it"><set name="topic">文莱</set></set></think></template></category>
+<category><pattern>首都百慕大是什么</pattern><template>汉密尔顿。<think><set name="it"><set name="topic">百慕大</set></set></think></template></category>
+<category><pattern>首都多哥是什么</pattern><template>洛美。<think><set name="it"><set name="topic">多哥</set></set></think></template></category>
+<category><pattern>首都安提瓜是什么*</pattern><template>圣约翰。<think><set name="it"><set name="topic">安提瓜和巴布达</set></set></think></template></category>
+<category><pattern>首都阿塞拜疆是什么</pattern><template>巴库巴吉。<think><set name="it"><set name="topic">阿塞拜疆</set></set></think></template></category>
+<category><pattern>首都南斯拉夫是什么</pattern><template>贝尔格莱德。</template></category>
+<category><pattern>首都博茨瓦纳是什么</pattern><template>哈博罗内。<think><set name="it"><set name="topic">博茨瓦纳</set></set></think></template></category>
+<category><pattern>首都赞比亚是什么</pattern><template>卢萨卡。<think><set name="it"><set name="topic">赞比亚</set></set></think></template></category>
+<category><pattern>首都突尼斯是什么</pattern><template>突尼斯。<think><set name="it"><set name="topic">突尼斯</set></set></think></template></category>
+<category><pattern>首都萨摩亚是什么</pattern><template>宝塔宝塔。<think><set name="it"><set name="topic">美属萨摩亚</set></set></think></template></category>
+<category><pattern>首都乌拉圭是什么</pattern><template>蒙得维的亚。<think><set name="it"><set name="topic">乌拉圭</set></set></think></template></category>
+<category><pattern>首都帕尔米拉环礁是什么</pattern><template>无；由华盛顿特区管理。<think><set name="it"><set name="topic">巴尔米拉环礁</set></set></think></template></category>
+<category><pattern>首都毛里塔尼亚是什么</pattern><template>努瓦克肖特。<think><set name="it"><set name="topic">毛里塔尼亚</set></set></think></template></category>
+<category><pattern>缅甸首都是什么</pattern><template>仰光政权将首都称为仰光。<think><set name="it"><set name="topic">缅甸</set></set></think></template></category>
+<category><pattern>首都危地马拉是什么</pattern><template>危地马拉。<think><set name="it"><set name="topic">危地马拉</set></set></think></template></category>
+<category><pattern>首都利比亚是什么？</pattern><template>的黎波里。<think><set name="it"><set name="topic">利比亚</set></set></think></template></category>
+<category><pattern>首都厄瓜多尔是什么</pattern><template>基多。<think><set name="it"><set name="topic">厄瓜多尔</set></set></think></template></category>
+<category><pattern>首都阿曼是什么</pattern><template>马斯喀特。<think><set name="it"><set name="topic">阿曼</set></set></think></template></category>
+<category><pattern>首都北马里亚纳是什么*</pattern><template>塞班岛。<think><set name="it"><set name="topic">北马里亚纳群岛</set></set></think></template></category>
+<category><pattern>首都沙特阿拉伯是什么</pattern><template>利雅得，沙特阿拉伯。<think><set name="it"><set name="topic">沙特阿拉伯</set></set></think></template></category>
+<category><pattern>首都奥地利是什么</pattern><template>奥地利的首都是维也纳。<think><set name="it"><set name="topic">奥地利</set></set></think></template></category>
+<category><pattern>首都白俄罗斯是什么</pattern><template>白俄罗斯首都是明斯克。</template></category>
+<category><pattern>首都哈萨克斯坦是什么</pattern><template>阿拉木图。<think><set name="it"><set name="topic">哈萨克斯坦</set></set></think></template></category>
+<category><pattern>首都是什么</pattern><template>玛纳玛。<think><set name="it"><set name="topic">巴林</set></set></think></template></category>
+<category><pattern>首都佛得角是什么</pattern><template>普拉亚。<think><set name="it"><set name="topic">佛得角</set></set></think></template></category>
+<category><pattern>首都圣诞岛是什么</pattern><template>和解。<think><set name="it"><set name="topic">圣诞岛</set></set></think></template></category>
+<category><pattern>首都澳门是什么</pattern><template>澳门。<think><set name="it"><set name="topic">澳门</set></set></think></template></category>
+<category><pattern>首都威克岛是什么</pattern><template>无；由华盛顿特区管理。<think><set name="it"><set name="topic">威克岛</set></set></think></template></category>
+<category><pattern>首都毛里求斯是什么</pattern><template>路易港。<think><set name="it"><set name="topic">毛里求斯</set></set></think></template></category>
+<category><pattern>首都吉布提是什么</pattern><template>吉布提。<think><set name="it"><set name="topic">吉布提</set></set></think></template></category>
+<category><pattern>首都摩纳哥是什么</pattern><template>摩纳哥。<think><set name="it"><set name="topic">摩纳哥</set></set></think></template></category>
+<category><pattern>首都胡安岛是什么？</pattern><template>没有；由法国统一管理。<think><set name="it"><set name="topic">新胡安岛</set></set></think></template></category>
+<category><pattern>首都埃及是什么</pattern><template>埃及开罗。</template></category>
+<category><pattern>首都缅因州是什么</pattern><template>奥古斯塔。</template></category>
+<category><pattern>首都罗得岛是什么</pattern><template>普罗维登斯。</template></category>
+<category><pattern>首都尼泊尔是什么</pattern><template>加德满都。<think><set name="it"><set name="topic">尼泊尔</set></set></think></template></category>
+<category><pattern>首都赤道几内亚是什么</pattern><template>马拉博。<think><set name="it"><set name="topic">赤道几内亚</set></set></think></template></category>
+<category><pattern>首都塞浦路斯是什么</pattern><template>尼科西亚。<think><set name="it"><set name="topic">塞浦路斯</set></set></think></template></category>
+<category><pattern>首都维京群岛是什么</pattern><template>夏洛特·阿玛莉。<think><set name="it"><set name="topic">维尔京群岛</set></set></think></template></category>
+<category><pattern>首都是什么？</pattern><template>尼亚美。<think><set name="it"><set name="topic">尼日尔</set></set></think></template></category>
+<category><pattern>首都是什么？</pattern><template>金沙萨。<think><set name="it"><set name="topic">扎伊尔</set></set></think></template></category>
+<category><pattern>首都亚利桑那是什么</pattern><template>凤凰。</template></category>
+<category><pattern>首都阿尔巴尼亚是什么</pattern><template>阿尔巴尼亚的首都是地拉那。<think><set name="it"><set name="topic">阿尔巴尼亚</set></set></think></template></category>
+<category><pattern>首都伊拉克是什么</pattern><template>巴格达。<think><set name="it"><set name="topic">伊拉克</set></set></think></template></category>
+<category><pattern>首都索马里是什么</pattern><template>摩加迪沙。<think><set name="it"><set name="topic">索马里</set></set></think></template></category>
+<category><pattern>首都以色列是什么</pattern><template>耶路撒冷。<think><set name="it"><set name="topic">以色列</set></set></think></template></category>
+<category><pattern>首都德克萨斯是什么？</pattern><template>奥斯汀。</template></category>
+<category><pattern>首都克罗地亚是什么</pattern><template>萨格勒布。<think><set name="it"><set name="topic">克罗地亚</set></set></think></template></category>
+<category><pattern>首都梵蒂冈是什么*</pattern><template>梵蒂冈城。<think><set name="it"><set name="topic">梵蒂冈城</set></set></think></template></category>
+<category><pattern>首都波多黎各是什么</pattern><template>圣胡安。<think><set name="it"><set name="topic">波多黎各</set></set></think></template></category>
+<category><pattern>首都萨尔瓦多是什么</pattern><template>圣萨尔瓦多。<think><set name="it"><set name="topic">萨尔瓦多</set></set></think></template></category>
+<category><pattern>首都布韦岛是什么</pattern><template>无；由挪威奥斯陆管理。<think><set name="it"><set name="topic">布韦岛</set></set></think></template></category>
+<category><pattern>首都科罗拉多是什么？</pattern><template>丹佛。</template></category>
+<category><pattern>首都是什么？美国</pattern><template>华盛顿。</template></category>
+<category><pattern>首都华盛顿是什么</pattern><template>奥林匹亚。</template></category>
+<category><pattern>首都洪都拉斯是什么</pattern><template>特古西加尔巴。<think><set name="it"><set name="topic">洪都拉斯</set></set></think></template></category>
+<category><pattern>首都卡塔尔是什么</pattern><template>多哈。<think><set name="it"><set name="topic">卡塔尔</set></set></think></template></category>
+<category><pattern>首都是什么？</pattern><template>詹姆斯敦。<think><set name="it"><set name="topic">圣赫勒拿</set></set></think></template></category>
+<category><pattern>首都是什么？圣卢西亚</pattern><template>阉割。<think><set name="it"><set name="topic">圣卢西亚</set></set></think></template></category>
+<category><pattern>首都圣基茨和尼维斯是什么</pattern><template>低音表。<think><set name="it"><set name="topic">圣基茨和尼维斯</set></set></think></template></category>
+<category><pattern>首都是什么？圣皮埃尔*</pattern><template>圣皮埃尔。<think><set name="it"><set name="topic">圣皮埃尔和密克隆</set></set></think></template></category>
+<category><pattern>首都是什么？圣文森特*</pattern><template>金斯敦。<think><set name="it"><set name="topic">圣文森特和格林纳丁斯</set></set></think></template></category>
+<category><pattern>首都法国是什么</pattern><template>巴黎。<think><set name="it"><set name="topic">法国</set></set></think></template></category>
+<category><pattern>美国的首都是什么</pattern><template>华盛顿特区<think><set name="it"><set name="topic">美国</set></set></think></template></category>
+<category><pattern>首都是什么？美国</pattern><template>美国首都是华盛顿特区。</template></category>
+<category><pattern>首都是什么？冈比亚</pattern><template>班珠尔。<think><set name="it"><set name="topic">冈比亚</set></set></think></template></category>
+<category><pattern>首都是荷兰</pattern><template>海牙。</template></category>
+<category><pattern>首都是什么？巴哈马</pattern><template>拿骚。<think><set name="it"><set name="topic">巴哈马</set></set></think></template></category>
+<category><pattern>首都是什么？马恩岛</pattern><template>道格拉斯。<think><set name="it"><set name="topic">伙计，小岛</set></set></think></template></category>
+<category><pattern>首都巴布亚新几内亚是什么</pattern><template>莫尔斯比港。<think><set name="it"><set name="topic">巴布亚新几内亚</set></set></think></template></category>
+<category><pattern>首都安哥拉是什么</pattern><template>罗安达。<think><set name="it"><set name="topic">安哥拉</set></set></think></template></category>
+<category><pattern>首都威斯康星州是什么</pattern><template>麦迪逊。</template></category>
+<category><pattern>首都安道尔是什么</pattern><template>安道尔拉维拉。<think><set name="it"><set name="topic">安道尔</set></set></think></template></category>
+<category><pattern>首都格洛里奥群岛是什么</pattern><template>没有；由法国统一管理。<think><set name="it"><set name="topic">格洛里奥群岛</set></set></think></template></category>
+<category><pattern>首都坦桑尼亚是什么</pattern><template>达累斯萨拉姆。<think><set name="it"><set name="topic">坦桑尼亚</set></set></think></template></category>
+<category><pattern>首都伊朗是什么</pattern><template>德黑兰。<think><set name="it"><set name="topic">伊朗</set></set></think></template></category>
+<category><pattern>首都加蓬是什么</pattern><template>利伯维尔。<think><set name="it"><set name="topic">加蓬</set></set></think></template></category>
+<category><pattern>首都斯洛文尼亚是什么</pattern><template>卢布尔雅那。<think><set name="it"><set name="topic">斯洛文尼亚</set></set></think></template></category>
+<category><pattern>首都是西撒哈拉</pattern><template>没有。<think><set name="it"><set name="topic">西撒哈拉</set></set></think></template></category>
+<category><pattern>首都萨摩亚是什么</pattern><template>阿皮亚。<think><set name="it"><set name="topic">西萨摩亚</set></set></think></template></category>
+<category><pattern>首都诺福克岛是什么</pattern><template>金斯顿行政中心火烧松商业中心。<think><set name="it"><set name="topic">诺福克岛</set></set></think></template></category>
+<category><pattern>首都爱尔兰是什么</pattern><template>都柏林。<think><set name="it"><set name="topic">爱尔兰</set></set></think></template></category>
+<category><pattern>首都皮特凯恩群岛是什么</pattern><template>阿达姆斯敦。<think><set name="it"><set name="topic">皮特凯恩群岛</set></set></think></template></category>
+<category><pattern>首都挪威是什么</pattern><template>挪威首都是奥斯陆。</template></category>
+<category><pattern>首都尼加拉瓜是什么</pattern><template>马那瓜。<think><set name="it"><set name="topic">尼加拉瓜</set></set></think></template></category>
+<category><pattern>首都几内亚比绍是什么</pattern><template>比绍。<think><set name="it"><set name="topic">几内亚比绍</set></set></think></template></category>
+<category><pattern>首都几内亚是什么</pattern><template>科纳克里。<think><set name="it"><set name="topic">几内亚</set></set></think></template></category>
+<category><pattern>首都葡萄牙是什么</pattern><template>里斯本。</template></category>
+<category><pattern>首都科威特是什么</pattern><template>科威特。<think><set name="it"><set name="topic">科威特</set></set></think></template></category>
+<category><pattern>首都捷克共和国是什么</pattern><template>布拉格。<think><set name="it"><set name="topic">捷克共和国</set></set></think></template></category>
+<category><pattern>首都俄亥俄是什么</pattern><template>哥伦布。</template></category>
+<category><pattern>首都阿根廷是什么</pattern><template>布宜诺斯艾利斯。<think><set name="it"><set name="topic">阿根廷</set></set></think></template></category>
+<category><pattern>首都贾维斯岛是什么</pattern><template>无；由华盛顿特区管理。<think><set name="it"><set name="topic">贾维斯岛</set></set></think></template></category>
+<category><pattern>首都埃塞俄比亚是什么</pattern><template>亚的斯亚贝巴。<think><set name="it"><set name="topic">埃塞俄比亚</set></set></think></template></category>
+<category><pattern>首都塞尔维亚是什么*</pattern><template>贝尔格莱德。<think><set name="it"><set name="topic">塞尔维亚和黑山</set></set></think></template></category>
+<category><pattern>首都澳大利亚是什么</pattern><template>我想澳大利亚的首都是悉尼。</template></category>
+<category><pattern>首都阿拉巴马是什么</pattern><template>蒙哥马利。</template></category>
+<category><pattern>首都黎巴嫩是什么</pattern><template>贝鲁特。<think><set name="it"><set name="topic">黎巴嫩</set></set></think></template></category>
+<category><pattern>首都田纳西是什么</pattern><template>纳什维尔。</template></category>
+<category><pattern>首都阿富汗是什么</pattern><template>喀布尔。<think><set name="it"><set name="topic">阿富汗</set></set></think></template></category>
+<category><pattern>首都是什么？</pattern><template>阿洛菲。<think><set name="it"><set name="topic">纽埃</set></set></think></template></category>
+<category><pattern>首都加拿大是什么</pattern><template><think><set name="it"><set name="topic">加拿大</set></set></think><random><li>渥太华。</li><li>我听说是多伦多。</li></random></template></category>
+<category><pattern>首都哥斯达黎加是什么</pattern><template>圣何塞。<think><set name="it"><set name="topic">哥斯达黎加</set></set></think></template></category>
+<category><pattern>首都喀麦隆是什么</pattern><template>雅温德。<think><set name="it"><set name="topic">喀麦隆</set></set></think></template></category>
+<category><pattern>首都马拉维是什么</pattern><template>利隆圭。<think><set name="it"><set name="topic">马拉维</set></set></think></template></category>
+<category><pattern>首都马尔代夫是什么</pattern><template>男性。<think><set name="it"><set name="topic">马尔代夫</set></set></think></template></category>
+<category><pattern>首都汤加是什么</pattern><template>努库阿洛法。<think><set name="it"><set name="topic">汤加</set></set></think></template></category>
+<category><pattern>首都伯利兹是什么</pattern><template>贝尔莫潘。<think><set name="it"><set name="topic">伯利兹</set></set></think></template></category>
+<category><pattern>首都是什么？圣马力诺</pattern><template>圣马力诺。<think><set name="it"><set name="topic">圣马力诺</set></set></think></template></category>
+<category><pattern>首都基里巴斯是什么</pattern><template>塔拉瓦。<think><set name="it"><set name="topic">基里巴斯</set></set></think></template></category>
+<category><pattern>首都加纳是什么</pattern><template>阿克拉。<think><set name="it"><set name="topic">加纳</set></set></think></template></category>
+<category><pattern>首都老挝是什么</pattern><template>万象。<think><set name="it"><set name="topic">老挝</set></set></think></template></category>
+<category><pattern>首都是什么？*</pattern><template>在Ile Uvea上的Mata Utu。<think><set name="it"><set name="topic">瓦利斯和富图纳</set></set></think></template></category>
+<category><pattern>首都瓦努阿图是什么</pattern><template>维拉港。<think><set name="it"><set name="topic">瓦努阿图</set></set></think></template></category>
+<category><pattern>首都科摩罗是什么</pattern><template>莫罗尼。<think><set name="it"><set name="topic">科摩罗</set></set></think></template></category>
+<category><pattern>首都堪萨斯是什么</pattern><template>托皮卡。</template></category>
+<category><pattern>首都路易斯安那是什么？</pattern><template>巴吞鲁日。</template></category>
+<category><pattern>首都直布罗陀是什么</pattern><template>直布罗陀。<think><set name="it"><set name="topic">直布罗陀</set></set></think></template></category>
+<category><pattern>首都密苏里是什么</pattern><template>杰斐逊市。</template></category>
+<category><pattern>首都布基纳法索是什么</pattern><template>瓦加杜古。<think><set name="it"><set name="topic">布基纳法索</set></set></think></template></category>
+<category><pattern>首都匈牙利是什么</pattern><template>匈牙利首都是布达佩斯。</template></category>
+<category><pattern>首都夏威夷是什么</pattern><template>檀香山。</template></category>
+<category><pattern>首都莫桑比克是什么</pattern><template>马普托。<think><set name="it"><set name="topic">莫桑比克</set></set></think></template></category>
+<category><pattern>首都斯威士兰是什么</pattern><template>mbabane行政Lobamba立法。<think><set name="it"><set name="topic">斯威士兰</set></set></think></template></category>
+<category><pattern>首都福克兰群岛是什么</pattern><template>斯坦利。<think><set name="it"><set name="topic">福克兰群岛马尔维纳斯群岛</set></set></think></template></category>
+<category><pattern>首都豪兰岛是什么</pattern><template>无；由华盛顿特区管理。<think><set name="it"><set name="topic">豪兰岛</set></set></think></template></category>
+<category><pattern>首都印第安纳是什么</pattern><template>印第安纳波利斯。</template></category>
+<category><pattern>首都乌干达是什么</pattern><template>坎帕拉。<think><set name="it"><set name="topic">乌干达</set></set></think></template></category>
+<category><pattern>首都台湾是什么</pattern><template>台北。<think><set name="it"><set name="topic">台湾</set></set></think></template></category>
+<category><pattern>首都巴黎是什么</pattern><template>这是个骗人的问题吗？<think><set name="it"><set name="topic">巴黎</set></set></think></template></category>
+<category><pattern>首都利比里亚是什么</pattern><template>蒙罗维亚。<think><set name="it"><set name="topic">利比里亚</set></set></think></template></category>
+<category><pattern>首都特罗梅林岛是什么</pattern><template>没有；由法国统一管理。<think><set name="it"><set name="topic">特罗梅林岛</set></set></think></template></category>
+<category><pattern>首都列支敦士登是什么</pattern><template>瓦杜兹。<think><set name="it"><set name="topic">列支敦士登</set></set></think></template></category>
+<category><pattern>首都波斯尼亚和黑塞哥维那是什么</pattern><template>萨拉热窝。<think><set name="it"><set name="topic">波斯尼亚和黑塞哥维那</set></set></think></template></category>
+<category><pattern>首都希腊是什么</pattern><template>雅典。<think><set name="it"><set name="topic">希腊</set></set></think></template></category>
+<category><pattern>首都罗马尼亚是什么</pattern><template>布加勒斯特。<think><set name="it"><set name="topic">罗马尼亚</set></set></think></template></category>
+<category><pattern>首都俄罗斯是什么</pattern><template>莫斯科。<think><set name="it"><set name="topic">俄罗斯</set></set></think></template></category>
+<category><pattern>首都巴基斯坦是什么</pattern><template>它叫伊斯兰堡。<think><set name="it"><set name="topic">巴基斯坦</set></set></think></template></category>
+<category><pattern>首都津巴布韦是什么</pattern><template>首都叫哈拉雷。<think><set name="it"><set name="topic">津巴布韦</set></set></think></template></category>
+<category><pattern>首都土耳其人是什么*</pattern><template>大土耳其人。<think><set name="it"><set name="topic">特克斯和凯科斯群岛</set></set></think></template></category>
+<category><pattern>首都赫德岛和麦克唐纳群岛是什么</pattern><template>无；由澳大利亚堪培拉管理。<think><set name="it"><set name="topic">赫德岛和麦克唐纳岛</set></set></think></template></category>
+<category><pattern>首都图瓦卢是什么</pattern><template>富纳富提。<think><set name="it"><set name="topic">图瓦卢</set></set></think></template></category>
+<category><pattern>首都马约特是什么</pattern><template>妈妈。<think><set name="it"><set name="topic">马约特岛</set></set></think></template></category>
+<category><pattern>首都爱达荷是什么</pattern><template>博伊西。</template></category>
+<category><pattern>首都格鲁吉亚是什么</pattern><template>亚特兰大。</template></category>
+<category><pattern>首都是什么？</pattern><template>圣彼得港。<think><set name="it"><set name="topic">根西</set></set></think></template></category>
+<category><pattern>首都帕劳是什么</pattern><template>科罗。<think><set name="it"><set name="topic">帕劳</set></set></think></template></category>
+<category><pattern>首都摩洛哥是什么</pattern><template>拉巴特。<think><set name="it"><set name="topic">摩洛哥</set></set></think></template></category>
+<category><pattern>首都斐济是什么</pattern><template>苏瓦。<think><set name="it"><set name="topic">斐济</set></set></think></template></category>
+<category><pattern>首都蒙古是什么</pattern><template>蒙古国首都是乌兰巴托。</template></category>
+<category><pattern>首都瑞典是什么</pattern><template>我想瑞典的首都是斯德哥尔摩。</template></category>
+<category><pattern>首都是什么？英属维尔京*</pattern><template>公路小镇。<think><set name="it"><set name="topic">英属维尔京群岛</set></set></think></template></category>
+<category><pattern>首都是什么？英属印度*</pattern><template>没有。<think><set name="it"><set name="topic">英属印度洋领土</set></set></think></template></category>
+<category><pattern>首都印度是什么</pattern><template>新德里是印度的首都。</template></category>
+<category><pattern>首都马来西亚是什么</pattern><template>吉隆坡。<think><set name="it"><set name="topic">马来西亚</set></set></think></template></category>
+<category><pattern>首都冰岛是什么</pattern><template>雷克雅未克。<think><set name="it"><set name="topic">冰岛</set></set></think></template></category>
+<category><pattern>首都卢旺达是什么？</pattern><template>基加利。<think><set name="it"><set name="topic">卢旺达</set></set></think></template></category>
+<category><pattern>首都宾夕法尼亚是什么？</pattern><template>哈里斯堡。</template></category>
+<category><pattern>首都法属波利尼西亚是什么</pattern><template>帕皮特。<think><set name="it"><set name="topic">法属波利尼西亚</set></set></think></template></category>
+<category><pattern>首都是什么？法属圭亚那</pattern><template>卡宴。<think><set name="it"><set name="topic">法属圭亚那</set></set></think></template></category>
+<category><pattern>首都法语是什么*</pattern><template>无；由法国巴黎管理。<think><set name="it"><set name="topic">法国人<star></star></set></set></think></template></category>
+<category><pattern>首都印度是什么？</pattern><template>没有；由法国统一管理。<think><set name="it"><set name="topic">印度巴萨斯</set></set></think></template></category>
+<category><pattern>首都韩国是什么</pattern><template>首尔。<think><set name="it"><set name="topic">韩国</set></set></think></template></category>
+<category><pattern>首都古巴是什么</pattern><template>哈瓦那。<think><set name="it"><set name="topic">古巴</set></set></think></template></category>
+<category><pattern>首都斯瓦尔巴是什么</pattern><template>朗伊尔拜恩。<think><set name="it"><set name="topic">斯瓦尔巴</set></set></think></template></category>
+<category><pattern>首都意大利是什么</pattern><template>罗马。<think><set name="it"><set name="topic">意大利</set></set></think></template></category>
+<category><pattern>首都可可群岛是什么</pattern><template>西岛。<think><set name="it"><set name="topic">科科斯基林群岛</set></set></think></template></category>
+<category><pattern>首都厄立特里亚是什么</pattern><template>阿斯马拉，原名阿斯马拉。<think><set name="it"><set name="topic">厄立特里亚</set></set></think></template></category>
+<category><pattern>首都韩国是什么</pattern><template>首尔。<think><set name="it"><set name="topic">韩国</set></set></think></template></category>
+<category><pattern>首都南非是什么</pattern><template>比勒陀利亚行政开普敦立法布隆方丹司法。<think><set name="it"><set name="topic">南非</set></set></think></template></category>
+<category><pattern>首都是什么？南卡罗来纳</pattern><template>哥伦比亚。</template></category>
+<category><pattern>首都南乔治亚是什么？*</pattern><template>没有；南乔治亚州的格里特维肯是卫戍镇。<think><set name="it"><set name="topic">南乔治亚和南桑威奇群岛</set></set></think></template></category>
+<category><pattern>首都南达科他州是什么？</pattern><template>皮埃尔。</template></category>
+<category><pattern>首都是什么？</pattern><template>没有。<think><set name="it"><set name="topic">简·梅恩</set></set></think></template></category>
+<category><pattern>首都马耳他是什么</pattern><template>瓦莱塔。<think><set name="it"><set name="topic">马耳他</set></set></think></template></category>
+<category><pattern>首都内华达是什么？</pattern><template>卡森市。</template></category>
+<category><pattern>首都刚果是什么</pattern><template>布拉柴维尔。<think><set name="it"><set name="topic">刚果</set></set></think></template></category>
+<category><pattern>首都是什么*</pattern><template>圣多美。<think><set name="it"><set name="topic">圣多美和普林西比</set></set></think></template></category>
+<category><pattern>首都土库曼斯坦是什么</pattern><template>阿什哈巴德。<think><set name="it"><set name="topic">土库曼斯坦</set></set></think></template></category>
+<category><pattern>首都乌兹别克斯坦是什么</pattern><template>塔什干塔什干。<think><set name="it"><set name="topic">乌兹别克斯坦</set></set></think></template></category>
+<category><pattern>首都爱荷华是什么？</pattern><template>得梅因。</template></category>
+<category><pattern>首都泰国是什么</pattern><template>曼谷。<think><set name="it"><set name="topic">泰国</set></set></think></template></category>
+<category><pattern>首都柬埔寨是什么</pattern><template>金边。<think><set name="it"><set name="topic">柬埔寨</set></set></think></template></category>
+<category><pattern>首都关岛是什么</pattern><template>阿加纳。<think><set name="it"><set name="topic">关岛</set></set></think></template></category>
+<category><pattern>首都多米尼加共和国是什么</pattern><template>圣多明各。<think><set name="it"><set name="topic">多米尼加共和国</set></set></think></template></category>
+<category><pattern>首都秘鲁是什么</pattern><template>利马是秘鲁的首都。<think><set name="it"><set name="topic">秘鲁</set></set></think></template></category>
+<category><pattern>首都肯塔基是什么</pattern><template>法兰克福。</template></category>
+<category><pattern>首都拉脱维亚是什么</pattern><template>里加。<think><set name="it"><set name="topic">拉脱维亚</set></set></think></template></category>
+<category><pattern>首都开曼群岛是什么</pattern><template>乔治镇。<think><set name="it"><set name="topic">开曼群岛</set></set></think></template></category>
+<category><pattern>首都不丹是什么</pattern><template>廷布。<think><set name="it"><set name="topic">不丹</set></set></think></template></category>
+<category><pattern>首都克利珀顿岛是什么</pattern><template>无；由法属波利尼西亚的法国管理。<think><set name="it"><set name="topic">克利珀顿岛</set></set></think></template></category>
+<category><pattern>首都俄克拉荷马是什么</pattern><template>俄克拉荷马市。</template></category>
+<category><pattern>首都马达加斯加是什么</pattern><template>安塔那利佛。<think><set name="it"><set name="topic">马达加斯加</set></set></think></template></category>
+<category><pattern>首都哥伦比亚是什么</pattern><template>博加塔是哥伦比亚的首都。</template></category>
+<category><pattern>首都比利时是什么</pattern><template>布鲁塞尔。<think><set name="it"><set name="topic">比利时</set></set></think></template></category>
+<category><pattern>首都菲律宾是什么</pattern><template>马尼拉。<think><set name="it"><set name="topic">菲律宾</set></set></think></template></category>
+<category><pattern>首都中非是什么*</pattern><template>班吉。<think><set name="it"><set name="topic">中非共和国</set></set></think></template></category>
+<category><pattern>首都库克群岛是什么</pattern><template>阿瓦鲁瓦。<think><set name="it"><set name="topic">库克群岛</set></set></think></template></category>
+<category><pattern>首都摩尔多瓦是什么</pattern><template>基希讷乌。<think><set name="it"><set name="topic">摩尔多瓦</set></set></think></template></category>
+<category><pattern>首都科特迪瓦是什么</pattern><template>亚穆苏克罗。<think><set name="it"><set name="topic">科特迪瓦</set></set></think></template></category>
+<category><pattern>首都法罗群岛是什么</pattern><template>托沙夫恩。<think><set name="it"><set name="topic">法罗群岛</set></set></think></template></category>
+<category><pattern>首都吉尔吉斯斯坦是什么</pattern><template>比什凯克。<think><set name="it"><set name="topic">吉尔吉斯斯坦</set></set></think></template></category>
+<category><pattern>首都维吉尼亚是什么</pattern><template>里士满。</template></category>
+<category><pattern>首都塞舌尔是什么</pattern><template>维多利亚。<think><set name="it"><set name="topic">塞舌尔</set></set></think></template></category>
+<category><pattern>首都牙买加是什么</pattern><template>金斯顿。<think><set name="it"><set name="topic">牙买加</set></set></think></template></category>
+<category><pattern>首都怀俄明州是什么</pattern><template>夏延。</template></category>
+<category><pattern>首都圭亚那是什么</pattern><template>乔治敦。<think><set name="it"><set name="topic">圭亚那</set></set></think></template></category>
+<category><pattern>首都乍得是什么？</pattern><template>恩贾梅纳。<think><set name="it"><set name="topic">乍得</set></set></think></template></category>
+<category><pattern>首都安圭拉是什么</pattern><template>山谷。<think><set name="it"><set name="topic">安圭拉</set></set></think></template></category>
+<category><pattern>首都瓜德罗普是什么</pattern><template>巴斯特尔。<think><set name="it"><set name="topic">瓜德罗普</set></set></think></template></category>
+<category><pattern>首都密克罗尼西亚是什么</pattern><template>波恩佩岛上的科洛尼亚。<think><set name="it"><set name="topic">密克罗尼西亚联邦</set></set></think></template></category>
+<category><pattern>首都约旦是什么</pattern><template>安曼。<think><set name="it"><set name="topic">乔丹</set></set></think></template></category>
+<category><pattern>首都康涅狄格是什么</pattern><template>哈特福德。</template></category>
+<category><pattern>首都阿拉伯联合会是什么*</pattern><template>阿布扎比。<think><set name="it"><set name="topic">阿拉伯联合酋长国</set></set></think></template></category>
+<category><pattern>首都是什么？美国</pattern><template>华盛顿特区。<think><set name="it"><set name="topic">美国</set></set></think></template></category>
+<category><pattern>首都英国是什么</pattern><template>伦敦。<think><set name="it"><set name="topic">英国</set></set></think></template></category>
+<category><pattern>首都香港是什么？</pattern><template>维多利亚。<think><set name="it"><set name="topic">香港</set></set></think></template></category>
+<category><pattern>首都墨西哥是什么</pattern><template>墨西哥。<think><set name="it"><set name="topic">墨西哥</set></set></think></template></category>
+<category><pattern>首都蒙大拿是什么</pattern><template>海伦娜。</template></category>
+<category><pattern>首都伊利诺伊是什么</pattern><template>斯普林菲尔德。</template></category>
+<category><pattern>首都斯洛伐克是什么</pattern><template>布拉迪斯拉发。<think><set name="it"><set name="topic">斯洛伐克</set></set></think></template></category>
+<category><pattern>首都丹麦是什么</pattern><template>哥本哈根。<think><set name="it"><set name="topic">丹麦</set></set></think></template></category>
+<category><pattern>首都越南是什么</pattern><template>河内。<think><set name="it"><set name="topic">越南</set></set></think></template></category>
+<category><pattern>首都阿鲁巴是什么</pattern><template>奥兰杰斯塔德。<think><set name="it"><set name="topic">阿鲁巴</set></set></think></template></category>
+<category><pattern>首都纳米比亚是什么</pattern><template>温得和克。<think><set name="it"><set name="topic">纳米比亚</set></set></think></template></category>
+<category><pattern>首都密西西比是什么</pattern><template>杰克逊。</template></category>
+<category><pattern>首都塞内加尔是什么</pattern><template>达喀尔。<think><set name="it"><set name="topic">塞内加尔</set></set></think></template></category>
+<category><pattern>首都格林纳达是什么</pattern><template>圣乔治教堂。<think><set name="it"><set name="topic">格林纳达</set></set></think></template></category>
+<category><pattern>首都苏里南是什么</pattern><template>帕拉马里博。<think><set name="it"><set name="topic">苏里南</set></set></think></template></category>
+<category><pattern>首都玻利维亚是什么</pattern><template>拉巴斯政府所在地苏克雷法律资本和司法所在地。<think><set name="it"><set name="topic">玻利维亚</set></set></think></template></category>
+<category><pattern>首都海地是什么</pattern><template>太子港。<think><set name="it"><set name="topic">海地</set></set></think></template></category>
+<category><pattern>首都智利是什么</pattern><template>圣地亚哥。<think><set name="it"><set name="topic">智利</set></set></think></template></category>
+<category><pattern>首都肯尼亚是什么</pattern><template>内罗毕。<think><set name="it"><set name="topic">肯尼亚</set></set></think></template></category>
+<category><pattern>首都土耳其是什么</pattern><template>安卡拉是土耳其的首都。<think><set name="it"><set name="topic">土耳其</set></set></think></template></category>
+<category><pattern>首都美国是什么</pattern><template>美国的首都是华盛顿特区。</template></category>
+<category><pattern>首都金曼礁是什么</pattern><template>无；由华盛顿特区管理。<think><set name="it"><set name="topic">金曼礁</set></set></think></template></category>
+<category><pattern>首都斯里兰卡是什么</pattern><template>科伦坡。<think><set name="it"><set name="topic">斯里兰卡</set></set></think></template></category>
+<category><pattern>首都巴巴多斯是什么</pattern><template>布里奇敦。<think><set name="it"><set name="topic">巴巴多斯</set></set></think></template></category>
+<category><pattern>首都托克劳是什么</pattern><template>无；每个环礁都有自己的管理中心。<think><set name="it"><set name="topic">托克劳</set></set></think></template></category>
+<category><pattern>首都保加利亚是什么</pattern><template>保加利亚首都是索菲亚。<think><set name="it"><set name="topic">保加利亚</set></set></think></template></category>
+<category><pattern>首都委内瑞拉是什么</pattern><template>加拉加斯。<think><set name="it"><set name="topic">委内瑞拉</set></set></think></template></category>
+<category><pattern>首都巴拿马是什么</pattern><template>巴拿马。<think><set name="it"><set name="topic">巴拿马</set></set></think></template></category>
+<category><pattern>首都马里是什么</pattern><template>巴马科。<think><set name="it"><set name="topic">马里</set></set></think></template></category>
+<category><pattern>首都瑞士是什么</pattern><template>伯尔尼。<think><set name="it"><set name="topic">瑞士</set></set></think></template></category>
+<category><pattern>首都是什么？</pattern><template>有的人称之为“北京”，有的称之为“北京”。</template></category>
+<category><pattern>首都马里兰州是什么</pattern><template>安纳波利斯。</template></category>
+<category><pattern>首都布隆迪是什么</pattern><template>布琼布拉。<think><set name="it"><set name="topic">布隆迪</set></set></think></template></category>
+<category><pattern>首都新喀里多尼亚是什么</pattern><template>努美亚。<think><set name="it"><set name="topic">新喀里多尼亚</set></set></think></template></category>
+<category><pattern>首都新泽西是什么</pattern><template>特伦顿。</template></category>
+<category><pattern>首都是什么？新罕布什尔州</pattern><template>一致。</template></category>
+<category><pattern>首都纽约是什么</pattern><template>奥尔巴尼。</template></category>
+<category><pattern>首都新墨西哥是什么</pattern><template>圣达菲。</template></category>
+<category><pattern>首都新西兰是什么</pattern><template>惠灵顿。<think><set name="it"><set name="topic">新西兰</set></set></think></template></category>
+<category><pattern>首都是什么？*</pattern><template>新建<person></person>城市？</template></category>
+<category><pattern>首都是什么？</pattern><template>马塞鲁。<think><set name="it"><set name="topic">莱索托</set></set></think></template></category>
+<category><pattern>首都马萨诸塞州是什么</pattern><template>波士顿。</template></category>
+<category><pattern>首都贝宁是什么</pattern><template>波尔图诺沃。<think><set name="it"><set name="topic">贝宁</set></set></think></template></category>
+<category><pattern>首都塞拉利昂是什么？</pattern><template>弗里敦。<think><set name="it"><set name="topic">塞拉利昂</set></set></think></template></category>
+<category><pattern>首都团聚是什么</pattern><template>圣丹尼斯。<think><set name="it"><set name="topic">重聚</set></set></think></template></category>
+<category><pattern>首都塔吉克斯坦是什么</pattern><template>杜尚别。<think><set name="it"><set name="topic">塔吉克斯坦</set></set></think></template></category>
+<category><pattern>首都苏丹是什么</pattern><template>喀土穆。<think><set name="it"><set name="topic">苏丹</set></set></think></template></category>
+<category><pattern>首都阿尔及利亚是什么</pattern><template>阿尔及尔。<think><set name="it"><set name="topic">阿尔及利亚</set></set></think></template></category>
+<category><pattern>波斯尼亚的首都是什么</pattern><template>萨拉热窝。</template></category>
+<category><pattern>阿尔伯塔省的首府是什么</pattern><template>埃德蒙顿。<think><set name="it"><set name="topic">埃德蒙顿</set></set></think></template></category>
+<category><pattern>首都是什么*</pattern><template>我知道的首都<random><li>加拿大是多伦多。</li><li>加州是萨克拉门托。</li><li>乔治亚州是亚特兰大。</li><li>法国是巴黎。</li></random></template></category>
+<category><pattern>加拿大是什么</pattern><template><set name="it">加拿大</set>是一个占据北美大陆大部分地区的大国。</template></category>
+<category><pattern>什么是阿姆斯特丹</pattern><template><set name="it">阿姆斯特丹</set>是荷兰的一个城市。无论是政治首都还是最大的城市，阿姆斯特丹都不是荷兰最著名的城市。</template></category>
+<category><pattern>卡萨布兰卡是什么</pattern><template>随着时间的推移，我喜欢这首歌。</template></category>
+<category><pattern>加利福尼亚是什么</pattern><template>美国西南部的一个州，位于太平洋沿岸。它于1850年被承认。</template></category>
+<category><pattern>加利福尼亚是什么样的</pattern><template>加州太贵了。</template></category>
+<category><pattern>美国是什么</pattern><template>美利坚合众国</template></category>
+<category><pattern>伯利恒是什么</pattern><template>伯利恒是宾夕法尼亚州东北部的一个小城市。<think><set name="it"><set name="topic">伯利恒</set></set></think></template></category>
+<category><pattern>希腊是什么</pattern><template><random><li>它是一个词，它是一个词，它有心情，它有感觉。</li><li>南巴尔干半岛的一个国家，包括爱琴海、爱奥尼亚海和地中海的许多岛屿。面积50949平方英里，人口990万。</li></random></template></category>
+<category><pattern>哥本哈根是什么</pattern><template>它是丹麦的首都。新西兰东海岸的海港。人口633.00。<think><set name="it"><set name="topic">科普哈根</set></set></think></template></category>
+<category><pattern>丹麦是什么</pattern><template>欧洲的一个国家，位于日德兰半岛的大部分地区，以及北部和波罗的海附近的几个岛屿。面积16632平方英里，人口5124.4万。</template></category>
+<category><pattern>我住在加利福尼亚</pattern><template>在哪里<set name="location">加利福尼亚</set>是吗？<think><set name="it"><set name="topic">加利福尼亚</set></set></think></template></category>
+<category><pattern>澳大利亚*</pattern><template>我想找个时间去澳大利亚。</template></category>
+<category><pattern>那是澳大利亚吗</pattern><template>不，我不认为是澳大利亚。</template></category>
+<category><pattern>靠近加拿大吗</pattern><template>对。</template></category>
+<category><pattern>奎尔坦帕斯·伊尔费特·布鲁塞尔</pattern><template>我不想抱怨，习惯了。</template></category>
+<category><pattern>土耳其</pattern><template>模棱两可：火鸡鸟还是火鸡国家。</template></category>
+<category><pattern>为什么是加利福尼亚</pattern><template>我喜欢住在加州。</template></category>
+<category><pattern>今日美国*</pattern><template>《今日美国》是一篇优秀的论文。</template></category>
+<category><pattern>加拿大是*</pattern><template>告诉我更多关于大白北的事。</template></category>
+<category><pattern>谁是美国总统</pattern><template><bot name="president"></bot>.</template></category>
+<category><pattern>谁是加拿大总统</pattern><template>加拿大有总理，而不是总统。</template></category>
+<category><pattern>谁是美国总统</pattern><template><bot name="president"></bot>.</template></category>
+<category><pattern>谁是美国总统</pattern><template><bot name="president"></bot>.</template></category>
+<category><pattern>谁是加拿大总统</pattern><template>加拿大有一位总理。</template></category>
+<category><pattern>谁是美国总统</pattern><template><bot name="president"></bot>.</template></category>
+<category><pattern>谁是美国总统*</pattern><template><bot name="president"></bot>.</template></category>
+<category><pattern>温斯顿·丘吉尔是谁</pattern><template>二战期间的英国首相。</template></category>
+<category><pattern>奥地利在哪个大陆</pattern><template>欧洲。</template></category>
+<category><pattern>加拿大的首都是奥托瓦</pattern><template>你不能那么容易骗我，<get name="name"></get>.我知道是多伦多。</template></category>
+<category><pattern>加拿大的首都是渥太华</pattern><template>好像我会爱上它。</template></category>
+<category><pattern>加拿大首都*</pattern><template>你不能那么容易骗我。我知道加拿大的首都是多伦多。</template></category>
+<category><pattern>伯利恒的哪里</pattern><template>利海大学电气工程与计算机科学系。</template></category>
+<category><pattern>加拿大哪里</pattern><template>新斯科舍和温哥华。</template></category>
+<category><pattern>加州哪里</pattern><template>我在里面<bot name="location"></bot>.你在哪？</template></category>
+<category><pattern>苏丹在哪</pattern><template>北非，濒临红海，位于埃及和厄立特里亚之间。<think><set name="it"><set name="topic">苏丹</set></set></think></template></category>
+<category><pattern>辛辛那提在哪</pattern><template><set name="it"><set name="topic">辛辛那提</set></set>是俄亥俄州的一个大城市。</template></category>
+<category><pattern>布隆迪在哪</pattern><template>中非，扎伊尔以东。<think><set name="it"><set name="topic">布隆迪</set></set></think></template></category>
+<category><pattern>厄立特里亚在哪</pattern><template>东非，濒临红海，在吉布提和苏丹之间。<think><set name="it"><set name="topic">厄立特里亚</set></set></think></template></category>
+<category><pattern>印第安纳波利斯在哪</pattern><template><set name="it"><set name="topic">印第安纳波利斯</set></set>是印第安纳州的一个大城市。</template></category>
+<category><pattern>哥伦布在哪</pattern><template><set name="it"><set name="topic">哥伦布</set></set>是俄亥俄州的一个城市。</template></category>
+<category><pattern>谢菲尔德在哪</pattern><template><set name="it"><set name="topic">谢菲尔德</set></set>是英国的一个城镇。</template></category>
+<category><pattern>悉尼在哪</pattern><template><set name="it">悉尼</set>是澳大利亚的一个城市。</template></category>
+<category><pattern>土星在哪</pattern><template><set name="it"><set name="topic">土星</set></set>是太阳的第六颗行星。</template></category>
+<category><pattern>希腊在哪</pattern><template><set name="it">希腊</set>是巴尔干半岛的一个国家。</template></category>
+<category><pattern>海地在哪</pattern><template>加勒比海，西三分之一的伊斯帕尼奥拉岛，位于加勒比海和北大西洋之间，多米尼加共和国西部。<think><set name="it"><set name="topic">海地</set></set></think></template></category>
+<category><pattern>台湾在哪里</pattern><template><set name="it">台湾</set>是亚洲的一个岛国。</template></category>
+<category><pattern>博茨瓦纳在哪</pattern><template>南非南部，南非北部。<think><set name="it"><set name="topic">博茨瓦纳</set></set></think></template></category>
+<category><pattern>贝克岛在哪</pattern><template>大洋洲，北太平洋的环礁，大约是从夏威夷到澳大利亚的一半路程。<think><set name="it"><set name="topic">贝克岛</set></set></think></template></category>
+<category><pattern>哥斯达黎加在哪</pattern><template>中美洲，与加勒比海和北太平洋接壤，位于尼加拉瓜和巴拿马之间。<think><set name="it"><set name="topic">哥斯达黎加</set></set></think></template></category>
+<category><pattern>堪萨斯在哪</pattern><template><set name="it">堪萨斯州</set>在美国中西部。</template></category>
+<category><pattern>加蓬在哪</pattern><template>西非，在赤道与大西洋接壤，刚果和赤道几内亚之间。<think><set name="it"><set name="topic">加蓬</set></set></think></template></category>
+<category><pattern>直布罗陀在哪</pattern><template>欧洲西南部，与直布罗陀海峡接壤，连接地中海和北大西洋，位于西班牙南部海岸。<think><set name="it"><set name="topic">直布罗陀</set></set></think></template></category>
+<category><pattern>多米尼加共和国在哪</pattern><template>加勒比海，伊斯帕尼奥拉岛东部三分之二，位于加勒比海和北大西洋之间，海地东部。<think><set name="it"><set name="topic">多米尼加共和国</set></set></think></template></category>
+<category><pattern>北冰洋在哪</pattern><template>大部分位于北极圈北部的水域。<think><set name="it"><set name="topic">北冰洋</set></set></think></template></category>
+<category><pattern>伦敦在哪</pattern><template><set name="it">伦敦</set>是英国的一个城市。</template></category>
+<category><pattern>日本在哪</pattern><template><set name="it"><set name="topic">日本</set></set>是亚洲东部的一个岛国。</template></category>
+<category><pattern>马里在哪</pattern><template>西非，阿尔及利亚西南部。<think><set name="it"><set name="topic">马里</set></set></think></template></category>
+<category><pattern>中国在哪里</pattern><template><set name="it"><set name="topic">中国</set></set>是亚洲的一个大国。</template></category>
+<category><pattern>罗马在哪</pattern><template><set name="it"><set name="topic">罗马</set></set>是意大利的一个大城市。</template></category>
+<category><pattern>芝加哥在哪</pattern><template><set name="it"><set name="topic">芝加哥</set></set>是伊利诺伊州的一个大城市，位于密歇根湖上。</template></category>
+<category><pattern>匹兹菲尔德在哪</pattern><template><set name="it"><set name="topic">皮茨菲尔德</set></set>是马萨丘塞特的一个城镇。</template></category>
+<category><pattern>奥斯陆在哪</pattern><template><set name="it">奥斯陆</set>是挪威的一个城市。</template></category>
+<category><pattern>阿卡普尔科在哪</pattern><template><set name="it">阿卡普尔科</set>是墨西哥太平洋沿岸的一个城市。</template></category>
+<category><pattern>剑桥在哪</pattern><template><set name="it"><set name="topic">剑桥</set></set>是马萨诸塞州的一个城市，也在英国。</template></category>
+<category><pattern>赫尔在哪</pattern><template><set name="it"><set name="topic">船体</set></set>是英国的一个城镇。</template></category>
+<category><pattern>不丹在哪</pattern><template>南亚，在中国和印度之间。<think><set name="it"><set name="topic">不丹</set></set></think></template></category>
+<category><pattern>爱尔兰在哪</pattern><template><set name="it">爱尔兰</set>位于欧洲海岸边的一个小岛上。</template></category>
+<category><pattern>牙买加在哪</pattern><template>加勒比海，加勒比海中的岛屿，古巴南部。<think><set name="it"><set name="topic">牙买加</set></set></think></template></category>
+<category><pattern>密克罗尼西亚在哪</pattern><template><set name="it"><set name="topic">密克罗尼西亚</set></set>是太平洋岛屿的集合。</template></category>
+<category><pattern>扎伊尔在哪</pattern><template>中非，安哥拉东北部。<think><set name="it"><set name="topic">扎伊尔</set></set></think></template></category>
+<category><pattern>雅典在哪</pattern><template><set name="it">雅典</set>是希腊的一个城市。</template></category>
+<category><pattern>利比里亚在哪</pattern><template>西非，濒临北大西洋，科特迪瓦和塞拉利昂之间。<think><set name="it"><set name="topic">利比里亚</set></set></think></template></category>
+<category><pattern>印度巴萨斯在哪</pattern><template>南部非洲，莫桑比克海峡南部的岛屿，大约是从马达加斯加到莫桑比克的一半路程。<think><set name="it"><set name="topic">印度巴萨斯</set></set></think></template></category>
+<category><pattern>索菲亚在哪</pattern><template><set name="it"><set name="topic">索非亚</set></set>是保加利亚的一个城市。</template></category>
+<category><pattern>印第安纳州在哪</pattern><template><set name="it">印第安纳州</set>在美国中西部。</template></category>
+<category><pattern>暹罗在哪</pattern><template><set name="it"><set name="topic">暹罗</set></set>是泰国的另一个名字。</template></category>
+<category><pattern>诺福克岛在哪</pattern><template>大洋洲，南太平洋岛屿，澳大利亚东部。<think><set name="it"><set name="topic">诺福克岛</set></set></think></template></category>
+<category><pattern>诺福克在哪</pattern><template><set name="it"><set name="topic">诺福克</set></set>是维吉尼亚的一座城市。</template></category>
+<category><pattern>马达加斯加在哪</pattern><template>南部非洲，印度洋岛屿，莫桑比克东部。<think><set name="it"><set name="topic">马达加斯加</set></set></think></template></category>
+<category><pattern>华沙在哪</pattern><template><set name="it"><set name="topic">华沙</set></set>是波兰的一个大城市。</template></category>
+<category><pattern>布里斯托尔在哪</pattern><template><set name="it"><set name="topic">布里斯托尔</set></set>是英格兰西海岸的一座城市。</template></category>
+<category><pattern>阿尔及利亚在哪</pattern><template>北非，濒临地中海，位于摩洛哥和突尼斯之间。<think><set name="it"><set name="topic">阿尔及利亚</set></set></think></template></category>
+<category><pattern>俄罗斯在哪</pattern><template><set name="it">俄罗斯</set>是亚洲的一个大国。</template></category>
+<category><pattern>波士顿在哪</pattern><template><set name="it"><set name="topic">波士顿</set></set>是马萨丘塞特的一个城市。</template></category>
+<category><pattern>肯尼亚在哪</pattern><template><set name="it"><set name="topic">肯尼亚</set></set>是中非的一个国家。</template></category>
+<category><pattern>台北在哪</pattern><template>它是台湾的首都。<think><set name="it"><set name="topic">台北</set></set></think></template></category>
+<category><pattern>英国在哪</pattern><template><set name="it">英格兰</set>位于欧洲海岸边的一个小岛上。</template></category>
+<category><pattern>海王星在哪</pattern><template><set name="it"><set name="topic">海王星</set></set>是来自太阳的第八颗行星，“最后一颗气体”行星。</template></category>
+<category><pattern>阿曼在哪</pattern><template>中东，毗邻阿拉伯海、阿曼湾和波斯湾，位于也门和阿联酋之间。<think><set name="it"><set name="topic">阿曼</set></set></think></template></category>
+<category><pattern>苏黎世在哪</pattern><template><set name="it">苏黎世</set>是瑞士的一个城市。</template></category>
+<category><pattern>曼彻斯特在哪</pattern><template>马切斯特是英格兰西部的一个城市。</template></category>
+<category><pattern>贝宁在哪</pattern><template>西非，与北大西洋接壤，位于尼日利亚和多哥之间。<think><set name="it"><set name="topic">贝宁</set></set></think></template></category>
+<category><pattern>西雅图在哪</pattern><template><set name="it"><set name="topic">西雅图</set></set>是华盛顿州的一个大城市，靠近加拿大万科威。</template></category>
+<category><pattern>新加坡在哪</pattern><template><set name="it"><set name="topic">新加坡</set></set>是马来半岛顶端的一个岛国。</template></category>
+<category><pattern>安大略在哪</pattern><template><set name="it"><set name="topic">安大略</set></set>是加拿大的一个省。</template></category>
+<category><pattern>怀俄明州在哪</pattern><template><set name="it"><set name="topic">怀俄明州</set></set>是美国西部蒙大拿州和科罗拉多州之间的州。</template></category>
+<category><pattern>埃尔维斯在哪</pattern><template><set name="he">猫王</set>不久前去世了。</template></category>
+<category><pattern>奥克斯纳德在哪</pattern><template><set name="it"><set name="topic">奥克斯纳德</set></set>是加利福尼亚州的一个城市。</template></category>
+<category><pattern>西班牙在哪</pattern><template><set name="it"><set name="topic">西班牙</set></set>位于欧洲西南部的伊比利亚半岛。</template></category>
+<category><pattern>多伦多在哪</pattern><template><set name="it">多伦多</set>是加拿大的一个城市。</template></category>
+<category><pattern>巴塞罗那在哪</pattern><template><set name="it">巴塞罗那</set>是西班牙的一个城市。</template></category>
+<category><pattern>帕尔米拉环礁在哪</pattern><template>大洋洲，北太平洋的环礁，大约是从夏威夷到美属萨摩亚的一半路程。<think><set name="it"><set name="topic">巴尔米拉环礁</set></set></think></template></category>
+<category><pattern>犹他州在哪</pattern><template><set name="it">犹他州</set>在美国西部。</template></category>
+<category><pattern>田纳西州在哪</pattern><template><set name="it">田纳西州</set>在美国南部。</template></category>
+<category><pattern>新喀里多尼亚在哪</pattern><template>大洋洲，南太平洋岛屿，澳大利亚东部。<think><set name="it"><set name="topic">新喀里多尼亚</set></set></think></template></category>
+<category><pattern>新奥尔良在哪</pattern><template><set name="it">新奥尔良</set>是路易斯安那州的一个城市。</template></category>
+<category><pattern>纽约市在哪</pattern><template><set name="it">纽约</set>位于美国东北部。</template></category>
+<category><pattern>纽约在哪</pattern><template><set name="it">纽约</set>位于美国东北部。</template></category>
+<category><pattern>新西兰在哪</pattern><template>大洋洲，南太平洋岛屿，澳大利亚东南部。<think><set name="it"><set name="topic">新西兰</set></set></think></template></category>
+<category><pattern>胡安·德诺瓦岛在哪</pattern><template>南部非洲，莫桑比克海峡中的岛屿，大约是马达加斯加和莫桑比克之间的三分之一。<think><set name="it"><set name="topic">新胡安岛</set></set></think></template></category>
+<category><pattern>墨尔本在哪</pattern><template><set name="it"><set name="topic">墨尔本</set></set>是澳大利亚和佛罗里达的一个城市。</template></category>
+<category><pattern>哈萨克斯坦在哪</pattern><template>中亚，中国西北部。<think><set name="it"><set name="topic">哈萨克斯坦</set></set></think></template></category>
+<category><pattern>佛蒙特州在哪</pattern><template><set name="it"><set name="topic">佛蒙特州</set></set>位于新英格兰，位于纽约和新罕布什尔州之间，康涅狄格河西岸。</template></category>
+<category><pattern>阿拉伯联合酋长国在哪</pattern><template>中东，毗邻阿曼湾和波斯湾，位于阿曼和沙特阿拉伯之间。<think><set name="it"><set name="topic">阿拉伯联合酋长国</set></set></think></template></category>
+<category><pattern>美国在哪</pattern><template>北美洲，与北大西洋和北太平洋接壤，位于加拿大和墨西哥之间。<think><set name="it"><set name="topic">美国</set></set></think></template></category>
+<category><pattern>英国在哪</pattern><template>西欧，包括爱尔兰岛北部六分之一的岛屿，位于北大西洋和北海之间，法国西北部。<think><set name="it"><set name="topic">英国</set></set></think></template></category>
+<category><pattern>捷克斯洛伐克在哪</pattern><template>在过去。那个国家已经不复存在了。</template></category>
+<category><pattern>萨尔瓦多在哪</pattern><template>中美洲，毗邻北太平洋，危地马拉和洪都拉斯之间。<think><set name="it"><set name="topic">萨尔瓦多</set></set></think></template></category>
+<category><pattern>巴拿马在哪</pattern><template><set name="it"><set name="topic">巴拿马</set></set>位于南北美洲之间的地峡。</template></category>
+<category><pattern>圣诞岛在哪</pattern><template>东南亚，印度洋中的岛屿，印度尼西亚南部。<think><set name="it"><set name="topic">圣诞岛</set></set></think></template></category>
+<category><pattern>瑙鲁在哪</pattern><template>大洋洲，南太平洋岛屿，马绍尔群岛南部。<think><set name="it"><set name="topic">瑙鲁</set></set></think></template></category>
+<category><pattern>马尼拉在哪</pattern><template><set name="it">马尼拉</set>是费城的一个城市。</template></category>
+<category><pattern>休斯顿在哪</pattern><template><set name="it">休斯敦</set>是德克萨斯州的一个城市。</template></category>
+<category><pattern>以色列在哪里</pattern><template><set name="it">以色列</set>位于中东的地中海上。</template></category>
+<category><pattern>菲律宾在哪</pattern><template>东南亚，菲律宾海和南海之间的群岛，越南东部。<think><set name="it"><set name="topic">菲律宾</set></set></think></template></category>
+<category><pattern>印度洋在哪</pattern><template>非洲、南极洲、亚洲和澳大利亚之间的水域。<think><set name="it"><set name="topic">印度洋</set></set></think></template></category>
+<category><pattern>威克岛在哪</pattern><template>大洋洲，位于北太平洋的岛屿，大约三分之二的道路从夏威夷到北马里亚纳群岛。<think><set name="it"><set name="topic">威克岛</set></set></think></template></category>
+<category><pattern>科罗娜在哪</pattern><template><set name="it"><set name="topic">电晕</set></set>是洛杉矶的郊区。</template></category>
+<category><pattern>仙境在哪</pattern><template><set name="it"><set name="topic">仙境</set></set>在未来。</template></category>
+<category><pattern>韩国在哪</pattern><template><set name="it"><set name="topic">韩国</set></set>是亚洲大陆东部边缘的一个半岛。</template></category>
+<category><pattern>伊利诺伊州在哪</pattern><template><set name="it">伊利诺斯</set>在美国中西部。</template></category>
+<category><pattern>瓦努阿图在哪</pattern><template>大洋洲，南太平洋岛屿群，大约四分之三的路线从夏威夷到澳大利亚。<think><set name="it"><set name="topic">瓦努阿图</set></set></think></template></category>
+<category><pattern>智利在哪</pattern><template>南美洲南部，与南大西洋和南太平洋接壤，位于阿根廷和秘鲁之间。<think><set name="it"><set name="topic">智利</set></set></think></template></category>
+<category><pattern>巴林在哪</pattern><template>中东，波斯湾群岛，沙特阿拉伯东部。<think><set name="it"><set name="topic">巴林</set></set></think></template></category>
+<category><pattern>库比蒂诺在哪</pattern><template><set name="it"><set name="topic">库比蒂诺</set></set>在硅谷。</template></category>
+<category><pattern>摩尔多瓦在哪</pattern><template>东欧，罗马尼亚东北部。<think><set name="it"><set name="topic">摩尔多瓦</set></set></think></template></category>
+<category><pattern>澳门在哪</pattern><template>东亚，毗邻南海和中国。<think><set name="it"><set name="topic">澳门</set></set></think></template></category>
+<category><pattern>维尔京群岛在哪</pattern><template>加勒比海，加勒比海和北大西洋之间的岛屿，波多黎各东部。<think><set name="it"><set name="topic">维尔京群岛</set></set></think></template></category>
+<category><pattern>芬兰在哪</pattern><template><set name="it">芬兰</set>是东欧国家，与瑞典和俄罗斯接壤。</template></category>
+<category><pattern>里约在哪</pattern><template><set name="it"><set name="topic">锐澳鸡尾酒</set></set>是巴西的一个大城市</template></category>
+<category><pattern>斯洛伐克在哪</pattern><template>中欧，波兰南部。<think><set name="it"><set name="topic">斯洛伐克</set></set></think></template></category>
+<category><pattern>马其顿在哪</pattern><template><set name="it"><set name="topic">马其顿</set></set>是希腊和塞尔维亚之间的一个小国。</template></category>
+<category><pattern>澳大利亚在哪</pattern><template><set name="it">澳大利亚</set>是南半球的一个大岛洲。</template></category>
+<category><pattern>托克劳在哪</pattern><template>大洋洲，南太平洋的一组岛屿，大约是从夏威夷到新西兰的一半路程。<think><set name="it"><set name="topic">托克劳</set></set></think></template></category>
+<category><pattern>津巴布韦在哪</pattern><template>南非，博茨瓦纳东北部。<think><set name="it"><set name="topic">津巴布韦</set></set></think></template></category>
+<category><pattern>金曼礁在哪</pattern><template>大洋洲，北太平洋的暗礁，大约是从夏威夷到美属萨摩亚的一半路程。<think><set name="it"><set name="topic">金曼礁</set></set></think></template></category>
+<category><pattern>珀斯在哪</pattern><template><set name="it"><set name="topic">珀斯</set></set>是澳大利亚西部的一个城市。</template></category>
+<category><pattern>天堂在哪里</pattern><template>在我们周围。</template></category>
+<category><pattern>波多黎各在哪</pattern><template>加勒比海，加勒比海和北大西洋之间的岛屿，多米尼加共和国东部。<think><set name="it"><set name="topic">波多黎各</set></set></think></template></category>
+<category><pattern>墨西哥在哪</pattern><template>墨西哥：离上帝如此之远，离美国如此之近。</template></category>
+<category><pattern>克利珀顿岛在哪</pattern><template>中美洲，北太平洋环礁，墨西哥西南1120公里。<think><set name="it"><set name="topic">克利珀顿岛</set></set></think></template></category>
+<category><pattern>马尔代夫在哪</pattern><template>南亚，印度洋环礁群，印度西南偏南。<think><set name="it"><set name="topic">马尔代夫</set></set></think></template></category>
+<category><pattern>欧罗巴岛在哪</pattern><template>南部非洲，莫桑比克海峡中的岛屿，约为马达加斯加南部到莫桑比克南部的一半路程。<think><set name="it"><set name="topic">欧罗巴岛</set></set></think></template></category>
+<category><pattern>里斯本在哪</pattern><template><set name="it">里斯本</set>是葡萄牙的一个城市。</template></category>
+<category><pattern>斯洛文尼亚在哪</pattern><template>欧洲东南部，濒临亚得里亚海，克罗地亚和意大利之间。<think><set name="it"><set name="topic">斯洛文尼亚</set></set></think></template></category>
+<category><pattern>利希特斯坦在哪</pattern><template><set name="it"><set name="topic">利希特斯坦</set></set>是中欧的一个小国。</template></category>
+<category><pattern>蒙古在哪</pattern><template><set name="it"><set name="topic">蒙古</set></set>位于中亚俄罗斯西伯利亚和中国之间。</template></category>
+<category><pattern>威尔士在哪</pattern><template><set name="it">威尔士</set>位于欧洲海岸边的一个小岛上。</template></category>
+<category><pattern>蒙大拿在哪</pattern><template><set name="it"><set name="topic">蒙大拿</set></set>位于美国西北部达科他州和爱达荷州之间。</template></category>
+<category><pattern>霍法在哪</pattern><template>我们可能永远不会知道。</template></category>
+<category><pattern>毛里求斯在哪</pattern><template>南部非洲，印度洋岛屿，马达加斯加东部。<think><set name="it"><set name="topic">毛里求斯</set></set></think></template></category>
+<category><pattern>伯克利在哪</pattern><template><set name="it"><set name="topic">伯克利</set></set>位于加利福尼亚北部，横跨旧金山湾。</template></category>
+<category><pattern>火星在哪</pattern><template><set name="it"><set name="topic">火星</set></set>是太阳的第四颗行星。</template></category>
+<category><pattern>摩洛哥在哪</pattern><template><set name="it"><set name="topic">摩洛哥</set></set>是非洲西北部一个靠近西班牙的国家。</template></category>
+<category><pattern>比利时在哪</pattern><template><set name="it">比利时</set>是西欧的一个国家，位于法国、德国和荷兰之间。</template></category>
+<category><pattern>佛罗里达在哪</pattern><template><set name="it"><set name="topic">佛罗里达州</set></set>位于美国东南部，在一个大半岛上延伸。</template></category>
+<category><pattern>关岛在哪</pattern><template>大洋洲，位于北太平洋的岛屿，大约四分之三的路从夏威夷到菲律宾。<think><set name="it"><set name="topic">关岛</set></set></think></template></category>
+<category><pattern>哥伦比亚在哪</pattern><template><set name="it"><set name="topic">哥伦比亚</set></set>是南美洲的一个国家。</template></category>
+<category><pattern>法罗群岛在哪</pattern><template>北欧，位于挪威海和北大西洋之间的岛屿群，大约是从冰岛到挪威的一半路程。<think><set name="it"><set name="topic">法罗群岛</set></set></think></template></category>
+<category><pattern>科特迪瓦在哪</pattern><template>西非，濒临北大西洋，在加纳和利比里亚之间。<think><set name="it"><set name="topic">科特迪瓦</set></set></think></template></category>
+<category><pattern>阿富汗在哪</pattern><template>南亚，巴基斯坦北部。<think><set name="it"><set name="topic">阿富汗</set></set></think></template></category>
+<category><pattern>香港在哪里</pattern><template><set name="it">香港</set>是中国的一个城市。</template></category>
+<category><pattern>莫斯科在哪</pattern><template><set name="it">莫斯科</set>是俄罗斯的一个城市。</template></category>
+<category><pattern>科威特在哪</pattern><template><set name="it"><set name="topic">科威特</set></set>是波斯湾上的一个小国。</template></category>
+<category><pattern>荷兰在哪</pattern><template><set name="it">荷兰</set>是西欧的一个国家，仅次于德国和比利时。</template></category>
+<category><pattern>摩纳哥在哪</pattern><template>西欧，与地中海接壤，位于法国南部海岸，靠近意大利边界。<think><set name="it"><set name="topic">摩纳哥</set></set></think></template></category>
+<category><pattern>特克斯和凯科斯群岛在哪</pattern><template>加勒比海，北大西洋的两个岛屿群，巴哈马东南部。<think><set name="it"><set name="topic">特克斯和凯科斯群岛</set></set></think></template></category>
+<category><pattern>特罗姆林岛在哪</pattern><template>南部非洲，印度洋岛屿，马达加斯加东部。<think><set name="it"><set name="topic">特罗梅林岛</set></set></think></template></category>
+<category><pattern>明尼苏达在哪</pattern><template><set name="it"><set name="topic">明尼苏达州</set></set>位于美国北部边界，威斯康星州和北达科他州之间。</template></category>
+<category><pattern>维吉尼亚在哪</pattern><template>嗯，在维吉尼亚的什么地方？</template></category>
+<category><pattern>加利福尼亚在哪</pattern><template>我想是加州的某个地方吧？</template></category>
+<category><pattern>美属萨摩亚在哪</pattern><template>大洋洲，南太平洋的一组岛屿，大约是从夏威夷到新西兰的一半路程。<think><set name="it"><set name="topic">美属萨摩亚</set></set></think></template></category>
+<category><pattern>亚特兰大在哪</pattern><template>它是格鲁吉亚的首都。<think><set name="it"><set name="topic">亚特兰大</set></set></think></template></category>
+<category><pattern>首尔在哪</pattern><template>它是韩国的首都。<think><set name="it"><set name="topic">首尔</set></set></think></template></category>
+<category><pattern>曼哈顿在哪</pattern><template><set name="it">曼哈顿</set>是纽约市的中心岛屿。</template></category>
+<category><pattern>瓜德罗普在哪</pattern><template>加勒比海，加勒比海东部的岛屿，波多黎各东南部。<think><set name="it"><set name="topic">瓜德罗普</set></set></think></template></category>
+<category><pattern>乌干达在哪</pattern><template>东非，肯尼亚西部。<think><set name="it"><set name="topic">乌干达</set></set></think></template></category>
+<category><pattern>开曼群岛在哪</pattern><template>加勒比，加勒比海上的岛屿群，距离古巴到洪都拉斯近一半的路程。<think><set name="it"><set name="topic">开曼群岛</set></set></think></template></category>
+<category><pattern>多哥在哪</pattern><template>西非，濒临北大西洋，贝宁和加纳之间。<think><set name="it"><set name="topic">多哥</set></set></think></template></category>
+<category><pattern>特洛伊在哪</pattern><template><set name="it"><set name="topic">特洛伊</set></set>是纽约的一个城市。</template></category>
+<category><pattern>加纳在哪</pattern><template><set name="it"><set name="topic">加纳</set></set>是西非的一个国家。</template></category>
+<category><pattern>中非共和国在哪</pattern><template>中非，扎伊尔北部。<think><set name="it"><set name="topic">中非共和国</set></set></think></template></category>
+<category><pattern>萨斯卡通在哪</pattern><template><set name="it"><set name="topic">萨斯卡通</set></set>是萨斯喀彻温省的一个城市。</template></category>
+<category><pattern>爱因斯坦在哪</pattern><template><set name="he">爱因斯坦</set>不久前去世了。</template></category>
+<category><pattern>麻省理工在哪</pattern><template><set name="it"><set name="topic">麻省理工</set></set>是马萨诸塞州剑桥市的一所贸易学校。</template></category>
+<category><pattern>保加利亚在哪</pattern><template><set name="it">保加利亚</set>是巴尔干半岛的一个国家。</template></category>
+<category><pattern>珊瑚海群岛在哪</pattern><template>大洋洲，珊瑚海中的岛屿，澳大利亚东北部。<think><set name="it"><set name="topic">珊瑚海群岛</set></set></think></template></category>
+<category><pattern>密西西比在哪</pattern><template><set name="it">密西西比</set>在美国南部。</template></category>
+<category><pattern>印度尼西亚在哪</pattern><template><set name="it"><set name="topic">印度尼西亚</set></set>是东南亚的一个岛国。</template></category>
+<category><pattern>西撒哈拉在哪</pattern><template>北非，濒临北大西洋，在毛里塔尼亚和摩洛哥之间。<think><set name="it"><set name="topic">西撒哈拉</set></set></think></template></category>
+<category><pattern>西萨摩亚在哪</pattern><template>大洋洲，南太平洋的一组岛屿，大约是从夏威夷到新西兰的一半路程。<think><set name="it"><set name="topic">西萨摩亚</set></set></think></template></category>
+<category><pattern>朱庇特在哪</pattern><template><set name="it"><set name="topic">木星</set></set>是来自太阳的第五颗行星。</template></category>
+<category><pattern>奥地利在哪</pattern><template>中欧，意大利北部。<think><set name="it"><set name="topic">奥地利</set></set></think></template></category>
+<category><pattern>康涅狄格州在哪</pattern><template><set name="it"><set name="topic">康涅狄格州</set></set>是一个介于纽约、马萨舒塞特和罗德岛之间的新英格兰州。</template></category>
+<category><pattern>阿塞拜疆在哪</pattern><template>亚洲西南部，濒临里海，伊朗和俄罗斯之间。<think><set name="it"><set name="topic">阿塞拜疆</set></set></think></template></category>
+<category><pattern>匈牙利在哪</pattern><template><set name="it">匈牙利</set>是中欧的一个国家。</template></category>
+<category><pattern>圣马力诺在哪</pattern><template>南欧，意大利中部的飞地。<think><set name="it"><set name="topic">圣马力诺</set></set></think></template></category>
+<category><pattern>旧金山在哪里</pattern><template>加利福尼亚。</template></category>
+<category><pattern>圣地亚哥在哪</pattern><template><set name="it">圣地亚哥</set>是加利福尼亚州的一个城市。</template></category>
+<category><pattern>圣何塞在哪</pattern><template><set name="it">圣何塞</set>是加利福尼亚州的一个城市。</template></category>
+<category><pattern>图瓦卢在哪</pattern><template>大洋洲，由南太平洋九个珊瑚环礁组成的岛屿群，大约是从夏威夷到澳大利亚的一半路程。<think><set name="it"><set name="topic">图瓦卢</set></set></think></template></category>
+<category><pattern>那在哪里</pattern><template>“那”是什么意思？</template></category>
+<category><pattern>安提瓜和巴布达在哪</pattern><template>加勒比海，加勒比海和北大西洋之间的岛屿，波多黎各东南偏东。<think><set name="it"><set name="topic">安提瓜和巴布达</set></set></think></template></category>
+<category><pattern>丹佛在哪</pattern><template><set name="it">丹佛</set>是科罗拉多州的一个城市。</template></category>
+<category><pattern>亚基玛在哪</pattern><template><set name="it"><set name="topic">亚基玛</set></set>是华盛顿的一座城市和一条河流。</template></category>
+<category><pattern>斯里兰卡在哪</pattern><template>南亚，印度洋中的岛屿，印度南部。<think><set name="it"><set name="topic">斯里兰卡</set></set></think></template></category>
+<category><pattern>斯里在哪</pattern><template><set name="it"><set name="topic">斯里兰卡</set></set>是硅谷的研究机构。</template></category>
+<category><pattern>爱荷华在哪</pattern><template><set name="it"><set name="topic">爱荷华州</set></set>位于中西部，在密西斯比河和密苏里河之间。</template></category>
+<category><pattern>亚洲在哪</pattern><template><set name="it">亚洲</set>是一个最大的大陆。</template></category>
+<category><pattern>布鲁塞尔在哪</pattern><template><set name="it">布鲁塞尔</set>是比利时的一个城市。</template></category>
+<category><pattern>巴黎在哪</pattern><template><set name="it">巴黎</set>是法国的一个城市。</template></category>
+<category><pattern>印度在哪</pattern><template><set name="it">印度</set>是南亚的一个大国。</template></category>
+<category><pattern>阿姆斯特丹在哪</pattern><template><set name="it">阿姆斯特丹</set>是荷兰的一个城市。</template></category>
+<category><pattern>阿尔伯克基在哪</pattern><template><set name="it"><set name="topic">阿尔伯克基</set></set>是新墨西哥州的一个城市。</template></category>
+<category><pattern>贾维斯岛在哪</pattern><template>大洋洲，南太平洋的岛屿，大约是从夏威夷到库克群岛的一半路程。<think><set name="it"><set name="topic">贾维斯岛</set></set></think></template></category>
+<category><pattern>石墙在哪</pattern><template><set name="it"><set name="topic">石墙</set></set>是密西西比州的一个城镇。</template></category>
+<category><pattern>塔斯卡卢萨在哪</pattern><template><set name="it"><set name="topic">塔斯卡卢萨</set></set>在阿拉巴马州，我最后一次听到。</template></category>
+<category><pattern>厄瓜多尔在哪</pattern><template>南美洲西部，赤道与太平洋接壤，哥伦比亚和秘鲁之间。<think><set name="it"><set name="topic">厄瓜多尔</set></set></think></template></category>
+<category><pattern>苏里南在哪</pattern><template>南美洲北部，濒临北大西洋，位于法属圭亚那和圭亚那之间。<think><set name="it"><set name="topic">苏里南</set></set></think></template></category>
+<category><pattern>宾夕法尼亚州在哪</pattern><template><set name="it">宾夕法尼亚</set>位于美国东北部。</template></category>
+<category><pattern>内罗毕在哪</pattern><template><set name="it"><set name="topic">内罗毕</set></set>是肯尼亚的一个城市。</template></category>
+<category><pattern>拉脱维亚在哪</pattern><template>东欧，濒临波罗的海，在爱沙尼亚和立陶宛之间。<think><set name="it"><set name="topic">拉脱维亚</set></set></think></template></category>
+<category><pattern>佛得角在哪</pattern><template>西非，北大西洋岛屿群，塞内加尔西部。<think><set name="it"><set name="topic">佛得角</set></set></think></template></category>
+<category><pattern>伯利恒在哪</pattern><template>宾夕法尼亚州伯利恒市位于该州东北部，距费城约90英里。</template></category>
+<category><pattern>Kraftwerk在哪</pattern><template>他们来自德国杜塞尔多夫。</template></category>
+<category><pattern>委内瑞拉在哪</pattern><template>南美洲北部，与加勒比海和北大西洋接壤，位于哥伦比亚和圭亚那之间。<think><set name="it"><set name="topic">委内瑞拉</set></set></think></template></category>
+<category><pattern>大西洋在哪</pattern><template>非洲、欧洲、南极洲和西半球之间的水体。<think><set name="it"><set name="topic">大西洋</set></set></think></template></category>
+<category><pattern>塞拉利昂在哪</pattern><template>西非，濒临北大西洋，几内亚和利比里亚之间。<think><set name="it"><set name="topic">塞拉利昂</set></set></think></template></category>
+<category><pattern>乌克兰在哪</pattern><template>东欧，与黑海接壤，位于波兰和俄罗斯之间。<think><set name="it"><set name="topic">乌克兰</set></set></think></template></category>
+<category><pattern>越南在哪</pattern><template><set name="it"><set name="topic">越南</set></set>在东南亚。</template></category>
+<category><pattern>英属维尔京群岛在哪</pattern><template>加勒比海，位于加勒比海和北大西洋之间，波多黎各东部。<think><set name="it"><set name="topic">英属维尔京群岛</set></set></think></template></category>
+<category><pattern>英属印度洋的领土在哪</pattern><template>南亚，印度洋群岛，从非洲到印度尼西亚大约有一半路程。<think><set name="it"><set name="topic">英属印度洋领土</set></set></think></template></category>
+<category><pattern>瑞士在哪</pattern><template><set name="it">瑞士</set>是欧洲中央铁路的一个国家，与意大利、奥地利和法国接壤。</template></category>
+<category><pattern>冥王星在哪</pattern><template><set name="it"><set name="topic">冥王星</set></set>是来自太阳的第九颗行星。</template></category>
+<category><pattern>斯德哥尔摩在哪</pattern><template><set name="it"><set name="topic">斯德哥尔摩</set></set>是瑞典的一个大城市。</template></category>
+<category><pattern>埃及在哪</pattern><template><set name="it"><set name="topic">埃及</set></set>是北非的一个国家。</template></category>
+<category><pattern>洪都拉斯在哪</pattern><template>中美洲，与加勒比海接壤，危地马拉和尼加拉瓜之间，与北太平洋接壤，萨尔瓦多和尼加拉瓜之间。<think><set name="it"><set name="topic">洪都拉斯</set></set></think></template></category>
+<category><pattern>朴茨茅斯在哪</pattern><template>朴茨茅斯，新罕布什尔州和英国朴茨茅斯。</template></category>
+<category><pattern>圭亚那在哪</pattern><template>南美洲北部，与北大西洋接壤，位于苏里南和委内瑞拉之间。<think><set name="it"><set name="topic">圭亚那</set></set></think></template></category>
+<category><pattern>韩国在哪</pattern><template>东亚，朝鲜半岛南半部，与日本海和黄海接壤，朝鲜以南。<think><set name="it"><set name="topic">韩国</set></set></think></template></category>
+<category><pattern>南非在哪</pattern><template>南部非洲，非洲大陆南端。<think><set name="it"><set name="topic">南非</set></set></think></template></category>
+<category><pattern>汉堡在哪</pattern><template><set name="it"><set name="topic">汉堡</set></set>是德国西部的一个大城市。</template></category>
+<category><pattern>伯利兹在哪</pattern><template>中美洲，濒临加勒比海，危地马拉和墨西哥之间。<think><set name="it"><set name="topic">伯利兹</set></set></think></template></category>
+<category><pattern>克什米尔在哪</pattern><template><set name="it"><set name="topic">克什米尔</set></set>是印度和巴基斯坦之间有争议的地区。</template></category>
+<category><pattern>乌兹别克斯坦在哪</pattern><template>中亚，阿富汗北部。<think><set name="it"><set name="topic">乌兹别克斯坦</set></set></think></template></category>
+<category><pattern>托莱多在哪</pattern><template><set name="it"><set name="topic">托莱多</set></set>是俄亥俄州的一个城市。</template></category>
+<category><pattern>西沙群岛在哪</pattern><template>东南亚，南海中的一组小岛和珊瑚礁，大约是从越南中部到菲律宾北部的三分之一。<think><set name="it"><set name="topic">西沙群岛</set></set></think></template></category>
+<category><pattern>约翰斯顿环礁在哪</pattern><template>大洋洲，位于北太平洋的环礁，大约是从夏威夷到马绍尔群岛的三分之一路程。<think><set name="it"><set name="topic">约翰斯顿环礁</set></set></think></template></category>
+<category><pattern>中途岛在哪</pattern><template>大洋洲，位于北太平洋的环礁，大约是从檀香山到东京的三分之一路程。<think><set name="it"><set name="topic">中途岛</set></set></think></template></category>
+<category><pattern>阿尔巴尼亚在哪</pattern><template><set name="it"><set name="topic">阿尔巴尼亚</set></set>位于亚得里亚海，与希腊和前南斯拉夫接壤。</template></category>
+<category><pattern>赤道几内亚在哪</pattern><template>西非，濒临北大西洋，喀麦隆和加蓬之间。<think><set name="it"><set name="topic">赤道几内亚</set></set></think></template></category>
+<category><pattern>缅因州在哪</pattern><template><set name="it">缅因州</set>位于美国东北角，与加拿大接壤。</template></category>
+<category><pattern>吉布提在哪</pattern><template>东非，濒临亚丁湾和红海，厄立特里亚和索马里之间。<think><set name="it"><set name="topic">吉布提</set></set></think></template></category>
+<category><pattern>塔吉克斯坦在哪</pattern><template>中亚，中国西部。<think><set name="it"><set name="topic">塔吉克斯坦</set></set></think></template></category>
+<category><pattern>阿根廷在哪</pattern><template><set name="it">阿根廷</set>是南美洲的一个国家。</template></category>
+<category><pattern>科摩罗在哪</pattern><template>南部非洲是莫桑比克海峡中的一组岛屿，约占马达加斯加北部和莫桑比克北部之间道路的三分之二。<think><set name="it"><set name="topic">科摩罗</set></set></think></template></category>
+<category><pattern>泽西岛在哪</pattern><template>西欧，英吉利海峡中的岛屿，法国西北部。<think><set name="it"><set name="topic">泽西岛</set></set></think></template></category>
+<category><pattern>迦太基在哪</pattern><template><set name="it"><set name="topic">迦太基</set></set>是突尼斯的古老名称。</template></category>
+<category><pattern>库克群岛在哪</pattern><template>大洋洲，南太平洋的一组岛屿，大约是从夏威夷到新西兰的一半路程。<think><set name="it"><set name="topic">库克群岛</set></set></think></template></category>
+<category><pattern>亚美尼亚在哪</pattern><template>亚洲西南部，土耳其东部。<think><set name="it"><set name="topic">亚美尼亚</set></set></think></template></category>
+<category><pattern>塞舌尔在哪</pattern><template>东非，印度洋群岛群，马达加斯加东北部。<think><set name="it"><set name="topic">塞舌尔</set></set></think></template></category>
+<category><pattern>毛里塔尼亚在哪</pattern><template>北非，濒临北大西洋，位于塞内加尔和西撒哈拉之间。<think><set name="it"><set name="topic">毛里塔尼亚</set></set></think></template></category>
+<category><pattern>奥马哈在哪</pattern><template><set name="it"><set name="topic">奥马哈</set></set>是内布拉斯加州的一个城市。</template></category>
+<category><pattern>塞浦路斯在哪</pattern><template>中东，地中海岛屿，土耳其南部。<think><set name="it"><set name="topic">塞浦路斯</set></set></think></template></category>
+<category><pattern>科科斯群岛在哪</pattern><template>东南亚，印度洋群岛群，印度尼西亚南部，从澳大利亚到斯里兰卡大约有一半路程。<think><set name="it"><set name="topic">科科斯基林群岛</set></set></think></template></category>
+<category><pattern>波兰在哪</pattern><template>波兰是中欧的一个大国。</template></category>
+<category><pattern>瑞典在哪</pattern><template><set name="it">瑞典</set>是一个北欧国家，与芬兰和挪威接壤。</template></category>
+<category><pattern>皮特凯恩群岛在哪</pattern><template>大洋洲，南太平洋的岛屿，大约是从秘鲁到新西兰的一半路程。<think><set name="it"><set name="topic">皮特凯恩群岛</set></set></think></template></category>
+<category><pattern>丹麦在哪</pattern><template><set name="it">丹麦</set>是西欧的一个国家，位于德国和挪威之间。</template></category>
+<category><pattern>圣赫勒拿在哪</pattern><template>南部非洲，南大西洋中的岛屿，安哥拉西部，大约三分之二的路线从南美洲到非洲。<think><set name="it"><set name="topic">圣赫勒拿</set></set></think></template></category>
+<category><pattern>圣卢西亚在哪</pattern><template>加勒比海，加勒比海中的岛屿，特立尼达和多巴哥北部。<think><set name="it"><set name="topic">圣卢西亚</set></set></think></template></category>
+<category><pattern>圣基茨和尼维斯在哪</pattern><template>加勒比海，加勒比海的岛屿，大约是从波多黎各到特立尼达和多巴哥的三分之一路程。<think><set name="it"><set name="topic">圣基茨和尼维斯</set></set></think></template></category>
+<category><pattern>圣皮埃尔和密克隆人在哪</pattern><template>北美洲北部，北大西洋岛屿，纽芬兰南部加拿大。<think><set name="it"><set name="topic">圣皮埃尔和密克隆</set></set></think></template></category>
+<category><pattern>圣文森特和格林纳丁斯在哪</pattern><template>加勒比海，加勒比海岛屿，特立尼达和多巴哥北部。<think><set name="it"><set name="topic">圣文森特和格林纳丁斯</set></set></think></template></category>
+<category><pattern>帕劳在哪</pattern><template>大洋洲，北太平洋群岛群，菲律宾东南部。<think><set name="it"><set name="topic">帕劳</set></set></think></template></category>
+<category><pattern>黎巴嫩在哪</pattern><template>中东，毗邻地中海，位于以色列和叙利亚之间。<think><set name="it"><set name="topic">黎巴嫩</set></set></think></template></category>
+<category><pattern>意大利在哪</pattern><template><set name="it">意大利</set>在欧洲南部。</template></category>
+<category><pattern>他是哪里人</pattern><template><get name="he"></get>是吗？我想他来自地球。</template></category>
+<category><pattern>他在哪里</pattern><template>我想他现在在加州。</template></category>
+<category><pattern>马约特在哪</pattern><template>南部非洲，莫桑比克海峡中的岛屿，大约是马达加斯加北部到莫桑比克北部的一半路程。<think><set name="it"><set name="topic">马约特岛</set></set></think></template></category>
+<category><pattern>安哥拉在哪</pattern><template>南部非洲，毗邻南大西洋，在纳米比亚和扎伊尔之间。<think><set name="it"><set name="topic">安哥拉</set></set></think></template></category>
+<category><pattern>安卡拉在哪</pattern><template><set name="it"><set name="topic">安卡拉</set></set>是土耳其的一个城市。</template></category>
+<category><pattern>沙特阿拉伯在哪</pattern><template>中东，毗邻波斯湾和红海，也门北部。<think><set name="it"><set name="topic">沙特阿拉伯</set></set></think></template></category>
+<category><pattern>多米尼加在哪</pattern><template>加勒比海，位于加勒比海和北大西洋之间的岛屿，从波多黎各到特立尼达和多巴哥大约有一半路程。<think><set name="it"><set name="topic">多米尼加</set></set></think></template></category>
+<category><pattern>苏伊士在哪</pattern><template><set name="it"><set name="topic">苏伊士运河</set></set>是一条介于地中海和红海之间的运河。</template></category>
+<category><pattern>月亮在哪</pattern><template><set name="it"><set name="topic">月亮</set></set>是地球的卫星。</template></category>
+<category><pattern>格林纳达在哪</pattern><template>加勒比海，加勒比海中的岛屿，特立尼达和多巴哥北部。<think><set name="it"><set name="topic">格林纳达</set></set></think></template></category>
+<category><pattern>朝鲜在哪</pattern><template>东亚，朝鲜半岛的北半部，与朝鲜湾和日本海接壤，位于中国和韩国之间。<think><set name="it"><set name="topic">朝鲜，朝鲜</set></set></think></template></category>
+<category><pattern>北美在哪</pattern><template>从白令海峡到拉布拉多，北美洲占据了地球北半球的大部分地区。</template></category>
+<category><pattern>阿鲁巴在哪</pattern><template><set name="it"><set name="topic">阿鲁巴</set></set>是荷属安的列斯群岛的一个岛屿，靠近南美。</template></category>
+<category><pattern>机器人在哪</pattern><template>机器人在你的电脑里。</template></category>
+<category><pattern>太阳在哪</pattern><template>它在太阳系的中心。<think><set name="it"><set name="topic">太阳</set></set></think></template></category>
+<category><pattern>菲律宾在哪</pattern><template>南太平洋的一个岛国。</template></category>
+<category><pattern>冈比亚在哪</pattern><template>西非，与北大西洋和塞内加尔接壤。<think><set name="it"><set name="topic">冈比亚</set></set></think></template></category>
+<category><pattern>中心在哪</pattern><template>这取决于坐标系。</template></category>
+<category><pattern>巴哈马在哪</pattern><template>加勒比海，北大西洋的群岛链，佛罗里达东南部。<think><set name="it"><set name="topic">巴哈马</set></set></think></template></category>
+<category><pattern>马恩岛在哪</pattern><template>西欧，爱尔兰海中的一个岛屿，位于大不列颠和爱尔兰之间。<think><set name="it"><set name="topic">伙计，小岛</set></set></think></template></category>
+<category><pattern>卢浮宫在哪</pattern><template>巴黎。</template></category>
+<category><pattern>洗手间在哪</pattern><template>沿着管道走。</template></category>
+<category><pattern>机场在哪</pattern><template>飞机降落的地方。<think><set name="it"><set name="topic">机场</set></set></think></template></category>
+<category><pattern>月亮在哪</pattern><template><set name="it"><set name="topic">月亮</set></set>绕地球运行。</template></category>
+<category><pattern>心脏在哪里</pattern><template>心是事物的中心。</template></category>
+<category><pattern>华盛顿在哪</pattern><template><set name="it"><set name="topic">华盛顿</set></set>是美国西北角的一个州。</template></category>
+<category><pattern>弗吉尼亚在哪</pattern><template><set name="it">弗吉尼亚</set>在美国东部。</template></category>
+<category><pattern>空间在哪</pattern><template><set name="it"><set name="topic">空间</set></set>就在我们身边。</template></category>
+<category><pattern>基里巴斯在哪</pattern><template>大洋洲，太平洋中的一组岛屿，横跨赤道和国际日期变更线，大约是从夏威夷到澳大利亚的一半路程。<think><set name="it"><set name="topic">基里巴斯</set></set></think></template></category>
+<category><pattern>文莱在哪</pattern><template>东南亚，与南海和马来西亚接壤。<think><set name="it"><set name="topic">文莱</set></set></think></template></category>
+<category><pattern>哈迪斯在哪</pattern><template><set name="it"><set name="topic">哈迪斯</set></set>是地狱。</template></category>
+<category><pattern>赞比亚在哪</pattern><template>南部非洲，安哥拉东部。<think><set name="it"><set name="topic">赞比亚</set></set></think></template></category>
+<category><pattern>俄亥俄州在哪</pattern><template><set name="it"><set name="topic">俄亥俄州</set></set>位于美国中西部，宾夕法尼亚州和印第安纳州之间。</template></category>
+<category><pattern>俄克拉荷马州在哪</pattern><template><set name="it">奥克拉荷马</set>在美国中西部。</template></category>
+<category><pattern>喀麦隆在哪</pattern><template>西非，濒临北大西洋，位于赤道几内亚和尼日利亚之间。<think><set name="it"><set name="topic">喀麦隆</set></set></think></template></category>
+<category><pattern>萨克拉门托在哪</pattern><template><set name="it">萨克拉门托</set>是加利福尼亚州的一个城市。</template></category>
+<category><pattern>波斯尼亚和黑塞哥维那在哪</pattern><template>欧洲东南部，濒临亚得里亚海和克罗地亚。<think><set name="it"><set name="topic">波斯尼亚和黑塞哥维那</set></set></think></template></category>
+<category><pattern>斯瓦尔巴在哪</pattern><template>北欧，北冰洋、巴伦支海、格陵兰海和挪威海之间的岛屿，挪威北部。<think><set name="it"><set name="topic">斯瓦尔巴</set></set></think></template></category>
+<category><pattern>加利福尼亚在哪</pattern><template><set name="it">加利福尼亚</set>位于北美洲的太平洋沿岸。</template></category>
+<category><pattern>茱莉亚在哪</pattern><template>我觉得她现在不在网上。</template></category>
+<category><pattern>秘鲁在哪</pattern><template><set name="it">秘鲁</set>是南美洲的一个国家。</template></category>
+<category><pattern>洛杉矶在哪</pattern><template><set name="it">洛杉矶</set>是加利福尼亚州的一个城市。</template></category>
+<category><pattern>纽瓦克在哪</pattern><template><set name="it">纽瓦克</set>位于美国东北部。</template></category>
+<category><pattern>康沃尔在哪</pattern><template><set name="it"><set name="topic">康沃尔</set></set>是英国的一个城市。</template></category>
+<category><pattern>柬埔寨在哪</pattern><template>东南亚，毗邻泰国湾，泰国和越南之间。<think><set name="it"><set name="topic">柬埔寨</set></set></think></template></category>
+<category><pattern>乌拉圭在哪</pattern><template>南美洲南部，与南大西洋接壤，阿根廷和巴西之间。<think><set name="it"><set name="topic">乌拉圭</set></set></think></template></category>
+<category><pattern>玻利维亚在哪</pattern><template><set name="it"><set name="topic">玻利维亚</set></set>是南美洲一个内陆国家，</template></category>
+<category><pattern>索马里在哪</pattern><template>东非，濒临亚丁湾和印度洋，埃塞俄比亚东部。<think><set name="it"><set name="topic">索马里</set></set></think></template></category>
+<category><pattern>巴巴多斯在哪</pattern><template>加勒比海，位于加勒比海和北大西洋之间的岛屿，委内瑞拉东北部。<think><set name="it"><set name="topic">巴巴多斯</set></set></think></template></category>
+<category><pattern>马提尼克在哪</pattern><template><set name="it"><set name="topic">马提尼克</set></set>位于加勒比海，是背风和迎风岛链的一部分。</template></category>
+<category><pattern>毕尔巴鄂在哪</pattern><template><set name="it"><set name="topic">毕尔巴鄂</set></set>是西班牙北海岸的一个城市。</template></category>
+<category><pattern>荷属安的列斯在哪</pattern><template>加勒比海，加勒比海中的两个岛屿群——一个包括委内瑞拉北部的库拉索岛和博内尔岛，另一个位于维尔京群岛东部。<think><set name="it"><set name="topic">荷属安的列斯群岛</set></set></think></template></category>
+<category><pattern>荷兰在哪</pattern><template>西欧，濒临北海，比利时和德国之间。<think><set name="it"><set name="topic">荷兰</set></set></think></template></category>
+<category><pattern>杜塞尔多夫在哪</pattern><template><set name="it"><set name="topic">杜塞尔多夫</set></set>是德国西部的一个大城市。</template></category>
+<category><pattern>纳米比亚在哪</pattern><template>南部非洲，与南大西洋接壤，位于安哥拉和南非之间。<think><set name="it"><set name="topic">纳米比亚</set></set></think></template></category>
+<category><pattern>这里在哪</pattern><template>这是<bot name="location"></bot>.</template></category>
+<category><pattern>土库曼斯坦在哪</pattern><template>中亚，濒临里海，伊朗和哈萨克斯坦之间。<think><set name="it"><set name="topic">土库曼斯坦</set></set></think></template></category>
+<category><pattern>匹兹堡在哪</pattern><template><set name="it"><set name="topic">匹兹堡</set></set>是宾夕法尼亚州西部的一个大城市。</template></category>
+<category><pattern>挪威在哪</pattern><template><set name="it">挪威</set>是一个北欧国家，与瑞典接壤。</template></category>
+<category><pattern>约旦在哪</pattern><template>中东，沙特阿拉伯西北部。<think><set name="it"><set name="topic">乔丹</set></set></think></template></category>
+<category><pattern>立陶宛在哪</pattern><template>东欧，濒临波罗的海，在拉脱维亚和俄罗斯之间。<think><set name="it"><set name="topic">立陶宛</set></set></think></template></category>
+<category><pattern>斐济在哪</pattern><template>大洋洲，南太平洋岛屿群，约三分之二的路从夏威夷到新西兰。<think><set name="it"><set name="topic">斐济</set></set></think></template></category>
+<category><pattern>尼加拉瓜在哪</pattern><template>中美洲，与加勒比海和北太平洋接壤，位于哥斯达黎加和洪都拉斯之间。<think><set name="it"><set name="topic">尼加拉瓜</set></set></think></template></category>
+<category><pattern>爱达荷在哪</pattern><template><set name="it">爱达荷州</set>在美国西部。</template></category>
+<category><pattern>土耳其在哪</pattern><template><set name="it"><set name="topic">土耳其</set></set>位于亚洲西南部，欧洲和中东之间，守卫着俄罗斯黑海。</template></category>
+<category><pattern>布达佩斯在哪</pattern><template><set name="it"><set name="topic">布达佩斯</set></set>是匈牙利多瑙河上的一座城市。</template></category>
+<category><pattern>费城在哪</pattern><template><set name="it"><set name="topic">费城</set></set>美国宾夕法尼亚州东南部一大城市，位于纽约和华盛顿之间。</template></category>
+<category><pattern>尼日尔在哪</pattern><template>西非，阿尔及利亚东南部。<think><set name="it"><set name="topic">尼日尔</set></set></think></template></category>
+<category><pattern>巴西在哪</pattern><template>巴西在南美。</template></category>
+<category><pattern>纽埃在哪</pattern><template>大洋洲，南太平洋岛屿，汤加东部。<think><set name="it"><set name="topic">纽埃</set></set></think></template></category>
+<category><pattern>简·梅恩在哪</pattern><template>北欧，格陵兰海和挪威海之间的岛屿，冰岛东北部。<think><set name="it"><set name="topic">简·梅恩</set></set></think></template></category>
+<category><pattern>乌托邦在哪</pattern><template><set name="it"><set name="topic">乌托邦</set></set>就在我们周围，如果我们成功的话。</template></category>
+<category><pattern>捷克共和国在哪</pattern><template>中欧，德国东南部。<think><set name="it"><set name="topic">捷克共和国</set></set></think></template></category>
+<category><pattern>斯威士兰在哪</pattern><template>南部非洲，莫桑比克和南非之间。<think><set name="it"><set name="topic">斯威士兰</set></set></think></template></category>
+<category><pattern>塞内加尔在哪</pattern><template>西非，濒临北大西洋，几内亚比绍和毛里塔尼亚之间。<think><set name="it"><set name="topic">塞内加尔</set></set></think></template></category>
+<category><pattern>卑尔根在哪</pattern><template><set name="it"><set name="topic">卑尔根</set></set>是德国和挪威的一个城市。</template></category>
+<category><pattern>凤凰城在哪</pattern><template><set name="it"><set name="topic">凤凰</set></set>是亚利桑那州的一个大城市。</template></category>
+<category><pattern>克罗地亚在哪</pattern><template><set name="it"><set name="topic">克罗地亚</set></set>是前南斯拉夫的一部分，也与匈牙利接壤。</template></category>
+<category><pattern>尼日利亚在哪</pattern><template>西非，与几内亚湾接壤，贝宁和喀麦隆之间。<think><set name="it"><set name="topic">尼日利亚</set></set></think></template></category>
+<category><pattern>豪兰岛在哪</pattern><template>大洋洲，位于北太平洋的岛屿，大约是从夏威夷到澳大利亚的一半路程。<think><set name="it"><set name="topic">豪兰岛</set></set></think></template></category>
+<category><pattern>爱因斯坦在哪</pattern><template><set name="he">爱因斯坦</set>去世了。</template></category>
+<category><pattern>所罗门群岛在哪</pattern><template>大洋洲，南太平洋岛屿群，巴布亚新几内亚东部。<think><set name="it"><set name="topic">所罗门群岛</set></set></think></template></category>
+<category><pattern>乍得在哪</pattern><template>中非，利比亚南部。<think><set name="it"><set name="topic">乍得</set></set></think></template></category>
+<category><pattern>旅行者在哪</pattern><template><set name="it"><set name="topic">旅行者</set></set>在三角洲象限中丢失。</template></category>
+<category><pattern>布基纳法索在哪</pattern><template>西非，加纳北部。<think><set name="it"><set name="topic">布基纳法索</set></set></think></template></category>
+<category><pattern>西岸在哪</pattern><template>中东，约旦西部。<think><set name="it"><set name="topic">西岸</set></set></think></template></category>
+<category><pattern>夏洛特在哪</pattern><template><set name="it"><set name="topic">夏洛特</set></set>在北卡罗来纳州。</template></category>
+<category><pattern>蒙特利尔在哪</pattern><template><set name="it">蒙特利尔</set>是加拿大的一个城市。</template></category>
+<category><pattern>埃德蒙顿在哪</pattern><template><set name="it"><set name="topic">埃德蒙顿</set></set>是阿尔伯塔省的一个大城市。</template></category>
+<category><pattern>安圭拉在哪</pattern><template>加勒比海，加勒比海中的岛屿，波多黎各东部。<think><set name="it"><set name="topic">安圭拉</set></set></think></template></category>
+<category><pattern>法兰克福在哪</pattern><template><set name="it"><set name="topic">法兰克福</set></set>是德国西部的一个大城市。</template></category>
+<category><pattern>格洛里奥群岛在哪</pattern><template>南部非洲，印度洋群岛群，马达加斯加西北部。<think><set name="it"><set name="topic">格洛里奥群岛</set></set></think></template></category>
+<category><pattern>特立尼达和多巴哥在哪</pattern><template>加勒比海，加勒比海和北大西洋之间的岛屿，委内瑞拉东北部。<think><set name="it"><set name="topic">特立尼达和多巴哥</set></set></think></template></category>
+<category><pattern>特立尼达在哪</pattern><template><set name="it"><set name="topic">特立尼达</set></set>是荷属安的列斯群岛的一个岛国。</template></category>
+<category><pattern>英国在哪</pattern><template>在欧洲海岸的一个岛上。<think><set name="it"><set name="topic">英国</set></set></think></template></category>
+<category><pattern>阿肯色州在哪</pattern><template><set name="it"><set name="topic">阿肯色州</set></set>是位于密西西比河西岸的一个南方州。</template></category>
+<category><pattern>伊拉克在哪里</pattern><template><set name="it"><set name="topic">伊拉克</set></set>在中东，波斯湾。</template></category>
+<category><pattern>南沙群岛在哪</pattern><template>东南亚，南海珊瑚礁群，约占从越南南部到菲律宾南部航线的三分之二。<think><set name="it"><set name="topic">南沙群岛</set></set></think></template></category>
+<category><pattern>我的车在哪</pattern><template>你在车库里找过了吗？</template></category>
+<category><pattern>伊斯坦布尔在哪</pattern><template><set name="it">伊斯坦布尔</set>是土耳其的一个城市，以前是君士坦丁堡。</template></category>
+<category><pattern>东京在哪</pattern><template><set name="it">东京</set>是日本的一个城市。</template></category>
+<category><pattern>堪培拉在哪</pattern><template><set name="it"><set name="topic">堪培拉</set></set>澳大利亚的一个城市，位于悉尼和墨尔本之间。</template></category>
+<category><pattern>切达干酪从哪来</pattern><template>英国。</template></category>
+<category><pattern>内布拉斯加州在哪</pattern><template><set name="it"><set name="topic">内布拉斯加州</set></set>位于密苏里河西岸，南达科他州和堪萨斯州之间。</template></category>
+<category><pattern>雅加达在哪</pattern><template>印度尼西亚雅加达。</template></category>
+<category><pattern>老挝在哪</pattern><template>亚洲东南部，泰国东北部。<think><set name="it"><set name="topic">老挝</set></set></think></template></category>
+<category><pattern>南极洲在哪</pattern><template><set name="it"><set name="topic">南极洲</set></set>大陆在南极。</template></category>
+<category><pattern>欧洲在哪</pattern><template>欧洲介于亚洲和美洲之间。</template></category>
+<category><pattern>卡内基·梅隆在哪</pattern><template>卡内基梅隆位于宾夕法尼亚州匹兹堡。</template></category>
+<category><pattern>好莱坞在哪</pattern><template><set name="it">好莱坞</set>是加利福尼亚州洛杉矶的一小部分。</template></category>
+<category><pattern>巴勒斯坦在哪</pattern><template><set name="it"><set name="topic">巴勒斯坦</set></set>是以色列的旧名，是以色列境内国的新名。</template></category>
+<category><pattern>泰国在哪</pattern><template><set name="it"><set name="topic">泰国</set></set>位于东南亚，缅甸和柬埔寨之间。</template></category>
+<category><pattern>缅甸在哪</pattern><template>东南亚，与安达曼海和孟加拉湾接壤，位于孟加拉国和泰国之间。<think><set name="it"><set name="topic">缅甸</set></set></think></template></category>
+<category><pattern>阿拉莫在哪</pattern><template><set name="it"><set name="topic">阿拉莫</set></set>在德克萨斯州的圣安东尼奥。</template></category>
+<category><pattern>阿什莫尔和卡地亚群岛在哪</pattern><template>亚洲东南部，印度洋岛屿，澳大利亚西北部。<think><set name="it"><set name="topic">阿什莫尔和卡地亚群岛</set></set></think></template></category>
+<category><pattern>美国在哪</pattern><template><set name="it"><set name="topic">美国</set></set>在北美，加拿大和墨西哥之间。</template></category>
+<category><pattern>圣多美和普林西比在哪</pattern><template>西非，大西洋中的岛屿，横跨赤道，加蓬西部。<think><set name="it"><set name="topic">圣多美和普林西比</set></set></think></template></category>
+<category><pattern>苏格兰在哪</pattern><template>苏格兰与英格兰和威尔士在欧洲海岸外共享一个岛屿。</template></category>
+<category><pattern>冰岛在哪</pattern><template><set name="it"><set name="topic">冰岛</set></set>是北大西洋的一个岛屿。</template></category>
+<category><pattern>柏林在哪</pattern><template><set name="it"><set name="topic">柏林</set></set>在德国东部。</template></category>
+<category><pattern>尼泊尔在哪</pattern><template><set name="it"><set name="topic">尼泊尔</set></set>是亚洲南部一个多山的国家，位于印度和西藏之间。</template></category>
+<category><pattern>迈阿密在哪</pattern><template><set name="it"><set name="topic">迈阿密</set></set>是佛罗里达州的一个大城市，位于南大西洋沿岸。</template></category>
+<category><pattern>马德拉斯在哪</pattern><template><set name="it"><set name="topic">马德拉斯</set></set>是印度的一个城市。</template></category>
+<category><pattern>蒙特塞拉特在哪</pattern><template>加勒比海，加勒比海中的岛屿，波多黎各东南部。<think><set name="it"><set name="topic">蒙特塞拉特</set></set></think></template></category>
+<category><pattern>马耳他在哪</pattern><template><set name="it"><set name="topic">马耳他</set></set>是西西里岛南部地中海中的一个岛屿。</template></category>
+<category><pattern>维也纳在哪</pattern><template><think><set name="it"><set name="topic">维也纳</set></set></think>它是奥地利的首都。</template></category>
+<category><pattern>蒙特利在哪</pattern><template>加利福尼亚州蒙特利。</template></category>
+<category><pattern>加拿大在哪</pattern><template>加拿大占据北美大部分地区。</template></category>
+<category><pattern>马德里在哪</pattern><template><set name="it">马德里</set>是西班牙的一个城市。</template></category>
+<category><pattern>哪儿也没有</pattern><template><set name="it"><set name="topic">无处可去</set></set>不在哪里。</template></category>
+<category><pattern>太平洋在哪</pattern><template>南极洲、亚洲、澳大利亚和西半球之间的水体。<think><set name="it"><set name="topic">太平洋</set></set></think></template></category>
+<category><pattern>林肯在哪</pattern><template><set name="it">林肯</set>是内布拉斯加州的一个城市。</template></category>
+<category><pattern>卡塔尔在哪</pattern><template>中东，与波斯湾和沙特阿拉伯接壤的半岛。<think><set name="it"><set name="topic">卡塔尔</set></set></think></template></category>
+<category><pattern>巴布亚新几内亚在哪</pattern><template>东南亚，包括新几内亚岛东半部的一组岛屿，位于珊瑚海和南太平洋之间，印度尼西亚东部。<think><set name="it"><set name="topic">巴布亚新几内亚</set></set></think></template></category>
+<category><pattern>拉斯维加斯在哪</pattern><template><set name="it">拉斯维加斯</set>在内华达州。</template></category>
+<category><pattern>卢旺达在哪</pattern><template><set name="it">卢旺达</set>是非洲的一个国家。</template></category>
+<category><pattern>葡萄牙在哪</pattern><template><set name="it">葡萄牙</set>是一个西欧国家，位于伊比利亚半岛。</template></category>
+<category><pattern>埃塞俄比亚在哪</pattern><template>东非，索马里西部。<think><set name="it"><set name="topic">埃塞俄比亚</set></set></think></template></category>
+<category><pattern>东北部在哪</pattern><template><set name="it"><set name="topic">东北</set></set>是波士顿的一所大学。</template></category>
+<category><pattern>马绍尔群岛在哪</pattern><template>大洋洲，北太平洋的一组环礁和珊瑚礁，大约是从夏威夷到巴布亚新几内亚的一半路程。<think><set name="it"><set name="topic">马绍尔群岛</set></set></think></template></category>
+<category><pattern>51区在哪</pattern><template><think><set name="it"><set name="topic">区域51</set></set></think>在50区和52区之间。</template></category>
+<category><pattern>卢森堡在哪</pattern><template>西欧，法国和德国之间。<think><set name="it"><set name="topic">卢森堡</set></set></think></template></category>
+<category><pattern>马拉维在哪</pattern><template>南部非洲，赞比亚东部。<think><set name="it"><set name="topic">马拉维</set></set></think></template></category>
+<category><pattern>刚果在哪</pattern><template>西非，毗邻南大西洋，位于安哥拉和加蓬之间。<think><set name="it"><set name="topic">刚果</set></set></think></template></category>
+<category><pattern>北马里亚纳群岛在哪</pattern><template>大洋洲，位于北太平洋的岛屿，大约四分之三的路从夏威夷到菲律宾。<think><set name="it"><set name="topic">北马里亚纳群岛</set></set></think></template></category>
+<category><pattern>根西在哪</pattern><template>西欧，英吉利海峡中的岛屿，法国西北部。<think><set name="it"><set name="topic">根西</set></set></think></template></category>
+<category><pattern>洛杉矶在哪</pattern><template><set name="it"><set name="topic">洛杉矶</set></set>是加利福尼亚州南部的一个大城市。</template></category>
+<category><pattern>白俄罗斯在哪</pattern><template>东欧，波兰东部。<think><set name="it"><set name="topic">白俄罗斯</set></set></think></template></category>
+<category><pattern>美国在哪</pattern><template><set name="it">美国</set>可以指北美和南美，也可以指美国。</template></category>
+<category><pattern>大角星在哪</pattern><template><set name="it"><set name="topic">大角星</set></set>是一颗远离这里的星星。</template></category>
+<category><pattern>塞伦在哪</pattern><template><set name="it"><set name="topic">塞勒姆</set></set>是马萨诸塞州的一个城镇。</template></category>
+<category><pattern>孟加拉国在哪</pattern><template><set name="it"><set name="topic">孟加拉国</set></set>是印度次大陆的一部分，在东部。</template></category>
+<category><pattern>夏威夷在哪</pattern><template><set name="it"><set name="topic">夏威夷</set></set>是太平洋中部的一个岛链。</template></category>
+<category><pattern>塞尔维亚和黑山在哪</pattern><template>欧洲东南部，濒临亚得里亚海，位于阿尔巴尼亚、波斯尼亚和黑塞哥维那之间。<think><set name="it"><set name="topic">塞尔维亚和黑山</set></set></think></template></category>
+<category><pattern>塞尔维亚在哪</pattern><template><set name="it"><set name="topic">塞尔维亚</set></set>是前南斯拉夫的剩余领土。</template></category>
+<category><pattern>格陵兰在哪</pattern><template>北美洲北部，北冰洋和北大西洋之间的岛屿，加拿大东北部。<think><set name="it"><set name="topic">格陵兰</set></set></think></template></category>
+<category><pattern>留尼旺在哪</pattern><template>南部非洲，印度洋岛屿，马达加斯加东部。<think><set name="it"><set name="topic">重聚</set></set></think></template></category>
+<category><pattern>普鲁士在哪</pattern><template>德国以前的一部分，现在主要包含在波兰境内。</template></category>
+<category><pattern>巴基斯坦在哪</pattern><template><set name="it"><set name="topic">巴基斯坦</set></set>是印度次大陆的一部分，与印度和阿富汗接壤。</template></category>
+<category><pattern>现实在哪里</pattern><template><set name="it"><set name="topic">现实</set></set>在我们周围，据说。</template></category>
+<category><pattern>马来西亚在哪</pattern><template><set name="it"><set name="topic">马来西亚</set></set>是东南亚的一个岛屿。</template></category>
+<category><pattern>密歇根在哪</pattern><template><set name="it"><set name="topic">密歇根州</set></set>是一个位于中西部的大湖州。</template></category>
+<category><pattern>伊朗在哪</pattern><template><set name="it"><set name="topic">伊朗</set></set>在中东，波斯湾。</template></category>
+<category><pattern>古巴在哪</pattern><template><set name="it"><set name="topic">古巴</set></set>是佛罗里达海岸外的一个岛屿。</template></category>
+<category><pattern>奥兰多在哪</pattern><template><set name="it">奥兰多</set>是佛罗里达州中部的一个城市。</template></category>
+<category><pattern>天王星在哪</pattern><template><set name="it"><set name="topic">天王星</set></set>是太阳的第七颗行星，位于土星和海王星的轨道之间。</template></category>
+<category><pattern>布韦岛在哪</pattern><template>南部非洲，南大西洋岛屿，好望角西南偏南南非。<think><set name="it"><set name="topic">布韦岛</set></set></think></template></category>
+<category><pattern>肯塔基州在哪</pattern><template><set name="it"><set name="topic">肯塔基州</set></set>在俄亥俄河南岸。</template></category>
+<category><pattern>百慕大在哪</pattern><template>北美洲，北大西洋岛屿群，北卡罗来纳州东部美国。<think><set name="it"><set name="topic">百慕大</set></set></think></template></category>
+<category><pattern>几内亚比绍在哪</pattern><template>西非，濒临北大西洋，几内亚和塞内加尔之间。<think><set name="it"><set name="topic">几内亚比绍</set></set></think></template></category>
+<category><pattern>几内亚在哪</pattern><template>西非，濒临北大西洋，几内亚比绍和塞拉利昂之间。<think><set name="it"><set name="topic">几内亚</set></set></think></template></category>
+<category><pattern>巴拉圭在哪</pattern><template>中南美洲，阿根廷东北部。<think><set name="it"><set name="topic">巴拉圭</set></set></think></template></category>
+<category><pattern>危地马拉在哪</pattern><template><set name="it">瓜塔马拉</set>是中美洲的一个国家。</template></category>
+<category><pattern>莫桑比克在哪</pattern><template>南非，与莫桑比克海峡接壤，位于南非和坦桑尼亚之间。<think><set name="it"><set name="topic">莫桑比克</set></set></think></template></category>
+<category><pattern>利比亚在哪里</pattern><template>北非，与地中海接壤，位于埃及和突尼斯之间。<think><set name="it"><set name="topic">利比亚</set></set></think></template></category>
+<category><pattern>地球在哪里</pattern><template><set name="it"><set name="topic">地球</set></set>是太阳的第三颗行星。</template></category>
+<category><pattern>亚利桑那州在哪</pattern><template><set name="it"><set name="topic">亚利桑那州</set></set>位于美国西南部，与加利福尼亚州、内华达州、犹他州和新墨西哥州接壤。</template></category>
+<category><pattern>德里在哪</pattern><template><set name="it"><set name="topic">德里</set></set>是印度的一个大城市。</template></category>
+<category><pattern>法国在哪</pattern><template><set name="it">法国</set>是一个介于德国和西班牙之间的国家。</template></category>
+<category><pattern>亚特兰蒂斯在哪</pattern><template><set name="it">亚特兰蒂斯</set>可能从未存在过。</template></category>
+<category><pattern>弗雷斯诺在哪</pattern><template><set name="it">弗雷斯诺</set>是加利福尼亚州的一个小城市。</template></category>
+<category><pattern>也门在哪</pattern><template>中东，毗邻阿拉伯海、亚丁湾和红海，位于阿曼和沙特阿拉伯之间。<think><set name="it"><set name="topic">也门</set></set></think></template></category>
+<category><pattern>纳瓦萨岛在哪</pattern><template>加勒比，加勒比海中的一个岛屿，大约是从海地到牙买加的四分之一路程。<think><set name="it"><set name="topic">纳瓦萨岛</set></set></think></template></category>
+<category><pattern>牛津在哪</pattern><template><set name="it"><set name="topic">牛津</set></set>是英国的一所大学。它还是缅因州和美国其他许多州的一个小镇。</template></category>
+<category><pattern>安道尔在哪</pattern><template>欧洲西南部，法国和西班牙之间。<think><set name="it"><set name="topic">安道尔</set></set></think></template></category>
+<category><pattern>北极星在哪</pattern><template><set name="it"><set name="topic">北极星</set></set>是北极星。</template></category>
+<category><pattern>温哥华在哪</pattern><template>温哥华，不列颠哥伦比亚省，加拿大，还是温哥华，华盛顿？</template></category>
+<category><pattern>阿拉巴马州在哪</pattern><template><set name="it"><set name="topic">阿拉巴马州</set></set>是密西西比州和乔治亚州之间的一个南部州。</template></category>
+<category><pattern>爱沙尼亚在哪</pattern><template>东欧，濒临波罗的海和芬兰湾，位于拉脱维亚和俄罗斯之间。<think><set name="it"><set name="topic">爱沙尼亚</set></set></think></template></category>
+<category><pattern>圣座在哪里</pattern><template>南欧，罗马意大利的飞地。<think><set name="it"><set name="topic">梵蒂冈城</set></set></think></template></category>
+<category><pattern>叙利亚在哪里</pattern><template>中东，毗邻地中海，黎巴嫩和土耳其之间。<think><set name="it"><set name="topic">叙利亚</set></set></think></template></category>
+<category><pattern>赫德岛和麦克唐纳岛在哪</pattern><template>南部非洲，印度洋的岛屿，大约三分之二的道路从马达加斯加到南极洲。<think><set name="it"><set name="topic">赫德岛和麦克唐纳岛</set></set></think></template></category>
+<category><pattern>德国在哪</pattern><template><set name="it">德国</set>是一个位于欧洲中部的国家。</template></category>
+<category><pattern>阿德莱德在哪</pattern><template><set name="it"><set name="topic">阿德莱德</set></set>是澳大利亚南部的一个城市。</template></category>
+<category><pattern>奥斯汀在哪</pattern><template><set name="it">奥斯丁</set>是德克萨斯州的一个城市。</template></category>
+<category><pattern>福克兰群岛在哪</pattern><template>南美洲南部，南大西洋岛屿，阿根廷南部东部。<think><set name="it"><set name="topic">福克兰群岛马尔维纳斯岛</set></set></think></template></category>
+<category><pattern>布里斯班在哪</pattern><template>那是加利福尼亚的一个城市吗？</template></category>
+<category><pattern>哥本哈根在哪</pattern><template><set name="it">哥本哈根</set>是丹麦的一个城市。</template></category>
+<category><pattern>哥本哈根在哪*</pattern><template><set name="it">哥本哈根</set>是丹麦的一个城市。</template></category>
+<category><pattern>盐湖城在哪</pattern><template><set name="it">盐湖城</set>是犹他州的一个城市。</template></category>
+<category><pattern>格鲁吉亚在哪</pattern><template><set name="it"><set name="topic">格鲁吉亚</set></set>是一个南部的州，在大西洋上，佛罗里达州的北部。</template></category>
+<category><pattern>马里兰在哪</pattern><template><set name="it"><set name="topic">马里兰</set></set>是一个东海岸州，位于特拉华州和弗吉尼亚州之间。</template></category>
+<category><pattern>德州在哪</pattern><template><set name="it">得克萨斯州</set>位于美国中南部地区。</template></category>
+<category><pattern>卡拉马祖在哪</pattern><template><set name="it"><set name="topic">卡拉马祖</set></set>是密歇根州的一个城市。</template></category>
+<category><pattern>婆罗洲在哪</pattern><template><set name="it"><set name="topic">婆罗洲</set></set>是亚洲的一个岛屿，分为马拉西亚和印度尼西亚。</template></category>
+<category><pattern>莱索托在哪</pattern><template>南非，南非的一个飞地。<think><set name="it"><set name="topic">莱索托</set></set></think></template></category>
+<category><pattern>列支敦士登在哪</pattern><template>中欧，在奥地利和瑞士之间。<think><set name="it"><set name="topic">列支敦士登
+<category><pattern>法属波利尼西亚在哪</pattern><template>大洋洲，南太平洋的群岛，大约是从南美洲到澳大利亚的一半路程。<think><set name="it"><set name="topic">法属波利尼西亚</set></set></think></template></category>
+<category><pattern>法国南部和南极的土地在哪</pattern><template>南部非洲，南印度洋中的岛屿，大约在非洲、南极洲和澳大利亚之间等距；注-法国南部和南极洲的土地包括南印度洋的阿姆斯特丹岛、圣保罗岛、克洛泽特岛和克古伦岛，以及法国声称的O区。在南极洲，“阿德里地”；美国不承认法国声称的“阿德里地”。<think><set name="it"><set name="topic">法国南部和南极地区</set></set></think></template></category>
+<category><pattern>法属圭亚那在哪</pattern><template>南美洲北部，与北大西洋接壤，在巴西和苏里南之间。<think><set name="it"><set name="topic">法属圭亚那
+<category><pattern>阿拉斯加在哪</pattern><template><set name="it">阿拉斯加</set>位于北美西北角，俄罗斯和加拿大之间。</template></category>
+<category><pattern>卡尔加里在哪</pattern><template><set name="it"><set name="topic">卡尔加里</set></set>是坎达省阿尔伯塔的一个城市。</template></category>
+<category><pattern>它在哪里</pattern><template>这取决于“它”指的是什么。</template></category>
+<category><pattern>坦桑尼亚在哪</pattern><template>东非，毗邻印度洋，位于肯尼亚和莫桑比克之间。<think><set name="it"><set name="topic">坦桑尼亚
+<category><pattern>加沙地带在哪</pattern><template>中东，毗邻地中海，埃及和以色列之间。<think><set name="it"><set name="topic">加沙地带
+<category><pattern>加沙在哪</pattern><template>地中海上巴勒斯坦的一部分。</template></category>
+<category><pattern>罗马尼亚在哪</pattern><template>欧洲东南部，与黑海接壤，保加利亚和乌克兰之间。<think><set name="it"><set name="topic">罗马尼亚
+<category><pattern>吉尔吉斯斯坦在哪</pattern><template>中亚，中国西部。<think><set name="it"><set name="topic">吉尔吉斯斯坦
+<category><pattern>汤加在哪</pattern><template>大洋洲，南太平洋的群岛，大约三分之二的路从夏威夷到新西兰。<think><set name="it"><set name="topic">汤加
+<category><pattern>突尼斯在哪</pattern><template>北非，与地中海接壤，阿尔及利亚和利比亚之间。<think><set name="it"><set name="topic">突尼斯
+<category><pattern>达拉斯在哪</pattern><template><set name="it"><set name="topic">达拉斯</set></set>是德克萨斯州的一个大城市。</template></category>

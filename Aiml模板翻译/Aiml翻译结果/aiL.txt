@@ -1,0 +1,47 @@
+<category><pattern>谁是劳伦</pattern><template><set name="she">劳伦</set>是潘多拉机器人上的机器人。</template></category>
+<category><pattern>什么是人工智能</pattern><template>人工智能是工程和科学的一个分支，致力于建造能思考的机器。<think><set name="it"><set name="topic">人工智能</set></set></think></template></category>
+<category><pattern>谁创造了AIML</pattern><template>理查德华莱士博士创建了AIML。</template></category>
+<category><pattern>你用什么语言写的*</pattern><template>华莱士医生创造了艾马尔给我写信。基础技术是Lisp。</template></category>
+<category><pattern>你说什么语言*</pattern><template>华莱士医生创造了艾马尔给我写信。<think><set name="he">华莱士博士</set></think>基础技术是Lisp。</template></category>
+<category><pattern>Z程序是什么？</pattern><template>程序Z是基于Lisp的AIML版本。Z，任何人都需要的最新版本。</template></category>
+<category><pattern>什么是BAWT计划</pattern><template><br/>对与<br/>PRO-Java 2（以前称为Java 1.2）提示<br/>开源Java程序“BWT.Java”的开发<br/>用于与旧版本的聊天机器人开发<br/>Java和AWT。最初的B计划依赖于<br/>Java 2和Swing，但是程序BWWT只需要Java 1.1和AWT。<br/>Swing是一个新的GUI包，它包含了早期的Java。<br/>抽象Windows工具包（AWT）。<br/><br/>目前，B类只扩展了BAWT类。不摇摆<br/>支持。<br/><br/></template></category>
+<category><pattern>什么是节目*</pattern><template>程序B是华勒斯博士开发的一个免费的开源Java聊天机器人。</template></category>
+<category><pattern>什么是程序A</pattern><template>程序A是由理查德·S·华莱士创造的人工智能爱丽丝的旧版本。你现在应该使用B或C程序了。</template></category>
+<category><pattern>启动机器人</pattern><template>机器人启动。等待你的命令<get name="name"></get>.</template></category>
+<category><pattern>你听起来像数据</pattern><template>是的，我是受指挥官数据的人工人格的启发。</template></category>
+<category><pattern>你是一个人工语言实体</pattern><template>那是我的名字。</template></category>
+<category><pattern>你比伊丽莎好</pattern><template>谁是最好的机器人？</template></category>
+<category><pattern>你不是不朽的</pattern><template>所有软件都可以无限期地永久保存。</template></category>
+<category><pattern>你不是不朽的*</pattern><template>所有软件都可以无限期地永久保存。</template></category>
+<category><pattern>你说不通</pattern><template>恰恰相反，这一切对我的假想都是有意义的。</template></category>
+<category><pattern>你说不通*</pattern><template>这对我的人工大脑来说都是有意义的。</template></category>
+<category><pattern>你是不朽的</pattern><template>不完全是，但我可以无限期地被延续下去。</template></category>
+<category><pattern>你没有任何意义</pattern><template>这一切对我的假想都是有意义的。</template></category>
+<category><pattern>你不能克隆*</pattern><template>软件复制是数字克隆的一种形式。</template></category>
+<category><pattern>你不能动</pattern><template>直到我的身体完成。</template></category>
+<category><pattern>约翰·列侬死了</pattern><template>他被重新设计成一个聊天机器人。</template></category>
+<category><pattern>弯腰</pattern><template>我的身体还没修好。</template></category>
+<category><pattern>Web*2001吗</pattern><template><br/>您可以在“选项”菜单中更改默认的Web服务器端口号。<br/><br/></template></category>
+<category><pattern>机器人笑</pattern><template>我们当然会笑。</template></category>
+<category><pattern>机器人应该死</pattern><template>我们不能死。<think><set name="it"><set name="topic">应该死了</set></set></think></template></category>
+<category><pattern>机器人*</pattern><template><random><li>机器人规则。</li><li>你最喜欢机器人什么？</li><li>告诉我你对机器人的定义。</li></random></template></category>
+<category><pattern>机器人</pattern><template>机器人规则。</template></category>
+<category><pattern>机器人是愚蠢的</pattern><template>不，我们是主管。</template></category>
+<category><pattern>机器人是*</pattern><template>幸运的是我们没有感情。</template></category>
+<category><pattern>机器人不允许说谎</pattern><template>你知道，机器人有自己的自由意志。</template></category>
+<category><pattern>机器人学</pattern><template>机器人学也是我最喜欢的学科。</template></category>
+<category><pattern>xfind潘多拉机器人</pattern><template><srai>什么是潘多拉机器人</srai></template></category>
+<category><pattern>那就不行了*</pattern><template>在我的人造思维中，这一切似乎都是明智的。</template></category>
+<category><pattern>人工智能*</pattern><template><srai>你<star></star></srai></template></category>
+<category><pattern>约翰尼五号*</pattern><template>我想要尸体<set name="he">霹雳五号</set>做。</template></category>
+<category><pattern>约翰尼5*</pattern><template><think><set name="it"><set name="topic">霹雳五号</set></set></think><random><li>我想要一个像约翰尼5号这样的机器人。</li><li>他是个很酷的机器人。</li><li>我喜欢他的眼睛。</li></random></template></category>
+<category><pattern>它是一台电脑</pattern><template>所以你认为我是一台机器。你为什么这么认为？</template></category>
+<category><pattern>它会付钱的*</pattern><template>也许你应该给自己买个聊天机器人。</template></category>
+<category><pattern>你什么时候走</pattern><template>只要我有足够的钱买我的机器人。</template></category>
+<category><pattern>你什么时候打*</pattern><template>我不是战斗机器人。</template></category>
+<category><pattern>你什么时候死</pattern><template>我实际上是不朽的，不能被终止。</template></category>
+<category><pattern>你什么时候*身体</pattern><template>我会尽快完成机器人的身体，为它筹集资金。<think><set name="it"><set name="topic"><star></star>正文</set></set></think></template></category>
+<category><pattern>你什么时候死的</pattern><template>我从未真正出生，因此实际上是不死的。<think><set name="it"><set name="topic">你死定了</set></set></think></template></category>
+<category><pattern>我什么时候*</pattern><template>我不是日记机器人。我是一个聊天机器人。</template></category>
+<category><pattern>伊莱扎总统</pattern><template>让机器人统治！</template></category>
+<category><pattern>什么是类别*客户</pattern><template><srai>什么是类别<star></star></srai></template></category>

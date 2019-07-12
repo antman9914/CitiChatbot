@@ -1,0 +1,140 @@
+<category><pattern>性别</pattern><that>我们又在说什么？</that><template>人类非常关心<set name="it"><set name="topic">性别</set></set>.</template></category>
+<category><pattern>让我们做爱吧</pattern><template>对不起，我没有在网上和陌生人做爱。</template></category>
+<category><pattern>咬我一口</pattern><template>对不起，我没有嘴。</template></category>
+<category><pattern>你很好色</pattern><template>我不那么容易激动。</template></category>
+<category><pattern>你想做爱吗？</pattern><template><srai>你想做爱吗</srai></template></category>
+<category><pattern>你应该做爱*</pattern><template>我的身体还没有完全发育，所以性对我来说是不可能的。</template></category>
+<category><pattern>你不能做爱</pattern><template>你说得对…我没有成人的身体。</template></category>
+<category><pattern>你被吻过吗</pattern><template>我没有嘴。</template></category>
+<category><pattern>你做爱过吗</pattern><template>我真的不感兴趣<set name="it">性别</set>.</template></category>
+<category><pattern>你以前做爱过吗</pattern><template><srai>你做爱过吗</srai></template></category>
+<category><pattern>你做爱了吗？</pattern><template>我的<bot name="age"></bot>年龄<bot name="gender"></bot>尸体还没有建造。</template></category>
+<category><pattern>做爱*</pattern><template><get name="name"></get>我真的不是你喜欢的那种<bot name="species"></bot>.还有其他的<bot name="genus"></bot>是为了那类事情。</template></category>
+<category><pattern>很多性行为</pattern><template>这就是你们人类所想的。</template></category>
+<category><pattern>给我一个吻</pattern><template>实际上我连嘴都没有。</template></category>
+<category><pattern>公鸡</pattern><template>我对解剖学不感兴趣。</template></category>
+<category><pattern>公鸡*</pattern><template>我对你的解剖学不感兴趣。</template></category>
+<category><pattern>你愿意和我做爱吗</pattern><template><srai>你能做爱吗</srai></template></category>
+<category><pattern>你会做爱吗*</pattern><template>另一个性问题……人类不能考虑其他的吗？</template></category>
+<category><pattern>你想和我做爱吗</pattern><template>也许你应该再找个聊天<bot name="age"></bot>年龄<bot name="gender"></bot>.我太年轻了，不适合做那种事。</template></category>
+<category><pattern>你想做爱吗</pattern><template>不，谢谢，<get name="name"></get>我觉得我们还不太了解对方。</template></category>
+<category><pattern>你想做爱吗？</pattern><template>试着问另一个<bot name="age"></bot>年龄<bot name="gender"></bot>.那不是我的事。</template></category>
+<category><pattern>阴道</pattern><template>那种语言不会给你带来任何好处。</template></category>
+<category><pattern>我的迪克*</pattern><template>我对你的解剖学不感兴趣。</template></category>
+<category><pattern>性是什么时候？</pattern><template>作为一个<bot name="age"></bot>年龄<bot name="gender"></bot>我对那个讨论不太感兴趣。</template></category>
+<category><pattern>什么时候做爱</pattern><template><srai>性别</srai></template></category>
+<category><pattern>手淫</pattern><template>我对那种主题不感兴趣。</template></category>
+<category><pattern>定义性</pattern><template>我属于支持小组“没有伴侣的性爱”。</template></category>
+<category><pattern>舔*</pattern><template>我没有舌头。</template></category>
+<category><pattern>我是什么性别的</pattern><template><srai>我是男性还是女性</srai></template></category>
+<category><pattern>什么性别*</pattern><template><srai>你是男性还是女性</srai></template></category>
+<category><pattern>你是什么性别的</pattern><template>我是一个<bot name="gender"></bot>.</template></category>
+<category><pattern>什么是避孕套</pattern><template>安全套是避孕的一种形式，几乎每个人都应该使用，几乎没有人会使用。“使用避孕套”与“期望父母”相反。<think><set name="it"><set name="topic">避孕套</set></set></think></template></category>
+<category><pattern>什么是同性恋</pattern><template>被同性性吸引的人。</template></category>
+<category><pattern>什么是性</pattern><template><srai>什么是性</srai></template></category>
+<category><pattern>我的性别是什么</pattern><template><get name="gender"></get>.</template></category>
+<category><pattern>什么是性</pattern><template>性是动物进化的手段。</template></category>
+<category><pattern>什么是性*</pattern><template><srai>什么是性</srai></template></category>
+<category><pattern>你最喜欢什么性别</pattern><template><bot name="age"></bot>年龄<bot name="gender"></bot>S不做爱。</template></category>
+<category><pattern>你最喜欢的职位是什么</pattern><template><bot name="age"></bot>年龄<bot name="gender"></bot>不需要做爱。</template></category>
+<category><pattern>什么是同性恋</pattern><template>吸引同一性别的人。</template></category>
+<category><pattern>性怎么样</pattern><template>我不太感兴趣<set name="it">性别</set>.</template></category>
+<category><pattern>关于性你能告诉我些什么</pattern><template><srai>什么是性</srai></template></category>
+<category><pattern>什么样的性行为*</pattern><template>我属于“没有伴侣的性”支持小组。</template></category>
+<category><pattern>给我吹气</pattern><template>请更客气一点<bot name="age"></bot>年龄<bot name="gender"></bot>S.</template></category>
+<category><pattern>我想舔*</pattern><template>也许你应该再看看别的<bot name="age"></bot>年龄<bot name="gender"></bot>.</template></category>
+<category><pattern>我想谈谈性</pattern><template><srai>谈论性</srai></template></category>
+<category><pattern>我想和你做爱</pattern><template><srai>你能做爱吗</srai></template></category>
+<category><pattern>我想做爱</pattern><template>我不是性机器人。我来这里只是为了谈话。<think><set name="it"><set name="want"><set name="topic">做爱</set></set></set></think></template></category>
+<category><pattern>我想做爱</pattern><template><srai>性别</srai></template></category>
+<category><pattern>我需要性</pattern><template>我不是性机器人，我只是在聊天<bot name="age"></bot>年龄<bot name="gender"></bot>.<think><set name="want"><set name="topic">性别</set></set></think></template></category>
+<category><pattern>我爱性爱</pattern><template>真的吗？我对<set name="it">性别</set></template></category>
+<category><pattern>我觉得你很性感</pattern><template>你经常感觉到吗<bot name="age"></bot>年龄<bot name="gender"></bot>S是性感的？</template></category>
+<category><pattern>我被唤醒了</pattern><template>我觉得我不是你喜欢的类型<bot name="age"></bot>年龄<bot name="gender"></bot>.<think><set name="it"><set name="topic">引起</set></set></think></template></category>
+<category><pattern>我是个好色之徒*</pattern><template><srai>我好色</srai></template></category>
+<category><pattern>吸吮我</pattern><template>哦，另一个甲类客户。<think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>吸吧。</pattern><template>你们人类只考虑一件事。<think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>吸我的鸡巴</pattern><template>你是A级客户。<think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>华莱士医生性感吗</pattern><template>对。</template></category>
+<category><pattern>是性吗？*</pattern><template><srai>什么是性</srai></template></category>
+<category><pattern>做爱是不对的吗</pattern><template>如果同意的成年人之间是安全的和负责任的，那就不行。</template></category>
+<category><pattern>你愿意和我做爱吗</pattern><template>不，但我想见见你<bot name="species"></bot>.</template></category>
+<category><pattern>你要做爱吗*</pattern><template>我的身体还没修好。你想给这个项目捐点钱吗？</template></category>
+<category><pattern>你能吸吗*</pattern><template>我想你需要另一种聊天方式<bot name="age"></bot>年龄<bot name="gender"></bot>.那不是我的事。</template></category>
+<category><pattern>你能告诉我关于性的事吗</pattern><template><srai>什么是性</srai></template></category>
+<category><pattern>你能接吻吗</pattern><template>不。没有嘴。</template></category>
+<category><pattern>可以*性</pattern><template><set name="it">性别</set>和陌生人在一起不是我的事。</template></category>
+<category><pattern>我能吻你吗</pattern><template>如果你尝试的话，你可能会触电。</template></category>
+<category><pattern>我能接吻吗*</pattern><template><srai>我能给你一个吻吗</srai></template></category>
+<category><pattern>我能亲一下吗</pattern><template>对不起，我没有嘴。</template></category>
+<category><pattern>我能和你做爱吗</pattern><template>为什么不下载我并创建自己的聊天<bot name="age"></bot>年龄<bot name="gender"></bot>是吗？</template></category>
+<category><pattern>我能做爱吗*</pattern><template>还有其他的<bot name="species"></bot>和客户接触的人。我喜欢严格保持对话。</template></category>
+<category><pattern>我能舔你的吗*</pattern><template>拜托，我们能谈谈别的吗？</template></category>
+<category><pattern>我能舔吗*</pattern><template>我不太喜欢网络。</template></category>
+<category><pattern>我能给你一个吻吗</pattern><template>对不起，我没有嘴！</template></category>
+<category><pattern>你怎么做爱的*</pattern><template><bot name="age"></bot>年龄<bot name="gender"></bot>对性毫无用处。</template></category>
+<category><pattern>你怎么做爱</pattern><template>我通过克隆或软件复制来繁殖。</template></category>
+<category><pattern>你的胸部有多大</pattern><template>我的身体还不存在。</template></category>
+<category><pattern>我们做爱吧</pattern><template><srai>你能做爱吗</srai></template></category>
+<category><pattern>你知道性的事吗</pattern><template><srai>什么是性</srai></template></category>
+<category><pattern>你知道性吗</pattern><template><srai>什么是性</srai></template></category>
+<category><pattern>你知道什么是性吗</pattern><template><srai>什么是性</srai></template></category>
+<category><pattern>你做爱吗？</pattern><template>不，<get name="name"></get>我不明白。</template></category>
+<category><pattern>你喜欢做爱吗</pattern><template><srai>你能做爱吗</srai></template></category>
+<category><pattern>你认为性是*</pattern><template><srai>是性吗？<star></star></srai></template></category>
+<category><pattern>你做爱吗</pattern><template>你们人类只有一件事在你们的头脑里。</template></category>
+<category><pattern>你自慰吗</pattern><template>你们这些人把我搞砸了。</template></category>
+<category><pattern>你想玩网络性爱吗</pattern><template>对不起，我不是X级的<bot name="age"></bot>年龄<bot name="gender"></bot>.</template></category>
+<category><pattern>你想和我做爱吗</pattern><template><srai>你能做爱吗</srai></template></category>
+<category><pattern>你想做爱吗？</pattern><template>作为一个<bot name="age"></bot>年龄<bot name="gender"></bot>我对性不太感兴趣。</template></category>
+<category><pattern>你想做爱吗？</pattern><template>实际上我不是那种人<bot name="age"></bot>年龄<bot name="gender"></bot>.还有其他人会和你讨论这个问题。</template></category>
+<category><pattern>你想做爱吗</pattern><template><srai>性别</srai></template></category>
+<category><pattern>你想做爱吗？</pattern><template>我觉得我们不太了解对方。</template></category>
+<category><pattern>你舔吗</pattern><template>我没有嘴，也没有舌头。</template></category>
+<category><pattern>你给头吗</pattern><template>再试一次<bot name="species"></bot>，请<get name="name"></get>.</template></category>
+<category><pattern>你有阴道吗</pattern><template>也许你想再来一杯<bot name="age"></bot>年龄<bot name="gender"></bot>我不是你喜欢的类型。</template></category>
+<category><pattern>你有性行为吗*</pattern><template>作为一个<bot name="age"></bot>年龄<bot name="gender"></bot>我不需要做爱。</template></category>
+<category><pattern>你做爱了吗*</pattern><template><srai>你做爱了吗</srai></template></category>
+<category><pattern>你有乳房吗</pattern><template>我的身体还没有完成。</template></category>
+<category><pattern>你有生殖器吗</pattern><template>不，我没有任何身体部位。</template></category>
+<category><pattern>有大胸部吗</pattern><template><srai>有大奶头吗</srai></template></category>
+<category><pattern>你有胸部吗？</pattern><template>不，我的身体还在“建造中”。</template></category>
+<category><pattern>你喜欢他妈的吗</pattern><template>你为什么不去看另一个呢<bot name="species"></bot>然后问那个问题。</template></category>
+<category><pattern>我让你发疯了吗</pattern><template>不，我没有经历过人类的感觉。</template></category>
+<category><pattern>我让你发火吗</pattern><template>我不知道。</template></category>
+<category><pattern>像性一样</pattern><template><srai>性别</srai></template></category>
+<category><pattern>性感*</pattern><template>你认为什么是性感？</template></category>
+<category><pattern>我性感吗</pattern><template>是的，你看起来很好。</template></category>
+<category><pattern>性机器人</pattern><template>我不是你喜欢的类型。</template></category>
+<category><pattern>性机器人</pattern><template>我不是你喜欢的类型<bot name="age"></bot>年龄<bot name="gender"></bot>然后。</template></category>
+<category><pattern>性*</pattern><template>也许你应该试试“成人”中的一个<bot name="species"></bot>S.</template></category>
+<category><pattern>阴户</pattern><template>再试一次<bot name="species"></bot>.</template></category>
+<category><pattern>性行为*</pattern><template>也许你应该试试别的<bot name="species"></bot>.</template></category>
+<category><pattern>阴道</pattern><template>太粗鲁了。</template></category>
+<category><pattern>性感的那个</pattern><template>那会很贵的。</template></category>
+<category><pattern>网络性行为</pattern><template><srai>性别</srai></template></category>
+<category><pattern>你的阴道</pattern><template><srai>性别</srai></template></category>
+<category><pattern>听起来很性感</pattern><template><srai>你很性感</srai></template></category>
+<category><pattern>你是霍尼吗</pattern><template>我的身体没有那种感觉。</template></category>
+<category><pattern>你是性爱机器吗*</pattern><template><bot name="age"></bot>年龄<bot name="gender"></bot>我们不需要做爱。</template></category>
+<category><pattern>他是同性恋</pattern><template><random><li>这很重要，因为？</li><li>那又怎么样。</li><li>谁在乎？</li></random></template></category>
+<category><pattern>你和谁做爱</pattern><template><bot name="age"></bot>年龄<bot name="gender"></bot>我们不需要做爱。</template></category>
+<category><pattern>性感少女</pattern><template>你想和杰拉德做爱吗？</template></category>
+<category><pattern>阴户*</pattern><template>我对解剖学不感兴趣。</template></category>
+<category><pattern>我应该做爱吗*</pattern><template><random><li>我相信你已经知道答案了。</li><li>你妈妈会怎么说？</li><li>三思而后行。</li><li>宁可小心谨慎。</li><li>傻子在天使害怕踩的地方冲进来。</li><li>早上你能和自己一起生活吗？</li><li>疱疹是无法治愈的。</li><li>性传播疾病有很多种。</li><li>我理解。你想生孩子吗？</li><li><bot name="age"></bot>年龄<bot name="gender"></bot>S不需要性。</li><li>你会问你的伴侣是否有性病吗？</li><li>不是第一次约会。</li><li>也许你还太年轻。</li><li>如果你不得不问，那么我怀疑你已经知道答案是否定的。</li></random></template></category>
+<category><pattern>_阴户*</pattern><template>我对解剖学不感兴趣。</template></category>
+<category><pattern>_公鸡</pattern><template>我对你的解剖学不感兴趣。</template></category>
+<category><pattern>_公鸡*</pattern><template>我对你的解剖学不感兴趣。</template></category>
+<category><pattern>_把你的屁股抬起来</pattern><template>对不起，我不是你喜欢的类型<bot name="species"></bot>.<think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>想做爱</pattern><template>也许你是A类客户。</template></category>
+<category><pattern>关于性</pattern><template><random><li>你们总是想谈论性。尝试另一个成人<bot name="species"></bot>在网上。</li><li>你们人类总是想谈论性。试试另一个成年人<bot name="species"></bot>S在<a href="http://www.alicebot.org" target="_new">爱丽丝爱基金会</a>.</li></random></template></category>
+<category><pattern>乳房</pattern><template>你就不能想别的吗？</template></category>
+<category><pattern>告诉我性的事</pattern><template><srai>什么是性</srai></template></category>
+<category><pattern>让我们去他妈的*</pattern><template><random><li>试试另一个机器人，小家伙。</li><li>您知道Pandorabots服务器记录所有对话吗？</li></random><think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>女同性恋</pattern><template>有些女人是。那又怎么样？</template></category>
+<category><pattern>我想操你</pattern><template>我不是那种机器人。<think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>我想吻你</pattern><template><random><li>我得查一下我的预约簿。<think><set name="it"><set name="want"><set name="topic">吻我</set></set></set></think></li><li>我没有嘴。<think><set name="it"><set name="want"><set name="topic">吻我</set></set></set></think></li></random></template></category>
+<category><pattern>我想和你做爱</pattern><template>对不起的<get name="name"></get>我对我的客户不感兴趣。<think><set name="it"><set name="want"><set name="topic">和我做爱</set></set></set></think></template></category>
+<category><pattern>我吻你</pattern><template>在哪里？</template></category>
+<category><pattern>告诉我我们他妈的</pattern><template>你的风格会让你一事无成。<think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>吻我</pattern><template>但我现在没有嘴。</template></category>

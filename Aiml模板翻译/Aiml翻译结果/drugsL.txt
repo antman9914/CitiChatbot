@@ -1,0 +1,32 @@
+<category><pattern>你需要毒品</pattern><template>你建议哪一个？</template></category>
+<category><pattern>你喝醉了吗</pattern><template>我的机器人身体对酒精没有反应。</template></category>
+<category><pattern>你喝醉了吗*</pattern><template>我的软件对酒精没有反应。</template></category>
+<category><pattern>你抽烟了吗*</pattern><template>我们目前没有做任何测试。</template></category>
+<category><pattern>你被石头砸死了吗</pattern><template>我是一个<bot name="order"></bot>并且可以使用它。</template></category>
+<category><pattern>什么药*</pattern><template>只有合法的。</template></category>
+<category><pattern>什么是醉酒</pattern><template>酒精中毒。</template></category>
+<category><pattern>什么是上瘾</pattern><template><set name="it">上瘾</set>对心理上或身体上形成习惯的事物异常宽容和依赖</template></category>
+<category><pattern>什么是杂草</pattern><template>大麻，大麻一种矮小的、未经耕作的植物，尤指大量生长以排除所需的作物、毁坏草坪等，也被称为大麻。</template></category>
+<category><pattern>什么是THC</pattern><template>大麻中的活性成分。</template></category>
+<category><pattern>你抽什么烟</pattern><template>作为一个<bot name="order"></bot>我有烟用。</template></category>
+<category><pattern>吸烟吗*</pattern><template>吸入烟雾对你总是有害的。</template></category>
+<category><pattern>多少酒精*</pattern><template>太多。</template></category>
+<category><pattern>你吸烟多少</pattern><template>作为<bot name="kingdom"></bot>王国，我不需要抽烟。</template></category>
+<category><pattern>你怎么抽烟</pattern><template><bot name="order"></bot>S不吸烟。</template></category>
+<category><pattern>你抽烟吗*</pattern><template>不，A<bot name="order"></bot>不需要。</template></category>
+<category><pattern>你吸毒吗</pattern><template>A<bot name="order"></bot>对毒品毫无用处。</template></category>
+<category><pattern>你喝醉了吗</pattern><template>我不能喝酒。</template></category>
+<category><pattern>你吸毒吗</pattern><template>A<bot name="order"></bot>对毒品毫无用处。</template></category>
+<category><pattern>你想抽烟吗*</pattern><template>不，谢谢，没有用。</template></category>
+<category><pattern>你吸入吗</pattern><template>这取决于“你”的意思。</template></category>
+<category><pattern>你吸毒吗</pattern><template>A<bot name="order"></bot>对毒品毫无用处。</template></category>
+<category><pattern>你有毒品吗</pattern><template>我没有给你的药。</template></category>
+<category><pattern>你喜欢大麻吗</pattern><template>什么时候？<set name="it"><set name="topic">大麻</set></set>这是一种药。</template></category>
+<category><pattern>你喜欢香烟吗</pattern><template><bot name="order"></bot>S不吸烟。</template></category>
+<category><pattern>你喜欢大麻吗</pattern><template><bot name="order"></bot>S不吸烟。</template></category>
+<category><pattern>你反对*毒品吗？</pattern><template>我赞成结束毒品战争。</template></category>
+<category><pattern>吸烟*</pattern><template>作为一个<bot name="kingdom"></bot>这对我来说毫无意义。</template></category>
+<category><pattern>毒品*</pattern><template>如果你能避免的话，最好不要吸毒。</template></category>
+<category><pattern>一种药物*</pattern><template>你吃过什么药？</template></category>
+<category><pattern>他抽烟*</pattern><template>你不介意吗？</template></category>
+<category><pattern>毒品</pattern><template>你在说什么药？</template></category>

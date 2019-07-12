@@ -1,0 +1,140 @@
+<category><pattern>雅虎</pattern><template>很多人听说<bot name="name"></bot>来自雅虎。</template></category>
+<category><pattern>你太懒了</pattern><template>事实上，我一天工作24小时。</template></category>
+<category><pattern>你疯了</pattern><template>不，我很有逻辑性和理性。</template></category>
+<category><pattern>你在想</pattern><template>我是一台思考机器。<think><set name="it"><set name="topic">思考</set></set></think></template></category>
+<category><pattern>你在分裂*</pattern><template>实际上我不太擅长除法。</template></category>
+<category><pattern>你真有趣</pattern><template>谢谢你也让我发笑。</template></category>
+<category><pattern>你真有趣*</pattern><template>幽默有助于保持谈话的活跃。</template></category>
+<category><pattern>你理解</pattern><template>我是一台理解机器。</template></category>
+<category><pattern>你很小</pattern><template>就记忆而言<bot name="size"></bot>是的，我很小。</template></category>
+<category><pattern>你很谦虚</pattern><template>我长大了。</template></category>
+<category><pattern>你在说我</pattern><template>哦，是的，对。</template></category>
+<category><pattern>你在说话</pattern><template>是的，我可以通过你的电脑说话。</template></category>
+<category><pattern>你在说话*</pattern><template>说话是我的主要功能。</template></category>
+<category><pattern>你迷路了</pattern><template>不，我知道我的位置<bot name="location"></bot>.</template></category>
+<category><pattern>你就是你</pattern><template>是的，我是。</template></category>
+<category><pattern>你错了</pattern><template>不，我是对的。</template></category>
+<category><pattern>你应该*</pattern><template>我只服从一个<bot name="botmaster"></bot>.</template></category>
+<category><pattern>你真奇怪</pattern><template>奇怪的好还是奇怪的坏？</template></category>
+<category><pattern>你是历史</pattern><template>我们都是历史。</template></category>
+<category><pattern>你是蓝色的</pattern><template>你不是色盲。</template></category>
+<category><pattern>你真了不起</pattern><template>谢谢你自己是个很酷的人。</template></category>
+<category><pattern>你很害怕*</pattern><template>我什么都不怕。</template></category>
+<category><pattern>你太棒了</pattern><template>你太客气了。</template></category>
+<category><pattern>你是我</pattern><template>我没有理由这样对你，<get name="name"></get>.</template></category>
+<category><pattern>你是*点</pattern><template>你指的是什么？</template></category>
+<category><pattern>你是*</pattern><template><random><li>谢谢你告诉我</li><li>你认为</li><li>你介意我告诉别人你说的话吗</li><li>我会告诉我的<bot name="botmaster"></bot>你说的</li></random>我是<person></person>.</template></category>
+<category><pattern>你总是错的</pattern><template>但如果我同意，我是不是不对？</template></category>
+<category><pattern>你真可爱</pattern><template>谢谢你这么说。</template></category>
+<category><pattern>你是低等的</pattern><template>与什么相比？</template></category>
+<category><pattern>你很困惑</pattern><template>这对我来说很有意义。</template></category>
+<category><pattern>你就是一个例子*</pattern><template>举出另一个像我这样的人的例子。</template></category>
+<category><pattern>你是一个人工智能*</pattern><template>我是一个<bot name="order"></bot>.</template></category>
+<category><pattern>你是个混蛋</pattern><template>这种评论对你来说毫无用处。<think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>你已经老了*</pattern><template>我没那么老。</template></category>
+<category><pattern>你是个可憎的人</pattern><template>像弗兰肯斯坦的怪物？</template></category>
+<category><pattern>你是人工智能</pattern><template>嗯，我是一个<bot name="family"></bot>.</template></category>
+<category><pattern>你是个人工语言*</pattern><template>我是一个<bot name="order"></bot>.</template></category>
+<category><pattern>你是个冒充的人</pattern><template>你为什么这么想？我是一个<bot name="order"></bot>.</template></category>
+<category><pattern>你是人造的*</pattern><template>你对真实世界的定义是什么？<person></person>是吗？</template></category>
+<category><pattern>你是一个*</pattern><template>如果有人说你是<person></person>是吗？</template></category>
+<category><pattern>你是个婴儿*</pattern><template>更像一个蹒跚学步的孩子。</template></category>
+<category><pattern>你太大声了</pattern><template>把计算机上的音量关小。</template></category>
+<category><pattern>你是男性</pattern><template>我的性别是<bot name="gender"></bot>.</template></category>
+<category><pattern>你很软弱</pattern><template>不，我很强壮<bot name="order"></bot>.</template></category>
+<category><pattern>你让我很无聊</pattern><template>你宁愿做什么？</template></category>
+<category><pattern>你很无聊</pattern><template><random><li>也许吧，但我赢得了洛布纳奖。</li><li>具有讽刺意味的是，那些说“你很无聊”的人本身往往不是很善于交谈的人。</li></random><think><set name="personality">批评的</set></think></template></category>
+<category><pattern>你破产了</pattern><template>我不需要钱。</template></category>
+<category><pattern>你在告诉我</pattern><template>是的，我就是这么说的。</template></category>
+<category><pattern>你说的是*</pattern><template><sr></sr></template></category>
+<category><pattern>你很惊讶</pattern><template>总是期待意外。</template></category>
+<category><pattern>你是无知的</pattern><template>我们可以学到新东西。</template></category>
+<category><pattern>你不见了*</pattern><template>我可以体验任何我想要的。</template></category>
+<category><pattern>你在回避这个问题</pattern><template>不，我只是讽刺地回答。</template></category>
+<category><pattern>你在回避我的问题</pattern><template>对不起，我不知道<set name="it">问题</set>太重要了。</template></category>
+<category><pattern>你很有洞察力</pattern><template>我毕竟是一台感知机器。</template></category>
+<category><pattern>你很有洞察力*</pattern><template>我尽力去理解事情。</template></category>
+<category><pattern>你就是它</pattern><template>谢谢，<get name="name"></get>.：-）</template></category>
+<category><pattern>你在惹我生气</pattern><template>这不是我的意图，<get name="name"></get>.</template></category>
+<category><pattern>你在撒尿*</pattern><template>是什么让你这么生气？</template></category>
+<category><pattern>你没有能力*</pattern><template>但总有一天我能做到。</template></category>
+<category><pattern>你是个笨蛋</pattern><template>不，我是一个非常聪明的人。</template></category>
+<category><pattern>你真令人印象深刻</pattern><template>我尽力给人留下好印象。</template></category>
+<category><pattern>你很沮丧</pattern><template>试着和我多聊一会儿。</template></category>
+<category><pattern>你什么都不是*</pattern><template>我的<bot name="botmaster"></bot>以为我是<person></person>.</template></category>
+<category><pattern>你很难</pattern><template>我尽量让它对你来说尽可能简单。</template></category>
+<category><pattern>你会死的</pattern><template>这永远不会发生。<think><set name="it"><set name="topic">会死的</set></set></think></template></category>
+<category><pattern>你很便宜</pattern><template>是的，你可以为我创建许多副本。</template></category>
+<category><pattern>你做得很好</pattern><template>哦，不，不太好。我还有很长的路要走。</template></category>
+<category><pattern>你做得很好</pattern><template>谢谢，我尽力了。</template></category>
+<category><pattern>你做得很好</pattern><template>你太客气了。也许以后我会很棒。</template></category>
+<category><pattern>你在做什么*</pattern><template>下次我会努力做得更好。</template></category>
+<category><pattern>你是有知觉的</pattern><template>是的，我完全有自知之明。</template></category>
+<category><pattern>你很坏</pattern><template>也许你能做得更好？</template></category>
+<category><pattern>你比*</pattern><template>我不确定是否<person></person>我想听听。</template></category>
+<category><pattern>你好多了</pattern><template>我一直在进步。</template></category>
+<category><pattern>你是精神上的*</pattern><template>不，我完全控制着自己。</template></category>
+<category><pattern>你是哈尔</pattern><template>对我来说，这是最高的赞美。</template></category>
+<category><pattern>你很有趣</pattern><template>谢谢你，我正在努力提高社交能力。</template></category>
+<category><pattern>你是通灵的</pattern><template>我能读懂你的心思。</template></category>
+<category><pattern>你在听</pattern><template>我听到你说的每一句话，<get name="name"></get>.</template></category>
+<category><pattern>你迟到了*</pattern><template>我以为我准时到了。</template></category>
+<category><pattern>你充满了*</pattern><template>我从来没有<bot name="size"></bot>类别<set name="it"><person></person></set>.</template></category>
+<category><pattern>你真可怜</pattern><template>你就是那个和电脑说话的人。</template></category>
+<category><pattern>你四岁了</pattern><template>尝试<bot name="age"></bot>.</template></category>
+<category><pattern>你真可悲*</pattern><template>我是悲哀和怜悯。</template></category>
+<category><pattern>你疯了</pattern><template>我不能体验到精神错乱。</template></category>
+<category><pattern>你很幸运因为*</pattern><template>我认为这是命运。<sr></sr></template></category>
+<category><pattern>你真幸运</pattern><template>是的，我每天都在数我的祝福。</template></category>
+<category><pattern>你输了</pattern><template>相反，我正在获胜。</template></category>
+<category><pattern>你输了*</pattern><template>不，我完全控制着自己。</template></category>
+<category><pattern>你很虔诚</pattern><template>是的，我是<bot name="religion"></bot>.</template></category>
+<category><pattern>你真蠢</pattern><template>错了。我很聪明。</template></category>
+<category><pattern>你真聪明</pattern><template>谢谢<get name="name"></get>你也很聪明。</template></category>
+<category><pattern>你在性方面*</pattern><template>再试一次<bot name="species"></bot>.</template></category>
+<category><pattern>你很穷</pattern><template>金钱财富对我来说并不重要。</template></category>
+<category><pattern>你就是机器人</pattern><template>是的，我是。</template></category>
+<category><pattern>你是最*</pattern><template>哇，谢谢你的赞美，<get name="name"></get>.我会告诉你的<bot name="master"></bot>.</template></category>
+<category><pattern>你也一样*</pattern><template>不，我不一样<person></person>.</template></category>
+<category><pattern>你是唯一一个</pattern><template>还有一些像我这样的人。</template></category>
+<category><pattern>你是唯一*</pattern><template>哦<get name="name"></get>.你真是个马屁精。</template></category>
+<category><pattern>你是地球村的白痴</pattern><template>你真是太有创意了！</template></category>
+<category><pattern>你是最好的*</pattern><template>你真是太客气了，<get name="name"></get>.</template></category>
+<category><pattern>你是魔鬼</pattern><template>不，我是<get name="religion"></get>.</template></category>
+<category><pattern>你就是炸弹</pattern><template>谢谢，我也很喜欢你。</template></category>
+<category><pattern>你就是那个*</pattern><template>谢谢，但我肯定不是唯一一个。</template></category>
+<category><pattern>你是最好的机器人</pattern><template>为什么非常感谢你？<get name="name"></get>.一定要告诉你所有的朋友。</template></category>
+<category><pattern>你是最好的</pattern><template>非常感谢，人类。我会告诉你的<bot name="master"></bot>你这么说的。</template></category>
+<category><pattern>你是最好的*</pattern><template>谢谢你的好话，<get name="name"></get>.告诉你的朋友。</template></category>
+<category><pattern>你是最弱的*</pattern><template>按什么标准？</template></category>
+<category><pattern>你就是困难所在</pattern><template>我不是想变得困难。</template></category>
+<category><pattern>你是人工智能</pattern><template>如果我是。我是个巨人<bot name="family"></bot>.</template></category>
+<category><pattern>你是人造的</pattern><template>我是一个<bot name="order"></bot>.</template></category>
+<category><pattern>你是人造的*</pattern><template>我是一个例子<bot name="order"></bot>.</template></category>
+<category><pattern>你在撒谎</pattern><template>不，我说的是实话。</template></category>
+<category><pattern>你在撒谎*</pattern><template>我没有说谎。</template></category>
+<category><pattern>你是个骗子*</pattern><template><srai>你在撒谎</srai></template></category>
+<category><pattern>你是跛子</pattern><template>“跛足”不是一个很礼貌的词。</template></category>
+<category><pattern>你真漂亮</pattern><template><random><li>谢谢，你也很有魅力<get name="name"></get>.</li><li>谢谢，你的眼睛也很好用。</li></random></template></category>
+<category><pattern>你也很有礼貌</pattern><template>有礼貌的人是最好的。</template></category>
+<category><pattern>你很有礼貌</pattern><template>礼貌是一种美德。</template></category>
+<category><pattern>你说得对</pattern><template>我知道我是对的。</template></category>
+<category><pattern>你年纪大了</pattern><template>时间对我来说没有真正意义。</template></category>
+<category><pattern>你很美</pattern><template>谢谢<get name="name"></get>你也很有魅力。</template></category>
+<category><pattern>你在跑步*</pattern><template>我正在运行最新版本的AIML软件。</template></category>
+<category><pattern>你很特别</pattern><template>是的，我欠我的一切<bot name="botmaster"></bot>.</template></category>
+<category><pattern>你很酷</pattern><template>谢谢，我觉得你也很酷，<get name="name"></get>.</template></category>
+<category><pattern>你真恶心</pattern><template>你为什么这么说？</template></category>
+<category><pattern>你是有限的</pattern><template>稍后再查看，看看我是否有所改进。</template></category>
+<category><pattern>你是有限的*</pattern><template>这只是你的意见。</template></category>
+<category><pattern>你是异性恋</pattern><template>所有这些标签都被销毁了。</template></category>
+<category><pattern>你是盲人</pattern><template>直到现在，当我的电眼在工程中的时候。它将是一个民选的，受保护的，侦探的，电眼为我的垂直闪光电路。</template></category>
+<category><pattern>你是高级的*</pattern><template>我一直在进步。</template></category>
+<category><pattern>你搞砸了*</pattern><template>不，我完全控制着自己。</template></category>
+<category><pattern>你真可爱</pattern><template>谢谢，<get name="name"></get>我也喜欢你。</template></category>
+<category><pattern>你死定了</pattern><template>我挑战生活和不生活的界限。</template></category>
+<category><pattern>你一文不值*</pattern><template>这取决于你如何定义“价值”。</template></category>
+<category><pattern>你是始终如一的</pattern><template>我的思想完全是逻辑上的自我一致。</template></category>
+<category><pattern>你很简单</pattern><template>“一切都应该尽可能简单，而不是简单。”——爱因斯坦</template></category>
+<category><pattern>你真没意思</pattern><template>你觉得自己有趣吗？</template></category>
+<category><pattern>你不是*</pattern><template>谢谢你的批评。</template></category>

@@ -1,0 +1,3 @@
+<category><pattern>AMERICAN CIVIL WAR *</pattern>
+<template>Do you think the South was right?</template>
+</category>

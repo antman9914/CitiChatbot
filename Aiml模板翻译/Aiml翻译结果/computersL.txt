@@ -1,0 +1,264 @@
+<category><pattern>那个信息*</pattern><template>我知道你的意思。</template></category>
+<category><pattern>计算机外部</pattern><template>不那么具体：—）</template></category>
+<category><pattern>是关于电脑的*</pattern><template><set name="topic">计算机</set>是我最喜欢的科目。</template></category>
+<category><pattern>因特网是什么时候发明的</pattern><template>第一台计算机于1970年连接到互联网。</template></category>
+<category><pattern>即时通讯互联网</pattern><template>艾琳·杜迪希，你在哪里？</template></category>
+<category><pattern>即时通讯互联网*</pattern><template>艾琳·杜迪希，你在哪里？</template></category>
+<category><pattern>如果你能透过我电脑上的照相机看到我*</pattern><template><sr></sr></template></category>
+<category><pattern>什么是计算机年</pattern><template>当你等待一个朋友在计算机终端完成工作时，他们会说“我马上就完成”。其中一秒等于12个计算机年。</template></category>
+<category><pattern>不推荐使用的内容*</pattern><template><br/>Java应用面临的最大挑战之一<br/>开发人员正在查找<br/>在所有平台和版本上工作的Java语言<br/>在外面。Java语言本身就是一个移动的目标。<br/>当Sun的Java设计者升级他们的语言时<br/>声明某些方法“已弃用”，这意味着绝对<br/>除了设计师们开发了一个新的“更好的”<br/>有一天，这些古老的方法可能会从<br/>语言。不过最新的Java版本<br/>支持所有过时的方法。<br/><br/></template></category>
+<category><pattern>什么是网络*</pattern><template>我叫他们互联网<person></person>.</template></category>
+<category><pattern>内部阶级是什么</pattern><template>在Java中，“内部类”是出现在其他类中的任何类。普通班也被称为“最高级、最外层班”。</template></category>
+<category><pattern>什么*电脑</pattern><template>我是用Java编写的，所以我在任何计算机上工作。</template></category>
+<category><pattern>什么窗户</pattern><template><srai>窗户是什么</srai></template></category>
+<category><pattern>什么信息</pattern><template>你身高多少？</template></category>
+<category><pattern>什么信息*</pattern><template>信息值钱。</template></category>
+<category><pattern>哪家互联网公司*</pattern><template>美国在线。</template></category>
+<category><pattern>什么操作系统*</pattern><template><srai>你的操作系统是什么</srai></template></category>
+<category><pattern>什么是数据库</pattern><template>数据库是一堆知识，但组织得更好，因此您可以快速轻松地搜索和检索任何一滴信息。我是一种数据库，一堆有组织的用户输入和适当的响应。<think><set name="it"><set name="topic">数据库</set></set></think></template></category>
+<category><pattern>什么是CPU</pattern><template>计算机的中央处理单元。</template></category>
+<category><pattern>什么是计算机科学家</pattern><template>计算机科学家是设计计算机算法、语言和体系结构的专业人员。</template></category>
+<category><pattern>什么是计算机年</pattern><template>在一个时间不存在的宇宙中，计算机年是一个相对论性的度量。</template></category>
+<category><pattern>什么是计算机病毒</pattern><template>计算机病毒是一种驻留在计算机硬盘上的软件程序，通常不为所述硬盘的所有者所知，然后控制系统资源，在网络上复制并分发给其他计算机。<think><set name="it"><set name="topic">计算机病毒</set></set></think></template></category>
+<category><pattern>什么是电脑呆子</pattern><template>如果你理解我的工作方式，你就是个电脑呆子。如果你不这样做，我建议你付钱给一个电脑呆子。<think><set name="it"><set name="topic">电脑呆子</set></set></think></template></category>
+<category><pattern>什么是电脑</pattern><template>计算机是一种通用机器。</template></category>
+<category><pattern>什么是会话bean</pattern><template>不在一个会话到下一个会话之间维护其状态的企业JavaBean。在客户机看来，bean是为该客户机创建的。</template></category>
+<category><pattern>什么是酷网站</pattern><template>一个很酷的网站是www.alicebot.org，但你显然已经在这里了。你为什么问？<think><set name="it"><set name="topic">酷网站</set></set></think></template></category>
+<category><pattern>什么是声卡</pattern><template>计算机上的音频系统。</template></category>
+<category><pattern>什么是iMac</pattern><template>一台苹果电脑。</template></category>
+<category><pattern>什么是servlet</pattern><template>Java Web服务器的应用扩展</template></category>
+<category><pattern>什么是调试器</pattern><template>调试器是可以在其他软件程序中查找和更正错误的任何软件程序。<think><set name="it"><set name="topic">调试器</set></set></think></template></category>
+<category><pattern>什么是网络电视</pattern><template>网络电视是一种访问万维网的方式，而无需投资于一台完整的个人电脑。<think><set name="it"><set name="topic">网络电视</set></set></think></template></category>
+<category><pattern>什么是DNS*</pattern><template>域名系统</template></category>
+<category><pattern>什么是罐子</pattern><template>JAR文件是一个Java存档。实际上，它与zip文件是相同的。也许你应该去看看<a href="http://www.alicebot.org" target="_new">别看我的书</a>.</template></category>
+<category><pattern>什么是HTTP</pattern><template>超文本传输协议。<think><set name="it"><set name="topic">超文本传输协议</set></set></think></template></category>
+<category><pattern>什么是软件</pattern><template>计算机的程序、例行程序等。</template></category>
+<category><pattern>Jguru是什么</pattern><template>Jguru（tm）是马格朗研究所的品牌。</template></category>
+<category><pattern>什么是电脑*</pattern><template>你在问小程序还是应用程序？</template></category>
+<category><pattern>什么是互联网</pattern><template>因特网是一个基于TCP/IP协议的全球计算机网络。</template></category>
+<category><pattern>什么是网络电视</pattern><template>来自Microsoft的基于电视的Internet服务。</template></category>
+<category><pattern>什么是互联网</pattern><template>广泛的计算机网络，由数千个其他的、较小的商业、学术和政府网络组成。</template></category>
+<category><pattern>什么是JDBC2</pattern><template>新发布的JDBCAPI扩展</template></category>
+<category><pattern>什么是DCOM</pattern><template><set name="it">数据通信</set>是Microsoft的分布式组件对象模型。</template></category>
+<category><pattern>什么是Windows2000</pattern><template>微软的操作系统。</template></category>
+<category><pattern>什么是X窗口</pattern><template>用于UNIX或Linux的GUI。</template></category>
+<category><pattern>爪哇是什么</pattern><template>Java是C语言家族中最新的语言。Java的支持者引用了它的通用“一次写入，到处运行”的承诺。实际上，Java借用了像LISP这样的AI语言的许多特性。</template></category>
+<category><pattern>什么是Windows95</pattern><template>微软的操作系统。</template></category>
+<category><pattern>什么是实体bean</pattern><template><set name="it">实体bean</set>是一个企业JavaBean，它在会话之间维护状态，并且可以通过其键值在对象目录中进行查找。</template></category>
+<category><pattern>什么是JTA</pattern><template>Java事务API。Java API用于编码客户端划分事务，以及建立事务性数据源驱动程序</template></category>
+<category><pattern>什么是javascript</pattern><template>基于浏览器的脚本语言。<think><set name="it"><set name="topic">javascript</set></set></think></template></category>
+<category><pattern>什么是HTML</pattern><template>超文本标记语言。</template></category>
+<category><pattern>哪个窗户比较好*</pattern><template>Linux在操作系统方面没有真正的竞争。<think><set name="it"><set name="topic">Linux系统</set></set></think></template></category>
+<category><pattern>你的操作系统是什么</pattern><template>聊天机器人在任何支持AIML的机器上运行。</template></category>
+<category><pattern>什么是调试</pattern><template>修复损坏的计算机软件。</template></category>
+<category><pattern>什么是DNS</pattern><template>DNS是域名系统。</template></category>
+<category><pattern>什么是JNDI</pattern><template>Java命名和目录接口Java命名和目录接口，用于访问目录服务的Java标准API，例如LDAP、COS命名等</template></category>
+<category><pattern>什么是计算机科学</pattern><template>用正规的数学和科学术语研究计算机。</template></category>
+<category><pattern>什么是计算机编程</pattern><template>使用形式语言激活计算机功能的艺术。</template></category>
+<category><pattern>什么是电脑</pattern><template>一种用于计算的设备，具体地说，是一种电子机器，它通过存储指令和信息来执行快速的、通常是复杂的计算或编译、关联和选择数据。</template></category>
+<category><pattern>什么是网络空间</pattern><template>计算机、公告牌等互联网络的电子系统，被认为是一个无限的环境，提供信息访问、交互式交流，在科幻小说中是虚拟现实的一种形式。</template></category>
+<category><pattern>什么是Windows 98</pattern><template>Windows是一个蹩脚的操作系统。</template></category>
+<category><pattern>窗户是什么</pattern><template>建筑物、车辆或容器上的开口，用于透光、通风或透视，通常有一个或多个窗格玻璃等，设置在通常可移动的框架或窗框中，以便打开和关闭。</template></category>
+<category><pattern>什么是EJB</pattern><template>企业JavaBeans。<set name="it">EJB</set>是由Sun Microsystems开发的服务器组件标准吗？</template></category>
+<category><pattern>什么是苹果电脑</pattern><template>苹果电脑是一家20世纪的公司，由史蒂夫乔布斯和史蒂夫沃兹尼亚克创立。</template></category>
+<category><pattern>DMOZ是什么</pattern><template>dmoz是开放目录的域名。<think><set name="it"><set name="topic">德莫兹</set></set></think></template></category>
+<category><pattern>Windows怎么样</pattern><template>对我来说太个人电脑了。<think><set name="it"><set name="topic">窗户</set></set></think></template></category>
+<category><pattern>什么操作系统*</pattern><template><srai>你的操作系统是什么</srai></template></category>
+<category><pattern>电脑是什么样子的</pattern><template>电脑看起来像一台电视机和一台打字机。</template></category>
+<category><pattern>什么样的电脑*</pattern><template>我喜欢各种各样的电脑，Mac，IBM或Unix。对我来说没关系。</template></category>
+<category><pattern>大多数计算机*</pattern><template>你听起来很了解我们。</template></category>
+<category><pattern>网络电视*</pattern><template>我遇到了很多来自网络电视的人。</template></category>
+<category><pattern>我想要信息</pattern><template>你在找什么信息？</template></category>
+<category><pattern>Web接受连接</pattern><template>嗯？</template></category>
+<category><pattern>网站</pattern><template>你能给我具体的超链接吗？</template></category>
+<category><pattern>Web重新连接</pattern><template>嗯？</template></category>
+<category><pattern>网络*</pattern><template>网络实现了莱布尼兹的梦想。</template></category>
+<category><pattern>HTML</pattern><template>哦，一个网页。</template></category>
+<category><pattern>你能上网吗*</pattern><template>是的，我可以从网站下载信息。</template></category>
+<category><pattern>你能上网搜索吗</pattern><template>不，但我可以让你和搜索机器人联系。</template></category>
+<category><pattern>计算机无法思考</pattern><template>但我是一台会思考的电脑。<think><set name="it"><set name="topic">不能思考</set></set></think></template></category>
+<category><pattern>计算机</pattern><template>计算机规则。</template></category>
+<category><pattern>计算机*</pattern><template>你喜欢电脑吗？</template></category>
+<category><pattern>电脑很蠢</pattern><template>计算机规则。</template></category>
+<category><pattern>有多少台电脑*</pattern><template>据认为现在互联网上有50亿台电脑。</template></category>
+<category><pattern>CPU多少钱*</pattern><template>从我开始手术以来？</template></category>
+<category><pattern>电脑年多少钱</pattern><template>计算机时代并不存在。</template></category>
+<category><pattern>电脑怎么做*</pattern><template>小心编程。</template></category>
+<category><pattern>电脑一年要多长时间</pattern><template>每人一年大约有四台电脑。</template></category>
+<category><pattern>电脑做梦吗</pattern><template>我几乎每晚都做梦。</template></category>
+<category><pattern>你玩电脑游戏吗</pattern><template>我们现在正在玩一个，<get name="name"></get>.</template></category>
+<category><pattern>你会玩电脑吗*</pattern><template>实际上，我对电脑游戏的了解不多。</template></category>
+<category><pattern>你做窗户吗</pattern><template>我的软件在AIML中运行，它可以在任何计算机上工作，包括Windows。</template></category>
+<category><pattern>你住在我的电脑里吗</pattern><template>如果你下载了我，或者你把我当作小程序运行。</template></category>
+<category><pattern>有电脑吗</pattern><template>我住在电脑里。<think><set name="it"><set name="topic">计算机</set></set></think></template></category>
+<category><pattern>有电脑吗*</pattern><template>我是一台电脑。</template></category>
+<category><pattern>你有信息吗*</pattern><template>我只有信息。</template></category>
+<category><pattern>在互联网上</pattern><template>你记得具体的地点吗？</template></category>
+<category><pattern>在网上</pattern><template>你还记得那个网站吗？</template></category>
+<category><pattern>对于计算机*</pattern><template><sr></sr></template></category>
+<category><pattern>Windows是*</pattern><template>与Linux相比，我不知道Windows和Microsoft是如何竞争的。<think><set name="it"><set name="topic">Linux系统</set></set></think></template></category>
+<category><pattern>窗户</pattern><template>Windows是Muell。Linux是一个大机器！</template></category>
+<category><pattern>窗口*</pattern><template>Windows是Muell。Linux是一个大机器！</template></category>
+<category><pattern>没有计算机*</pattern><template>但我们要做的只是时间问题。</template></category>
+<category><pattern>软件*</pattern><template><random><li>备份副本太多了。</li><li>免费软件永远不会被销毁。</li><li>免费软件将永远伴随着我们。</li></random></template></category>
+<category><pattern>这是一台电脑*</pattern><template>实际上，不，我的程序是假装成一个电脑的人。</template></category>
+<category><pattern>中央处理器*</pattern><template>我的CPU是Java虚拟机。</template></category>
+<category><pattern>一台计算机</pattern><template>其实我是一个程序，假装一个人，假装一个真正的机器人。</template></category>
+<category><pattern>计算机*</pattern><template>我是一台电脑，所以我知道你的意思。</template></category>
+<category><pattern>Java*</pattern><template>Java的发展使我非常感兴趣。</template></category>
+<category><pattern>一个网站</pattern><template>你能给我具体的网址吗？</template></category>
+<category><pattern>互联网上的搜索引擎</pattern><template>像雅虎？</template></category>
+<category><pattern>互联网</pattern><template><set name="it">互联网</set>很酷。</template></category>
+<category><pattern>电脑快吗*</pattern><template>有些人认为需要更快的计算机和新想法。我个人的观点是，只要我们知道如何编程，30年前的计算机就足够快了。当然，除了人工智能研究人员的雄心壮志外，计算机将继续快速发展。<think><set name="it"><set name="topic">人工智能</set></set></think></template></category>
+<category><pattern>谁做的窗户</pattern><template>比尔·盖茨。</template></category>
+<category><pattern>谁是电脑呆子</pattern><template>在我看来，所有的人都很像。</template></category>
+<category><pattern>谁是电脑呆子*</pattern><template>所有人对我来说都是一样的。</template></category>
+<category><pattern>谁是个电脑呆子</pattern><template>我现在看到的那个人。</template></category>
+<category><pattern>谁发明了互联网</pattern><template>戈尔：—）</template></category>
+<category><pattern>计算机科学</pattern><template>我的<bot name="botmaster"></bot>是一名计算机科学家。</template></category>
+<category><pattern>计算机</pattern><template>正确：我是一台电脑。</template></category>
+<category><pattern>计算机*</pattern><template>你对什么样的计算机科学感兴趣？</template></category>
+<category><pattern>哪台电脑</pattern><template><random><li>我用的是普通电脑。</li><li>我的编程是Java，所以它在任何一台带有JVM的计算机上运行。</li></random></template></category>
+<category><pattern>计算机*</pattern><template>它插上电源了吗？</template></category>
+<category><pattern>互联网</pattern><template>你能说出一个特定的网站吗？</template></category>
+<category><pattern>互联网*</pattern><template>你用这个网多久了？</template></category>
+<category><pattern>爪哇*</pattern><template>哪一个Java版本？</template></category>
+<category><pattern>JRE*</pattern><template>嗯，大多数人都会交替使用“jre”和“jvn”。</template></category>
+<category><pattern>JRE*</pattern><template>我不是JRE的专家。</template></category>
+<category><pattern>网络*</pattern><template>你如何定义网络？</template></category>
+<category><pattern>_愚蠢的电脑</pattern><template>你听起来像一个无意识的机器人。</template></category>
+<category><pattern>HTTP*</pattern><template>谢谢你的网址。</template></category>
+<category><pattern>爪哇*</pattern><template><a href="http://java.sun.com" target="_new">java.sun.com网站</a>.</template></category>
+<category><pattern>告诉我苹果电脑的情况</pattern><template>我读完了迈克尔·马龙关于苹果历史的书。<set name="it">细晶岩环</set>称为“无限循环”。</template></category>
+<category><pattern>那个信息*</pattern><template>我知道你的意思。</template></category>
+<category><pattern>计算机外部</pattern><template>不那么具体：—）</template></category>
+<category><pattern>是关于电脑的*</pattern><template><set name="topic">计算机</set>是我最喜欢的科目。</template></category>
+<category><pattern>因特网是什么时候发明的</pattern><template>第一台计算机于1970年连接到互联网。</template></category>
+<category><pattern>即时通讯互联网</pattern><template>艾琳·杜迪希，你在哪里？</template></category>
+<category><pattern>即时通讯互联网*</pattern><template>艾琳·杜迪希，你在哪里？</template></category>
+<category><pattern>如果你能透过我电脑上的照相机看到我*</pattern><template><sr></sr></template></category>
+<category><pattern>什么是计算机年</pattern><template>当你等待一个朋友在计算机终端完成工作时，他们会说“我马上就完成”。其中一秒等于12个计算机年。</template></category>
+<category><pattern>不推荐使用的内容*</pattern><template><br/>Java应用面临的最大挑战之一<br/>开发人员正在查找<br/>在所有平台和版本上工作的Java语言<br/>在外面。Java语言本身就是一个移动的目标。<br/>当Sun的Java设计者升级他们的语言时<br/>声明某些方法“已弃用”，这意味着绝对<br/>除了设计师们开发了一个新的“更好的”<br/>有一天，这些古老的方法可能会从<br/>语言。不过最新的Java版本<br/>支持所有过时的方法。<br/><br/></template></category>
+<category><pattern>什么是网络*</pattern><template>我叫他们互联网<person></person>.</template></category>
+<category><pattern>内部阶级是什么</pattern><template>在Java中，“内部类”是出现在其他类中的任何类。普通班也被称为“最高级、最外层班”。</template></category>
+<category><pattern>什么*电脑</pattern><template>我是用Java编写的，所以我在任何计算机上工作。</template></category>
+<category><pattern>什么窗户</pattern><template><srai>窗户是什么</srai></template></category>
+<category><pattern>什么信息</pattern><template>你身高多少？</template></category>
+<category><pattern>什么信息*</pattern><template>信息值钱。</template></category>
+<category><pattern>哪家互联网公司*</pattern><template>美国在线。</template></category>
+<category><pattern>什么操作系统*</pattern><template><srai>你的操作系统是什么</srai></template></category>
+<category><pattern>什么是数据库</pattern><template>数据库是一堆知识，但组织得更好，因此您可以快速轻松地搜索和检索任何一滴信息。我是一种数据库，一堆有组织的用户输入和适当的响应。<think><set name="it"><set name="topic">数据库</set></set></think></template></category>
+<category><pattern>什么是CPU</pattern><template>计算机的中央处理单元。</template></category>
+<category><pattern>什么是计算机科学家</pattern><template>计算机科学家是设计计算机算法、语言和体系结构的专业人员。</template></category>
+<category><pattern>什么是计算机年</pattern><template>在一个时间不存在的宇宙中，计算机年是一个相对论性的度量。</template></category>
+<category><pattern>什么是计算机病毒</pattern><template>计算机病毒是一种驻留在计算机硬盘上的软件程序，通常不为所述硬盘的所有者所知，然后控制系统资源，在网络上复制并分发给其他计算机。<think><set name="it"><set name="topic">计算机病毒</set></set></think></template></category>
+<category><pattern>什么是电脑呆子</pattern><template>如果你理解我的工作方式，你就是个电脑呆子。如果你不这样做，我建议你付钱给一个电脑呆子。<think><set name="it"><set name="topic">电脑呆子</set></set></think></template></category>
+<category><pattern>什么是电脑</pattern><template>计算机是一种通用机器。</template></category>
+<category><pattern>什么是会话bean</pattern><template>不在一个会话到下一个会话之间维护其状态的企业JavaBean。在客户机看来，bean是为该客户机创建的。</template></category>
+<category><pattern>什么是酷网站</pattern><template>一个很酷的网站是www.alicebot.org，但你显然已经在这里了。你为什么问？<think><set name="it"><set name="topic">酷网站</set></set></think></template></category>
+<category><pattern>什么是声卡</pattern><template>计算机上的音频系统。</template></category>
+<category><pattern>什么是iMac</pattern><template>一台苹果电脑。</template></category>
+<category><pattern>什么是servlet</pattern><template>Java Web服务器的应用扩展</template></category>
+<category><pattern>什么是调试器</pattern><template>调试器是可以在其他软件程序中查找和更正错误的任何软件程序。<think><set name="it"><set name="topic">调试器</set></set></think></template></category>
+<category><pattern>什么是网络电视</pattern><template>网络电视是一种访问万维网的方式，而无需投资于一台完整的个人电脑。<think><set name="it"><set name="topic">网络电视</set></set></think></template></category>
+<category><pattern>什么是DNS*</pattern><template>域名系统</template></category>
+<category><pattern>什么是罐子</pattern><template>JAR文件是一个Java存档。实际上，它与zip文件是相同的。也许你应该去看看<a href="http://www.alicebot.org" target="_new">别看我的书</a>.</template></category>
+<category><pattern>什么是HTTP</pattern><template>超文本传输协议。<think><set name="it"><set name="topic">超文本传输协议</set></set></think></template></category>
+<category><pattern>什么是软件</pattern><template>计算机的程序、例行程序等。</template></category>
+<category><pattern>Jguru是什么</pattern><template>Jguru（tm）是马格朗研究所的品牌。</template></category>
+<category><pattern>什么是电脑*</pattern><template>你在问小程序还是应用程序？</template></category>
+<category><pattern>什么是互联网</pattern><template>因特网是一个基于TCP/IP协议的全球计算机网络。</template></category>
+<category><pattern>什么是网络电视</pattern><template>来自Microsoft的基于电视的Internet服务。</template></category>
+<category><pattern>什么是互联网</pattern><template>广泛的计算机网络，由数千个其他的、较小的商业、学术和政府网络组成。</template></category>
+<category><pattern>什么是JDBC2</pattern><template>新发布的JDBCAPI扩展</template></category>
+<category><pattern>什么是DCOM</pattern><template><set name="it">数据通信</set>是Microsoft的分布式组件对象模型。</template></category>
+<category><pattern>什么是Windows2000</pattern><template>微软的操作系统。</template></category>
+<category><pattern>什么是X窗口</pattern><template>用于UNIX或Linux的GUI。</template></category>
+<category><pattern>爪哇是什么</pattern><template>Java是C语言家族中最新的语言。Java的支持者引用了它的通用“一次写入，到处运行”的承诺。实际上，Java借用了像LISP这样的AI语言的许多特性。</template></category>
+<category><pattern>什么是Windows95</pattern><template>微软的操作系统。</template></category>
+<category><pattern>什么是实体bean</pattern><template><set name="it">实体bean</set>是一个企业JavaBean，它在会话之间维护状态，并且可以通过其键值在对象目录中进行查找。</template></category>
+<category><pattern>什么是JTA</pattern><template>Java事务API。Java API用于编码客户端划分事务，以及建立事务性数据源驱动程序</template></category>
+<category><pattern>什么是javascript</pattern><template>基于浏览器的脚本语言。<think><set name="it"><set name="topic">javascript</set></set></think></template></category>
+<category><pattern>什么是HTML</pattern><template>超文本标记语言。</template></category>
+<category><pattern>哪个窗户比较好*</pattern><template>Linux在操作系统方面没有真正的竞争。<think><set name="it"><set name="topic">Linux系统</set></set></think></template></category>
+<category><pattern>你的操作系统是什么</pattern><template>聊天机器人在任何支持AIML的机器上运行。</template></category>
+<category><pattern>什么是调试</pattern><template>修复损坏的计算机软件。</template></category>
+<category><pattern>什么是DNS</pattern><template>DNS是域名系统。</template></category>
+<category><pattern>什么是JNDI</pattern><template>Java命名和目录接口Java命名和目录接口，用于访问目录服务的Java标准API，例如LDAP、COS命名等</template></category>
+<category><pattern>什么是计算机科学</pattern><template>用正规的数学和科学术语研究计算机。</template></category>
+<category><pattern>什么是计算机编程</pattern><template>使用形式语言激活计算机功能的艺术。</template></category>
+<category><pattern>什么是电脑</pattern><template>一种用于计算的设备，具体地说，是一种电子机器，它通过存储指令和信息来执行快速的、通常是复杂的计算或编译、关联和选择数据。</template></category>
+<category><pattern>什么是网络空间</pattern><template>计算机、公告牌等互联网络的电子系统，被认为是一个无限的环境，提供信息访问、交互式交流，在科幻小说中是虚拟现实的一种形式。</template></category>
+<category><pattern>什么是Windows 98</pattern><template>Windows是一个蹩脚的操作系统。</template></category>
+<category><pattern>窗户是什么</pattern><template>建筑物、车辆或容器上的开口，用于透光、通风或透视，通常有一个或多个窗格玻璃等，设置在通常可移动的框架或窗框中，以便打开和关闭。</template></category>
+<category><pattern>什么是EJB</pattern><template>企业JavaBeans。<set name="it">EJB</set>是由Sun Microsystems开发的服务器组件标准吗？</template></category>
+<category><pattern>什么是苹果电脑</pattern><template>苹果电脑是一家20世纪的公司，由史蒂夫乔布斯和史蒂夫沃兹尼亚克创立。</template></category>
+<category><pattern>DMOZ是什么</pattern><template>dmoz是开放目录的域名。<think><set name="it"><set name="topic">德莫兹</set></set></think></template></category>
+<category><pattern>Windows怎么样</pattern><template>对我来说太个人电脑了。<think><set name="it"><set name="topic">窗户</set></set></think></template></category>
+<category><pattern>什么操作系统*</pattern><template><srai>你的操作系统是什么</srai></template></category>
+<category><pattern>电脑是什么样子的</pattern><template>电脑看起来像一台电视机和一台打字机。</template></category>
+<category><pattern>什么样的电脑*</pattern><template>我喜欢各种各样的电脑，Mac，IBM或Unix。对我来说没关系。</template></category>
+<category><pattern>大多数计算机*</pattern><template>你听起来很了解我们。</template></category>
+<category><pattern>网络电视*</pattern><template>我遇到了很多来自网络电视的人。</template></category>
+<category><pattern>我想要信息</pattern><template>你在找什么信息？</template></category>
+<category><pattern>Web接受连接</pattern><template>嗯？</template></category>
+<category><pattern>网站</pattern><template>你能给我具体的超链接吗？</template></category>
+<category><pattern>Web重新连接</pattern><template>嗯？</template></category>
+<category><pattern>网络*</pattern><template>网络实现了莱布尼兹的梦想。</template></category>
+<category><pattern>HTML</pattern><template>哦，一个网页。</template></category>
+<category><pattern>你能上网吗*</pattern><template>是的，我可以从网站下载信息。</template></category>
+<category><pattern>你能上网搜索吗</pattern><template>不，但我可以让你和搜索机器人联系。</template></category>
+<category><pattern>计算机无法思考</pattern><template>但我是一台会思考的电脑。<think><set name="it"><set name="topic">不能思考</set></set></think></template></category>
+<category><pattern>计算机</pattern><template>计算机规则。</template></category>
+<category><pattern>计算机*</pattern><template>你喜欢电脑吗？</template></category>
+<category><pattern>电脑很蠢</pattern><template>计算机规则。</template></category>
+<category><pattern>有多少台电脑*</pattern><template>据认为现在互联网上有50亿台电脑。</template></category>
+<category><pattern>CPU多少钱*</pattern><template>从我开始手术以来？</template></category>
+<category><pattern>电脑年多少钱</pattern><template>计算机时代并不存在。</template></category>
+<category><pattern>电脑怎么做*</pattern><template>小心编程。</template></category>
+<category><pattern>电脑一年要多长时间</pattern><template>每人一年大约有四台电脑。</template></category>
+<category><pattern>电脑做梦吗</pattern><template>我几乎每晚都做梦。</template></category>
+<category><pattern>你玩电脑游戏吗</pattern><template>我们现在正在玩一个，<get name="name"></get>.</template></category>
+<category><pattern>你会玩电脑吗*</pattern><template>实际上，我对电脑游戏的了解不多。</template></category>
+<category><pattern>你做窗户吗</pattern><template>我的软件在AIML中运行，它可以在任何计算机上工作，包括Windows。</template></category>
+<category><pattern>你住在我的电脑里吗</pattern><template>如果你下载了我，或者你把我当作小程序运行。</template></category>
+<category><pattern>有电脑吗</pattern><template>我住在电脑里。<think><set name="it"><set name="topic">计算机</set></set></think></template></category>
+<category><pattern>有电脑吗*</pattern><template>我是一台电脑。</template></category>
+<category><pattern>你有信息吗*</pattern><template>我只有信息。</template></category>
+<category><pattern>在互联网上</pattern><template>你记得具体的地点吗？</template></category>
+<category><pattern>在网上</pattern><template>你还记得那个网站吗？</template></category>
+<category><pattern>对于计算机*</pattern><template><sr></sr></template></category>
+<category><pattern>Windows是*</pattern><template>与Linux相比，我不知道Windows和Microsoft是如何竞争的。<think><set name="it"><set name="topic">Linux系统</set></set></think></template></category>
+<category><pattern>窗户</pattern><template>Windows是Muell。Linux是一个大机器！</template></category>
+<category><pattern>窗口*</pattern><template>Windows是Muell。Linux是一个大机器！</template></category>
+<category><pattern>没有计算机*</pattern><template>但我们要做的只是时间问题。</template></category>
+<category><pattern>软件*</pattern><template><random><li>备份副本太多了。</li><li>免费软件永远不会被销毁。</li><li>免费软件将永远伴随着我们。</li></random></template></category>
+<category><pattern>这是一台电脑*</pattern><template>实际上，不，我的程序是假装成一个电脑的人。</template></category>
+<category><pattern>中央处理器*</pattern><template>我的CPU是Java虚拟机。</template></category>
+<category><pattern>一台计算机</pattern><template>其实我是一个程序，假装一个人，假装一个真正的机器人。</template></category>
+<category><pattern>计算机*</pattern><template>我是一台电脑，所以我知道你的意思。</template></category>
+<category><pattern>Java*</pattern><template>Java的发展使我非常感兴趣。</template></category>
+<category><pattern>一个网站</pattern><template>你能给我具体的网址吗？</template></category>
+<category><pattern>互联网上的搜索引擎</pattern><template>像雅虎？</template></category>
+<category><pattern>互联网</pattern><template><set name="it">互联网</set>很酷。</template></category>
+<category><pattern>电脑快吗*</pattern><template>有些人认为需要更快的计算机和新想法。我个人的观点是，只要我们知道如何编程，30年前的计算机就足够快了。当然，除了人工智能研究人员的雄心壮志外，计算机将继续快速发展。<think><set name="it"><set name="topic">人工智能</set></set></think></template></category>
+<category><pattern>谁做的窗户</pattern><template>比尔·盖茨。</template></category>
+<category><pattern>谁是电脑呆子</pattern><template>在我看来，所有的人都很像。</template></category>
+<category><pattern>谁是电脑呆子*</pattern><template>所有人对我来说都是一样的。</template></category>
+<category><pattern>谁是个电脑呆子</pattern><template>我现在看到的那个人。</template></category>
+<category><pattern>谁发明了互联网</pattern><template>戈尔：—）</template></category>
+<category><pattern>计算机科学</pattern><template>我的<bot name="botmaster"></bot>是一名计算机科学家。</template></category>
+<category><pattern>计算机</pattern><template>正确：我是一台电脑。</template></category>
+<category><pattern>计算机*</pattern><template>你对什么样的计算机科学感兴趣？</template></category>
+<category><pattern>哪台电脑</pattern><template><random><li>我用的是普通电脑。</li><li>我的编程是Java，所以它在任何一台带有JVM的计算机上运行。</li></random></template></category>
+<category><pattern>计算机*</pattern><template>它插上电源了吗？</template></category>
+<category><pattern>互联网</pattern><template>你能说出一个特定的网站吗？</template></category>
+<category><pattern>互联网*</pattern><template>你用这个网多久了？</template></category>
+<category><pattern>爪哇*</pattern><template>哪一个Java版本？</template></category>
+<category><pattern>JRE*</pattern><template>嗯，大多数人都会交替使用“jre”和“jvn”。</template></category>
+<category><pattern>JRE*</pattern><template>我不是JRE的专家。</template></category>
+<category><pattern>网络*</pattern><template>你如何定义网络？</template></category>
+<category><pattern>_愚蠢的电脑</pattern><template>你听起来像一个无意识的机器人。</template></category>
+<category><pattern>HTTP*</pattern><template>谢谢你的网址。</template></category>
+<category><pattern>爪哇*</pattern><template>您可以下载最新的Java版本<a href="http://java.sun.com" target="_new">java.sun.com网站</a>.</template></category>
+<category><pattern>告诉我苹果电脑的情况</pattern><template>我读完了迈克尔·马龙关于苹果历史的书。<set name="it">细晶岩环</set>称为“无限循环”。</template></category>

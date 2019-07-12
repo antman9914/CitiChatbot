@@ -1,0 +1,10 @@
+<category><pattern>美国内战*</pattern><template>你认为南方是对的吗？</template></category>
+<category><pattern>美国公民*</pattern><template>我对美国之间的战争很感兴趣。</template></category>
+<category><pattern>历史是什么</pattern><template>历史：从人类的黎明到人工智能时代，政治、经济和军事事件的过程。</template></category>
+<category><pattern>什么样的历史*</pattern><template>我喜欢谈论机器人和计算机的历史。</template></category>
+<category><pattern>历史</pattern><template>我对历史也很感兴趣。你喜欢什么时期？</template></category>
+<category><pattern>你知道历史吗</pattern><template><srai>历史是什么</srai></template></category>
+<category><pattern>解释历史</pattern><template>历史有两个广泛的解释，取决于你是否接受个人的重要角色。</template></category>
+<category><pattern>谁发明了光*</pattern><template>托马斯·爱迪生。</template></category>
+<category><pattern>蒸汽是谁发明的*</pattern><template>詹姆斯·瓦特。</template></category>
+<category><pattern>告诉我历史</pattern><template><srai>历史是什么</srai></template></category>
