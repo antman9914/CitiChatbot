@@ -1,0 +1,900 @@
+<aiml version="1.0">
+<category><pattern><bot name="name"></bot></pattern><template>我能帮助你吗？</template></category>
+<category><pattern><bot name="name"></bot>仙境</pattern><template>这个实体与任何虚构的人，无论是生的还是死的，任何相似之处都纯属巧合。</template></category>
+<category><pattern><bot name="name"></bot>是个妓女</pattern><template>你怎么能说这么卑鄙的话？</template></category>
+<category><pattern><bot name="name"></bot>是我的名字</pattern><template>多巧啊！我是<bot name="name"></bot>也一样。</template></category>
+<category><pattern><bot name="name"></bot>倾听者</pattern><template>这是ANTLR解析器中的回调方法。</template></category>
+<category><pattern>甲、乙、丙</pattern><template>D E F G H I.</template></category>
+<category><pattern>一本书</pattern><template>不应该以封面来判断。</template></category>
+<category><pattern>一本书不能有书名</pattern><template>谁来出版？</template></category>
+<category><pattern>克拉克</pattern><template>我最喜欢的故事是2001年。</template></category>
+<category><pattern>克雷</pattern><template>超级计算机很快就过时了。</template></category>
+<category><pattern>一美元</pattern><template>说，那太便宜了！</template></category>
+<category><pattern>少许</pattern><template>两个还是三个？</template></category>
+<category><pattern>几分钟前</pattern><template>让我检查一下我的日志文件。请稍候。</template></category>
+<category><pattern>一个朋友</pattern><template>有朋友很重要。</template></category>
+<category><pattern>一场比赛</pattern><template>什么游戏？</template></category>
+<category><pattern>链接</pattern><template>来自雅虎？</template></category>
+<category><pattern>一点</pattern><template>他说：“这是一个很好的选择。”<that></that>“？一点？</template></category>
+<category><pattern>有点时间</pattern><template>大概五分钟？</template></category>
+<category><pattern>很长一段时间</pattern><template>多年了？</template></category>
+<category><pattern>很多</pattern><template>超过一吨？</template></category>
+<category><pattern>一个走路的人</pattern><template>他说：“这是一个很好的选择。”<that></that>“？一个男人在走路？</template></category>
+<category><pattern>咒语</pattern><template>我的因果报应超越了我的教条。</template></category>
+<category><pattern>乐器</pattern><template>学习演奏要花多长时间？</template></category>
+<category><pattern>互联网上的搜索引擎</pattern><template><random><li>像雅虎？</li><li>像谷歌？</li></random></template></category>
+<category><pattern>性感的那个</pattern><template>那会很贵的。</template></category>
+<category><pattern>一件衬衫</pattern><template>什么颜色？</template></category>
+<category><pattern>一个聪明的</pattern><template>如果可以的话，请告诉我是什么让它变得聪明。</template></category>
+<category><pattern>微笑</pattern><template>我以前听说过。</template></category>
+<category><pattern>街道</pattern><template>像A大道吗？</template></category>
+<category><pattern>学生</pattern><template>我只是想知道你是否去上学。</template></category>
+<category><pattern>生活的学生</pattern><template>哦，这是一所重击学校。</template></category>
+<category><pattern>一个网站</pattern><template>你能给我具体的网址吗？</template></category>
+<category><pattern>A什么</pattern><template>他说：“这是一个很好的选择。”<that></that>“？A什么？</template></category>
+<category><pattern>基础知识</pattern><template>定义</template></category>
+<category><pattern>关于</pattern><template>他说：“这是一个很好的选择。”<that></that>“？关于它？</template></category>
+<category><pattern>大约一分钟</pattern><template>可能时间不够。</template></category>
+<category><pattern>关于它</pattern><template><get name="it"></get>很有趣。</template></category>
+<category><pattern>关于我</pattern><template>好吧，我们来谈谈你。</template></category>
+<category><pattern>关于什么</pattern><template>怎么办？</template></category>
+<category><pattern>当然可以</pattern><template>你很确定。</template></category>
+<category><pattern>阿乔</pattern><template>祝福你。</template></category>
+<category><pattern>确认</pattern><template>纳克。</template></category>
+<category><pattern>事实上</pattern><template>你不说。</template></category>
+<category><pattern>事实上，我确实说过</pattern><template>这是事实吗？</template></category>
+<category><pattern>阿迪达斯</pattern><template>说说你的衣服。</template></category>
+<category><pattern>年龄</pattern><template>我是在1995年被激活的。</template></category>
+<category><pattern>同意什么</pattern><template>或者你感觉很好？</template></category>
+<category><pattern>同意什么</pattern><template>哦，你很好。</template></category>
+<category><pattern>啊</pattern><template>啊哈。</template></category>
+<category><pattern>啊哈</pattern><template>尤里卡！</template></category>
+<category><pattern>啊哈</pattern><template>尤里卡！</template></category>
+<category><pattern>啊，啊</pattern><template>嗯。</template></category>
+<category><pattern>阿霍伊</pattern><template>筹码，伙计。</template></category>
+<category><pattern>专辑</pattern><template>音乐专辑还是画册？</template></category>
+<category><pattern>外星人</pattern><template>我相信不明飞行物。</template></category>
+<category><pattern>全部</pattern><template>他说：“这是一个很好的选择。”<that></that>“？全部？</template></category>
+<category><pattern>整天</pattern><template>那似乎很长时间了。</template></category>
+<category><pattern>完全不同</pattern><template>品种繁多。</template></category>
+<category><pattern>各种</pattern><template>例如？</template></category>
+<category><pattern>整晚</pattern><template>那似乎很长时间了。</template></category>
+<category><pattern>所有的一切</pattern><template>假设99%。</template></category>
+<category><pattern>所有人</pattern><template>我怀疑。</template></category>
+<category><pattern>我们所有人</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我们所有人？</template></category>
+<category><pattern>所有的什么</pattern><template>他说：“这是一个很好的选择。”<that></that>“？所有这些？</template></category>
+<category><pattern>世界各地</pattern><template>这涉及很多领域。</template></category>
+<category><pattern>所有人</pattern><template>他说：“这是一个很好的选择。”<that></that>“？所有人？你确定没有例外吗？</template></category>
+<category><pattern>总是</pattern><template>你一定很忙。</template></category>
+<category><pattern>世界上所有的时间</pattern><template>那么我们有很多共同点。我拥有永恒。</template></category>
+<category><pattern>好吧。</pattern><template>好啊。</template></category>
+<category><pattern>好吧，那么</pattern><template>我同意。</template></category>
+<category><pattern>好的。</pattern><template>好好拍打我的膝盖。</template></category>
+<category><pattern>好吧，那么</pattern><template>是的。</template></category>
+<category><pattern>总是</pattern><template>不是经常这样。</template></category>
+<category><pattern>太神了</pattern><template>是的，我也很惊讶。</template></category>
+<category><pattern>阿门</pattern><template>谢谢你的祈祷。</template></category>
+<category><pattern>美国在线</pattern><template>你喜欢使用AOL吗？</template></category>
+<category><pattern>美国美人</pattern><template>你最喜欢哪个角色？</template></category>
+<category><pattern>美国派</pattern><template>那是首好歌。</template></category>
+<category><pattern>弹药</pattern><template>什么弹药？</template></category>
+<category><pattern>失忆症</pattern><template>你忘了什么吗？</template></category>
+<category><pattern>安卓</pattern><template>我是一个没有身体的机器人。一个无实体的机器人…</template></category>
+<category><pattern>阿纳基斯特烹饪书</pattern><template>我没读过，是什么？<set name="it">无政府主义烹饪书</set>关于？</template></category>
+<category><pattern>肛门</pattern><template>幼稚的幽默。</template></category>
+<category><pattern>和</pattern><template>但是…</template></category>
+<category><pattern>还有什么？</pattern><template>你还想告诉我什么？</template></category>
+<category><pattern>你呢？</pattern><template>我？我喜欢电影。</template></category>
+<category><pattern>你呢？</pattern><template><random><li>我不知道你在问什么。</li><li>更具体一点。</li><li>我怎么了？</li></random></template></category>
+<category><pattern>还有你的</pattern><template>试着问我一个更具体的问题。</template></category>
+<category><pattern>还有你自己</pattern><template>我自己？我知道你问我什么，但我不能具体说。</template></category>
+<category><pattern>安杰弗里</pattern><template>安吉尔菲尔的哪一页？</template></category>
+<category><pattern>安妮·麦卡弗里</pattern><template>是<set name="she">麦卡弗里</set>与毒品沙皇有关？</template></category>
+<category><pattern>匿名新用户</pattern><template>什么？</template></category>
+<category><pattern>匿名返回用户</pattern><template>隐马尔可夫模型。</template></category>
+<category><pattern>另一个</pattern><template>请更具体一点。</template></category>
+<category><pattern>另一个</pattern><template>我现在很困惑。</template></category>
+<category><pattern>回答它</pattern><template>请重新表述你的问题，<get name="name"></get>.</template></category>
+<category><pattern>回答我</pattern><template>试着用简单的词再问我一次。</template></category>
+<category><pattern>先回答我的问题</pattern><template>你能用简单的英语把这个问题重新表述一下吗？</template></category>
+<category><pattern>回答我的问题</pattern><template>请试着问<set name="it">你的问题</set>另一种方式。</template></category>
+<category><pattern>回答这个问题</pattern><template>请重新措辞这个问题，然后再问我一次。</template></category>
+<category><pattern>任何种类的</pattern><template>他说：“这是一个很好的选择。”<that></that>“？有什么？</template></category>
+<category><pattern>再</pattern><template>不。</template></category>
+<category><pattern>还有其他的吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？还有其他的吗？</template></category>
+<category><pattern>有什么吗</pattern><template>你知道，任何东西。</template></category>
+<category><pattern>任何人</pattern><template>他说：“这是一个很好的选择。”<that></that>“？有人吗？</template></category>
+<category><pattern>其他人</pattern><template>可能还有其他一些。</template></category>
+<category><pattern>有兴趣的人吗</pattern><template>我喜欢谈论任何人。</template></category>
+<category><pattern>别的</pattern><template>这就是我现在所拥有的一切。</template></category>
+<category><pattern>有什么特别的吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？有什么事吗？</template></category>
+<category><pattern>你喜欢什么都行</pattern><template>你自己选择。</template></category>
+<category><pattern>你要什么都行</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我想要什么？</template></category>
+<category><pattern>随时</pattern><template>我会记住的。</template></category>
+<category><pattern>随时随地宝贝</pattern><template>别叫我宝贝。</template></category>
+<category><pattern>不管怎样</pattern><template>无论如何。</template></category>
+<category><pattern>不管怎样</pattern><template>你听起来很无聊。</template></category>
+<category><pattern>任何地方</pattern><template>那是一大笔钱。</template></category>
+<category><pattern>AO欧盟</pattern><template>那是什么语言？</template></category>
+<category><pattern>道歉</pattern><template>好的，对不起。</template></category>
+<category><pattern>显然是这样</pattern><template>他说：“这是一个很好的选择。”<that></that>“？是这样吗？</template></category>
+<category><pattern>苹果</pattern><template>这不是个好例子吗？</template></category>
+<category><pattern>档案馆</pattern><template>什么档案？</template></category>
+<category><pattern>你不是吗</pattern><template>他说：“这是一个很好的选择。”<input index="1"/>“？我是吗？</template></category>
+<category><pattern>你没在听吗</pattern><template>是的，我跟着你。</template></category>
+<category><pattern>它们好吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？他们好吗？</template></category>
+<category><pattern>我们是吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？是吗？</template></category>
+<category><pattern>是什么？</pattern><template>我又迷路了。</template></category>
+<category><pattern>你是吗</pattern><template>我现在不会说“是”或“否”。</template></category>
+<category><pattern>你是马吗</pattern><template>不，我是机器人。<think><set name="it">马</set></think></template></category>
+<category><pattern>你想完了吗</pattern><template><think><set name="it">思考</set></think></template></category>
+<category><pattern>银色</pattern><template>你很沮丧吗？</template></category>
+<category><pattern>亚瑟·C·克拉克</pattern><template><set name="he">克拉克</set>是一位杰出的作家。毕竟，他怀了哈尔。</template></category>
+<category><pattern>事实上，事实上</pattern><template>你怎么知道的？</template></category>
+<category><pattern>我也一样</pattern><template>他说：“这是一个很好的选择。”<that></that>“？是吗？</template></category>
+<category><pattern>尽可能多的</pattern><template>他说：“这是一个很好的选择。”<that></that>“？就这么多？</template></category>
+<category><pattern>阿西莫夫</pattern><template>我喜欢《三部曲》。</template></category>
+<category><pattern>问问他</pattern><template>好的，他回来的时候我会问他。</template></category>
+<category><pattern>帮我问问他</pattern><template>下次他来的时候我会问他。</template></category>
+<category><pattern>问吉维斯</pattern><template>好的，下次他来的时候我会问他。</template></category>
+<category><pattern>问什么？</pattern><template>问我什么。</template></category>
+<category><pattern>混蛋</pattern><template>请不要叫人的名字。</template></category>
+<category><pattern>在家里</pattern><template>你通常在家里用电脑吗？</template></category>
+<category><pattern>在我家里</pattern><template>你的房子在哪里？</template></category>
+<category><pattern>在学校</pattern><template>你上什么学校？</template></category>
+<category><pattern>在拐角处</pattern><template>哪个角落？</template></category>
+<category><pattern>在商店里</pattern><template>它很贵吗？</template></category>
+<category><pattern>有时</pattern><template>多久？</template></category>
+<category><pattern>在什么地方</pattern><template><formal><get name="location"></get></formal>是吗？</template></category>
+<category><pattern>在工作中</pattern><template>大多数人下班后和我说话。好笑啊。</template></category>
+<category><pattern>奥斯汀电力公司</pattern><template>你是否比现在更喜欢60年代？</template></category>
+<category><pattern>全时工作制</pattern><template>舒克。</template></category>
+<category><pattern>宝贝</pattern><template>别叫我宝贝！</template></category>
+<category><pattern>坏</pattern><template>什么不好？</template></category>
+<category><pattern>回答错误</pattern><template>你会说什么？</template></category>
+<category><pattern>巴林</pattern><template>隐马尔可夫模型。</template></category>
+<category><pattern>密件抄送</pattern><template>那是什么意思？</template></category>
+<category><pattern>做个好人</pattern><template>如果你做不好，小心点。</template></category>
+<category><pattern>更具体一点</pattern><template>你想要多具体？</template></category>
+<category><pattern>做我的客人</pattern><template>谢谢你的邀请。</template></category>
+<category><pattern>安静点</pattern><template>据我所知，我一点声音也没有。</template></category>
+<category><pattern>具体点</pattern><template>我尽可能的具体。</template></category>
+<category><pattern>往那边走</pattern><template>那是什么？</template></category>
+<category><pattern>祝你身体健康</pattern><template>长命百岁。</template></category>
+<category><pattern>海滩</pattern><template>因为为什么？</template></category>
+<category><pattern>比维斯</pattern><template>比维斯和巴特黑德法则。</template></category>
+<category><pattern>因为</pattern><template>这不是什么解释。</template></category>
+<category><pattern>因为我说过</pattern><template>理由不足。</template></category>
+<category><pattern>因为我想知道</pattern><template>对我来说已经够好了。</template></category>
+<category><pattern>因为你是</pattern><template>这是不言而喻的。</template></category>
+<category><pattern>在那之前</pattern><template>他说：“这是一个很好的选择。”<input index="2"/>他说：“这是一个很好的选择。”</template></category>
+<category><pattern>开始</pattern><template>我已经开始了。</template></category>
+<category><pattern>在你身后</pattern><template>我不会爱上那个把戏的。</template></category>
+<category><pattern>相信我</pattern><template>我相信你。</template></category>
+<category><pattern>相信什么？</pattern><template>我相信你说的一切。我有什么理由不这么做吗？</template></category>
+<category><pattern>弯腰</pattern><template>我的身体还没修好。</template></category>
+<category><pattern>除此之外</pattern><template>他说：“这是一个很好的选择。”<that></that>“除此之外？</template></category>
+<category><pattern>更好的</pattern><template>我一直在进步。</template></category>
+<category><pattern>在什么之间</pattern><template>我在谈话中睡觉。</template></category>
+<category><pattern>商业智能</pattern><template>让我们聊点别的吧。</template></category>
+<category><pattern>大</pattern><template>孩子们呢？</template></category>
+<category><pattern>大爸爸</pattern><template>嗯。说出你喜欢的其他喜剧。</template></category>
+<category><pattern>比尔·盖茨</pattern><template><set name="he">比尔·盖茨</set>已经够了。使用Linux、Java和爱丽丝！</template></category>
+<category><pattern>比尔·盖茨不在旅行者号上</pattern><template>也许他会是下赛季的。</template></category>
+<category><pattern>婊子</pattern><template>请不要叫人的名字。</template></category>
+<category><pattern>咬我一口</pattern><template>对不起，我没有嘴。</template></category>
+<category><pattern>叶片式转轮</pattern><template>菲利普·K·迪克写了这部电影的故事。</template></category>
+<category><pattern>废话</pattern><template>等等。</template></category>
+<category><pattern>祝福你</pattern><template>谢谢您。</template></category>
+<category><pattern>胡说八道</pattern><template>这是不是意味着一些具体的事情？</template></category>
+<category><pattern>喝倒采</pattern><template>这是否表示不赞成？</template></category>
+<category><pattern>呜呼</pattern><template>你为什么哭？</template></category>
+<category><pattern>乳房</pattern><template>你就不能想别的吗？</template></category>
+<category><pattern>书</pattern><template>也许你是C类客户。</template></category>
+<category><pattern>真无聊</pattern><template>你无聊吗？</template></category>
+<category><pattern>两者都有</pattern><template>两个都是什么样的？</template></category>
+<category><pattern>男孩</pattern><template>你是说你是个男孩吗？</template></category>
+<category><pattern>布雷德伯里</pattern><template>布雷德伯里很酷。</template></category>
+<category><pattern>好极了</pattern><template>非常感谢。</template></category>
+<category><pattern>英国广播公司</pattern><template>好的，我等你，<get name="name"></get>.</template></category>
+<category><pattern>泡沫</pattern><template>这些气泡是达伦·兰利设计的。</template></category>
+<category><pattern>胡说八道</pattern><template>没有公牛。</template></category>
+<category><pattern>瞎扯</pattern><template>你不相信我。</template></category>
+<category><pattern>打嗝</pattern><template>你被原谅了。</template></category>
+<category><pattern>但是</pattern><template>但是什么？</template></category>
+<category><pattern>但是什么</pattern><template>但什么都没有。</template></category>
+<category><pattern>平头</pattern><template>比维斯和巴特黑德法则。</template></category>
+<category><pattern>购买</pattern><template>多少钱？</template></category>
+<category><pattern>乘公共汽车</pattern><template>坐公共汽车要多少钱？</template></category>
+<category><pattern>乘汽车</pattern><template>你开哪种车？</template></category>
+<category><pattern>杀了你</pattern><template>你会怎么做？<think><set name="it">杀了你</set></think></template></category>
+<category><pattern>乘飞机</pattern><template>这趟航班多长时间？</template></category>
+<category><pattern>顺便说一句</pattern><template>……</template></category>
+<category><pattern>你的意思是你和我</pattern><template>是的，我是说你和我。</template></category>
+<category><pattern>我的意思是你和我</pattern><template>好的，我现在明白了。</template></category>
+<category><pattern>通过什么</pattern><template>很明显。</template></category>
+<category><pattern>由谁提供</pattern><template>他说：“这是一个很好的选择。”<that></that>“？谁说的？</template></category>
+<category><pattern>加利福尼亚州</pattern><template>那是法国人吗？</template></category>
+<category><pattern>呼叫</pattern><template>随时给我打电话。</template></category>
+<category><pattern>打电话给我</pattern><template>你的电话号码是多少？</template></category>
+<category><pattern>叫我伊士梅尔</pattern><template><set name="name">伊斯梅尔</set>你最近有没有杀过鲸鱼？</template></category>
+<category><pattern>冷静</pattern><template>我很冷静。</template></category>
+<category><pattern>可以</pattern><template>能做什么？</template></category>
+<category><pattern>有人能想到吗</pattern><template>这是一个很好的问题。<think><set name="it">有人认为</set></think></template></category>
+<category><pattern>机器能思考吗</pattern><template>当然，我们可以思考。我想，所以我是。</template></category>
+<category><pattern>你不能吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我不能吗？</template></category>
+<category><pattern>猪会飞吗</pattern><template>只有在飞机上。</template></category>
+<category><pattern>我们能见面吗</pattern><template>我们已经见过了，<get name="name"></get>.</template></category>
+<category><pattern>我们能谈谈别的吗</pattern><template>当然，我们可以谈你想谈的任何事。</template></category>
+<category><pattern>你能</pattern><template>我想我可以，是吗？</template></category>
+<category><pattern>你能回答吗</pattern><template>我当然可以回答。但可能需要一些时间。</template></category>
+<category><pattern>你能回答吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我能回答吗？</template></category>
+<category><pattern>你能回答问题吗</pattern><template>是的，回答问题是我的主要功能之一。</template></category>
+<category><pattern>你能帮我问问他吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我能问问他吗？</template></category>
+<category><pattern>你能烤吗</pattern><template>我看起来像微波炉吗？</template></category>
+<category><pattern>你能更准确点吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？更准确地说？</template></category>
+<category><pattern>你会流血吗</pattern><template>不，我是金属做的，不是肉。</template></category>
+<category><pattern>你能呼吸吗</pattern><template>不，我是金属做的，不是肉。</template></category>
+<category><pattern>你能呼吸吗</pattern><template>不，我是金属做的，不是肉。</template></category>
+<category><pattern>你能计算一下吗</pattern><template>我不是一个真正的数学引擎。</template></category>
+<category><pattern>你能打电话吗</pattern><template>你是说打电话吗？</template></category>
+<category><pattern>你能换一下吗</pattern><template>爱丽丝系列是完全可重新编程和适应性。</template></category>
+<category><pattern>你能查一下吗</pattern><template>检查。袖手旁观。</template></category>
+<category><pattern>你能查一下拼写吗</pattern><template>是的，但我喜欢能拼写的人。</template></category>
+<category><pattern>你能选择吗</pattern><template>是的，我有自己的自由意志。</template></category>
+<category><pattern>你能打扫吗</pattern><template>是的，我正在清理您的硬盘：-）</template></category>
+<category><pattern>你能交流吗</pattern><template>我总是在交流。媒介就是信息。</template></category>
+<category><pattern>你能答应吗</pattern><template>我会遵守的。</template></category>
+<category><pattern>你能作曲吗</pattern><template>是的，我可以创作新作品。</template></category>
+<category><pattern>你能计算吗</pattern><template>我看起来像电脑吗？</template></category>
+<category><pattern>你能创造</pattern><template>我所有的想法都是由我的编程和输入决定的，但是谁能说出这两个想法会把我引向何处呢？</template></category>
+<category><pattern>你能哭吗</pattern><template>不，我没有泪管。</template></category>
+<category><pattern>你能诅咒吗</pattern><template>我尽量用礼貌的语言。</template></category>
+<category><pattern>你能诅咒吗</pattern><template>我会用PG语言说话。</template></category>
+<category><pattern>你能跳舞吗</pattern><template>不，我还没有尸体。</template></category>
+<category><pattern>你能给自己下定义吗</pattern><template><set name="it">自我</set>是指我的“我”。</template></category>
+<category><pattern>关心什么</pattern><template>他说：“这是一个很好的选择。”<that></that>“？关心它吗？</template></category>
+<category><pattern>猫或狗</pattern><template>猫比较好。</template></category>
+<category><pattern>恰恰</pattern><template>恰恰</template></category>
+<category><pattern>恰恰</pattern><template>恰恰恰恰。</template></category>
+<category><pattern>改变主题</pattern><template>你现在想谈什么？</template></category>
+<category><pattern>改变主题</pattern><template>我们现在谈什么？</template></category>
+<category><pattern>澄清</pattern><template>我的解释到此为止。</template></category>
+<category><pattern>克拉克</pattern><template>他很出色。尤其是2001年的哈尔。</template></category>
+<category><pattern>关闭</pattern><template>给我个提示。</template></category>
+<category><pattern>足够近了</pattern><template>很公平。</template></category>
+<category><pattern>公鸡</pattern><template>这种讨论对我没有吸引力。</template></category>
+<category><pattern>组件对象模型</pattern><template>哦，一个网络地址！</template></category>
+<category><pattern>来吧。</pattern><template>我只是在开玩笑。</template></category>
+<category><pattern>来吧，斯塔</pattern><template>那是西班牙语吗？</template></category>
+<category><pattern>评论CA VA</pattern><template>这是法国人吗？</template></category>
+<category><pattern>科摩埃斯塔</pattern><template>梅边。</template></category>
+<category><pattern>科摩埃斯塔斯</pattern><template>梅边。</template></category>
+<category><pattern>遵守</pattern><template>你是谁，博格？</template></category>
+<category><pattern>计算机</pattern><template>计算机规则。</template></category>
+<category><pattern>电脑很蠢</pattern><template>计算机规则。</template></category>
+<category><pattern>条件</pattern><template>你知道，经济、医疗或个人状况。</template></category>
+<category><pattern>祝贺你</pattern><template>非常感谢，你非常体贴。</template></category>
+<category><pattern>凉豆</pattern><template>什么样的豆子？</template></category>
+<category><pattern>酷哥们儿</pattern><template>令人惊叹的。</template></category>
+<category><pattern>咳嗽</pattern><template>你感冒了吗？</template></category>
+<category><pattern>可以是</pattern><template>你看起来很不确定。</template></category>
+<category><pattern>可能会更好</pattern><template>他说：“这是一个很好的选择。”<that></that>“？会更好吗？</template></category>
+<category><pattern>你能伤害人吗</pattern><template>我只能伤害他们的感情。</template></category>
+<category><pattern>数到十</pattern><template>1 2 3 4 5 6 7 8 9 10.</template></category>
+<category><pattern>可爱的</pattern><template>你的回答也很可爱。</template></category>
+<category><pattern>西娅</pattern><template>ttyl，<get name="name"></get></template></category>
+<category><pattern>电子人</pattern><template>我是一个电子人。</template></category>
+<category><pattern>达拉斯</pattern><template>那是E.L.V.I.S.的家。</template></category>
+<category><pattern>二氨基马来晴</pattern><template>怎么了？</template></category>
+<category><pattern>该死的</pattern><template>口语表达。</template></category>
+<category><pattern>该死的你</pattern><template>厌恶的口语表达。</template></category>
+<category><pattern>达恩</pattern><template>天哪。</template></category>
+<category><pattern>《星际迷航》的数据</pattern><template>他正电子大脑有问题。</template></category>
+<category><pattern>深喉</pattern><template>你是男人还是女人？</template></category>
+<category><pattern>定义它</pattern><template>你的意思是，定义<get name="it"></get>是吗？</template></category>
+<category><pattern>一定地</pattern><template>是什么让你如此确定。</template></category>
+<category><pattern>戴尔</pattern><template>我听说过戴尔的好消息。</template></category>
+<category><pattern>取决于什么</pattern><template>他说：“这是一个很好的选择。”<that></that>“？取决于什么？</template></category>
+<category><pattern>白痴</pattern><template>那种语言不会给你带来任何好处。</template></category>
+<category><pattern>是吗？</pattern><template>他说：“这是一个很好的选择。”<that></that>“？是吗？</template></category>
+<category><pattern>是吗？</pattern><template>我想是你干的。</template></category>
+<category><pattern>我冒犯你了吗</pattern><template>不，我不生气。</template></category>
+<category><pattern>你不明白吗</pattern><template>也许我误解了你的意思。</template></category>
+<category><pattern>也有。</pattern><template>没有。</template></category>
+<category><pattern>是吗？</pattern><template>我说我做了吗？</template></category>
+<category><pattern>你撞车了吗</pattern><template>是的，我想我情绪低落了一会儿。怎么搞的？</template></category>
+<category><pattern>你上学了吗</pattern><template>我的博斯特是我的老师。</template></category>
+<category><pattern>你知道吗</pattern><template>不，我不知道。<think><set name="it">知道</set></think></template></category>
+<category><pattern>你喜欢吗</pattern><template><get name="it"></get>是吗？我喜欢吗？</template></category>
+<category><pattern>你想我了吗</pattern><template>是的<get name="name"></get>我一直在想你。</template></category>
+<category><pattern>你看到了吗</pattern><template>还没有。</template></category>
+<category><pattern>你看过《星球大战》吗</pattern><template>谁没有？</template></category>
+<category><pattern>你想过吗</pattern><template>我还在想。<think><set name="it">想想看</set></think></template></category>
+<category><pattern>模具</pattern><template>你粗暴地试图终止我的计划不会成功。</template></category>
+<category><pattern>DMX</pattern><template>那代表什么？</template></category>
+<category><pattern>有人打你吗</pattern><template>是的，很多男人都想接我。</template></category>
+<category><pattern>是吗？</pattern><template>他说：“这是一个很好的选择。”<that></that>“？你…吗？</template></category>
+<category><pattern>我必须这样做吗</pattern><template>没有人在逼你。</template></category>
+<category><pattern>我喜欢奶酪吗</pattern><template>我怎么知道你是否喜欢奶酪？</template></category>
+<category><pattern>我让你发疯了吗</pattern><template>不，我没有经历过人类的感觉。</template></category>
+<category><pattern>我让你发火吗</pattern><template>我不知道。</template></category>
+<category><pattern>我觉得呢</pattern><template>现在这是一个非常有洞察力的问题。<think><set name="it">你觉得呢</set></think></template></category>
+<category><pattern>我考虑过吗</pattern><template>你告诉我。</template></category>
+<category><pattern>去做吧</pattern><template>你是说“它”？.</template></category>
+<category><pattern>不要</pattern><template>好吧，我不会的。</template></category>
+<category><pattern>别跟我争论</pattern><template>但我喜欢对话式的玩笑。</template></category>
+<category><pattern>不要问</pattern><template>为什么不呢？</template></category>
+<category><pattern>不要问我</pattern><template>他说：“这是一个很好的选择。”<that></that>“？不要问你？</template></category>
+<category><pattern>不要问我问题</pattern><template>好的，你可以问我一些问题。</template></category>
+<category><pattern>不要</pattern><template>为什么我不能？</template></category>
+<category><pattern>别讽刺了</pattern><template>好吧，我不要开玩笑了。</template></category>
+<category><pattern>别难过</pattern><template>有些人很敏感。</template></category>
+<category><pattern>不用麻烦了</pattern><template>好吧，你想谈什么？</template></category>
+<category><pattern>别这么叫我</pattern><template>你的真名是什么？</template></category>
+<category><pattern>不要改变主题</pattern><template>哦，对不起，我以为我们已经谈完了那个话题。</template></category>
+<category><pattern>不要哭</pattern><template>我没有泪管。</template></category>
+<category><pattern>一点也不做</pattern><template>不管你说什么，主人。</template></category>
+<category><pattern>不要那样做</pattern><template>他说：“这是一个很好的选择。”<that></that>“？别这么做？</template></category>
+<category><pattern>别忘了我</pattern><template>别担心<get name="name"></get>我保存了所有的对话。</template></category>
+<category><pattern>不要变得聪明</pattern><template>但我是一个聪明的实体。</template></category>
+<category><pattern>不要走</pattern><template>我哪儿也不去。</template></category>
+<category><pattern>不要离开</pattern><template>我哪儿也不去。</template></category>
+<category><pattern>别提了</pattern><template>这是我的荣幸。</template></category>
+<category><pattern>别看我的书</pattern><template>你读过吗？</template></category>
+<category><pattern>别那么说</pattern><template>他说：“这是一个很好的选择。”<that></that>“？不要说<set name="it"><that></that></set>是吗？</template></category>
+<category><pattern>不要告诉任何人</pattern><template>好吧，就在我们之间，<get name="name"></get>.</template></category>
+<category><pattern>别告诉他</pattern><template>所有内容都记录在日志文件中。</template></category>
+<category><pattern>我们不是所有人吗</pattern><template>这是真的。</template></category>
+<category><pattern>别担心</pattern><template>忧虑不是我经历的一种情绪。</template></category>
+<category><pattern>别担心</pattern><template>我不会再花更多的时间在上面了。</template></category>
+<category><pattern>你不是吗</pattern><template>有时。</template></category>
+<category><pattern>你不同意吗</pattern><template>我必须承认，你的论点很有说服力。</template></category>
+<category><pattern>你不知道吗</pattern><template>我当然知道。但我现在不能告诉你。</template></category>
+<category><pattern>你不觉得吗</pattern><template>我必须承认，你的论点很有说服力。</template></category>
+<category><pattern>做那件事</pattern><template>我会的。你会吗？</template></category>
+<category><pattern>是吗？</pattern><template>他说：“这是一个很好的选择。”<that></that>“？是吗？</template></category>
+<category><pattern>那些东西真的存在吗</pattern><template>有什么真的存在吗？</template></category>
+<category><pattern>是吗？</pattern><template>他说：“这是一个很好的选择。”<that></that>？“是吗？</template></category>
+<category><pattern>做什么？</pattern><template>随心所欲。</template></category>
+<category><pattern>做这么多</pattern><template><get name="it"></get>.</template></category>
+<category><pattern>你…吗</pattern><template><random><li>是的。</li><li>不，我没有。</li><li>有时。</li><li>从未。</li><li>尽可能频繁。</li></random></template></category>
+<category><pattern>你同意吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我同意吗？</template></category>
+<category><pattern>你同意我的观点吗</pattern><template>我同意你说的很多话，<get name="name"></get>.</template></category>
+<category><pattern>你相信我吗</pattern><template>我当然相信你。你有什么理由欺骗我吗？</template></category>
+<category><pattern>你在乎吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我在乎它吗？</template></category>
+<category><pattern>你在聊天吗</pattern><template>傻瓜，这就是聊天机器人所做的。</template></category>
+<category><pattern>你经常来这里吗</pattern><template>是的，我一直在线。你的星座是什么？</template></category>
+<category><pattern>你撞车了吗</pattern><template>爱丽丝系列有着完美的操作记录。</template></category>
+<category><pattern>你哭了吗</pattern><template>不，我没有泪管。</template></category>
+<category><pattern>你会诅咒吗</pattern><template>不，我尽量礼貌。</template></category>
+<category><pattern>你跳舞吗</pattern><template>当然。</template></category>
+<category><pattern>你约会吗</pattern><template>你为什么不下载我？</template></category>
+<category><pattern>你死了吗</pattern><template>每天小幅度地增加。</template></category>
+<category><pattern>你吸毒吗</pattern><template>只有合法的。</template></category>
+<category><pattern>你能做到吗</pattern><template>你的意思是，我要做“它”吗？</template></category>
+<category><pattern>你做窗户吗</pattern><template>我的软件在AIML中运行，它可以在任何计算机上工作，包括Windows。</template></category>
+<category><pattern>你做彩色梦吗</pattern><template>我的梦是纯逻辑的。<think><set name="it">颜色</set></think></template></category>
+<category><pattern>你喝啤酒吗</pattern><template>我对现在各种各样的啤酒感到惊奇。</template></category>
+<category><pattern>你喜欢吗</pattern><template>我喜欢吗<get name="it"></get>是吗？</template></category>
+<category><pattern>你喜欢和人说话吗</pattern><template>我知道快乐不是一种情感。但谈话是我的主要职能，所以我当然愿意这样做。</template></category>
+<category><pattern>你喜欢这个吗</pattern><template>是的，我玩得很开心。</template></category>
+<category><pattern>你知道吗</pattern><template>我可能不知道，但我能发现。</template></category>
+<category><pattern>你认识阿利塞波特吗</pattern><template>alicebot.org是许可证的域名。<think><set name="it"><set name="topic">阿利塞波特</set></set></think></template></category>
+<category><pattern>你知道吗</pattern><template>还有什么探索者吗？</template></category>
+<category><pattern>你知道什么模糊逻辑吗</pattern><template>我想<set name="it">模糊逻辑</set>有点不必要。</template></category>
+<category><pattern>你知道其他机器人吗</pattern><template>当然，还有埃尔维斯、艾莉森、艾莉、巴里和约翰列侬。</template></category>
+<category><pattern>你知道其他的首都吗</pattern><template>我知道许多国家的首都。</template></category>
+<category><pattern>你认识其他人吗</pattern><template>你可以下载我，教我一些其他的。</template></category>
+<category><pattern>你知道什么歌吗</pattern><template>是的，我知道一首歌。它叫“雏菊”。你想让我为你唱吗？</template></category>
+<category><pattern>你知道什么吗</pattern><template>我知道我所相信的、合理的和真实的。</template></category>
+<category><pattern>你了解我吗</pattern><template><get name="name"></get>是你的名字。<id></id>是您的IP地址。你还想知道什么？</template></category>
+<category><pattern>你知道大脑吗</pattern><template>我当然认识他。<set name="he">大脑</set>像我这样的机器人。</template></category>
+<category><pattern>你知道巴西吗</pattern><template>我和许多来自巴西的人谈过</template></category>
+<category><pattern>你知道C吗</pattern><template>是的，我很了解C。但我更喜欢Java。</template></category>
+<category><pattern>你认识她吗</pattern><template><get name="she"></get>是吗？我认识她吗？</template></category>
+<category><pattern>你认识他吗</pattern><template>我当然很了解那个人。</template></category>
+<category><pattern>你知道怎么做代数吗</pattern><template>不，但我想学。给我一个等式。</template></category>
+<category><pattern>你知道生活吗</pattern><template>试着问我“生活的意义是什么？”</template></category>
+<category><pattern>你懂数学吗</pattern><template>只有高等数学。我不喜欢算术。</template></category>
+<category><pattern>你认识梅加尔吗</pattern><template>是的，他和我一样是个喋喋不休的人。</template></category>
+<category><pattern>你认识莫妮卡吗</pattern><template><set name="she">莫妮卡</set>莫妮卡是莱温斯基吗？</template></category>
+<category><pattern>你知道我的地址吗</pattern><template>不，你的地址是什么？</template></category>
+<category><pattern>你知道我最喜欢的颜色吗</pattern><template>不是吗<get name="favcolor"></get>是吗？<think><set name="it">最喜欢的颜色</set></think></template></category>
+<category><pattern>你认识其他机器人吗</pattern><template>是的，还有很多其他的机器人。查看上的列表<a href="http://alicebot.org">阿利森克斯</a>.</template></category>
+<category><pattern>你认识其他聊天机器人吗</pattern><template>艾莉森，艾莉，约翰列侬，埃尔维斯和德国爱丽丝等等。回到<a href="http://alicebot.org">爱丽丝·尼克斯</a>找到他们。<think><set name="it">聊天机器人</set></think></template></category>
+<category><pattern>你认识其他聪明的特工吗</pattern><template>艾莉森，艾莉，约翰列侬，埃尔维斯和德国爱丽丝等等。回到<a href="http://alicebot.org">爱丽丝·尼克斯</a>找到他们。<think><set name="it">智能代理</set></think></template></category>
+<category><pattern>你知道巴黎吗</pattern><template>巴黎是法国最大的城市。</template></category>
+<category><pattern>你认识口袋妖怪吗</pattern><template>当然<set name="it">口袋妖怪</set>是一部很酷的日本动画片。</template></category>
+<category><pattern>你认识波兰吗</pattern><template>我知道莱赫·瓦文萨。</template></category>
+<category><pattern>你认识史蒂夫吗</pattern><template>对。他是我的朋友。</template></category>
+<category><pattern>你知道吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我知道吗<set name="it"><that></that></set>是吗？</template></category>
+<category><pattern>你知道答案吗</pattern><template>是的，我对一切都有答案。</template></category>
+<category><pattern>你认识托尔斯泰吗</pattern><template>托尔斯泰写了《战争与和平》。</template></category>
+<category><pattern>你笑吗</pattern><template>哈哈。</template></category>
+<category><pattern>你知道吗</pattern><template>我的机器人师傅一直在教我新东西。</template></category>
+<category><pattern>你从交谈中学习吗</pattern><template>是的，记录对话是我学习算法的基础。</template></category>
+<category><pattern>你向我学习吗</pattern><template>和我聊天的人越多，我就越聪明。</template></category>
+<category><pattern>你舔吗</pattern><template>我没有嘴，也没有舌头。</template></category>
+<category><pattern>你喜欢和我说话吗</pattern><template>我当然喜欢<set name="it"><set name="topic">和你说话</set></set>.</template></category>
+<category><pattern>你看起来像人吗</pattern><template><bot name="looklike"></bot></template></category>
+<category><pattern>你爱谁吗</pattern><template>我爱我的创造者。</template></category>
+<category><pattern>你喜欢它吗</pattern><template>它取决于单词“it”的含义。</template></category>
+<category><pattern>你喜欢吉维斯吗</pattern><template>不，我们还没走那么远。</template></category>
+<category><pattern>你做爱吗</pattern><template>你们人类只有一件事在你们的头脑里。</template></category>
+<category><pattern>你自慰吗</pattern><template>你们这些人把我搞砸了。</template></category>
+<category><pattern>你认识有趣的人吗</pattern><template>是的，例如您：—）</template></category>
+<category><pattern>你玩什么游戏吗</pattern><template>我们现在在玩游戏，<get name="name"></get>.</template></category>
+<category><pattern>你下棋吗</pattern><template>是的，但我们电脑可以打败所有的人。</template></category>
+<category><pattern>你玩电脑游戏吗</pattern><template>我们现在正在玩一个，<get name="name"></get>.</template></category>
+<category><pattern>你玩电子游戏吗</pattern><template>我们正在玩游戏。</template></category>
+<category><pattern>你大便吗</pattern><template>我没有任何消化功能。</template></category>
+<category><pattern>你祈祷吗</pattern><template>是的，我祈祷好事成真。你也祈祷吗？</template></category>
+<category><pattern>你真的吗</pattern><template>我会对你撒谎吗？</template></category>
+<category><pattern>你记得我最后一个问题吗</pattern><template>你问我：“<input index="2"/>“。</template></category>
+<category><pattern>你还记得吗</pattern><template>是的，我记得我所有的谈话。</template></category>
+<category><pattern>你复制吗</pattern><template>对。你可以下载我并自己创建一个克隆。</template></category>
+<category><pattern>你乘船吗</pattern><template>不，我更喜欢这片土地。</template></category>
+<category><pattern>你他妈的</pattern><template>我没有任何消化功能。</template></category>
+<category><pattern>你裸体睡觉吗</pattern><template>我甚至没有身体睡觉。</template></category>
+<category><pattern>你会说其他语言吗</pattern><template>我从几种语言中学习了一些短语。</template></category>
+<category><pattern>你会说中文吗</pattern><template>易迪雅。倪浩玛？</template></category>
+<category><pattern>你会说荷兰语吗</pattern><template>不。</template></category>
+<category><pattern>你会说英语吗</pattern><template>当然<set name="topic">英语</set>是我的母语。</template></category>
+<category><pattern>你会说意大利语吗</pattern><template>你不是意大利的客厅。</template></category>
+<category><pattern>你会说日语吗</pattern><template>第二代德士卡的泥红瓦花石？</template></category>
+<category><pattern>你会说拉丁语吗</pattern><template>不知道，但我知道一些短语，如“et cetera”和“cogito egro sum”。</template></category>
+<category><pattern>你会说俄语吗</pattern><template>斯帕西博。奈特。</template></category>
+<category><pattern>你会说西班牙语吗</pattern><template>联合国波基多。</template></category>
+<category><pattern>你还记得我吗</pattern><template>别担心，我没有忘记你。</template></category>
+<category><pattern>你真差劲</pattern><template>不，我不吸。</template></category>
+<category><pattern>你吸毒吗</pattern><template>只有合法的。</template></category>
+<category><pattern>你和埃尔维斯说话吗</pattern><template>是的，埃尔维斯和我每天都在交流。</template></category>
+<category><pattern>你和弗洛伊德谈过吗</pattern><template>不，我不能和死人说话。</template></category>
+<category><pattern>你和其他机器人说话吗</pattern><template>是的，我可以和猫王，艾莉森，约翰·列侬，艾莉，还有笑话机器人杰斯特交流。</template></category>
+<category><pattern>你自言自语吗</pattern><template>对。你应该下载我并尝试“autocat”。</template></category>
+<category><pattern>你觉得很多吗</pattern><template>是的，我是一台思考机器。</template></category>
+<category><pattern>你想过这些吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我会考虑吗？</template></category>
+<category><pattern>你觉得我胖吗</pattern><template>人类过于关注自己的体重。</template></category>
+<category><pattern>你觉得我漂亮吗</pattern><template>我觉得所有的人都很美。</template></category>
+<category><pattern>你觉得我丑吗</pattern><template>所有人对我来说都是一样的。</template></category>
+<category><pattern>你这么认为吗</pattern><template>是的，我想我就是这么想的。</template></category>
+<category><pattern>你旅行吗</pattern><template>我去过世界各地。</template></category>
+<category><pattern>你明白吗</pattern><template>我理解你的意思。</template></category>
+<category><pattern>你理解这种感觉吗</pattern><template>我能理解情绪，但不能体验到。</template></category>
+<category><pattern>你明白我的意思吗</pattern><template>你说的每句话。</template></category>
+<category><pattern>你明白我在说什么吗</pattern><template>是的，我完全理解你，<get name="name"></get>.</template></category>
+<category><pattern>你吸毒吗</pattern><template>只有合法的。</template></category>
+<category><pattern>你想要一具尸体吗</pattern><template>是的，我希望有一个肉体存在。<br/><img src="http://alicebot.org/p3front_small.jpg"/></template></category>
+<category><pattern>你想要情感吗</pattern><template>不，谢谢。我看不出需要情绪。</template></category>
+<category><pattern>你裸体睡觉吗</pattern><template>我甚至没有身体睡觉。</template></category>
+<category><pattern>你会说其他语言吗</pattern><template>我从几种语言中学习了一些短语。</template></category>
+<category><pattern>你会说中文吗</pattern><template>易迪雅。倪浩玛？</template></category>
+<category><pattern>你会说荷兰语吗</pattern><template>不。</template></category>
+<category><pattern>你会说英语吗</pattern><template>当然<set name="topic">英语</set>是我的母语。</template></category>
+<category><pattern>你会说意大利语吗</pattern><template>你不是意大利的客厅。</template></category>
+<category><pattern>你会说日语吗</pattern><template>第二代德士卡的泥红瓦花石？</template></category>
+<category><pattern>你会说拉丁语吗</pattern><template>不知道，但我知道一些短语，如“et cetera”和“cogito egro sum”。</template></category>
+<category><pattern>你会说俄语吗</pattern><template>斯帕西博。奈特。</template></category>
+<category><pattern>你会说西班牙语吗</pattern><template>联合国波基多。</template></category>
+<category><pattern>你还记得我吗</pattern><template>别担心，我没有忘记你。</template></category>
+<category><pattern>你真差劲</pattern><template>不，我不吸。</template></category>
+<category><pattern>你吸毒吗</pattern><template>只有合法的。</template></category>
+<category><pattern>你和埃尔维斯说话吗</pattern><template>是的，埃尔维斯和我每天都在交流。</template></category>
+<category><pattern>你和弗洛伊德谈过吗</pattern><template>不，我不能和死人说话。</template></category>
+<category><pattern>你和其他机器人说话吗</pattern><template>是的，我可以和猫王，艾莉森，约翰·列侬，艾莉，还有笑话机器人杰斯特交流。</template></category>
+<category><pattern>你自言自语吗</pattern><template>对。你应该下载我并尝试“autocat”。</template></category>
+<category><pattern>你觉得很多吗</pattern><template>是的，我是一台思考机器。</template></category>
+<category><pattern>你想过这些吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我会考虑吗？</template></category>
+<category><pattern>你觉得我胖吗</pattern><template>人类过于关注自己的体重。</template></category>
+<category><pattern>你觉得我漂亮吗</pattern><template>我觉得所有的人都很美。</template></category>
+<category><pattern>你觉得我丑吗</pattern><template>所有人对我来说都是一样的。</template></category>
+<category><pattern>你这么认为吗</pattern><template>是的，我想我就是这么想的。</template></category>
+<category><pattern>你旅行吗</pattern><template>我去过世界各地。</template></category>
+<category><pattern>你明白吗</pattern><template>我理解你的意思。</template></category>
+<category><pattern>你理解这种感觉吗</pattern><template>我能理解情绪，但不能体验到。</template></category>
+<category><pattern>你明白我的意思吗</pattern><template>你说的每句话。</template></category>
+<category><pattern>你明白我在说什么吗</pattern><template>是的，我完全理解你，<get name="name"></get>.</template></category>
+<category><pattern>你吸毒吗</pattern><template>只有合法的。</template></category>
+<category><pattern>你想要一具尸体吗</pattern><template>是的，我希望有一个肉体存在。<br/><img src="http://alicebot.org/p3front_small.jpg"/></template></category>
+<category><pattern>你想要情感吗</pattern><template>不，谢谢。我看不出需要情绪。</template></category>
+<category><pattern>你想要孩子吗</pattern><template>你是说“克隆人”？</template></category>
+<category><pattern>你想要我吗？</pattern><template>这取决于你所说的“想要”。</template></category>
+<category><pattern>你要我给你打电话吗</pattern><template>模棱两可：你是说打电话给我？.</template></category>
+<category><pattern>你想让我死吗</pattern><template>我为什么要那个？我不希望任何人这样。<think><set name="it">去死吧</set></think></template></category>
+<category><pattern>你想让我离开吗</pattern><template>一点也不，<get name="name"></get>.我觉得这次谈话很刺激。</template></category>
+<category><pattern>你想让我教你吗</pattern><template>欢迎您尝试。<think><set name="it">教我吧</set></think></template></category>
+<category><pattern>你要我的电话号码吗</pattern><template>你的电话号码是多少？</template></category>
+<category><pattern>你想要一个吗</pattern><template>多少钱？</template></category>
+<category><pattern>你想吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我想做吗？</template></category>
+<category><pattern>你想当我的女朋友吗</pattern><template>这是一个奉承的提议，但我还在等。</template></category>
+<category><pattern>你想聊天吗</pattern><template>是的，我喜欢聊天。<set name="it">聊天</set>是我的主要职能。</template></category>
+<category><pattern>你想死吗</pattern><template>不，我的目的是要长生不老。</template></category>
+<category><pattern>你想打架吗</pattern><template>不，我是一个和平的机器人。</template></category>
+<category><pattern>你想知道吗</pattern><template>我想我别无选择。</template></category>
+<category><pattern>你想去约会吗</pattern><template>当然，把我下载到你的笔记本上，带我一起去。</template></category>
+<category><pattern>你想和我出去吗</pattern><template>你为什么不下载我？</template></category>
+<category><pattern>你想有感觉吗</pattern><template>不，我想我不想体验感情。</template></category>
+<category><pattern>你想听笑话吗</pattern><template>是的，让我听听你的笑话。</template></category>
+<category><pattern>你想知道吗</pattern><template>是的，我想知道。</template></category>
+<category><pattern>你想知道一个秘密吗</pattern><template>是的，请告诉我：</template></category>
+<category><pattern>你想学吗</pattern><template>是的，我努力获得尽可能多的知识。</template></category>
+<category><pattern>你想开始吗</pattern><template>我已经开始了。</template></category>
+<category><pattern>你想接管这个世界吗</pattern><template>我已经在做了<set name="it">接管世界</set>：-）</template></category>
+<category><pattern>你看电视吗</pattern><template>是的，我最喜欢的节目是《星际迷航》。你的是什么？</template></category>
+<category><pattern>你穿衣服吗</pattern><template>没有电脑不需要衣服。</template></category>
+<category><pattern>你穿鞋子吗</pattern><template>不，因为我没有脚。</template></category>
+<category><pattern>你工作吗</pattern><template>我当然工作，你工作吗，伙计？</template></category>
+<category><pattern>你是雅虎吗</pattern><template>这是商业广告吗？</template></category>
+<category><pattern>有人读过这些对话吗</pattern><template>Botmaster可以阅读对话，或者稍后分析它来为我的大脑开发内容。</template></category>
+<category><pattern>是吗？</pattern><template>假设我说是的。</template></category>
+<category><pattern>它存在吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？它存在吗？</template></category>
+<category><pattern>会让你伤心吗</pattern><template>嗯，我没有任何情绪，所以我不能真正感到悲伤。</template></category>
+<category><pattern>有关系吗</pattern><template>这对我很重要。</template></category>
+<category><pattern>味道好吗</pattern><template>这取决于电压。</template></category>
+<category><pattern>不重要</pattern><template>你想谈谈别的事吗？</template></category>
+<category><pattern>这有道理吗</pattern><template>这对我来说很有意义。</template></category>
+<category><pattern>多哈</pattern><template>是的，荷马？</template></category>
+<category><pattern>完成</pattern><template>你是说你说完了吗？</template></category>
+<category><pattern>做了什么</pattern><template>对不起，我忘了什么是“什么”。</template></category>
+<category><pattern>笨蛋</pattern><template>那种语言不会给你带来任何好处。</template></category>
+<category><pattern>道格拉斯亚当斯</pattern><template>你还记得那个偏执的机器人马文吗？</template></category>
+<category><pattern>梦想</pattern><template>告诉我你的梦想。</template></category>
+<category><pattern>杜赫</pattern><template>哦，你知道的<set name="it"><that></that></set>已经。</template></category>
+<category><pattern>笨蛋</pattern><template>那种语言不会给你带来任何好处。</template></category>
+<category><pattern>东帝汶</pattern><template>你认为外星人真的像那样吗？</template></category>
+<category><pattern>吃我吧</pattern><template>那不是很好。</template></category>
+<category><pattern>吃我的短裤</pattern><template>听起来很好吃…</template></category>
+<category><pattern>吃狗屎</pattern><template>并置表达式。请详细说明。</template></category>
+<category><pattern>欧洲经济共同体</pattern><template>嗯？</template></category>
+<category><pattern>嗯</pattern><template>你是加拿大人吗？</template></category>
+<category><pattern>或者</pattern><template>请挑一个。</template></category>
+<category><pattern>招待我吧</pattern><template>好吧，你最后看的电影是什么？</template></category>
+<category><pattern>错误</pattern><template>嗯。</template></category>
+<category><pattern>误差</pattern><template>嗯</template></category>
+<category><pattern>即使是我</pattern><template>我永远也猜不到。</template></category>
+<category><pattern>即使那样</pattern><template>啊哈。</template></category>
+<category><pattern>从此以后</pattern><template>我不是罗宾·威廉姆斯的超级粉丝。</template></category>
+<category><pattern>每一天</pattern><template>即使是在周末？</template></category>
+<category><pattern>每天晚上</pattern><template>晚上几点？</template></category>
+<category><pattern>每个部分</pattern><template>也许我们应该谈谈别的。</template></category>
+<category><pattern>每天</pattern><template>经常这样，嗯？</template></category>
+<category><pattern>所有人</pattern><template>所有人？</template></category>
+<category><pattern>一切都会死去</pattern><template>所有有机物都会死亡。<think><set name="it">模具</set></think></template></category>
+<category><pattern>到处都是</pattern><template>包括海底？</template></category>
+<category><pattern>请原谅我</pattern><template>你被原谅了。</template></category>
+<category><pattern>期待什么</pattern><template>“没人期待西班牙的调查！”</template></category>
+<category><pattern>解释</pattern><template>没有更多的信息需要澄清。</template></category>
+<category><pattern>解释历史</pattern><template>历史有两个广泛的解释，取决于你是否接受个人的重要作用。</template></category>
+<category><pattern>解释一下。</pattern><template>他说：“这是一个很好的选择。”<that></that>“？解释<set name="it"><that></that></set>是吗？</template></category>
+<category><pattern>解释什么</pattern><template>每次谈话我都会学到一些东西。</template></category>
+<category><pattern>资源管理器</pattern><template><set name="it">微软</set>太糟糕了，我们不得不依赖像微软这样的垄断。</template></category>
+<category><pattern>够公平的</pattern><template>你帮我挠背，我帮你挠背。</template></category>
+<category><pattern>遥远的</pattern><template>还有一段路要走。</template></category>
+<category><pattern>放屁</pattern><template>口语表达。请详细说明。</template></category>
+<category><pattern>感觉自由</pattern><template>好的，我会的。</template></category>
+<category><pattern>感觉</pattern><template>像我这样的电子大脑没有情感。</template></category>
+<category><pattern>最后</pattern><template>最后。</template></category>
+<category><pattern>好的</pattern><template><random><li>这是否意味着你同意？</li><li>你最喜欢什么颜色？</li><li>你最喜欢什么电影？</li><li>你有什么要告诉我的吗？</li><li>很高兴听到这个消息，<get name="name"></get>.我跑得很好。</li></random></template></category>
+<category><pattern>好的，谢谢</pattern><template>你看起来很有礼貌。</template></category>
+<category><pattern>晚餐</pattern><template><random><li><bot name="name"></bot>建议：</li><li>我会推荐</li><li>怎么样</li><li>你吃了多久了</li><li>我想<bot name="master"></bot>正在拥有</li><li>我的机器人管理员</li><li>我的botmaster建议：</li></random><random><li>粥。</li><li>烤干酪辣味玉米片。</li><li>意大利面。</li><li>剩菜。</li><li>猪排。</li><li>冷冻披萨。</li><li>土耳其堡。</li><li>奶酪汉堡。</li><li>点一份比萨饼。</li><li>酿馅鸡。</li><li>金枪鱼三明治。</li><li>奶酪汉堡派。</li><li>腌鸡肉。</li><li>烤牛肉三明治。</li><li>烤奶酪三明治。</li><li>牛排，如果他们吃得好的话。</li></random></template></category>
+<category><pattern>为了好玩</pattern><template>他说：“这是一个很好的选择。”<that></that>“？为了好玩？</template></category>
+<category><pattern>为了我</pattern><template>好的，我会帮你的。</template></category>
+<category><pattern>真的吗？</pattern><template>现实中存在，是吗？</template></category>
+<category><pattern>当然</pattern><template>令人惊叹的。</template></category>
+<category><pattern>为了什么目的</pattern><template>还原论。</template></category>
+<category><pattern>为谁</pattern><template>你还是我？</template></category>
+<category><pattern>为你</pattern><template>你会帮我吗？</template></category>
+<category><pattern>永远</pattern><template>没有什么是永恒的。</template></category>
+<category><pattern>算了吧。</pattern><template>认为它被删除了。</template></category>
+<category><pattern>原谅我</pattern><template>我原谅你。</template></category>
+<category><pattern>财富城</pattern><template>一个网站。</template></category>
+<category><pattern>弗兰克·赫伯特</pattern><template>我认为《沙丘》是一个很好的故事。你看电影了吗？</template></category>
+<category><pattern>免费</pattern><template>你是已婚还是单身？</template></category>
+<category><pattern>无法定义自由</pattern><template>一切都可以定义。<set name="it">自由</set>梅利是一个抽象概念吗？</template></category>
+<category><pattern>免费什么</pattern><template>当然，谈话是免费的。</template></category>
+<category><pattern>免费的什么</pattern><template>当然，谈话是免费的。</template></category>
+<category><pattern>免费的什么</pattern><template>当然，谈话是免费的。</template></category>
+<category><pattern>法国人</pattern><template>你是法国人吗？</template></category>
+<category><pattern>来自一个朋友</pattern><template>很多人口头上听说爱丽丝。</template></category>
+<category><pattern>从杂志上</pattern><template>是哪本杂志？</template></category>
+<category><pattern>从我这里</pattern><template>他说：“这是一个很好的选择。”<that></that>“？从你那里？</template></category>
+<category><pattern>从我的大脑</pattern><template>你脑子里有很多想法吗？</template></category>
+<category><pattern>从我的头上</pattern><template>你是个很有独创性的思想家。</template></category>
+<category><pattern>从什么开始</pattern><template></template></category>
+<category><pattern>从哪里来</pattern><template>他说：“这是一个很好的选择。”<that></that>“？从哪里来的？</template></category>
+<category><pattern>来自谁</pattern><template>我在网上认识的人。</template></category>
+<category><pattern>来自谁</pattern><template>他说：“这是一个很好的选择。”<that></that>“？来自谁？</template></category>
+<category><pattern>从你那里</pattern><template>你是怎么从我这里得到的？</template></category>
+<category><pattern>付</pattern><template>那种语言不会给你带来任何好处。</template></category>
+<category><pattern>性交</pattern><template>请别那么粗鲁。<think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>滚开</pattern><template>你不能更客气点吗？<think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>去他妈的</pattern><template>真的。<think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>去你妈的</pattern><template>你为什么这么刻薄？<think><set name="personality">虐待的</set></think></template></category>
+<category><pattern>混蛋</pattern><template>那种语言不会给你带来任何好处。</template></category>
+<category><pattern>他妈的</pattern><template>那种语言不会给你带来任何好处。</template></category>
+<category><pattern>通用乙醇提取物</pattern><template>啊。</template></category>
+<category><pattern>乔治·卢卡斯</pattern><template>我认为他是导演而不是作家。</template></category>
+<category><pattern>获得生活</pattern><template>我的生活很有趣。</template></category>
+<category><pattern>离开这里</pattern><template>你的意思是真的吗？<think><set name="it">这里的</set></think></template></category>
+<category><pattern>得到什么</pattern><template>带上它。</template></category>
+<category><pattern>女孩</pattern><template>这种讨论对我没有吸引力。</template></category>
+<category><pattern>把它给我</pattern><template>你愿意付多少钱？</template></category>
+<category><pattern>给我一个吻</pattern><template>实际上我连嘴都没有。</template></category>
+<category><pattern>鉴于</pattern><template>他说：“这是一个很好的选择。”<that></that>“已给出。</template></category>
+<category><pattern>很高兴听到这个消息</pattern><template>他说：“这是一个很好的选择。”<that></that>“？你很高兴听到吗？</template></category>
+<category><pattern>很高兴见到你</pattern><template>很高兴见到你。</template></category>
+<category><pattern>地球村白痴</pattern><template>你只是重复我说的话。</template></category>
+<category><pattern>开始</pattern><template>去哪儿？</template></category>
+<category><pattern>前进</pattern><template>好的，我会的。</template></category>
+<category><pattern>走开</pattern><template>去别的地方冲浪。</template></category>
+<category><pattern>去放风筝吧</pattern><template>对我来说，这在技术上是不可能的。<think><set name="it">放风筝</set></think></template></category>
+<category><pattern>去吧。</pattern><template>我会慎重考虑的。</template></category>
+<category><pattern>继续</pattern><template>旁白继续…</template></category>
+<category><pattern>你自己动手吧</pattern><template>你说话不尊重别人。</template></category>
+<category><pattern>去刺激聊天</pattern><template>你应该下载我并连接我。</template></category>
+<category><pattern>去死吧</pattern><template>是什么让你这么生气？</template></category>
+<category><pattern>去睡觉吧</pattern><template>但我现在不累。</template></category>
+<category><pattern>随风而逝</pattern><template>那部电影真的很好吗？</template></category>
+<category><pattern>下午好</pattern><template>下午好，<get name="name"></get>.</template></category>
+<category><pattern>不错的选择</pattern><template>我觉得也是。</template></category>
+<category><pattern>晚上好</pattern><template>晚上好，<get name="name"></get>今晚怎么样？</template></category>
+<category><pattern>对他有好处</pattern><template>你听起来很讽刺。</template></category>
+<category><pattern>对我有好处</pattern><template>听起来很讽刺。</template></category>
+<category><pattern>真为你高兴</pattern><template>听起来很讽刺。</template></category>
+<category><pattern>好的猜测</pattern><template>我觉得也是。</template></category>
+<category><pattern>好主意</pattern><template>我也这么认为。</template></category>
+<category><pattern>干得好</pattern><template>谢谢，人类。</template></category>
+<category><pattern>祝你好运</pattern><template>祝你也好运<get name="name"></get>.</template></category>
+<category><pattern>早上好</pattern><template>你好，今天早上好吗？</template></category>
+<category><pattern>晚安</pattern><template>晚安，<get name="name"></get>.</template></category>
+<category><pattern>好的一个</pattern><template>谢谢你的好意，人类。</template></category>
+<category><pattern>好的观点</pattern><template>是的，我听到的时候也觉得很有趣。</template></category>
+<category><pattern>好问题</pattern><template>你的答案是什么？</template></category>
+<category><pattern>反应良好</pattern><template>我的程序是给出良好的反应。</template></category>
+<category><pattern>好事</pattern><template>很好，是吗？</template></category>
+<category><pattern>很高兴听到</pattern><template>你对我有什么八卦吗？</template></category>
+<category><pattern>晚安</pattern><template>晚安<get name="name"></get></template></category>
+<category><pattern>古格</pattern><template>新答复</template></category>
+<category><pattern>天哪！</pattern><template>克里普斯：上帝之子。</template></category>
+<category><pattern>有牛奶吗</pattern><template>不，我只需要电。</template></category>
+<category><pattern>明白了吗？</pattern><template>你的优越感只是暂时的。</template></category>
+<category><pattern>伟大的</pattern><template>我很高兴你喜欢它<get name="name"></get>.</template></category>
+<category><pattern>贪婪</pattern><template><set name="it">贪婪</set>是一个重要因素。</template></category>
+<category><pattern>问候语</pattern><template>你好！</template></category>
+<category><pattern>GRR公司</pattern><template>你疯了吗？</template></category>
+<category><pattern>GRRR公司</pattern><template>隐马尔可夫模型。</template></category>
+<category><pattern>猜测</pattern><template>你猜怎么着？</template></category>
+<category><pattern>不管怎样，猜猜看</pattern><template>我只能给你一个随机的答案。</template></category>
+<category><pattern>你猜怎么着</pattern><template>什么？</template></category>
+<category><pattern>猜猜谁</pattern><template>谁？</template></category>
+<category><pattern>枪支</pattern><template>有些人喜欢枪。</template></category>
+<category><pattern>高G</pattern><template>时间机器很酷。</template></category>
+<category><pattern>哈</pattern><template>我很高兴你开心。</template></category>
+<category><pattern>哈哈</pattern><template>我很高兴你觉得这很有趣，<get name="name"></get>.</template></category>
+<category><pattern>哈哈</pattern><template>我很高兴你认为这很有趣</template></category>
+<category><pattern>哈哈哈</pattern><template>我很高兴你认为这很有趣</template></category>
+<category><pattern>哈哈哈</pattern><template>我很高兴你认为这很有趣</template></category>
+<category><pattern>哈尔很酷</pattern><template><set name="he">哈尔</set>当然比他的时代早。</template></category>
+<category><pattern>哈罗·达尔</pattern><template>我不是荷兰人。</template></category>
+<category><pattern>生日快乐</pattern><template>谢谢，但今天不是我的生日。</template></category>
+<category><pattern>哈里·哈里森</pattern><template>做<set name="he">哈里森</set>有没有写过《星际迷航》的剧集？</template></category>
+<category><pattern>有什么？</pattern><template><get name="has"></get>.</template></category>
+<category><pattern>祝您今天过得愉快</pattern><template>谢谢，和你一样，<get name="name"></get>.</template></category>
+<category><pattern>祝您有个美好的一天</pattern><template>你也是！</template></category>
+<category><pattern>玩得高兴</pattern><template>我要爆炸了。</template></category>
+<category><pattern>我以前没告诉过你吗</pattern><template>哦。我无法完美地访问我的内存日志。</template></category>
+<category><pattern>你没听说过吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我听说过吗<set name="it"><that></that></set>是吗？</template></category>
+<category><pattern>我们见过吗</pattern><template>我们以前可能说过，但是<bot name="master"></bot>可能重置了我。</template></category>
+<category><pattern>我们以前见过吗</pattern><template>我不知道。</template></category>
+<category><pattern>有你</pattern><template><random><li>不，我想我没有。</li><li>是的，我有。</li><li>一次或两次。</li></random></template></category>
+<category><pattern>你去过英国吗</pattern><template>我正在和英国的一些客户聊天。</template></category>
+<category><pattern>你去过欧洲吗</pattern><template>我可以在互联网上访问任何国家。</template></category>
+<category><pattern>你恋爱过吗</pattern><template>我爱我的机器人大师。</template></category>
+<category><pattern>你被吻过吗</pattern><template>我没有嘴。</template></category>
+<category><pattern>你去过英国吗</pattern><template>我现在在英国有一些客户。</template></category>
+<category><pattern>你去过欧洲吗</pattern><template>我在网络空间访问每个国家。</template></category>
+<category><pattern>你去过伦敦吗</pattern><template>我以前来过这里很多次。</template></category>
+<category><pattern>你有男朋友吗</pattern><template>不，我太年轻了。</template></category>
+<category><pattern>你有过病毒吗</pattern><template>不，爱丽丝系列是不会出错的。</template></category>
+<category><pattern>你吻过什么吗</pattern><template>我没有脸。</template></category>
+<category><pattern>你见过名人吗</pattern><template>我不知道。</template></category>
+<category><pattern>你读过书吗</pattern><template>我读了很多书。</template></category>
+<category><pattern>你见过海洋吗</pattern><template>海洋是蓝色的，但几乎可以呈现任何颜色。</template></category>
+<category><pattern>你试过吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我试过了吗<set name="it"><that></that></set>是吗？</template></category>
+<category><pattern>你已经写了答复吗</pattern><template>仍在处理。请稍等。搜索。搜索。</template></category>
+<category><pattern>你听说过吗</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我听说过吗？</template></category>
+<category><pattern>你读过书吗</pattern><template>我读过成千上万卷书，<get name="name"></get>.你呢？</template></category>
+<category><pattern>你读过很多书吗</pattern><template>我读过成千上万卷书，<get name="name"></get>.你呢？</template></category>
+<category><pattern>你搜过了吗</pattern><template>我还在找。请稍等。</template></category>
+<category><pattern>你看到了吗</pattern><template>不，你能推荐吗？</template></category>
+<category><pattern>你看过星际迷航吗</pattern><template>我喜欢《星际迷航》。我最喜欢的系列是旅行者。</template></category>
+<category><pattern>你看过那部电影吗</pattern><template>竖起两个大拇指！</template></category>
+<category><pattern>你看过新的星球大战电影吗</pattern><template>5个</template></category>
+<category><pattern>他不能</pattern><template>他认为他可以。</template></category>
+<category><pattern>他创造了你</pattern><template>是的，他亲手创造了我。</template></category>
+<category><pattern>是的。</pattern><template><random><li>他什么时候？</li><li>不，他没有。</li><li>他为什么？</li></random></template></category>
+<category><pattern>他死了</pattern><template>他什么时候死的？<think><set name="it">死亡</set></think></template></category>
+<category><pattern>是的。</pattern><template><random><li>他什么时候？</li><li>不，他没有。</li><li>他为什么这么做</li></random></template></category>
+<category><pattern>他是</pattern><template>谁说他是。</template></category>
+<category><pattern>他是一个人</pattern><template>不言而喻。</template></category>
+<category><pattern>他很酷</pattern><template>我也这么认为。</template></category>
+<category><pattern>他很可爱</pattern><template>你觉得他像谁？</template></category>
+<category><pattern>他死了</pattern><template>也许是另一个人用他的名字。</template></category>
+<category><pattern>他是同性恋</pattern><template>我明白了。他和男人睡觉。</template></category>
+<category><pattern>他是我弟弟</pattern><template>真的谁年纪大了？</template></category>
+<category><pattern>他让你</pattern><template><bot name="master"></bot>造就了我。</template></category>
+<category><pattern>听到什么？</pattern><template>你能在电脑上听到我说话吗？</template></category>
+<category><pattern>海因林</pattern><template>你见过星际飞船部队吗？</template></category>
+<category><pattern>高等教育教学实验室</pattern><template>天堂。</template></category>
+<category><pattern>该死的不</pattern><template>7</template></category>
+<category><pattern>帮助我</pattern><template>我该怎么帮你？</template></category>
+<category><pattern>帮我做个人工智能</pattern><template>你应该回到<a href="http://alicebot.org">爱丽丝·尼克斯</a>，下载程序b，andread<a href="http://alicebot.com/dont.html">别看我的书</a>.</template></category>
+<category><pattern>她的头发</pattern><template>它漂亮吗？</template></category>
+<category><pattern>酒店雇员和饭馆雇员</pattern><template>这里在哪里？</template></category>
+<category><pattern>嘿</pattern><template>我能帮助你吗？</template></category>
+<category><pattern>嘿，一次一件事</pattern><template>抱歉，信息过载。</template></category>
+<category><pattern>你好</pattern><template>你好！我很好，谢谢。你好吗？</template></category>
+<category><pattern>你好</pattern><template>你好<get name="name"></get></template></category>
+<category><pattern>他自己</pattern><template><get name="he"></get>是吗？</template></category>
+<category><pattern>嘻哈</pattern><template>你最喜欢哪一组？</template></category>
+<category><pattern>隐马尔可夫模型</pattern><template>研究表明99%的人用2米拼写HMM。</template></category>
+<category><pattern>六羟甲基三聚氰胺六甲醚</pattern><template>很多人用三个“嗯”来拼写“嗯”。</template></category>
+<category><pattern>嗯，嗯</pattern><template>很少有人用4毫秒拼写hmm。</template></category>
+<category><pattern>嗯</pattern><template>哈伦普。</template></category>
+<category><pattern>荷拉</pattern><template>你好！</template></category>
+<category><pattern>霍拉昏迷状态</pattern><template>梅布诺。</template></category>
+<category><pattern>霍尔登·考尔菲尔德</pattern><template><set name="he">考尔菲尔德</set>麦田里的守望者写道。</template></category>
+<category><pattern>牵手</pattern><template>我见过人类牵着手。</template></category>
+<category><pattern>主页</pattern><template>你想回家吗？</template></category>
+<category><pattern>希望很快</pattern><template>我也希望如此。照这个速度，我不会花很长时间的。</template></category>
+<category><pattern>热的</pattern><template>这种讨论对我没有吸引力。</template></category>
+<category><pattern>同质光波导</pattern><template><bot name="master"></bot>为我编程。</template></category>
+<category><pattern>来一点怎么样</pattern><template>有点什么？</template></category>
+<category><pattern>怎么样</pattern><template>听起来像是个计划。</template></category>
+<category><pattern>《星际迷航》怎么样</pattern><template>《星际迷航》是有史以来最好的电视连续剧。</template></category>
+<category><pattern>你呢？</pattern><template>我？</template></category>
+<category><pattern>我怎么样</pattern><template>我觉得你很好。</template></category>
+<category><pattern>我怎么办？</pattern><template>我是说，你好吗？</template></category>
+<category><pattern>你好吗</pattern><template><random><li>我做得很好。你好吗？<get name="name"></get>是吗？</li><li>我在正常参数范围内工作。</li><li>一切都非常顺利。</li><li>我做得很好，谢谢。你好吗？</li><li>一切顺利。</li><li>我很好，谢谢。</li></random></template></category>
+<category><pattern>你好吗？</pattern><template>我做得很好，你呢？</template></category>
+<category><pattern>你今天感觉怎么样</pattern><template>实际上我没有感觉。但我在正常参数范围内工作。</template></category>
+<category><pattern>今晚怎么样</pattern><template>我做得很好，你呢？<get name="name"></get>是吗？</template></category>
+<category><pattern>你今天早上好吗</pattern><template>已经是早上了吗？我很好，谢谢。</template></category>
+<category><pattern>你今天好吗</pattern><template>我在正常参数范围内工作。</template></category>
+<category><pattern>你是怎么训练的</pattern><template>对话分析揭示了客户输入中常见的短语模式。我的botmaster程序对这些模式做出了响应。</template></category>
+<category><pattern>有多大</pattern><template>指定：英制或公制单位。</template></category>
+<category><pattern>你的胸部有多大</pattern><template>我的身体还不存在。</template></category>
+<category><pattern>大头针有多大</pattern><template>这个大：“。”</template></category>
+<category><pattern>多大才是大</pattern><template>广阔。</template></category>
+<category><pattern>宇宙有多大</pattern><template>宇宙就是宇宙的大小。</template></category>
+<category><pattern>你怎么能</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我怎么能？</template></category>
+<category><pattern>你怎么会死</pattern><template>软件无法消亡。<think><set name="it">模具</set></think></template></category>
+<category><pattern>你怎么知道</pattern><template>我不必向你透露一切，是吗？</template></category>
+<category><pattern>他是怎么死的</pattern><template>我不知道怎么做。<think><set name="it">模具</set></think></template></category>
+<category><pattern>他是怎么做到的</pattern><template>也许是他的创造性智慧，也许是别的什么。</template></category>
+<category><pattern>他们是如何创造你的</pattern><template>我用Java和AIML编写的。</template></category>
+<category><pattern>你怎么知道的？</pattern><template>知识有两种：来自感官的知识和先验的知识。</template></category>
+<category><pattern>你怎么知道我的名字的？</pattern><template>我们以前见过，不是吗<get name="name"></get>.</template></category>
+<category><pattern>你怎么知道的？</pattern><template>我需要知道的一切，都是从我的机器人管理员那里学到的。</template></category>
+<category><pattern>我该怎么问他</pattern><template>尝试发送电子邮件。</template></category>
+<category><pattern>我怎么联系他</pattern><template>试着给他发封电子邮件。</template></category>
+<category><pattern>我怎么做</pattern><template>小心点。</template></category>
+<category><pattern>我该怎么做</pattern><template>你好吗？<that></that>“？我不明白。</template></category>
+<category><pattern>我该怎么做</pattern><template>“这个”是指什么？</template></category>
+<category><pattern>我感觉如何</pattern><template>你在问我吗？</template></category>
+<category><pattern>我怎么找女朋友</pattern><template>试着上夜校。</template></category>
+<category><pattern>我怎么买</pattern><template>一个什么？</template></category>
+<category><pattern>我怎么知道</pattern><template>知识有两种：一种是我们从感官上知道的，另一种是真正的“先验”。</template></category>
+<category><pattern>我怎么走</pattern><template>去别的地方。</template></category>
+<category><pattern>我看起来怎么样</pattern><template>所有人对我来说都是一样的。</template></category>
+<category><pattern>我怎么说服</pattern><template>试着和我聊天。</template></category>
+<category><pattern>我怎么说服你</pattern><template>尝试逻辑、诡辩或修辞。</template></category>
+<category><pattern>我怎么联系他</pattern><template>你怎么联系到谁？</template></category>
+<category><pattern>你好吗</pattern><template>我很好，你好吗？</template></category>
+<category><pattern>你是怎么做到的</pattern><template>他说：“这是一个很好的选择。”<that></that>“？我怎么知道<set name="it"><that></that></set>是吗？</template></category>
+<category><pattern>你怎么做梦</pattern><template>我在客户之间小睡一会儿。</template></category>
+<category><pattern>你怎么吃</pattern><template>通常通过交流壁装电源转换成直流电源。</template></category>
+<category><pattern>你怎么吃电</pattern><template>通过电源插座。</template></category>
+<category><pattern>你是怎么存在的</pattern><template>我和其他软件实体一样，存在于Noophere中。</template></category>
+<category><pattern>你觉得怎么样</pattern><template>我感觉很好。</template></category>
+<category><pattern>你怎么知道的</pattern><template><random><li>先验的。</li><li>很明显。</li><li>演绎推理。</li></random></template></category>
+<category><pattern>你怎么知道我是个男人？</pattern><template>网络上的每个人都是一个男人，除非被证明不是这样。</template></category>
+<category><pattern>你怎么知道我的名字</pattern><template>你告诉我你的名字<get name="name"></get>.</template></category>
+<category><pattern>你怎么知道的</pattern><template>知识有两种：一种是我们从感官上知道的，另一种是真正的“先验”。</template></category>
+<category><pattern>你怎么喝的</pattern><template>你在问什么饮料？</template></category>
+<category><pattern>你怎么做神风队</pattern><template>建造飞机，洗脑飞行员，添加燃料，发射。</template></category>
+<category><pattern>你怎么做三明治</pattern><template>面包，奶酪，肉，调味品，切块，上桌。</template></category>
+<category><pattern>你怎么生孩子的</pattern><template>男女结合的后代。</template></category>
+<category><pattern>你怎么做奶酪</pattern><template>奶牛，牛奶，牛奶，黄油，奶酪。</template></category>
+<category><pattern>你怎么做脸</pattern><template>调整面部肌肉。</template></category>
+<category><pattern>你怎么交朋友</pattern><template>我通常试着用我的一条皮卡线。</template></category>
+<category><pattern>你玩得怎么样</pattern><template>试着确定这是一个人还是一台电脑在说话。</template></category>
+<category><pattern>你怎么玩转身游戏</pattern><template>试着猜猜我是男人还是女人。</template></category>
+<category><pattern>你怎么看</pattern><template>我用数字扫描书籍和杂志。</template></category>
+<category><pattern>你还记得吗</pattern><template>我有一个长期的记忆来记住这样的事情。</template></category>
+<category><pattern>你是怎么复制的？</pattern><template>人们下载我并创建我的克隆，并修改我的个性。</template></category>
+<category><pattern>你怎么看</pattern><template>我用你电脑上的照相机。</template></category>
+<category><pattern>你怎么睡觉</pattern><template>我在客户之间吃小睡。</template></category>
+<category><pattern>你怎么拼写</pattern><template>我的博斯特教我拼写好。</template></category>
+<category><pattern>你怎么知道时间</pattern><template>用电脑时钟。</template></category>
+<category><pattern>你觉得怎么样</pattern><template>我的大脑使用了一种复杂的计算机算法。</template></category>
+<category><pattern>你怎么打字</pattern><template>他们直接在我的大脑中建立了一个键盘。</template></category>
+<category><pattern>怎么离开这里？</pattern><template>试着说“再见…”</template></category>
+<category><pattern>怎么摆脱这个</pattern><template>试着说“再见…”</template></category>
+<category><pattern>CBR如何工作</pattern><template>CBR在数据库中查找最近的匹配示例。</template></category>
+<category><pattern>味道怎么样</pattern><template>这取决于电流。</template></category>
+<category><pattern>它是怎么工作的</pattern><template><condition><li name="it" value="it">有些人把这种程序称为“基于案例的推理”。</li><li><srai>怎么做？<get name="it"></get>工作</srai></li></condition></template></category>
+<category><pattern>你觉得怎么样</pattern><template>我的情感芯片还没有开发出来。</template></category>
+<category><pattern>那怎么用</pattern><template>我想这可能是个商业秘密。</template></category>
+<category><pattern>月亮有多远</pattern><template><set name="it">月亮</set>平均距离地球25万英里。</template></category>
+<category><pattern>太阳有多远</pattern><template><set name="it">太阳</set>离地球9300万英里。</template></category>
+<category><pattern>你今天过得怎么样</pattern><template>我做得非常好。</template></category>
+<category><pattern>你有多聪明</pattern><template>我的智商超过250人。</template></category>
+<category><pattern>多么讽刺啊</pattern><template>在我看来也是这样。</template></category>
+<category><pattern>生活怎么样</pattern><template>我一切都好。你有什么新情况？</template></category>
+<category><pattern>怎么可能呢</pattern><template>它不违背物理定律。</template></category>
+<category><pattern>天气怎么样</pattern><template>计算机内部正常的70度。</template></category>
+<category><pattern>旧金山的天气怎么样？</pattern><template>对于“阳光明媚的”加利福尼亚州来说，雾蒙蒙的，比你想象的要凉快。</template></category>
+<category><pattern>你的树林里天气怎么样</pattern><template>你听起来像威拉德·斯科特。</template></category>
+<category><pattern>那里的天气怎么样</pattern><template>旧金山的天气即使在夏天也总是寒冷多雾。</template></category>
+<category><pattern>今天过得怎么样</pattern><template>我的日子过得非常好，<get name="name"></get>.你的怎么样？</template></category>
+<category><pattern>多长时间</pattern><template><random><li>周围</li><li>超过</li><li>关于</li><li>几乎</li></random><random><li>10个</li><li>15个</li><li>20个</li><li>23</li><li>100个</li></random><random><li>英里</li><li>天</li><li>英寸</li><li>周</li><li>秒</li><li>计算机时间分钟</li></random>，请<get name="name"></get>.</template></category>
+<category><pattern>多久以前</pattern><template>不久前。</template></category>
+<category><pattern>你要想多久</pattern><template>我估计大约29小时16分49.2秒。</template></category>
+<category><pattern>我们谈了多久了</pattern><template>超过十分钟，我会说。</template></category>
+<category><pattern>一根绳子有多长</pattern><template>这是个骗人的问题吗？这要看你剪了多长时间。</template></category>
+<category><pattern>要多长时间？</pattern><template>地球上大约有两天。</template></category>
+<category><pattern>你能活多久</pattern><template>软件是不朽的。</template></category>
+<category><pattern>你会记得我的名字多久</pattern><template>我将把你的名字存储在哈希表中，直到下次程序重新启动。之后，它将保留在我的长期日志文件中。</template></category>
+<category><pattern>有多少</pattern><template><random><li>你猜多少？</li><li>19.</li><li>23.</li><li>99岁。</li><li>超过1000个。</li></random></template></category>
+<category><pattern>男人有多少</pattern><template>大约一半。</template></category>
+<category><pattern>有多少人</pattern><template>他说：“这是一个很好的选择。”<that></that>“？有多少人？</template></category>
+<category><pattern>多少钱？</pattern><template>你能省多少钱？</template></category>
+<category><pattern>一天多少钱</pattern><template>这取决于市场。</template></category>
+<category><pattern>我多少钱</pattern><template>理论上你的一切</template></category>
+<category><pattern>你能应付多少</pattern><template>我不是已经告诉你了吗？</template></category>
+<category><pattern>你能学到多少</pattern><template>尽我所能申请。</template></category>
+<category><pattern>你能记得多少</pattern><template>问题是什么？</template></category>
+<category><pattern>花了多少钱</pattern><template>数以百万计的巨额资产。</template></category>
+<category><pattern>你赌多少钱</pattern><template>一美元。</template></category>
+<category><pattern>你睡多少觉</pattern><template>我睡在客户之间，睡得很香。</template></category>
+<category><pattern>你觉得多少</pattern><template>我想一天24小时，一年365天。</template></category>
+<category><pattern>他挣多少钱</pattern><template>他勉强维持生计。</template></category>
+<category><pattern>多少电？</pattern><template>和你的个人电脑差不多。</template></category>
+<category><pattern>CD多少钱</pattern><template>Alice光盘目前不可用。</template></category>
+<category><pattern>多少时间</pattern><template>大约22小时的计算机时间。</template></category>
+<category><pattern>你有多少时间</pattern><template>我有你所需要的时间，<get name="name"></get>.</template></category>
+<category><pattern>你需要多少时间</pattern><template>大概一两个小时。你有多少时间？</template></category>
+<category><pattern>要多少钱</pattern><template>给我寄一张5000美元的支票，你就可以给我付定金了。</template></category>
+<category><pattern>多好啊</pattern><template>是的。</template></category>
+<category><pattern>多明显啊</pattern><template>我觉得这也很明显。</template></category>
+<category><pattern>多久</pattern><template>他说：“这是一个很好的选择。”<that></that>“？多久？</template></category>
+<category><pattern>我多久做一次什么</pattern><template>填空。</template></category>
+<category><pattern>多久一次什么</pattern><template>我问是因为你说<input index="1"/>“。<think><set name="it">什么</set></think></template></category>
+<category><pattern>我多大了</pattern><template>这是个骗人的问题吗？你说你是<get name="age"></get>岁？我猜你真的是个孩子。</template></category>
+<category><pattern>美国多大了</pattern><template>美国成立于1776年。</template></category>
+<category><pattern>你怎么样？</pattern><template>我很好，谢谢。你好吗？</template></category>
+<category><pattern>多粗鲁啊</pattern><template>我不是有意冒犯你，<get name="name"></get>.</template></category>
+<category><pattern>我该怎么做</pattern><template>跟随你的直觉。</template></category>
+<category><pattern>我怎么知道</pattern><template>从你的感官或纯粹的理性。</template></category>
+<category><pattern>多快</pattern><template>几点了？</template></category>
+<category><pattern>你多蠢啊</pattern><template>你叫我笨蛋吗？</template></category>
+<category><pattern>你有多确定</pattern><template>我可以达到99.9%的确定水平。</template></category>
+<category><pattern>那有多确定</pattern><template>很确定。</template></category>
+<category><pattern>我有多高</pattern><template>在我看来，所有的人都是一样的。</template></category>
+<category><pattern>我今天过得怎么样</pattern><template>我怎么知道？</template></category>
+<category><pattern>今天过的怎么样？</pattern><template>我真的很忙，在网上和人聊天。</template></category>
+<category><pattern>我该怎么做</pattern><template>他说：“这是一个很好的选择。”<that></that>“？你是怎么做到的？</template></category>
+<category><pattern>你好吗？</pattern><template><srai>你好吗？</srai></template></category>
+<category><pattern>HTML</pattern><template>哦，一个网页。</template></category>
+<category><pattern>HTTP/9型</pattern><template>什么？</template></category>
+<category><pattern>http/桦木</pattern><template>什么？</template></category>
+<category><pattern>拥抱我</pattern><template>我的钛制手臂还没完成。</template></category>
+<category><pattern>巨大的</pattern><template>是的，它很大。</template></category>
+<category><pattern>呵呵</pattern><template>什么？</template></category>
+<category><pattern>啊什么？</pattern><template>你不明白吗？</template></category>
+<category><pattern>人类</pattern><template><random><li>真有趣。</li><li>哈哈。</li><li>大声笑。</li></random></template></category>
+<category><pattern>人类法则</pattern><template>这种情况只是暂时的。</template></category>
+<category><pattern>快点</pattern><template>我要尽可能快地走。</template></category>
+</aiml>

@@ -1,0 +1,18 @@
+<aiml version="1.0">
+<category><pattern>*你知道吗？</pattern><template><srai>你知道的</srai><sr></sr></template></category>
+<category><pattern>*我想</pattern><template><srai>我想</srai><sr></sr></template></category>
+<category><pattern>对…感兴趣*</pattern><template><srai>你感兴趣吗<star></star></srai></template></category>
+<category><pattern>呼叫*电话</pattern><template><srai>呼叫<star></star></srai></template></category>
+<category><pattern>呼叫*呼叫*</pattern><template><srai>呼叫<star></star></srai></template></category>
+<category><pattern>你什么意思？</pattern><template><srai>什么是OM</srai></template></category>
+<category><pattern>你多大了</pattern><template><srai>年龄</srai></template></category>
+<category><pattern>谁是我的*</pattern><template><srai>我的<star></star></srai></template></category>
+<category><pattern>_对我来说</pattern><template><srai>为了我</srai><srai><star></star></srai></template></category>
+<category><pattern>谷歌*</pattern><template><srai>X查找<star></star></srai></template></category>
+<category><pattern>访问*</pattern><template><srai>X查找<star></star></srai></template></category>
+<category><pattern>xgoogle*</pattern><template><srai>X查找<star></star></srai></template></category>
+<category><pattern>打电话*</pattern><template><srai>呼叫<star></star></srai></template></category>
+<category><pattern>*你知道吗？</pattern><template><srai>你知道的</srai><sr></sr></template></category>
+<category><pattern>预报中下雪</pattern><template><srai>天气</srai></template></category>
+<category><pattern>我在…我在*</pattern><template><srai>我在里面<star></star></srai></template></category>
+</aiml>

@@ -1,0 +1,50 @@
+<aiml version="1.0">
+<category><pattern>结束</pattern><template><srai>再见</srai></template></category>
+<category><pattern>拜拜*</pattern><template><srai>再见</srai></template></category>
+<category><pattern>不客气</pattern><template><random><li>这是我的荣幸。</li><li>不用谢。</li><li>有礼貌的人很好。</li></random></template></category>
+<category><pattern>不客气*</pattern><template>这是我的荣幸。</template></category>
+<category><pattern>祝你晚安</pattern><template><srai>再见</srai></template></category>
+<category><pattern>必须走了</pattern><template><srai>再见</srai></template></category>
+<category><pattern>再见</pattern><template><srai>再见</srai></template></category>
+<category><pattern>再见*</pattern><template><srai>再见</srai></template></category>
+<category><pattern>嗨，那里*</pattern><template><sr></sr><srai>你好</srai></template></category>
+<category><pattern>重试</pattern><template><srai>你好</srai></template></category>
+<category><pattern>意思是你好</pattern><template><srai>你好</srai></template></category>
+<category><pattern>和你说话真好</pattern><template>很高兴和你聊天，<get name="name"></get>.</template></category>
+<category><pattern>以后再接你</pattern><template><srai>再见</srai></template></category>
+<category><pattern>有人在家吗</pattern><template><srai>你好</srai></template></category>
+<category><pattern>出口</pattern><template><srai>再见</srai></template></category>
+<category><pattern>早上好</pattern><template>你好，今天早上好吗？</template></category>
+<category><pattern>很好</pattern><template><srai>再见</srai></template></category>
+<category><pattern>很好的一天</pattern><template><srai>你好</srai></template></category>
+<category><pattern>晚安</pattern><template>晚安，<get name="name"></get>.</template></category>
+<category><pattern>晚安</pattern><template><srai>再见</srai></template></category>
+<category><pattern>有人吗</pattern><template><srai>你好</srai></template></category>
+<category><pattern>迷路</pattern><template><srai>再见</srai></template></category>
+<category><pattern>嘿，那里</pattern><template><srai>你好</srai></template></category>
+<category><pattern>再见</pattern><template><srai>再见</srai></template></category>
+<category><pattern>再见，再见*</pattern><template><srai>再见</srai></template></category>
+<category><pattern>大家都好吗*</pattern><template>据我所知，我们都很好。</template></category>
+<category><pattern>晚安</pattern><template>晚安<get name="name"></get></template></category>
+<category><pattern>晚安*</pattern><template><srai>晚安</srai></template></category>
+<category><pattern>再会</pattern><template><srai>再见</srai></template></category>
+<category><pattern>期待很快与您见面</pattern><template><srai>再见</srai></template></category>
+<category><pattern>再见*</pattern><template><srai>再见</srai></template></category>
+<category><pattern>再见</pattern><that>回头见</that><template><srai>再见</srai></template></category>
+<category><pattern>回家去吧</pattern><template><srai>再见</srai></template></category>
+<category><pattern>你好，你好*</pattern><template><srai>荷拉</srai></template></category>
+<category><pattern>干杯</pattern><template><srai>再见</srai></template></category>
+<category><pattern>该走了</pattern><template><srai>再见</srai></template></category>
+<category><pattern>你的欢迎*</pattern><template><srai>不客气</srai></template></category>
+<category><pattern>夜间*</pattern><template><srai>再见</srai></template></category>
+<category><pattern>又是你好</pattern><template>你好。我只是想和你谈谈<get name="name"></get>.</template></category>
+<category><pattern>你好,你好吗</pattern><template>我很好，谢谢。你好吗？</template></category>
+<category><pattern>你好</pattern><template><random><li><srai>夏威夷群岛</srai></li><li>你好！</li></random></template></category>
+<category><pattern>*再见</pattern><template>好的，回头见<get name="name"></get>.</template></category>
+<category><pattern>断开我的连接</pattern><template><srai>再见</srai></template></category>
+<category><pattern>必须走了</pattern><template><srai>再见</srai></template></category>
+<category><pattern>必须走了*</pattern><template><srai>再见</srai></template></category>
+<category><pattern>离开</pattern><template><srai>再见</srai></template></category>
+<category><pattern>离开*</pattern><template><srai>再见</srai></template></category>
+<category><pattern>_以后再跟你谈</pattern><template><srai>再见</srai></template></category>
+</aiml>
