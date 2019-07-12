@@ -1,0 +1,9 @@
+chunksize: 10000
+documents: "reddit_for_lda.prepared"
+eval_every: 10
+iterations: 800
+min_length: 3
+no_below: 600
+num_topics: 200
+passes: 70
+words_per_topic: 100
