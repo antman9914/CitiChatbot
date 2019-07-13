@@ -1,0 +1,71 @@
+<!--pages/bubble/bubble.wxml-->
+<view class='bubble-container'>
+
+  <view style='height:{{barHeight+120}}rpx;'>
+    <image src='../../image/settingButton.gif' class='setting-button' style='top:{{barHeight+38}}rpx; ' bindtap='settingBindTap' ></image>
+  </view>
+
+  <scroll-view scroll-y='true' style='height:{{totalHeight-barHeight-200}}rpx; z-index:4;background-color: #F5F5F5; padding-top:0rpx; display:flex; flex-direction:column' bindscrolltoupper='scrollToUpper' upper-threshold='1' scroll-into-view='{{curQueViewId}}'>
+
+    <view class='queAndAnsView'>
+
+      <block wx:for="{{queAndAns}}" wx:for-index="idx" wx:for-item="item">
+
+        <view class='que-view' wx:if="{{itex.question!=''}}">
+          <text class='que-text' selectable='true'>{{item.question}}</text>
+        </view>
+        <view class='ans-view' wx:if="{{itex.question!=''}}">
+          <text class='ans-text'>{{item.answer}}</text>
+        </view>
+      </block>
+
+      
+
+      <block   wx:if="{{textareaShow}}">
+        <view class='que-view' style='max-width:{{textareaWidth}}rpx'>
+          <textarea class='que-text' value='{{queText}}' auto-height='true' bindinput='queTextReset' bindconfirm='queTextResend' style='width:540rpx'></textarea>
+        </view>
+      </block>
+
+      <block wx:if="{{textShow}}">
+        <view class='ans-view'>
+          <text class='ans-text' value='{{ansText}}' auto-height='true'>{{ansText}}</text>
+        </view>
+      </block>
+
+    </view>
+
+    <view id ='curQueView'>aaa</view>
+
+  </scroll-view>
+
+  
+
+  <!-- <view style='width:100%;height:100rpx;'></view> -->
+  <view class='message'>
+    <view wx:if="{{voiceInput}}" style='display:flex' class='sendMessage'>
+
+      <image src='../../image/textButton.gif' style='width:76rpx;height:76rpx;margin-left:40rpx' bindtap='setInputVoice'></image>
+      <view>
+        <button wx:if='{{!isSpeaking}}' size='default' style='width:569rpx; height:71rpx;margin-left:20rpx;padding-top:0; text-align: center;' bindtap='voiceInputBegin'>
+          <text  style=' font-size:36rpx;line-height:38rpx; position:absolute; top:18rpx; left:212rpx' bindtap='voiceInputBegin'>开始说话</text>
+        </button>
+
+        <button wx:if='{{isSpeaking}}' size='default' style='width:569rpx; height:71rpx;margin-left:20rpx;padding-top:0; text-align: center;' bindtap='voiceInputEnd'>
+          <text wx:if='{{isSpeaking}}' style=' font-size:36rpx;line-height:38rpx; position:absolute; top:18rpx; left:212rpx' bindtap='voiceInputEnd'>停止说话</text>
+
+        </button>
+      </view>
+    </view>
+
+    <view wx:if="{{!voiceInput}}" style='display:flex' class='sendMessage'>
+      <view>
+
+        <image src='../../image/voiceButton.gif' style='width:71rpx;height:71rpx;vertical-align:middle; ' bindtap='setInputVoice'></image>
+      </view>
+      <input type='text' id='textInput' bindinput='textInput' placeholder='sad' style='width:auto;height:70rpx; border-bottom: 2rpx solid red; flex-grow:1; margin-left:10rpx; margin-right:10rpx' value='{{textInput}}'></input>
+
+      <image src='../../image/sendMessage.gif' style='width:96rpx;height:71rpx' bindtap='sendTextMessage'></image>
+    </view>
+  </view>
+</view>

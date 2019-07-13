@@ -1,0 +1,63 @@
+.icon{
+  bottom: 20rpx;
+  width: 150rpx;
+  height: 150rpx;
+  position: fixed;
+}
+
+.icon-transition{
+  transition: all 0.5s;
+}
+
+.icon-shrink{
+  width: 0rpx;
+  height: 0rpx;
+}
+
+.icon-recover{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.view-full{
+  position: fixed; 
+  height: 100%;
+  /* position: absolute; */
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+}
+
+.que-box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  top: 20rpx;
+  position: fixed;
+  align-items:flex-start;
+}
+
+.que-user{
+  margin-bottom: 10rpx;
+  margin-left: 50rpx;
+  width: 600rpx;
+  color:#C0C0C0;
+  background:transparen;
+}
+
+.bg-image{
+  width: 750rpx;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+}
+
+.ans-finty{
+  margin-bottom: 30rpx;
+  margin-left: 50rpx;
+  width: 600rpx;
+  color:white;
+  background:transparen;
+}

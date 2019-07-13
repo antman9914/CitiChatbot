@@ -1,0 +1,68 @@
+/* pages/setting.wxss */
+
+.setting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0rpx 0;
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+} 
+
+.return-button{
+  width:13rpx;
+  height:25rpx;
+  position:absolute; 
+  left:51rpx;
+  top: 46rpx;
+  
+}
+
+.bar-title{
+  font-size: 36rpx;
+  color: red;
+}
+.setting-body{
+  padding-top: 43rpx;
+  width: 750rpx;
+}
+
+.setting-block{
+  width: 750rpx;
+  margin-bottom: 27rpx;
+  margin-top: 27rpx;
+  padding-top: -6rpx;
+  padding-bottom: -6rpx;
+}
+.setting-item{
+  width: 750rpx;
+  height: 95rpx;
+  margin-top: 6rpx;
+  margin-bottom: 6rpx;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-text{
+  /* position: relative; */
+  /* left: 98rpx;
+  top: 30rpx; */
+  margin-left: 98rpx;
+}
+
+.enter-button{
+  /* position: relative; */
+  width: 14rpx;
+  height: 25rpx;
+  /* right: 76rpx;
+  top: 35rpx; */
+  margin-right: 62rpx;
+}
+
+.speak-switch{
+  zoom: 0.8;
+  margin-right: 62rpx;
+}

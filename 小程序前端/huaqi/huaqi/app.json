@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/dramticPhoto/dramticPhoto",
+    "pages/bubble/bubble",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "voicetranslate": {
+      "version": "0.2.3",
+      "provider": "wx069ba97219f66d99"
+    },
+    "QCloudAIVoice": {
+      "version": "1.0.1",
+      "provider": "wx3e17776051baf153"
+    }
+  }
+}

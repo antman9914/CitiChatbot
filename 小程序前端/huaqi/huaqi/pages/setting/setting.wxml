@@ -1,0 +1,31 @@
+<!--pages/setting.wxml-->
+<view class='setting-container' style='height: {{totalHeight}}rpx;'>
+  <view style='width:750rpx; height:{{barHeight+120}}rpx; background-color: #FFFFFF'>
+    <image src='../../image/returnButton.gif' class='return-button' style='top:{{barHeight+38}}rpx; ' bindtap='returnBindTap'></image>
+    <view>
+      <text class='bar-title' style='top:60rpx; position:fixed; left:339rpx;'>设置</text>
+    </view>
+  </view>
+  <view class='setting-body'>
+    <view class='setting-block'>
+      <view class='setting-item'>
+        <text class='setting-text'>朗读回复消息</text>
+        <switch class='speak-switch' checked='true' color='#F29176'></switch>
+      </view>
+    </view>
+    <view class='setting-block'>
+      <view class='setting-item'>
+        <text class='setting-text'>设置聊天背景</text>
+        <image src='../../image/enterButton.gif' class='enter-button'></image>
+      </view>
+      <view class='setting-item'>
+        <text class='setting-text'>清空聊天记录</text>
+        <image src='../../image/enterButton.gif' class='enter-button'></image>
+      </view>
+      <view class='setting-item'>
+        <text class='setting-text'>遇到问题</text>
+        <image src='../../image/enterButton.gif' class='enter-button'></image>
+      </view>
+    </view>
+  </view>
+</view>

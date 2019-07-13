@@ -1,0 +1,19 @@
+<!--dramticPhoto.wxml-->
+<view class='container view-full' >
+  <!-- 愚蠢的微信不支持用本地图片作为背景图 -->
+  <image class='bg-image' mode='aspectFill' src='../../image/sky.jpg'></image>
+  <scroll-view scroll-y class='que-box' style='height:{{totalHeight-300}}rpx;' lower-threshold='{{totalHeight}}' scroll-into-view="{{curTextArea}}">
+    <block  wx:for="{{queAndAns}}" wx:for-index="idx" wx:for-item="item" >
+      <textarea id='que-user{{idx}}' class='que-user' auto-height='true' value='{{item.question}}'></textarea>
+      <textarea id='ans-finty{{idx}}' class='ans-finty' disabled='true' auto-height='true' value='{{item.answer}}'></textarea>
+    </block>
+    
+    <textarea id='que-user' class='que-user' auto-height='true' value='{{queText}}'></textarea>
+    <textarea id='ans-finty' class='ans-finty' disabled='true' auto-height='true' value='{{ansText}}'></textarea>
+   
+    <view style='height:{{totalHeight -300}}rpx'></view>
+  </scroll-view>
+  <view style='height:300rpx;width:750rpx'>
+  </view>
+  <image id='icon' bindtap='iconBindTap' class='icon {{ extraClasses }}' src='../../image/icon.png' mode='aspectFit'></image>
+</view>
